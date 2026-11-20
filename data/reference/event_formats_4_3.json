@@ -1,0 +1,335 @@
+{
+  "2025": {
+    "BLAST Bounty S1": {
+      "group": "absent",
+      "playoff": "studio",
+      "source": "https://blast.tv/article/blast-premier-2025-bounty-overview",
+      "qualifying": "online_outside"
+    },
+    "IEM Katowice": {
+      "group": "lan",
+      "playoff": "arena",
+      "source": "https://www.hltv.org/events/8034/iem-katowice-2025",
+      "qualifying": "not_scored"
+    },
+    "PGL Cluj-Napoca": {
+      "group": "lan",
+      "playoff": "arena",
+      "source": "https://www.hltv.org/events/8043/pgl-cluj-napoca-2025",
+      "qualifying": "not_scored"
+    },
+    "ESL Pro League S21": {
+      "group": "studio",
+      "playoff": "studio",
+      "source": "https://pro.eslgaming.com/tour/2024/12/esl-pro-tour-2025-update/",
+      "qualifying": "not_scored"
+    },
+    "BLAST Open S1": {
+      "group": "studio",
+      "playoff": "arena",
+      "source": "https://blast.tv/cs/news/BLAST-open-lisbon-ticketing",
+      "qualifying": "not_scored"
+    },
+    "PGL Bucharest": {
+      "group": "studio",
+      "playoff": "studio",
+      "source": "https://www.hltv.org/news/39715/pgl-to-host-events-in-argentina-kazakhstan-and-more-in-2025-26-circuit",
+      "qualifying": "not_scored"
+    },
+    "IEM Melbourne": {
+      "group": "lan",
+      "playoff": "arena",
+      "source": "https://www.hltv.org/events/8036/iem-melbourne-2025",
+      "qualifying": "not_scored"
+    },
+    "BLAST Rivals S1": {
+      "group": "studio",
+      "playoff": "studio",
+      "source": "https://www.hltv.org/events/7905/blast-rivals-2025-season-1",
+      "qualifying": "not_scored"
+    },
+    "PGL Astana": {
+      "group": "lan",
+      "playoff": "arena",
+      "source": "https://www.hltv.org/events/8045/pgl-astana-2025",
+      "qualifying": "not_scored"
+    },
+    "IEM Dallas": {
+      "group": "lan",
+      "playoff": "arena",
+      "source": "https://www.hltv.org/events/8037/iem-dallas-2025",
+      "qualifying": "not_scored"
+    },
+    "BLAST.tv Austin (M)": {
+      "group": "lan",
+      "playoff": "arena",
+      "source": "https://blast.tv/cs/news/everything-you-need-to-know-about-blasttv-austin-major-playoffs",
+      "qualifying": "not_scored"
+    },
+    "FISSURE Playground 1": {
+      "group": "lan",
+      "playoff": "arena",
+      "source": "https://www.hltv.org/news/42168/fissure-playground-1-teams-format-schedule-prizes-talent-fantasy",
+      "qualifying": "not_scored"
+    },
+    "IEM Cologne": {
+      "group": "lan",
+      "playoff": "arena",
+      "source": "https://www.hltv.org/events/8038/iem-cologne-2025",
+      "qualifying": "not_scored"
+    },
+    "BLAST Bounty S2": {
+      "group": "absent",
+      "playoff": "studio_audience",
+      "source": "https://blast.tv/cs/news/blast-bounty-malta-audience",
+      "qualifying": "online_outside"
+    },
+    "Esports World Cup": {
+      "group": "absent",
+      "playoff": "lan",
+      "source": "https://www.hltv.org/events/8039/esports-world-cup-2025",
+      "qualifying": "not_scored",
+      "opening_knockout": true
+    },
+    "BLAST Open S2": {
+      "group": "absent",
+      "playoff": "arena",
+      "source": "https://www.hltv.org/events/7912/blast-open-london-2025-finals",
+      "qualifying": "online_outside",
+      "opening_lineups": [
+        {
+          "team": "M80",
+          "players": [
+            "Swisher",
+            "HexT",
+            "s1n",
+            "slaxz-",
+            "Lake"
+          ],
+          "source": "https://www.hltv.org/matches/2384852/mouz-vs-m80-blast-open-london-2025-finals"
+        }
+      ]
+    },
+    "FISSURE Playground 2": {
+      "group": "lan",
+      "playoff": "arena",
+      "source": "https://fissure.pro/news/fissure-playground-2-cs-first-6-teams-announced",
+      "qualifying": "not_scored"
+    },
+    "ESL Pro League S22": {
+      "group": "studio",
+      "playoff": "studio",
+      "source": "https://pro.eslgaming.com/tour/2025/01/2025-rulebook-update/",
+      "qualifying": "not_scored"
+    },
+    "PW CAC": {
+      "group": "lan",
+      "playoff": "arena",
+      "source": "https://www.hltv.org/events/8027/cs-asia-championships-2025",
+      "qualifying": "not_scored"
+    },
+    "Thunderpick WC": {
+      "group": "lan",
+      "playoff": "lan",
+      "source": "https://thunderpick.io/blog/what-to-expect-from-the-twc-2025-finals",
+      "qualifying": "not_scored"
+    },
+    "PGL Masters": {
+      "group": "studio",
+      "playoff": "studio",
+      "source": "https://www.youtube.com/watch?v=os4PXZfUHb4",
+      "qualifying": "not_scored"
+    },
+    "IEM Chengdu": {
+      "group": "lan",
+      "playoff": "arena",
+      "source": "https://www.hltv.org/events/8041/iem-chengdu-2025",
+      "qualifying": "not_scored"
+    },
+    "BLAST Rivals S2": {
+      "group": "lan",
+      "playoff": "arena",
+      "source": "https://www.hltv.org/events/7908/blast-rivals-2025-season-2",
+      "qualifying": "not_scored"
+    },
+    "SL Budapest (M)": {
+      "group": "arena",
+      "playoff": "arena",
+      "source": "https://www.hltv.org/news/41870/starladder-reveals-budapest-major-mrq-and-invite-dates",
+      "qualifying": "not_scored"
+    }
+  },
+  "2026": {
+    "BLAST Bounty 2026 Season 1 Finals": {
+      "group": "absent",
+      "playoff": "studio",
+      "source": "https://blast.tv/cs/news/blog-post-2026-season-ahead",
+      "qualifying": "online_outside"
+    },
+    "IEM Kraków 2026": {
+      "group": "lan",
+      "playoff": "arena",
+      "source": "https://eslfaceitgroup.com/press/a-new-chapter-of-intel-extreme-masters-begins-as-elite-competition-arrives-in-krakow-poland/",
+      "qualifying": "not_scored"
+    },
+    "PGL Cluj-Napoca 2026": {
+      "group": "lan",
+      "playoff": "arena",
+      "source": "https://www.hltv.org/news/43957/the-evps-and-all-stars-of-pgl-cluj-napoca-2026",
+      "qualifying": "not_scored"
+    },
+    "ESL Pro League Season 23 Finals": {
+      "group": "absent",
+      "playoff": "arena",
+      "source": "https://www.hltv.org/news/44047/esl-pro-league-s23-finals-playoff-bracket-set",
+      "qualifying": "online_outside"
+    },
+    "BLAST Open Rotterdam 2026": {
+      "group": "studio",
+      "playoff": "arena",
+      "source": "https://www.hltv.org/news/43919/blast-unveil-opening-matchups-of-open-rotterdam",
+      "qualifying": "not_scored"
+    },
+    "PGL Bucharest 2026": {
+      "group": "studio",
+      "playoff": "studio",
+      "source": "https://blast.tv/cs/tournaments/pgl-bucharest-2026/match?view=results",
+      "qualifying": "not_scored"
+    },
+    "IEM Rio 2026": {
+      "group": "lan",
+      "playoff": "arena",
+      "source": "https://www.hltv.org/news/44442/the-evps-and-all-stars-of-iem-rio-2026",
+      "qualifying": "not_scored"
+    },
+    "BLAST Rivals 2026 Season 1": {
+      "group": "lan",
+      "playoff": "arena",
+      "source": "https://www.hltv.org/news/44521/the-evps-and-all-stars-of-blast-rivals-2026-season-1",
+      "qualifying": "not_scored"
+    },
+    "PGL Astana 2026": {
+      "group": "lan",
+      "playoff": "arena",
+      "source": "https://www.hltv.org/news/44653/the-evps-and-all-stars-of-pgl-astana-2026",
+      "qualifying": "not_scored"
+    },
+    "IEM Atlanta 2026": {
+      "group": "lan",
+      "playoff": "arena",
+      "source": "https://www.hltv.org/news/44656/the-evps-and-all-stars-of-iem-atlanta-2026",
+      "qualifying": "not_scored"
+    },
+    "CS Asia Championships 2026": {
+      "group": "lan",
+      "playoff": "arena",
+      "source": "https://community.skin.club/tr/etkinlikler/cs-asia-championships-2026",
+      "qualifying": "not_scored"
+    },
+    "IEM Cologne Major 2026": {
+      "group": "lan",
+      "playoff": "arena",
+      "source": "https://pro.eslgaming.com/tour/2025/08/iem-cologne-major-announcement/",
+      "qualifying": "not_scored"
+    },
+    "XSE Pro League Guangzhou 2026": {
+      "group": "lan",
+      "playoff": "arena",
+      "source": "https://en.thnet.gov.cn/2026-07/17/c_1198744.htm",
+      "qualifying": "not_scored",
+      "opening_lineups": [
+        {
+          "team": "Alliance",
+          "players": [
+            "twist",
+            "eraa",
+            "upE",
+            "avid",
+            "bobeksde"
+          ],
+          "source": "https://www.hltv.org/matches/2395222/parivision-vs-alliance-xse-pro-league-guangzhou-2026"
+        }
+      ]
+    },
+    "BLAST Bounty 2026 Season 2 Finals": {
+      "group": "absent",
+      "playoff": "studio_audience",
+      "source": "https://www.gamingmalta.org/media/blast-bounty-season-2/",
+      "qualifying": "online_outside"
+    },
+    "Esports World Cup 2026": {
+      "group": "lan",
+      "playoff": "lan",
+      "source": "https://www.hltv.org/news/45194/ewc-2026-grand-final-moved-to-accor-arena",
+      "qualifying": "not_scored",
+      "final": "arena"
+    },
+    "BLAST Open Porto 2026": {
+      "group": "studio",
+      "playoff": "arena",
+      "source": "https://www.hltv.org/news/45384/blast-open-porto-teams-format-schedule-prizes-talent-fantasy",
+      "qualifying": "not_scored"
+    },
+    "FISSURE Playground 3": {
+      "group": "lan",
+      "playoff": "arena",
+      "source": "https://fissure.pro/news/fissure-playground-3-cs-starts-on-september-8th-in-suzhou",
+      "qualifying": "not_scored",
+      "venue_source_extra": "https://js.cri.cn/20260907/5ffcc430-f625-b964-55e0-731ae454b85c.html",
+      "match_venues": {
+        "7305415": "arena",
+        "7305416": "arena",
+        "7305417": "arena",
+        "7305420": "arena",
+        "7305414": "unknown",
+        "7305419": "unknown",
+        "7305421": "unknown",
+        "7305678": "unknown"
+      }
+    },
+    "StarLadder StarSeries Fall 2026": {
+      "group": "studio",
+      "playoff": "studio",
+      "source": "https://dotesports.com/counter-strike/guides/cs2-starladder-starseries-fall-2026-schedule",
+      "qualifying": "not_scored"
+    },
+    "ESL Pro League Season 24": {
+      "group": "lan",
+      "playoff": "arena",
+      "source": "https://eslfaceitgroup.com/press/esl-pro-league-returns-to-the-big-stage-as-competition-kicks-off-in-katowice/",
+      "qualifying": "not_scored"
+    },
+    "Thunderpick World Championship 2026": {
+      "group": "studio",
+      "playoff": "studio",
+      "source": "https://blast.tv/cs/tournaments/thunderpick-world-championship-2026/match?view=results",
+      "qualifying": "not_scored",
+      "audience_note": "开放观赛，逐场日期待核",
+      "audience_source": "https://playcon.eu/news/2026/09/28"
+    },
+    "PGL Masters Bucharest 2026": {
+      "group": "studio",
+      "playoff": "studio",
+      "source": "https://www.pglesports.com/cs2/pgl-masters-bucharest-2026/",
+      "qualifying": "not_scored"
+    },
+    "IEM Beijing 2026": {
+      "group": "lan",
+      "playoff": "arena",
+      "source": "https://pro.eslgaming.com/tour/details/iem-beijing-2026/",
+      "qualifying": "not_scored"
+    },
+    "BLAST Rivals 2026 Season 2": {
+      "group": "lan",
+      "playoff": "arena",
+      "source": "https://blast.tv/cs/tournaments/rivals-2026-season-2/match?view=results",
+      "qualifying": "not_scored"
+    },
+    "PGL Major Singapore 2026": {
+      "group": "lan",
+      "playoff": "arena",
+      "qualifying": "not_scored",
+      "source": "https://www.pglesports.com/cs2/pgl-major-singapore-2026/"
+    }
+  }
+}

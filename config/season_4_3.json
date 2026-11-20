@@ -1,0 +1,36 @@
+{
+  "version": "HTPM-4.3",
+  "weights": {
+    "A": 31,
+    "E": 23,
+    "O": 13,
+    "K": 14,
+    "P": 11,
+    "T": 0,
+    "C": 4,
+    "N": 4
+  },
+  "vp_fraction_of_basic_evp": {
+    "VP": 0.25,
+    "high VP": 0.4
+  },
+  "roster_span": 0.45,
+  "field_size_span": 0.04,
+  "venue_span": 0.5,
+  "honor_quality_span": 0.15,
+  "online_preliminary_factor": 0.97,
+  "stage_mix": {
+    "group": 0.4,
+    "playoff": 0.6
+  },
+  "environment": {
+    "arena": 1.08,
+    "studio_audience": 1.03,
+    "studio": 0.98,
+    "lan": 1.0,
+    "online": 0.85,
+    "absent": 1.0,
+    "unknown": 1.0
+  },
+  "evidence_cutoff_2025": "2025-12-31"
+}

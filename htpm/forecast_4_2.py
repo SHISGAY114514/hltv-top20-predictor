@@ -37,6 +37,12 @@ def dated_file(path, cutoff, key):
     return data, "已采用"
 
 
+def individual_reference(params):
+    weights=params["weights"]
+    remaining=sum(w for k,w in weights.items() if k!="T")
+    return {**params,"weights":{k:w/remaining if k!="T" else 0 for k,w in weights.items()}}
+
+
 def additions(inputs, folder, audit, spec, config):
     catalog,awards,stats,_,_ = inputs
     old, published = {}, {}
@@ -60,7 +66,7 @@ def additions(inputs, folder, audit, spec, config):
                 if pid in a.get("unranked_evps",[]):
                     expected.add((name,"EVP",None))
             require(expected == {(a["event"],a["type"],a.get("evp_rank")) for a in p["awards"]}, f"H 荣誉不一致 {pid}")
-        old = {p["id"]:p for p in score(h,params)["players"]}
+        old = {p["id"]:p for p in score(h,individual_reference(params) if spec.get("detailed_rosters") else params)["players"]}
     table, r_note = dated_file(folder/"published.json", audit["cutoff"], "R")
     if table:
         link(table["source"])
@@ -76,11 +82,17 @@ def additions(inputs, folder, audit, spec, config):
     return old,published,{"H":h_note,"R":r_note}
 
 
-def calculate(folder=None, today=None):
+def calculate(folder=None, today=None, model="4.2"):
     spec, config, weights = settings()
+    detailed=model=="4.3"
+    if detailed:
+        policy_config=load("config/season_4_3.json")
+        config.update(policy_config)
+        weights=[policy_config["weights"][k] for k in config["feature_order"]]
+        spec={**spec,"version":policy_config["version"],"detailed_rosters":True}
     folder = Path(folder) if folder is not None else ROOT/DEFAULT_INPUT
     today = today or date.today()
-    inputs = season_inputs(2026)
+    inputs = season_inputs(2026,detailed_rosters=True) if detailed else season_inputs(2026)
     base = load("config/model.json")
     meta = read_json(folder/"event.json")
     if meta["as_of"] is None and (folder/"results.zip").is_file() and not meta["awards"].get("mvp"):
@@ -89,7 +101,7 @@ def calculate(folder=None, today=None):
         require(today.isoformat() < spec["end"], "决赛日已到，需要导入实际赛程、逐图统计并填写 as_of 后再出榜")
         audit = {"state":"snapshot","cutoff":config["cutoff"]}
         raw, params, _ = prepare()
-        old = {p["id"]:p for p in score(raw,params)["players"]}
+        old = {p["id"]:p for p in score(raw,individual_reference(params) if detailed else params)["players"]}
         table = load("data/2026/published_stage_ratings.json")
         require(raw["metadata"]["snapshot_as_of"] == table["as_of"] == audit["cutoff"], "快照日期冲突")
         published = table["players"]
@@ -97,6 +109,15 @@ def calculate(folder=None, today=None):
     else:
         audit = import_event(inputs,folder,spec,today,meta)
         old,published,adjustments = additions(inputs,folder,audit,spec,config)
+    if detailed:
+        from .event_policy import attach_vps,event_policy,apply_stage_context
+        records=load("data/reference/official_vps_4_3.json")["2026"]
+        if (folder/"vps.json").exists():
+            records=records+read_json(folder/"vps.json")
+        config["event_policies"]=event_policy(inputs,2026,config)
+        apply_stage_context(inputs,config["event_policies"])
+        audit["event_weights"]=config["event_policies"]
+        audit["confirmed_vps"]=attach_vps(inputs,records,audit["cutoff"])
     rows = features(inputs,base,config,2026)
     # Even with a fresh partial aggregate, alignment needs a usable shared distribution.
     alignment = None
@@ -118,14 +139,14 @@ def calculate(folder=None, today=None):
             "scope":list(inputs[0]),"majors":majors,"major_share":config["tier_shares"]["Major"],"players":people}
 
 
-def refresh(folder=None):
+def refresh(folder=None, model="4.2"):
     """Verify a new archive before replacing a previously usable local input."""
     folder = Path(folder) if folder else ROOT/DEFAULT_INPUT
     spec,_,_ = settings()
     require(date.today().isoformat() >= spec["end"], f"赛事计划于 {spec['end']} 结束，当前可用 build 查看快照")
     with TemporaryDirectory(dir=folder) as tmp:
         work = Path(tmp)
-        for name in ("event.json","ratings.csv","maps_patch.csv","aggregate.json","published.json"):
+        for name in ("event.json","ratings.csv","maps_patch.csv","aggregate.json","published.json","vps.json"):
             if (folder/name).is_file():
                 shutil.copyfile(folder/name,work/name)
         url = "https://www.kaggle.com/api/v1/datasets/download/ektarr/counter-strike-pro-matches"
@@ -137,7 +158,7 @@ def refresh(folder=None):
             response.raise_for_status()
             for chunk in response.iter_content(1024*1024):
                 stream.write(chunk)
-        result = calculate(work)
+        result = calculate(work,model=model)
         os.replace(work/"results.zip",folder/"results.zip")
         return result
 
@@ -156,7 +177,8 @@ def compare(a,b,sign):
 def render(result):
     people = [p for p in result["players"] if p["eligible"]]
     cutoff = result["cutoff"]
-    lines = [f"# HTPM 4.2 · {STATES[result['state']]}","",
+    version=result["version"].replace("-"," ")
+    lines = [f"# {version} · {STATES[result['state']]}","",
              f"数据截至 {cutoff}。纳入 {len(result['scope'])} 项赛事，{len(people)} 人达到排名门槛。两届 Major 共用 E、K 分档中的 30%。",
              "",f"年度汇总 H：{result['adjustments']['H']}。公开阶段表 R：{result['adjustments']['R']}。",
              "","|排名|选手|分数|较 11 月 17 日|Major 实际地图（按站）|","|---:|---|---:|---:|---|"]
@@ -172,15 +194,18 @@ def render(result):
         group = people[start-1:end]
         if group:
             lines.append(f"- 第 {start}–{start+len(group)-1} 名：" + "、".join(p["name"] for p in group))
+    if "confirmed_vps" in result:
+        lines += ["",f"逐站核实的官方 VP 共 {result['confirmed_vps']} 人次。未点名的表现保留数据估计。名次变化以 4.2 的 11 月 17 日快照为基准。"]
     if "maps" in result:
         lines += ["",f"新加坡实收 {result['series']} 场系列赛、{result['maps']} 张地图、{result['participants']} 名选手。"]
     lines += [
               "","## Top 30 逐人理由",""]
     for i,p in enumerate(people[:30]):
         best = max(p["events"],key=lambda e:e["peak"])
+        vp_info=(f"另有 {sum(a['kind']=='VP' for a in p['awards'])} 站已核实官方 VP。" if "confirmed_vps" in result else "")
         lines += [f"### {i+1}. {p['name']} · {p['score']:.3f}","",
                   f"全年 {p['details']['main']['maps']} 张主赛事地图，{p['details']['elite_playoff']['maps']} 张高档淘汰赛地图。"
-                  f"获得 {sum(a['kind']=='MVP' for a in p['awards'])} 次 MVP、{sum(a['kind']=='EVP' for a in p['awards'])} 次 EVP。"
+                  f"获得 {sum(a['kind']=='MVP' for a in p['awards'])} 次 MVP、{sum(a['kind']=='EVP' for a in p['awards'])} 次 EVP。{vp_info}"
                   f"最高峰来自 {best['event']}（{best['peak_class']}，峰值指数 {best['peak']:.1f}）。",""]
         for name in result["majors"]:
             event = next((e for e in p["events"] if e["event"]==name),None)
@@ -216,14 +241,24 @@ def atomic_text(path, content):
         tmp.unlink(missing_ok=True)
 
 
-def publish(result, verify=False, dest=DEST):
+def publish(result, verify=False, dest=None):
     # Reports are immutable by content. Switch the reader entry point only after both files exist.
+    dest=dest or (ROOT/"output/forecast_4_3" if result["version"]=="HTPM-4.3" else DEST)
     report = render(result)
-    digest = fingerprint([result,report])
+    artifacts=[result,report]
+    if "event_weights" in result:
+        from .forecast_4_3 import weight_table
+        pending=settings()[0]["event"] if result["state"]=="snapshot" else None
+        event_report=weight_table(result["event_weights"],pending)
+        artifacts.append(event_report)
+    digest = fingerprint(artifacts)
     folder = dest/result["state"]/digest[:16]
     payload = json.dumps(result,ensure_ascii=False,allow_nan=False,separators=(",",":"))+"\n"
-    latest = f"# HTPM 4.2 · {STATES[result['state']]}\n\n截至 {result['cutoff']} · [详细榜单]({folder.relative_to(dest).as_posix()}/ranking.md) · [完整分数]({folder.relative_to(dest).as_posix()}/scores.json)\n"
+    latest = f"# {result['version'].replace('-',' ')} · {STATES[result['state']]}\n\n截至 {result['cutoff']} · [详细榜单]({folder.relative_to(dest).as_posix()}/ranking.md) · [完整分数]({folder.relative_to(dest).as_posix()}/scores.json)\n"
     files = [(folder/"ranking.md",report),(folder/"scores.json",payload),(dest/"latest.md",latest)]
+    if "event_weights" in result:
+        files.insert(2,(folder/"events.md",event_report))
+        files[-1]=(dest/"latest.md",latest+f"\n[逐站赛事权重]({folder.relative_to(dest).as_posix()}/events.md)\n")
     for path,value in files:
         if verify:
             require(path.is_file() and path.read_text(encoding="utf-8")==value, f"与复算结果不符 {path}")

@@ -188,6 +188,10 @@ def import_event(inputs, folder, spec, today=None, meta=None):
     if (folder/"ratings.csv").exists():
         attach_ratings(rows, read_csv(folder/"ratings.csv", ["match","player","rating","source"]),aliases)
     stats,names,finals,entry = parse_maps(rows,matches,spec,rankings,aliases)
+    if spec.get("detailed_rosters"):
+        from .event_policy import roster_evidence
+        entry["roster_evidence"]=roster_evidence(rows,vrs,spec["standings"],aliases)
+        entry["last_played"]=spec["end"]
     complete = meta["awards_status"] == "complete"
     award = award_record(meta["awards"],set(stats),complete)
     if award["mvp"]:

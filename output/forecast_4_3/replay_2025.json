@@ -1,0 +1,117 @@
+{
+  "calibration": {
+    "weights": {
+      "roster_span": 0.45,
+      "field_size_span": 0.04,
+      "venue_span": 0.5,
+      "honor_quality_span": 0.15
+    },
+    "tier_pairs_before_monotone_projection": [
+      76.5,
+      100
+    ],
+    "player_award_pairs": {
+      "zywoo": [
+        31,
+        38
+      ],
+      "donk": [
+        22,
+        27
+      ]
+    },
+    "held_out_player": {
+      "zywoo": {
+        "weights": {
+          "roster_span": 0.3,
+          "field_size_span": 0.08,
+          "venue_span": 0.5,
+          "honor_quality_span": 0.15
+        },
+        "correct_and_pairs": [
+          30,
+          38
+        ]
+      },
+      "donk": {
+        "weights": {
+          "roster_span": 0.45,
+          "field_size_span": 0.04,
+          "venue_span": 0.5,
+          "honor_quality_span": 0.15
+        },
+        "correct_and_pairs": [
+          22,
+          27
+        ]
+      }
+    },
+    "candidates": 81,
+    "source": "https://www.hltv.org/news/43648/hltv-awards-fans-come-here-top-20-controversy-zywoo-vs-donk-and-more-ft-thorin",
+    "slide": "https://escorenews.com/media/news/pic-20260121-749x872-156403530.png"
+  },
+  "pre_reveal": {
+    "vp_evidence_cutoff": "2025-12-23",
+    "confirmed_vps": 0,
+    "core": {
+      "top20_hits": 18,
+      "top10_hits": 8,
+      "mae_top20": 3.25,
+      "ordered_pairs_top30": 380,
+      "pairs": 435,
+      "missed": [
+        "yekindar",
+        "im"
+      ],
+      "false_positives": [
+        "kyousuke",
+        "910"
+      ]
+    },
+    "core_plus_H": {
+      "top20_hits": 19,
+      "top10_hits": 8,
+      "mae_top20": 2.7,
+      "ordered_pairs_top30": 389,
+      "pairs": 435,
+      "missed": [
+        "im"
+      ],
+      "false_positives": [
+        "kyousuke"
+      ]
+    }
+  },
+  "with_year_end_articles": {
+    "vp_evidence_cutoff": "2025-12-31",
+    "confirmed_vps": 3,
+    "core": {
+      "top20_hits": 18,
+      "top10_hits": 8,
+      "mae_top20": 3.55,
+      "ordered_pairs_top30": 377,
+      "pairs": 435,
+      "missed": [
+        "yekindar",
+        "im"
+      ],
+      "false_positives": [
+        "kyousuke",
+        "910"
+      ]
+    },
+    "core_plus_H": {
+      "top20_hits": 19,
+      "top10_hits": 8,
+      "mae_top20": 2.9,
+      "ordered_pairs_top30": 387,
+      "pairs": 435,
+      "missed": [
+        "im"
+      ],
+      "false_positives": [
+        "kyousuke"
+      ]
+    }
+  }
+}

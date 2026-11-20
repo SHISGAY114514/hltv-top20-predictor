@@ -1,0 +1,24 @@
+{
+  "event_source":"https://www.hltv.org/news/43492/top-20-players-of-2025-final-list",
+  "podcast":"https://www.hltv.org/news/43648/hltv-awards-fans-come-here-top-20-controversy-zywoo-vs-donk-and-more-ft-thorin",
+  "video":"https://www.youtube.com/watch?v=XYeYPIGLAHY&t=5358s",
+  "slide":"https://escorenews.com/media/news/pic-20260121-749x872-156403530.png",
+  "published_on":"2026-01-16",
+  "within_tier":{
+    "Major":["BLAST.tv Austin (M)","SL Budapest (M)"],
+    "Super-elite":["IEM Katowice","IEM Cologne"],
+    "Elite":["IEM Chengdu","BLAST Open S1"],
+    "Big":["Esports World Cup","ESL Pro League S22","ESL Pro League S21","IEM Melbourne","IEM Dallas","BLAST Rivals S2","BLAST Rivals S1","BLAST Open S2","BLAST Bounty S1","BLAST Bounty S2","FISSURE Playground 2","PGL Astana","PGL Cluj-Napoca","PGL Bucharest"],
+    "Medium":["Thunderpick WC","FISSURE Playground 1","PGL Masters","PW CAC"]
+  },
+  "within_player":{
+    "zywoo":{
+      "MVP":["SL Budapest (M)","IEM Melbourne","BLAST.tv Austin (M)","IEM Katowice","ESL Pro League S21","BLAST Open S1","BLAST Rivals S1","IEM Dallas"],
+      "EVP":["IEM Chengdu","ESL Pro League S22","BLAST Rivals S2","BLAST Open S2","BLAST Bounty S2"]
+    },
+    "donk":{
+      "MVP":["IEM Cologne","PGL Astana","BLAST Bounty S1","BLAST Bounty S2"],
+      "EVP":["IEM Katowice","BLAST.tv Austin (M)","SL Budapest (M)","BLAST Open S1","BLAST Rivals S1","ESL Pro League S21","BLAST Open S2"]
+    }
+  }
+}

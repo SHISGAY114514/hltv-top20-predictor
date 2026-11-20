@@ -1,0 +1,38 @@
+{
+  "2025": [
+    {
+      "event": "BLAST.tv Austin (M)",
+      "player": "xertion",
+      "grade": "high VP",
+      "source": "https://www.hltv.org/news/43512/top-20-players-of-2025-xertion-16",
+      "published_on": "2025-12-28",
+      "evidence": "官方年度评语将两届 Major 和科隆逐站列为 strong VP。"
+    },
+    {
+      "event": "IEM Cologne",
+      "player": "xertion",
+      "grade": "high VP",
+      "source": "https://www.hltv.org/news/43512/top-20-players-of-2025-xertion-16",
+      "published_on": "2025-12-28",
+      "evidence": "官方年度评语将两届 Major 和科隆逐站列为 strong VP。"
+    },
+    {
+      "event": "SL Budapest (M)",
+      "player": "xertion",
+      "grade": "high VP",
+      "source": "https://www.hltv.org/news/43512/top-20-players-of-2025-xertion-16",
+      "published_on": "2025-12-28",
+      "evidence": "官方年度评语将两届 Major 和科隆逐站列为 strong VP。"
+    }
+  ],
+  "2026": [
+    {
+      "event": "BLAST Bounty 2026 Season 1 Finals",
+      "player": "jame",
+      "grade": "high VP",
+      "published_on": "2026-01-27",
+      "source": "https://www.hltv.org/news/43729/the-evp-and-all-stars-of-blast-bounty-2026-season-1-finals",
+      "evidence": "HLTV 单独称 Jame 的本站表现为 strong Valuable Player。"
+    }
+  ]
+}

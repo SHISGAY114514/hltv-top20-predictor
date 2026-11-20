@@ -6,6 +6,7 @@ from collections import defaultdict
 from statistics import mean
 
 from .core import HIGH, require
+from .event_policy import quality_factor
 from .pipeline import ROOT, load
 
 
@@ -75,8 +76,9 @@ def index(row):
             + .55*(float(row["adr"])-74) + .30*(float(row["kast"])-72))
 
 
-def season_inputs(year):
+def season_inputs(year, detailed_rosters=False):
     catalog = {e["event"]: e for e in load("data/reference/season_stage_catalog.json")[str(year)]}
+    formats=load("data/reference/event_formats_4_3.json")[str(year)] if detailed_rosters else {}
     if year == 2025:
         awards = load("data/2025/awards.json")
     else:
@@ -96,6 +98,7 @@ def season_inputs(year):
     stats, names = defaultdict(lambda: defaultdict(list)), {}
     rosters=defaultdict(lambda:defaultdict(set))
     starts={}
+    lineup_rows=defaultdict(list)
     series = {(r["event"],r["match"]):r for r in load(f"data/{year}/series_ratings.json")["series"]}
     cap_date = str(year)+"-12-31" if year == 2025 else load("config/season_model.json")["cutoff"]
     with gzip.open(ROOT/"data"/str(year)/"stage_maps.csv.gz","rt",encoding="utf8") as stream:
@@ -103,6 +106,11 @@ def season_inputs(year):
             require(r["date"][:4] == str(year) and r["date"] <= cap_date and r["event"] in catalog,
                     "Map outside the requested season")
             pid = r["player"].casefold()
+            if detailed_rosters:
+                env=formats[r["event"]].get("match_venues",{}).get(r["match"])
+                if env:
+                    r["venue"]=env
+                lineup_rows[r["event"]].append({k:r[k] for k in ("team","date","match","map","player")})
             names[pid] = r["player"]
             rosters[r["event"]][r["team"]].add(pid)
             starts[r["event"]]=min(starts.get(r["event"],r["date"]),r["date"])
@@ -122,7 +130,13 @@ def season_inputs(year):
                         stats[p["id"]][event]=[(*r[:7],e["rating"]) for r in rows]
     standings=load("data/reference/vrs_top10_monthly.json")
     for event,teams in rosters.items():
-        snapshot=standings[max(k for k in standings if k<starts[event])]
+        stamp=max(k for k in standings if k<starts[event])
+        snapshot=standings[stamp]
+        if detailed_rosters:
+            from .event_policy import roster_evidence
+            catalog[event]["roster_evidence"]=roster_evidence(lineup_rows[event],snapshot,stamp,
+                                              supplements=formats[event].get("opening_lineups",[]))
+            catalog[event]["last_played"]=max(r["date"] for r in lineup_rows[event])
         entered=[rank for rank,_,lineup in snapshot["teams"] if
                  any(len(roster.intersection(p.casefold() for p in lineup))>=3 for roster in teams.values())]
         catalog[event]["field_strength"]=sum(1 if k<=5 else .5 for k in entered)/7.5
@@ -142,6 +156,9 @@ def features(inputs, base, config, year, near=True, venue=True, tier_override=No
     field_means={t:mean(e["field_strength"] for k,e in catalog.items() if tiers[k]==t) for t in set(tiers.values())}
     field={k:clip(1+.30*(e["field_strength"]-field_means[tiers[k]]),.86,1.14) if within_tier else 1.
            for k,e in catalog.items()}
+    policies=config.get("event_policies",{})
+    if policies:
+        field={k:v["event_factor"] for k,v in policies.items()}
     award_log = defaultdict(list)
     resume_factors = {event: config["tier_resume_factors"][tier] *
                       (config["big_event_resume_adjustments"].get(event,1.) if tier=="Big" else 1.)
@@ -187,9 +204,17 @@ def features(inputs, base, config, year, near=True, venue=True, tier_override=No
                 if near:
                     near_bonus = fraction*(grades["MVP"]-points)
             discount = base["honor_factors"].get(event,1)*field[event]*resume_factors[event]
+            if policies and (pid,event) in signals:
+                discount*=quality_factor(signals[pid,event][2],config["honor_quality_span"])
             award_log[pid].append(dict(event=event,kind=kind,position=pos,points=(points+near_bonus+dominance)*discount,
                                        dominance_points=dominance*discount,
                                        mvp_index_gap=gap,first_evp_context=context if pos==1 else None,proximity_points=near_bonus*discount,field_factor=field[event],source=a["source"]))
+        for pid,record in a.get("verified_vps",{}).items():
+            fraction=config["vp_fraction_of_basic_evp"][record["grade"]]
+            points=grades["EVP"]*fraction*policies[event]["honor_multiplier"]
+            award_log[pid].append(dict(event=event,kind="VP",grade=record["grade"],position=None,
+                                       points=points,source=record["source"],published_on=record["published_on"],
+                                       evidence=record["evidence"]))
     results = []
     for pid in sorted(set(stats)|set(award_log)):
         ledgers = award_log[pid]
@@ -197,6 +222,7 @@ def features(inputs, base, config, year, near=True, venue=True, tier_override=No
         tier_values=defaultdict(list)
         opponents,top5,elite,late,elite_late,arena,studio,final,all_maps=[],[],[],[],[],[],[],[],[]
         events=[]
+        stage_values=defaultdict(list)
         tier_rows = defaultdict(list)
         tier_all = defaultdict(list)
         tier_playoffs = defaultdict(list)
@@ -214,6 +240,23 @@ def features(inputs, base, config, year, near=True, venue=True, tier_override=No
             tier_all[tier].extend(whole_event)
             playoff_rows = [r for r in rows if r[1] in ("playoff","final")]
             tier_playoffs[tier].extend(whole_event if len(playoff_rows)==n else playoff_rows)
+            if policies:
+                policy=policies[event]
+                event_index=50+(event_index-50)*policy["event_factor"]
+                for phase,subset in (("group",[r for r in rows if r[1]=="group"]),
+                                     ("playoff",whole_event if len(playoff_rows)==n else playoff_rows)):
+                    if subset:
+                        groups=defaultdict(list)
+                        for r in subset:
+                            bucket=phase
+                            if phase=="group" and policy.get("match_venues"):
+                                bucket="group_arena" if r[2]=="arena" else "group_lan"
+                            if r[1]=="final" and "final" in policy:
+                                bucket="final"
+                            groups[bucket].append(r)
+                        for bucket,observed in groups.items():
+                            cell=series_cell(observed,config)
+                            stage_values[tier,phase].append((len(observed),(cell["index"]-50)*policy["stage_factors"][bucket]))
             tier_values[tier].append((event_index,min(n,base["event_map_cap"])))
             all_maps.extend(values)
             for value,stage,place,rank,team,won,_,_whole in rows:
@@ -232,7 +275,7 @@ def features(inputs, base, config, year, near=True, venue=True, tier_override=No
             final_maps = sum(r[1]=="final" for r in rows)
             playoff_maps = sum(r[1] in ("playoff","final") for r in rows)
             # Actual participation, including late substitutes. Tournament placement alone is insufficient.
-            if final_maps or playoff_maps:
+            if not policies and (final_maps or playoff_maps):
                 place = .70 if final_maps else .22
                 team_points += place*field[event]*strength[tier]*clip(event_mean/65,0,1.25)*min(n/8,1)*base["honor_factors"].get(event,1)
             gap = benchmarks[event]-quality if event in benchmarks else None
@@ -302,6 +345,11 @@ def features(inputs, base, config, year, near=True, venue=True, tier_override=No
                 ("placement",[r for r in rows if r[1]=="placement"]))}
             group = regularized(matrix[tier]["group"],50.,params["prior_maps"])
             playoff = regularized(matrix[tier]["playoff"],50.,params["prior_maps"])
+            if policies:
+                def weighted_phase(phase):
+                    cells=stage_values[tier,phase]
+                    return 50+sum(n*delta for n,delta in cells)/(params["prior_maps"]+sum(n for n,_ in cells))
+                group,playoff=weighted_phase("group"),weighted_phase("playoff")
             stage_score += tier_share*(config["group_share"]*group+(1-config["group_share"])*playoff)
         o_score=.55*shrunk(top5,50,30)+.45*shrunk(opponents,50,25)
         phase=.80*shrunk(big_late,shrunk(all_maps,50,45),18)+.20*shrunk(late,average,18)
@@ -328,7 +376,7 @@ def features(inputs, base, config, year, near=True, venue=True, tier_override=No
         parts=dict(A=100*(1-math.exp(-resume_points/base["award_scale"])),
                    E=clip(e_score),O=clip(o_score),K=clip(pressure),P=clip(peak),
                    T=100*(1-math.exp(-team_points/base["team_scale"])),C=100*resilience,N=coverage)
-        eligible=bool(ledgers) or (n>=config["minimum_discovery_maps"] and len(events)>=config["minimum_discovery_events"])
+        eligible=any(a["kind"] in ("MVP","EVP") for a in ledgers) or (n>=config["minimum_discovery_maps"] and len(events)>=config["minimum_discovery_events"])
         def detail(rows):
             return {"maps":len(rows),"index":mean(rows) if rows else None}
         results.append(dict(id=pid,name=names.get(pid,pid),features=parts,eligible=eligible,events=events,awards=ledgers,tier_stages=matrix,

@@ -1,9 +1,10 @@
 # HTPM · HLTV 年度 TOP 20 预测模型
 
-HTPM 用公开比赛统计估计 Counter-Strike 选手的年度排名。**当前默认版本为 HTPM‑4.2**，支持科隆和新加坡两届 Major 的年度预测。本次发布附带 **2026 年 11 月 17 日**赛前快照，177 名合格选手的排名及全部 301 名选手的得分与 4.1.1 一致。3.5 为原稿采用的模型。项目独立于 HLTV。
+HTPM 用公开比赛统计估计 Counter-Strike 选手的年度排名。**当前默认版本为 HTPM‑4.3**。本版删除团队名次加分，纳入 HLTV 明确点名的个人 VP，并按实战阵容、赛段和场地逐站计权。**2026 年 11 月 17 日快照**覆盖 23 项赛事，177 名选手达到排名门槛。新加坡 Major 赛后可导入第 24 站并重算年度榜单。项目独立于 HLTV。
 
 | 版本 | 如何评分 | 参数与规则 | 预测结果 |
 |---|---|---|---|
+| **4.3** | 个人荣誉、逐站赛事权重、去除团队分的年度校正 | [参数](config/season_4_3.json) · [模型、证据与赛后操作](docs/MODEL_4_3.md) | [当前榜单与逐站赛事权重](output/forecast_4_3/latest.md) · [2025 回放](output/forecast_4_3/replay_2025.json) |
 | **4.2** | 两届 Major 共用年度分档份额，按实际出场、阶段表现和荣誉重算全榜 | [参数](config/season_4_2.json) · [赛后出榜与补录说明](docs/MODEL_4_2.md) | [当前榜单](output/forecast_4_2/latest.md) · [2025 双 Major 回放](output/forecast_4_2/replay_2025.json) |
 | **3.5** | 综合赛事荣誉、分档整站 Rating、对强队表现、团队成绩、稳定性和样本质量 | [参数](config/model.json) · [模型说明](docs/MODEL_AGGREGATE.md) · [高清图](output/model_cards/HTPM-3.5.png) | [逐人理由](output/current/evaluation.md) · [完整得分](output/current/scores.json) · [Major 条件情景](output/scenarios/major_projection.md) |
 | **4.1.1** | 加入分档小组赛与淘汰赛、场馆、赛事高峰和接近 MVP 的表现 | [参数](config/season_model.json) · [模型说明](docs/MODEL_4_1_1.md) · [高清图](output/model_cards/HTPM-4.1.1.png) | [全榜与逐人理由](output/forecast_4_1_1/ranking.md) · [分项、敏感性与 Major 情景](output/forecast_4_1_1/scores.json) |
@@ -19,11 +20,13 @@ python -B -m htpm replay
 python -B -m unittest discover -s tests
 ```
 
-前两条命令生成并核对 4.2 榜单，第三条复算 2025 年双 Major 回放。新加坡决赛结束后，安装 requests 并运行 `python -B -m htpm refresh` 获取逐图数据；当 HLTV 公布完整奖项后，将核实的 MVP、EVP 和来源填入数据包，再执行 build 即可生成正式预测。[赛后操作说明](docs/MODEL_4_2.md) · [赛果模板](data/2026/singapore/)
+前两条命令生成并核对 4.3 榜单，第三条复算 2025 年荣誉权重和双 Major 回放。新加坡决赛结束后，安装 requests 并运行 `python -B -m htpm refresh` 获取逐图数据。HLTV 公布完整奖项后，将核实的 MVP、EVP 和来源填入数据包，执行 build 生成正式预测。逐站核实的 VP 可通过 vps.json 补入。[赛后操作说明](docs/MODEL_4_3.md) · [赛果模板](data/2026/singapore/)
 
-要在决赛日之后离线复核本次发布的赛前快照，可在干净的本版检出中运行 `python -B -c "from datetime import date; from htpm.forecast_4_2 import calculate, publish; print(publish(calculate(today=date(2026,11,17)), verify=True))"`。3.5 和 4.1.1 的预测可用 `python -B -m htpm build --model 4.1.1` 和 `python -B -m htpm validate --model 4.1.1` 重建、核对。3.5 单独回测使用 `python -B -m analysis.replay_aggregate_2025`，Major 条件情景使用 `python -B -m analysis.major_projection`。
+要在决赛日之后离线复核本次发布的赛前快照，可在本版的干净检出中运行 `python -B -c "from datetime import date; from htpm.forecast_4_2 import calculate, publish; print(publish(calculate(today=date(2026,11,17), model='4.3'), verify=True))"`。复算 4.2 时显式指定 `--model 4.2`。3.5 和 4.1.1 的预测可用 `python -B -m htpm build --model 4.1.1` 和 `python -B -m htpm validate --model 4.1.1` 重建、核对。3.5 单独回测使用 `python -B -m analysis.replay_aggregate_2025`，Major 条件情景使用 `python -B -m analysis.major_projection`。
 
 ## 2025 年官方榜单回测
+
+4.3 在同季回放中启用年度汇总校正、将 VP 证据截止日设在揭榜前时，Top 20 入选命中 19 人，Top 10 命中 8 人，官方 Top 20 平均名次误差为 2.70 位。补入年终文章可逐站定位的三次 VP 后，入选命中数相同，平均名次误差变为 2.90 位。2025 年同时用于参数校准。[4.3 回放明细](output/forecast_4_3/replay_2025.json)
 
 4.2 核心评分在 2025 年命中 Top 20 中的 19 人，实际 Top 20 的平均名次误差为 3.05 位。加入同期年度汇总校正后，Top 20 仍命中 19 人，Top 10 命中 8 人，平均误差为 2.80 位，Top 30 的 435 对相对顺序中排对 388 对。该季也用于参数校准。[4.2 回放与地图覆盖](output/forecast_4_2/replay_2025.json)
 
