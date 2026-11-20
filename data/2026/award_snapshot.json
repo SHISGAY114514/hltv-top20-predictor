@@ -1,0 +1,1480 @@
+{
+  "retrieved_on": "2026-11-17",
+  "note": "11月15日原档案，11月17日依据官方文章增补香港Rivals S2四项EVP并核实MVP；其他赛事非本次重新采集。全部23项赛事顺位现有来源。",
+  "awards": [
+    {
+      "line": 190,
+      "player": "ZywOo",
+      "event": "ESL Pro League Season 24",
+      "rating": 1.44,
+      "type": "MVP",
+      "player_id": "zywoo",
+      "evp_rank": null,
+      "source": "https://www.hltv.org/players/mvp"
+    },
+    {
+      "line": 191,
+      "player": "ZywOo",
+      "event": "StarLadder StarSeries Fall 2026",
+      "rating": 1.54,
+      "type": "MVP",
+      "player_id": "zywoo",
+      "evp_rank": null,
+      "source": "https://www.hltv.org/players/mvp"
+    },
+    {
+      "line": 192,
+      "player": "ZywOo",
+      "event": "BLAST Rivals 2026 Season 1",
+      "rating": 1.36,
+      "type": "MVP",
+      "player_id": "zywoo",
+      "evp_rank": null,
+      "source": "https://www.hltv.org/players/mvp"
+    },
+    {
+      "line": 193,
+      "player": "ZywOo",
+      "event": "IEM Rio 2026",
+      "rating": 1.42,
+      "type": "MVP",
+      "player_id": "zywoo",
+      "evp_rank": null,
+      "source": "https://www.hltv.org/players/mvp"
+    },
+    {
+      "line": 194,
+      "player": "ZywOo",
+      "event": "PGL Cluj-Napoca 2026",
+      "rating": 1.41,
+      "type": "MVP",
+      "player_id": "zywoo",
+      "evp_rank": null,
+      "source": "https://www.hltv.org/players/mvp"
+    },
+    {
+      "line": 195,
+      "player": "ZywOo",
+      "event": "IEM Kraków 2026",
+      "rating": 1.63,
+      "type": "MVP",
+      "player_id": "zywoo",
+      "evp_rank": null,
+      "source": "https://www.hltv.org/players/mvp"
+    },
+    {
+      "line": 270,
+      "player": "donk",
+      "event": "BLAST Open Porto 2026",
+      "rating": 1.42,
+      "type": "MVP",
+      "player_id": "donk",
+      "evp_rank": null,
+      "source": "https://www.hltv.org/players/mvp"
+    },
+    {
+      "line": 271,
+      "player": "donk",
+      "event": "Esports World Cup 2026",
+      "rating": 1.53,
+      "type": "MVP",
+      "player_id": "donk",
+      "evp_rank": null,
+      "source": "https://www.hltv.org/players/mvp"
+    },
+    {
+      "line": 272,
+      "player": "donk",
+      "event": "PGL Astana 2026",
+      "rating": 1.64,
+      "type": "MVP",
+      "player_id": "donk",
+      "evp_rank": null,
+      "source": "https://www.hltv.org/players/mvp"
+    },
+    {
+      "line": 297,
+      "player": "NiKo",
+      "event": "BLAST Bounty 2026 Season 1 Finals",
+      "rating": 1.21,
+      "type": "MVP",
+      "player_id": "niko",
+      "evp_rank": null,
+      "source": "https://www.hltv.org/players/mvp"
+    },
+    {
+      "line": 360,
+      "player": "m0NESY",
+      "event": "IEM Cologne Major 2026",
+      "rating": 1.27,
+      "type": "MVP",
+      "player_id": "m0nesy",
+      "evp_rank": null,
+      "source": "https://www.hltv.org/players/mvp"
+    },
+    {
+      "line": 377,
+      "player": "ropz",
+      "event": "BLAST Open Rotterdam 2026",
+      "rating": 1.34,
+      "type": "MVP",
+      "player_id": "ropz",
+      "evp_rank": null,
+      "source": "https://www.hltv.org/players/mvp"
+    },
+    {
+      "line": 472,
+      "player": "KSCERATO",
+      "event": "BLAST Rivals 2026 Season 2",
+      "rating": 1.55,
+      "type": "MVP",
+      "player_id": "kscerato",
+      "evp_rank": null,
+      "source": "https://www.hltv.org/players/mvp"
+    },
+    {
+      "line": 473,
+      "player": "KSCERATO",
+      "event": "Thunderpick World Championship 2026",
+      "rating": 1.34,
+      "type": "MVP",
+      "player_id": "kscerato",
+      "evp_rank": null,
+      "source": "https://www.hltv.org/players/mvp"
+    },
+    {
+      "line": 482,
+      "player": "latto",
+      "event": "FISSURE Playground 3",
+      "rating": 1.34,
+      "type": "MVP",
+      "player_id": "latto",
+      "evp_rank": null,
+      "source": "https://www.hltv.org/players/mvp"
+    },
+    {
+      "line": 483,
+      "player": "latto",
+      "event": "CS Asia Championships 2026",
+      "rating": 1.31,
+      "type": "MVP",
+      "player_id": "latto",
+      "evp_rank": null,
+      "source": "https://www.hltv.org/players/mvp"
+    },
+    {
+      "line": 600,
+      "player": "HUASOPEEK",
+      "event": "XSE Pro League Guangzhou 2026",
+      "rating": 1.19,
+      "type": "MVP",
+      "player_id": "huasopeek",
+      "evp_rank": null,
+      "source": "https://www.hltv.org/players/mvp"
+    },
+    {
+      "line": 633,
+      "player": "Spinx",
+      "event": "BLAST Bounty 2026 Season 2 Finals",
+      "rating": 1.2,
+      "type": "MVP",
+      "player_id": "spinx",
+      "evp_rank": null,
+      "source": "https://www.hltv.org/players/mvp"
+    },
+    {
+      "line": 645,
+      "player": "YEKINDAR",
+      "event": "PGL Masters Bucharest 2026",
+      "rating": 1.27,
+      "type": "MVP",
+      "player_id": "yekindar",
+      "evp_rank": null,
+      "source": "https://www.hltv.org/players/mvp"
+    },
+    {
+      "line": 660,
+      "player": "cmtry",
+      "event": "PGL Bucharest 2026",
+      "rating": 1.27,
+      "type": "MVP",
+      "player_id": "cmtry",
+      "evp_rank": null,
+      "source": "https://www.hltv.org/players/mvp"
+    },
+    {
+      "line": 699,
+      "player": "makazze",
+      "event": "ESL Pro League Season 23 Finals",
+      "rating": 1.41,
+      "type": "MVP",
+      "player_id": "makazze",
+      "evp_rank": null,
+      "source": "https://www.hltv.org/players/mvp"
+    },
+    {
+      "line": 729,
+      "player": "w0nderful",
+      "event": "IEM Atlanta 2026",
+      "rating": 1.33,
+      "type": "MVP",
+      "player_id": "w0nderful",
+      "evp_rank": null,
+      "source": "https://www.hltv.org/players/mvp"
+    },
+    {
+      "line": 735,
+      "player": "xertioN",
+      "event": "IEM Beijing 2026",
+      "rating": 1.28,
+      "type": "MVP",
+      "player_id": "xertion",
+      "evp_rank": null,
+      "source": "https://www.hltv.org/players/mvp"
+    },
+    {
+      "line": 200,
+      "player": "NiKo",
+      "event": "IEM Cologne Major 2026",
+      "rating": 1.25,
+      "type": "EVP",
+      "player_id": "niko",
+      "evp_rank": null,
+      "source": "https://www.hltv.org/players/evp"
+    },
+    {
+      "line": 201,
+      "player": "NiKo",
+      "event": "PGL Cluj-Napoca 2026",
+      "rating": 1.23,
+      "type": "EVP",
+      "player_id": "niko",
+      "evp_rank": null,
+      "source": "https://www.hltv.org/players/evp"
+    },
+    {
+      "line": 301,
+      "player": "ZywOo",
+      "event": "PGL Masters Bucharest 2026",
+      "rating": 1.26,
+      "type": "EVP",
+      "player_id": "zywoo",
+      "evp_rank": null,
+      "source": "https://www.hltv.org/players/evp"
+    },
+    {
+      "line": 302,
+      "player": "ZywOo",
+      "event": "BLAST Open Porto 2026",
+      "rating": 1.24,
+      "type": "EVP",
+      "player_id": "zywoo",
+      "evp_rank": null,
+      "source": "https://www.hltv.org/players/evp"
+    },
+    {
+      "line": 303,
+      "player": "ZywOo",
+      "event": "Esports World Cup 2026",
+      "rating": 1.36,
+      "type": "EVP",
+      "player_id": "zywoo",
+      "evp_rank": null,
+      "source": "https://www.hltv.org/players/evp"
+    },
+    {
+      "line": 304,
+      "player": "ZywOo",
+      "event": "IEM Cologne Major 2026",
+      "rating": 1.45,
+      "type": "EVP",
+      "player_id": "zywoo",
+      "evp_rank": null,
+      "source": "https://www.hltv.org/players/evp"
+    },
+    {
+      "line": 305,
+      "player": "ZywOo",
+      "event": "IEM Atlanta 2026",
+      "rating": 1.29,
+      "type": "EVP",
+      "player_id": "zywoo",
+      "evp_rank": null,
+      "source": "https://www.hltv.org/players/evp"
+    },
+    {
+      "line": 306,
+      "player": "ZywOo",
+      "event": "BLAST Open Rotterdam 2026",
+      "rating": 1.5,
+      "type": "EVP",
+      "player_id": "zywoo",
+      "evp_rank": null,
+      "source": "https://www.hltv.org/players/evp"
+    },
+    {
+      "line": 346,
+      "player": "ropz",
+      "event": "ESL Pro League Season 24",
+      "rating": 1.31,
+      "type": "EVP",
+      "player_id": "ropz",
+      "evp_rank": null,
+      "source": "https://www.hltv.org/players/evp"
+    },
+    {
+      "line": 347,
+      "player": "ropz",
+      "event": "StarLadder StarSeries Fall 2026",
+      "rating": 1.13,
+      "type": "EVP",
+      "player_id": "ropz",
+      "evp_rank": null,
+      "source": "https://www.hltv.org/players/evp"
+    },
+    {
+      "line": 348,
+      "player": "ropz",
+      "event": "BLAST Rivals 2026 Season 1",
+      "rating": 1.18,
+      "type": "EVP",
+      "player_id": "ropz",
+      "evp_rank": null,
+      "source": "https://www.hltv.org/players/evp"
+    },
+    {
+      "line": 349,
+      "player": "ropz",
+      "event": "IEM Rio 2026",
+      "rating": 1.17,
+      "type": "EVP",
+      "player_id": "ropz",
+      "evp_rank": null,
+      "source": "https://www.hltv.org/players/evp"
+    },
+    {
+      "line": 350,
+      "player": "ropz",
+      "event": "PGL Cluj-Napoca 2026",
+      "rating": 1.1,
+      "type": "EVP",
+      "player_id": "ropz",
+      "evp_rank": null,
+      "source": "https://www.hltv.org/players/evp"
+    },
+    {
+      "line": 387,
+      "player": "sh1ro",
+      "event": "BLAST Open Porto 2026",
+      "rating": 1.29,
+      "type": "EVP",
+      "player_id": "sh1ro",
+      "evp_rank": null,
+      "source": "https://www.hltv.org/players/evp"
+    },
+    {
+      "line": 388,
+      "player": "sh1ro",
+      "event": "Esports World Cup 2026",
+      "rating": 1.15,
+      "type": "EVP",
+      "player_id": "sh1ro",
+      "evp_rank": null,
+      "source": "https://www.hltv.org/players/evp"
+    },
+    {
+      "line": 389,
+      "player": "sh1ro",
+      "event": "IEM Cologne Major 2026",
+      "rating": 1.24,
+      "type": "EVP",
+      "player_id": "sh1ro",
+      "evp_rank": null,
+      "source": "https://www.hltv.org/players/evp"
+    },
+    {
+      "line": 390,
+      "player": "sh1ro",
+      "event": "PGL Astana 2026",
+      "rating": 1.22,
+      "type": "EVP",
+      "player_id": "sh1ro",
+      "evp_rank": null,
+      "source": "https://www.hltv.org/players/evp"
+    },
+    {
+      "line": 391,
+      "player": "sh1ro",
+      "event": "IEM Kraków 2026",
+      "rating": 1.3,
+      "type": "EVP",
+      "player_id": "sh1ro",
+      "evp_rank": null,
+      "source": "https://www.hltv.org/players/evp"
+    },
+    {
+      "line": 676,
+      "player": "KSCERATO",
+      "event": "StarLadder StarSeries Fall 2026",
+      "rating": 1.27,
+      "type": "EVP",
+      "player_id": "kscerato",
+      "evp_rank": null,
+      "source": "https://www.hltv.org/players/evp"
+    },
+    {
+      "line": 677,
+      "player": "KSCERATO",
+      "event": "Esports World Cup 2026",
+      "rating": 1.23,
+      "type": "EVP",
+      "player_id": "kscerato",
+      "evp_rank": null,
+      "source": "https://www.hltv.org/players/evp"
+    },
+    {
+      "line": 678,
+      "player": "KSCERATO",
+      "event": "IEM Rio 2026",
+      "rating": 1.27,
+      "type": "EVP",
+      "player_id": "kscerato",
+      "evp_rank": null,
+      "source": "https://www.hltv.org/players/evp"
+    },
+    {
+      "line": 679,
+      "player": "KSCERATO",
+      "event": "IEM Kraków 2026",
+      "rating": 1.17,
+      "type": "EVP",
+      "player_id": "kscerato",
+      "evp_rank": null,
+      "source": "https://www.hltv.org/players/evp"
+    },
+    {
+      "line": 731,
+      "player": "m0NESY",
+      "event": "ESL Pro League Season 24",
+      "rating": 1.28,
+      "type": "EVP",
+      "player_id": "m0nesy",
+      "evp_rank": null,
+      "source": "https://www.hltv.org/players/evp"
+    },
+    {
+      "line": 732,
+      "player": "m0NESY",
+      "event": "BLAST Open Porto 2026",
+      "rating": 1.37,
+      "type": "EVP",
+      "player_id": "m0nesy",
+      "evp_rank": null,
+      "source": "https://www.hltv.org/players/evp"
+    },
+    {
+      "line": 733,
+      "player": "m0NESY",
+      "event": "Esports World Cup 2026",
+      "rating": 1.58,
+      "type": "EVP",
+      "player_id": "m0nesy",
+      "evp_rank": null,
+      "source": "https://www.hltv.org/players/evp"
+    },
+    {
+      "line": 734,
+      "player": "m0NESY",
+      "event": "CS Asia Championships 2026",
+      "rating": 1.2,
+      "type": "EVP",
+      "player_id": "m0nesy",
+      "evp_rank": null,
+      "source": "https://www.hltv.org/players/evp"
+    },
+    {
+      "line": 735,
+      "player": "m0NESY",
+      "event": "PGL Astana 2026",
+      "rating": 1.29,
+      "type": "EVP",
+      "player_id": "m0nesy",
+      "evp_rank": null,
+      "source": "https://www.hltv.org/players/evp"
+    },
+    {
+      "line": 736,
+      "player": "m0NESY",
+      "event": "IEM Rio 2026",
+      "rating": 1.52,
+      "type": "EVP",
+      "player_id": "m0nesy",
+      "evp_rank": null,
+      "source": "https://www.hltv.org/players/evp"
+    },
+    {
+      "line": 737,
+      "player": "m0NESY",
+      "event": "PGL Cluj-Napoca 2026",
+      "rating": 1.36,
+      "type": "EVP",
+      "player_id": "m0nesy",
+      "evp_rank": null,
+      "source": "https://www.hltv.org/players/evp"
+    },
+    {
+      "line": 803,
+      "player": "Spinx",
+      "event": "IEM Beijing 2026",
+      "rating": 1.33,
+      "type": "EVP",
+      "player_id": "spinx",
+      "evp_rank": null,
+      "source": "https://www.hltv.org/players/evp"
+    },
+    {
+      "line": 804,
+      "player": "Spinx",
+      "event": "ESL Pro League Season 24",
+      "rating": 1.22,
+      "type": "EVP",
+      "player_id": "spinx",
+      "evp_rank": null,
+      "source": "https://www.hltv.org/players/evp"
+    },
+    {
+      "line": 805,
+      "player": "Spinx",
+      "event": "BLAST Open Porto 2026",
+      "rating": 1.17,
+      "type": "EVP",
+      "player_id": "spinx",
+      "evp_rank": null,
+      "source": "https://www.hltv.org/players/evp"
+    },
+    {
+      "line": 806,
+      "player": "Spinx",
+      "event": "IEM Kraków 2026",
+      "rating": 1.14,
+      "type": "EVP",
+      "player_id": "spinx",
+      "evp_rank": null,
+      "source": "https://www.hltv.org/players/evp"
+    },
+    {
+      "line": 825,
+      "player": "frozen",
+      "event": "XSE Pro League Guangzhou 2026",
+      "rating": 1.29,
+      "type": "EVP",
+      "player_id": "frozen",
+      "evp_rank": null,
+      "source": "https://www.hltv.org/players/evp"
+    },
+    {
+      "line": 971,
+      "player": "flameZ",
+      "event": "ESL Pro League Season 24",
+      "rating": 1.3,
+      "type": "EVP",
+      "player_id": "flamez",
+      "evp_rank": null,
+      "source": "https://www.hltv.org/players/evp"
+    },
+    {
+      "line": 972,
+      "player": "flameZ",
+      "event": "BLAST Rivals 2026 Season 1",
+      "rating": 1.23,
+      "type": "EVP",
+      "player_id": "flamez",
+      "evp_rank": null,
+      "source": "https://www.hltv.org/players/evp"
+    },
+    {
+      "line": 973,
+      "player": "flameZ",
+      "event": "BLAST Open Rotterdam 2026",
+      "rating": 1.46,
+      "type": "EVP",
+      "player_id": "flamez",
+      "evp_rank": null,
+      "source": "https://www.hltv.org/players/evp"
+    },
+    {
+      "line": 974,
+      "player": "flameZ",
+      "event": "PGL Cluj-Napoca 2026",
+      "rating": 1.31,
+      "type": "EVP",
+      "player_id": "flamez",
+      "evp_rank": null,
+      "source": "https://www.hltv.org/players/evp"
+    },
+    {
+      "line": 975,
+      "player": "flameZ",
+      "event": "IEM Kraków 2026",
+      "rating": 1.24,
+      "type": "EVP",
+      "player_id": "flamez",
+      "evp_rank": null,
+      "source": "https://www.hltv.org/players/evp"
+    },
+    {
+      "line": 991,
+      "player": "b1t",
+      "event": "IEM Beijing 2026",
+      "rating": 1.29,
+      "type": "EVP",
+      "player_id": "b1t",
+      "evp_rank": null,
+      "source": "https://www.hltv.org/players/evp"
+    },
+    {
+      "line": 992,
+      "player": "b1t",
+      "event": "IEM Atlanta 2026",
+      "rating": 1.24,
+      "type": "EVP",
+      "player_id": "b1t",
+      "evp_rank": null,
+      "source": "https://www.hltv.org/players/evp"
+    },
+    {
+      "line": 1029,
+      "player": "donk",
+      "event": "ESL Pro League Season 24",
+      "rating": 1.22,
+      "type": "EVP",
+      "player_id": "donk",
+      "evp_rank": null,
+      "source": "https://www.hltv.org/players/evp"
+    },
+    {
+      "line": 1030,
+      "player": "donk",
+      "event": "IEM Cologne Major 2026",
+      "rating": 1.36,
+      "type": "EVP",
+      "player_id": "donk",
+      "evp_rank": null,
+      "source": "https://www.hltv.org/players/evp"
+    },
+    {
+      "line": 1031,
+      "player": "donk",
+      "event": "IEM Rio 2026",
+      "rating": 1.23,
+      "type": "EVP",
+      "player_id": "donk",
+      "evp_rank": null,
+      "source": "https://www.hltv.org/players/evp"
+    },
+    {
+      "line": 1032,
+      "player": "donk",
+      "event": "BLAST Open Rotterdam 2026",
+      "rating": 1.65,
+      "type": "EVP",
+      "player_id": "donk",
+      "evp_rank": null,
+      "source": "https://www.hltv.org/players/evp"
+    },
+    {
+      "line": 1033,
+      "player": "donk",
+      "event": "IEM Kraków 2026",
+      "rating": 1.4,
+      "type": "EVP",
+      "player_id": "donk",
+      "evp_rank": null,
+      "source": "https://www.hltv.org/players/evp"
+    },
+    {
+      "line": 1217,
+      "player": "YEKINDAR",
+      "event": "IEM Cologne Major 2026",
+      "rating": 1.18,
+      "type": "EVP",
+      "player_id": "yekindar",
+      "evp_rank": null,
+      "source": "https://www.hltv.org/players/evp"
+    },
+    {
+      "line": 1336,
+      "player": "torzsi",
+      "event": "IEM Beijing 2026",
+      "rating": 1.33,
+      "type": "EVP",
+      "player_id": "torzsi",
+      "evp_rank": null,
+      "source": "https://www.hltv.org/players/evp"
+    },
+    {
+      "line": 1337,
+      "player": "torzsi",
+      "event": "BLAST Bounty 2026 Season 2 Finals",
+      "rating": 1.24,
+      "type": "EVP",
+      "player_id": "torzsi",
+      "evp_rank": null,
+      "source": "https://www.hltv.org/players/evp"
+    },
+    {
+      "line": 1338,
+      "player": "torzsi",
+      "event": "PGL Cluj-Napoca 2026",
+      "rating": 1.15,
+      "type": "EVP",
+      "player_id": "torzsi",
+      "evp_rank": null,
+      "source": "https://www.hltv.org/players/evp"
+    },
+    {
+      "line": 1349,
+      "player": "yuurih",
+      "event": "IEM Cologne Major 2026",
+      "rating": 1.18,
+      "type": "EVP",
+      "player_id": "yuurih",
+      "evp_rank": null,
+      "source": "https://www.hltv.org/players/evp"
+    },
+    {
+      "line": 1350,
+      "player": "yuurih",
+      "event": "IEM Rio 2026",
+      "rating": 1.19,
+      "type": "EVP",
+      "player_id": "yuurih",
+      "evp_rank": null,
+      "source": "https://www.hltv.org/players/evp"
+    },
+    {
+      "line": 1458,
+      "player": "xertioN",
+      "event": "CS Asia Championships 2026",
+      "rating": 1.31,
+      "type": "EVP",
+      "player_id": "xertion",
+      "evp_rank": null,
+      "source": "https://www.hltv.org/players/evp"
+    },
+    {
+      "line": 1459,
+      "player": "xertioN",
+      "event": "PGL Astana 2026",
+      "rating": 1.36,
+      "type": "EVP",
+      "player_id": "xertion",
+      "evp_rank": null,
+      "source": "https://www.hltv.org/players/evp"
+    },
+    {
+      "line": 1460,
+      "player": "xertioN",
+      "event": "PGL Cluj-Napoca 2026",
+      "rating": 1.14,
+      "type": "EVP",
+      "player_id": "xertion",
+      "evp_rank": null,
+      "source": "https://www.hltv.org/players/evp"
+    },
+    {
+      "line": 1503,
+      "player": "w0nderful",
+      "event": "IEM Beijing 2026",
+      "rating": 1.42,
+      "type": "EVP",
+      "player_id": "w0nderful",
+      "evp_rank": null,
+      "source": "https://www.hltv.org/players/evp"
+    },
+    {
+      "line": 1504,
+      "player": "w0nderful",
+      "event": "BLAST Rivals 2026 Season 1",
+      "rating": 1.3,
+      "type": "EVP",
+      "player_id": "w0nderful",
+      "evp_rank": null,
+      "source": "https://www.hltv.org/players/evp"
+    },
+    {
+      "line": 1505,
+      "player": "w0nderful",
+      "event": "ESL Pro League Season 23 Finals",
+      "rating": 1.28,
+      "type": "EVP",
+      "player_id": "w0nderful",
+      "evp_rank": null,
+      "source": "https://www.hltv.org/players/evp"
+    },
+    {
+      "line": 1524,
+      "player": "Jimpphat",
+      "event": "StarLadder StarSeries Fall 2026",
+      "rating": 1.16,
+      "type": "EVP",
+      "player_id": "jimpphat",
+      "evp_rank": null,
+      "source": "https://www.hltv.org/players/evp"
+    },
+    {
+      "line": 1563,
+      "player": "Wicadia",
+      "event": "ESL Pro League Season 24",
+      "rating": 1.23,
+      "type": "EVP",
+      "player_id": "wicadia",
+      "evp_rank": null,
+      "source": "https://www.hltv.org/players/evp"
+    },
+    {
+      "line": 1564,
+      "player": "Wicadia",
+      "event": "IEM Cologne Major 2026",
+      "rating": 1.26,
+      "type": "EVP",
+      "player_id": "wicadia",
+      "evp_rank": null,
+      "source": "https://www.hltv.org/players/evp"
+    },
+    {
+      "line": 1565,
+      "player": "Wicadia",
+      "event": "BLAST Open Rotterdam 2026",
+      "rating": 1.11,
+      "type": "EVP",
+      "player_id": "wicadia",
+      "evp_rank": null,
+      "source": "https://www.hltv.org/players/evp"
+    },
+    {
+      "line": 1566,
+      "player": "Wicadia",
+      "event": "ESL Pro League Season 23 Finals",
+      "rating": 1.14,
+      "type": "EVP",
+      "player_id": "wicadia",
+      "evp_rank": null,
+      "source": "https://www.hltv.org/players/evp"
+    },
+    {
+      "line": 1581,
+      "player": "molodoy",
+      "event": "PGL Masters Bucharest 2026",
+      "rating": 1.18,
+      "type": "EVP",
+      "player_id": "molodoy",
+      "evp_rank": null,
+      "source": "https://www.hltv.org/players/evp"
+    },
+    {
+      "line": 1582,
+      "player": "molodoy",
+      "event": "Esports World Cup 2026",
+      "rating": 1.19,
+      "type": "EVP",
+      "player_id": "molodoy",
+      "evp_rank": null,
+      "source": "https://www.hltv.org/players/evp"
+    },
+    {
+      "line": 1583,
+      "player": "molodoy",
+      "event": "IEM Cologne Major 2026",
+      "rating": 1.22,
+      "type": "EVP",
+      "player_id": "molodoy",
+      "evp_rank": null,
+      "source": "https://www.hltv.org/players/evp"
+    },
+    {
+      "line": 1584,
+      "player": "molodoy",
+      "event": "PGL Astana 2026",
+      "rating": 1.39,
+      "type": "EVP",
+      "player_id": "molodoy",
+      "evp_rank": null,
+      "source": "https://www.hltv.org/players/evp"
+    },
+    {
+      "line": 1585,
+      "player": "molodoy",
+      "event": "IEM Kraków 2026",
+      "rating": 1.09,
+      "type": "EVP",
+      "player_id": "molodoy",
+      "evp_rank": null,
+      "source": "https://www.hltv.org/players/evp"
+    },
+    {
+      "line": 1634,
+      "player": "NertZ",
+      "event": "FISSURE Playground 3",
+      "rating": 1.25,
+      "type": "EVP",
+      "player_id": "nertz",
+      "evp_rank": null,
+      "source": "https://www.hltv.org/players/evp"
+    },
+    {
+      "line": 1642,
+      "player": "REZ",
+      "event": "IEM Atlanta 2026",
+      "rating": 1.2,
+      "type": "EVP",
+      "player_id": "rez",
+      "evp_rank": null,
+      "source": "https://www.hltv.org/players/evp"
+    },
+    {
+      "line": 1747,
+      "player": "jabbi",
+      "event": "PGL Bucharest 2026",
+      "rating": 1.26,
+      "type": "EVP",
+      "player_id": "jabbi",
+      "evp_rank": null,
+      "source": "https://www.hltv.org/players/evp"
+    },
+    {
+      "line": 1789,
+      "player": "910",
+      "event": "CS Asia Championships 2026",
+      "rating": 1.27,
+      "type": "EVP",
+      "player_id": "910",
+      "evp_rank": null,
+      "source": "https://www.hltv.org/players/evp"
+    },
+    {
+      "line": 1790,
+      "player": "910",
+      "event": "PGL Cluj-Napoca 2026",
+      "rating": 1.16,
+      "type": "EVP",
+      "player_id": "910",
+      "evp_rank": null,
+      "source": "https://www.hltv.org/players/evp"
+    },
+    {
+      "line": 1831,
+      "player": "insani",
+      "event": "FISSURE Playground 3",
+      "rating": 1.16,
+      "type": "EVP",
+      "player_id": "insani",
+      "evp_rank": null,
+      "source": "https://www.hltv.org/players/evp"
+    },
+    {
+      "line": 1832,
+      "player": "insani",
+      "event": "CS Asia Championships 2026",
+      "rating": 1.44,
+      "type": "EVP",
+      "player_id": "insani",
+      "evp_rank": null,
+      "source": "https://www.hltv.org/players/evp"
+    },
+    {
+      "line": 1849,
+      "player": "kyousuke",
+      "event": "IEM Cologne Major 2026",
+      "rating": 1.15,
+      "type": "EVP",
+      "player_id": "kyousuke",
+      "evp_rank": null,
+      "source": "https://www.hltv.org/players/evp"
+    },
+    {
+      "line": 1850,
+      "player": "kyousuke",
+      "event": "CS Asia Championships 2026",
+      "rating": 1.24,
+      "type": "EVP",
+      "player_id": "kyousuke",
+      "evp_rank": null,
+      "source": "https://www.hltv.org/players/evp"
+    },
+    {
+      "line": 1851,
+      "player": "kyousuke",
+      "event": "PGL Astana 2026",
+      "rating": 1.21,
+      "type": "EVP",
+      "player_id": "kyousuke",
+      "evp_rank": null,
+      "source": "https://www.hltv.org/players/evp"
+    },
+    {
+      "line": 1855,
+      "player": "makazze",
+      "event": "BLAST Rivals 2026 Season 1",
+      "rating": 1.26,
+      "type": "EVP",
+      "player_id": "makazze",
+      "evp_rank": null,
+      "source": "https://www.hltv.org/players/evp"
+    },
+    {
+      "line": 1856,
+      "player": "makazze",
+      "event": "BLAST Open Rotterdam 2026",
+      "rating": 1.22,
+      "type": "EVP",
+      "player_id": "makazze",
+      "evp_rank": null,
+      "source": "https://www.hltv.org/players/evp"
+    },
+    {
+      "line": 1877,
+      "player": "HeavyGod",
+      "event": "FISSURE Playground 3",
+      "rating": 1.1,
+      "type": "EVP",
+      "player_id": "heavygod",
+      "evp_rank": null,
+      "source": "https://www.hltv.org/players/evp"
+    },
+    {
+      "line": 1878,
+      "player": "HeavyGod",
+      "event": "IEM Cologne Major 2026",
+      "rating": 1.27,
+      "type": "EVP",
+      "player_id": "heavygod",
+      "evp_rank": null,
+      "source": "https://www.hltv.org/players/evp"
+    },
+    {
+      "line": 1892,
+      "player": "PR",
+      "event": "IEM Beijing 2026",
+      "rating": 1.18,
+      "type": "EVP",
+      "player_id": "pr",
+      "evp_rank": null,
+      "source": "https://www.hltv.org/players/evp"
+    },
+    {
+      "line": 1893,
+      "player": "PR",
+      "event": "PGL Masters Bucharest 2026",
+      "rating": 1.19,
+      "type": "EVP",
+      "player_id": "pr",
+      "evp_rank": null,
+      "source": "https://www.hltv.org/players/evp"
+    },
+    {
+      "line": 1907,
+      "player": "Staehr",
+      "event": "PGL Bucharest 2026",
+      "rating": 1.13,
+      "type": "EVP",
+      "player_id": "staehr",
+      "evp_rank": null,
+      "source": "https://www.hltv.org/players/evp"
+    },
+    {
+      "line": 1967,
+      "player": "tN1R",
+      "event": "BLAST Open Porto 2026",
+      "rating": 1.2,
+      "type": "EVP",
+      "player_id": "tn1r",
+      "evp_rank": null,
+      "source": "https://www.hltv.org/players/evp"
+    },
+    {
+      "line": 1968,
+      "player": "tN1R",
+      "event": "PGL Astana 2026",
+      "rating": 1.14,
+      "type": "EVP",
+      "player_id": "tn1r",
+      "evp_rank": null,
+      "source": "https://www.hltv.org/players/evp"
+    },
+    {
+      "line": 1969,
+      "player": "tN1R",
+      "event": "IEM Rio 2026",
+      "rating": 1.15,
+      "type": "EVP",
+      "player_id": "tn1r",
+      "evp_rank": null,
+      "source": "https://www.hltv.org/players/evp"
+    },
+    {
+      "line": 1972,
+      "player": "zweih",
+      "event": "XSE Pro League Guangzhou 2026",
+      "rating": 1.18,
+      "type": "EVP",
+      "player_id": "zweih",
+      "evp_rank": null,
+      "source": "https://www.hltv.org/players/evp"
+    },
+    {
+      "line": 1973,
+      "player": "zweih",
+      "event": "PGL Bucharest 2026",
+      "rating": 1.23,
+      "type": "EVP",
+      "player_id": "zweih",
+      "evp_rank": null,
+      "source": "https://www.hltv.org/players/evp"
+    },
+    {
+      "line": 1974,
+      "player": "zweih",
+      "event": "PGL Cluj-Napoca 2026",
+      "rating": 1.06,
+      "type": "EVP",
+      "player_id": "zweih",
+      "evp_rank": null,
+      "source": "https://www.hltv.org/players/evp"
+    },
+    {
+      "line": 2013,
+      "player": "Magnojez",
+      "event": "Thunderpick World Championship 2026",
+      "rating": 1.22,
+      "type": "EVP",
+      "player_id": "magnojez",
+      "evp_rank": null,
+      "source": "https://www.hltv.org/players/evp"
+    },
+    {
+      "line": 2014,
+      "player": "Magnojez",
+      "event": "XSE Pro League Guangzhou 2026",
+      "rating": 1.44,
+      "type": "EVP",
+      "player_id": "magnojez",
+      "evp_rank": null,
+      "source": "https://www.hltv.org/players/evp"
+    },
+    {
+      "line": 2041,
+      "player": "dem0n",
+      "event": "Esports World Cup 2026",
+      "rating": 1.17,
+      "type": "EVP",
+      "player_id": "dem0n",
+      "evp_rank": null,
+      "source": "https://www.hltv.org/players/evp"
+    },
+    {
+      "line": 2042,
+      "player": "dem0n",
+      "event": "PGL Bucharest 2026",
+      "rating": 1.16,
+      "type": "EVP",
+      "player_id": "dem0n",
+      "evp_rank": null,
+      "source": "https://www.hltv.org/players/evp"
+    },
+    {
+      "line": 2049,
+      "player": "dgt",
+      "event": "XSE Pro League Guangzhou 2026",
+      "rating": 1.12,
+      "type": "EVP",
+      "player_id": "dgt",
+      "evp_rank": null,
+      "source": "https://www.hltv.org/players/evp"
+    },
+    {
+      "line": 2050,
+      "player": "dgt",
+      "event": "PGL Astana 2026",
+      "rating": 1.25,
+      "type": "EVP",
+      "player_id": "dgt",
+      "evp_rank": null,
+      "source": "https://www.hltv.org/players/evp"
+    },
+    {
+      "line": 2077,
+      "player": "latto",
+      "event": "Esports World Cup 2026",
+      "rating": 1.14,
+      "type": "EVP",
+      "player_id": "latto",
+      "evp_rank": null,
+      "source": "https://www.hltv.org/players/evp"
+    },
+    {
+      "line": 2078,
+      "player": "latto",
+      "event": "IEM Atlanta 2026",
+      "rating": 1.34,
+      "type": "EVP",
+      "player_id": "latto",
+      "evp_rank": null,
+      "source": "https://www.hltv.org/players/evp"
+    },
+    {
+      "line": 2081,
+      "player": "luchov",
+      "event": "XSE Pro League Guangzhou 2026",
+      "rating": 1.17,
+      "type": "EVP",
+      "player_id": "luchov",
+      "evp_rank": null,
+      "source": "https://www.hltv.org/players/evp"
+    },
+    {
+      "line": 2082,
+      "player": "luchov",
+      "event": "PGL Astana 2026",
+      "rating": 1.3,
+      "type": "EVP",
+      "player_id": "luchov",
+      "evp_rank": null,
+      "source": "https://www.hltv.org/players/evp"
+    },
+    {
+      "line": 2109,
+      "player": "n1ssim",
+      "event": "FISSURE Playground 3",
+      "rating": 1.2,
+      "type": "EVP",
+      "player_id": "n1ssim",
+      "evp_rank": null,
+      "source": "https://www.hltv.org/players/evp"
+    },
+    {
+      "line": 2121,
+      "player": "nqz",
+      "event": "FISSURE Playground 3",
+      "rating": 1.22,
+      "type": "EVP",
+      "player_id": "nqz",
+      "evp_rank": null,
+      "source": "https://www.hltv.org/players/evp"
+    },
+    {
+      "line": 2125,
+      "player": "phzy",
+      "event": "PGL Bucharest 2026",
+      "rating": 1.09,
+      "type": "EVP",
+      "player_id": "phzy",
+      "evp_rank": null,
+      "source": "https://www.hltv.org/players/evp"
+    },
+    {
+      "line": 2126,
+      "player": "phzy",
+      "event": "ESL Pro League Season 23 Finals",
+      "rating": 1.4,
+      "type": "EVP",
+      "player_id": "phzy",
+      "evp_rank": null,
+      "source": "https://www.hltv.org/players/evp"
+    },
+    {
+      "line": 2145,
+      "player": "xelex",
+      "event": "IEM Beijing 2026",
+      "rating": 1.2,
+      "type": "EVP",
+      "player_id": "xelex",
+      "evp_rank": null,
+      "source": "https://www.hltv.org/players/evp"
+    },
+    {
+      "line": 2146,
+      "player": "xelex",
+      "event": "BLAST Open Porto 2026",
+      "rating": 1.21,
+      "type": "EVP",
+      "player_id": "xelex",
+      "evp_rank": null,
+      "source": "https://www.hltv.org/players/evp"
+    },
+    {
+      "line": 2149,
+      "player": "zorte",
+      "event": "PGL Masters Bucharest 2026",
+      "rating": 1.31,
+      "type": "EVP",
+      "player_id": "zorte",
+      "evp_rank": null,
+      "source": "https://www.hltv.org/players/evp"
+    },
+    {
+      "line": 2246,
+      "player": "Tauson",
+      "event": "IEM Atlanta 2026",
+      "rating": 1.08,
+      "type": "EVP",
+      "player_id": "tauson",
+      "evp_rank": null,
+      "source": "https://www.hltv.org/players/evp"
+    },
+    {
+      "line": 2249,
+      "player": "Techno",
+      "event": "IEM Beijing 2026",
+      "rating": 1.18,
+      "type": "EVP",
+      "player_id": "techno",
+      "evp_rank": null,
+      "source": "https://www.hltv.org/players/evp"
+    },
+    {
+      "line": 2294,
+      "player": "dumau",
+      "event": "CS Asia Championships 2026",
+      "rating": 1.15,
+      "type": "EVP",
+      "player_id": "dumau",
+      "evp_rank": null,
+      "source": "https://www.hltv.org/players/evp"
+    },
+    {
+      "line": 2297,
+      "player": "dziugss",
+      "event": "PGL Bucharest 2026",
+      "rating": 1.28,
+      "type": "EVP",
+      "player_id": "dziugss",
+      "evp_rank": null,
+      "source": "https://www.hltv.org/players/evp"
+    },
+    {
+      "line": 2300,
+      "player": "esenthial",
+      "event": "PGL Bucharest 2026",
+      "rating": 1.23,
+      "type": "EVP",
+      "player_id": "esenthial",
+      "evp_rank": null,
+      "source": "https://www.hltv.org/players/evp"
+    },
+    {
+      "line": 2315,
+      "player": "hypex",
+      "event": "IEM Atlanta 2026",
+      "rating": 1.15,
+      "type": "EVP",
+      "player_id": "hypex",
+      "evp_rank": null,
+      "source": "https://www.hltv.org/players/evp"
+    },
+    {
+      "line": 2324,
+      "player": "lauNX",
+      "event": "PGL Bucharest 2026",
+      "rating": 1.15,
+      "type": "EVP",
+      "player_id": "launx",
+      "evp_rank": null,
+      "source": "https://www.hltv.org/players/evp"
+    },
+    {
+      "line": 2339,
+      "player": "nota",
+      "event": "BLAST Bounty 2026 Season 1 Finals",
+      "rating": 1.14,
+      "type": "EVP",
+      "player_id": "nota",
+      "evp_rank": null,
+      "source": "https://www.hltv.org/players/evp"
+    },
+    {
+      "line": 2381,
+      "player": "syph0",
+      "event": "PGL Masters Bucharest 2026",
+      "rating": 1.15,
+      "type": "EVP",
+      "player_id": "syph0",
+      "evp_rank": null,
+      "source": "https://www.hltv.org/players/evp"
+    },
+    {
+      "line": 2384,
+      "player": "tenzy",
+      "event": "Esports World Cup 2026",
+      "rating": 1.29,
+      "type": "EVP",
+      "player_id": "tenzy",
+      "evp_rank": null,
+      "source": "https://www.hltv.org/players/evp"
+    },
+    {
+      "line": 2393,
+      "player": "try",
+      "event": "Esports World Cup 2026",
+      "rating": 1.28,
+      "type": "EVP",
+      "player_id": "try",
+      "evp_rank": null,
+      "source": "https://www.hltv.org/players/evp"
+    },
+    {
+      "line": 2402,
+      "player": "xfl0ud",
+      "event": "Esports World Cup 2026",
+      "rating": 1.14,
+      "type": "EVP",
+      "player_id": "xfl0ud",
+      "evp_rank": null,
+      "source": "https://www.hltv.org/players/evp"
+    },
+    {
+      "player": "molodoy",
+      "player_id": "molodoy",
+      "event": "BLAST Rivals 2026 Season 2",
+      "rating": 1.29,
+      "type": "EVP",
+      "evp_rank": 1,
+      "source": "https://www.hltv.org/news/45998/the-evps-and-all-stars-of-blast-rivals-2026-season-2",
+      "order_evidence": "https://www.hltv.org/news/45998/the-evps-and-all-stars-of-blast-rivals-2026-season-2",
+      "retrieved_on": "2026-11-17"
+    },
+    {
+      "player": "donk",
+      "player_id": "donk",
+      "event": "BLAST Rivals 2026 Season 2",
+      "rating": 1.29,
+      "type": "EVP",
+      "evp_rank": 2,
+      "source": "https://www.hltv.org/news/45998/the-evps-and-all-stars-of-blast-rivals-2026-season-2",
+      "order_evidence": "https://www.hltv.org/news/45998/the-evps-and-all-stars-of-blast-rivals-2026-season-2",
+      "retrieved_on": "2026-11-17"
+    },
+    {
+      "player": "ropz",
+      "player_id": "ropz",
+      "event": "BLAST Rivals 2026 Season 2",
+      "rating": 1.32,
+      "type": "EVP",
+      "evp_rank": 3,
+      "source": "https://www.hltv.org/news/45998/the-evps-and-all-stars-of-blast-rivals-2026-season-2",
+      "order_evidence": "https://www.hltv.org/news/45998/the-evps-and-all-stars-of-blast-rivals-2026-season-2",
+      "retrieved_on": "2026-11-17"
+    },
+    {
+      "player": "m0NESY",
+      "player_id": "m0nesy",
+      "event": "BLAST Rivals 2026 Season 2",
+      "rating": 1.24,
+      "type": "EVP",
+      "evp_rank": 4,
+      "source": "https://www.hltv.org/news/45998/the-evps-and-all-stars-of-blast-rivals-2026-season-2",
+      "order_evidence": "https://www.hltv.org/news/45998/the-evps-and-all-stars-of-blast-rivals-2026-season-2",
+      "retrieved_on": "2026-11-17"
+    }
+  ]
+}

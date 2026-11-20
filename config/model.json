@@ -1,0 +1,159 @@
+{
+  "version": "HTPM-3.5",
+  "weights": {
+    "A": 0.3,
+    "E": 0.27,
+    "O": 0.23,
+    "T": 0.05,
+    "C": 0.05,
+    "N": 0.1
+  },
+  "tier_samples": {
+    "Major": {
+      "weight": 0.2,
+      "prior_maps": 12,
+      "prior_events": 0.5,
+      "target_maps": 12,
+      "target_events": 1
+    },
+    "Super-elite": {
+      "weight": 0.15,
+      "prior_maps": 12,
+      "prior_events": 0.5,
+      "target_maps": 12,
+      "target_events": 1
+    },
+    "Elite": {
+      "weight": 0.3,
+      "prior_maps": 20,
+      "prior_events": 1,
+      "target_maps": 48,
+      "target_events": 4
+    },
+    "Big": {
+      "weight": 0.3,
+      "prior_maps": 30,
+      "prior_events": 2,
+      "target_maps": 96,
+      "target_events": 8
+    },
+    "Medium": {
+      "weight": 0.05,
+      "prior_maps": 30,
+      "prior_events": 2,
+      "target_maps": 24,
+      "target_events": 3
+    }
+  },
+  "tier_coverage_map_weight": 0.6,
+  "sample_tier_weight": 0.55,
+  "opponent_sample_targets": {
+    "5": 50,
+    "10": 100,
+    "20": 150,
+    "30": 180
+  },
+  "evp_tail_step": 0.05,
+  "evp_tail_floor": 0.75,
+  "honor_factors": {
+    "BLAST Bounty 2026 Season 1 Finals": 0.6
+  },
+  "tiers": {
+    "Major": {
+      "weight": 1.8,
+      "MVP": 20,
+      "EVP1": 14,
+      "EVP2": 12,
+      "EVP": 10
+    },
+    "Super-elite": {
+      "weight": 1.5,
+      "MVP": 17,
+      "EVP1": 12,
+      "EVP2": 10,
+      "EVP": 8
+    },
+    "Elite": {
+      "weight": 1.3,
+      "MVP": 14,
+      "EVP1": 10,
+      "EVP2": 8,
+      "EVP": 6
+    },
+    "Big": {
+      "weight": 1.1,
+      "MVP": 11,
+      "EVP1": 8,
+      "EVP2": 6.5,
+      "EVP": 5
+    },
+    "Medium": {
+      "weight": 0.85,
+      "MVP": 7,
+      "EVP1": 5,
+      "EVP2": 4,
+      "EVP": 3
+    }
+  },
+  "rating": {
+    "low": 0.8,
+    "high": 1.5,
+    "prior": 1.05,
+    "prior_maps": 20
+  },
+  "opponent": {
+    "5": 0.4,
+    "10": 0.3,
+    "20": 0.2,
+    "30": 0.1
+  },
+  "award_scale": 60,
+  "event_map_cap": 16,
+  "team_scale": 5,
+  "team_rating_floor": 0.85,
+  "team_rating_span": 0.4,
+  "team_factor_cap": 1.25,
+  "team_maps_target": 8,
+  "placement_points": {
+    "1st": 1,
+    "2nd": 0.6,
+    "3rd": 0.3,
+    "4th": 0.3,
+    "3-4th": 0.3,
+    "5-6th": 0.12,
+    "5-8th": 0.12,
+    "7-8th": 0.12
+  },
+  "consistency": {
+    "prior_events": 4,
+    "positive_prior": 0.65,
+    "noncollapse_prior": 0.85,
+    "positive_threshold": 1,
+    "noncollapse_threshold": 0.9,
+    "positive_weight": 0.7
+  },
+  "sample_volume_weight": 0.7,
+  "difficulty_targets": {
+    "top10_share": 0.6,
+    "top5_share": 0.3,
+    "elite_share": 0.4
+  },
+  "difficulty_weights": {
+    "top10_share": 0.5,
+    "top5_share": 0.3,
+    "elite_share": 0.2
+  },
+  "event_prior_count": 2,
+  "opponent_prior_maps": {
+    "5": 30,
+    "10": 25,
+    "20": 20,
+    "30": 20,
+    "50": 20
+  },
+  "eligibility": {
+    "main_maps": 50,
+    "elite_maps": 20,
+    "top10_maps": 10
+  }
+}

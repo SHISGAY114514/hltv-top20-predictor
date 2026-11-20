@@ -1,0 +1,94 @@
+{
+  "year": 2025,
+  "purpose": "官方理由的定性设计校验；非参数拟合或历史预测回测",
+  "rows": [
+    {
+      "rank": 10,
+      "player": "spinx",
+      "source": "https://www.hltv.org/news/43547/top-20-players-of-2025-spinx-10",
+      "support": "14项赛事均至少达到VP水平，10项强表现、4项EVP；较难赛程中仍有稳定下限。",
+      "limitation": "Top5 1.09；季后赛1.05，关键阶段下滑限制上限。",
+      "model_implication": "持续贡献的赛事数量和质量，应与一两次峰值区分。"
+    },
+    {
+      "rank": 11,
+      "player": "twistzz",
+      "source": "https://www.hltv.org/news/43533/top-20-players-of-2025-twistzz-11",
+      "support": "全年1.17；Top5及Top10均1.15；季后赛1.22。",
+      "limitation": "季后赛仅26图，为该年Top20最少；高端赛事深度不足。",
+      "model_implication": "高Rating不能在少量样本下获得与长期验证相同的可信权重。"
+    },
+    {
+      "rank": 12,
+      "player": "mezii",
+      "source": "https://www.hltv.org/news/43534/top-20-players-of-2025-mezii-12",
+      "support": "两届Major决赛合计Rating1.33；全年决赛42图；3EVP、12VP、16项赛事。",
+      "limitation": "Top5仅0.99，Top10 1.05；关键赛整体统计没有Major决赛峰值那么突出。",
+      "model_implication": "团队冠军必须关联个人贡献，且大量经历不能无限抵消个人弱项。"
+    },
+    {
+      "rank": 13,
+      "player": "senzu",
+      "source": "https://www.hltv.org/news/43528/top-20-players-of-2025-senzu-13",
+      "support": "4EVP，含Austin Major决赛之路的1.30；缺席年末Major仍入选。",
+      "limitation": "Top5 1.03；Elite级别EVP仅1项；关键阶段表现一般。",
+      "model_implication": "不以打满全年作为硬前提，保留高质量短赛季表现的入榜可能。"
+    },
+    {
+      "rank": 14,
+      "player": "xantares",
+      "source": "https://www.hltv.org/news/43524/top-20-players-of-2025-xantares-14",
+      "support": "全年1.16；1MVP、3EVP，另有多次接近EVP的表现。",
+      "limitation": "主要高峰在Medium PGL Masters；Big matches1.05、Arena0.99；Elite+表现及参赛覆盖不足。",
+      "model_implication": "普通赛事总场次和高Rating不能替代顶级赛场验证。"
+    },
+    {
+      "rank": 15,
+      "player": "yekindar",
+      "source": "https://www.hltv.org/news/43518/top-20-players-of-2025-yekindar-15",
+      "support": "3项夺冠赛事EVP；决赛17图1.17；Top5 43图1.13。",
+      "limitation": "晚加入和前期磨合导致强赛事表现的总量不足。",
+      "model_implication": "分别衡量经历数量、强队验证与晋级关键贡献，不用单一全年度图数。"
+    },
+    {
+      "rank": 16,
+      "player": "xertion",
+      "source": "https://www.hltv.org/news/43512/top-20-players-of-2025-xertion-16",
+      "support": "3EVP加6项强VP，9项较好赛事表现构成入榜基础。",
+      "limitation": "Top5与季后赛均1.02，决赛0.89。",
+      "model_implication": "多项稳定表现有价值，但关键阶段弱势必须保留，不能靠数量抹平。"
+    },
+    {
+      "rank": 17,
+      "player": "torzsi",
+      "source": "https://www.hltv.org/news/43509/top-20-players-of-2025-torzsi-17",
+      "support": "4EVP均伴随决赛；63%的比赛对Top10；40%的地图在Elite赛事、38%在季后赛。",
+      "limitation": "全年1.07、Top5 1.00、季后赛1.02；Major0.96、决赛0.90。",
+      "model_implication": "样本难度需要进入比较。63%口径为matches，不能直接当map占比校准2026。"
+    },
+    {
+      "rank": 18,
+      "player": "niko",
+      "source": "https://www.hltv.org/news/43505/top-20-players-of-2025-niko-18",
+      "support": "1MVP、2EVP；全年1.13，Top5 1.06、Top10 1.08。",
+      "limitation": "奖项来自Big档较低端；Elite季后赛仅4图、Rating0.96；决赛24图0.98。",
+      "model_implication": "必须检查高等级关键阶段是否缺乏验证，不能只看年度总样本。"
+    },
+    {
+      "rank": 19,
+      "player": "im",
+      "source": "https://www.hltv.org/news/43503/top-20-players-of-2025-im-19",
+      "support": "最高级赛事平均1.16；2EVP；Top5 1.11、Top10 1.10。",
+      "limitation": "季后赛38图1.05，Arena20图1.02，另有4项低于1.00的赛事。",
+      "model_implication": "样本量和样本质量必须同时描述；关键赛数据缺失不能默认为平均。"
+    },
+    {
+      "rank": 20,
+      "player": "b1t",
+      "source": "https://www.hltv.org/news/43502/top-20-players-of-2025-b1t-20",
+      "support": "Katowice、Cologne两个高等级峰值加Bounty EVP；淘汰风险比赛1.14。",
+      "limitation": "Major1.00、Top5 1.02；季后赛1.06、Arena1.05，以及4项明显低谷。",
+      "model_implication": "下限、最高等级表现和关键阶段共同决定榜尾顺序，奖项不能只数个数。"
+    }
+  ]
+}

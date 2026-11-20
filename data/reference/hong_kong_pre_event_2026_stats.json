@@ -1,0 +1,1581 @@
+{
+  "statistics_through": "2026-11-10",
+  "retrieved_on": "2026-11-17",
+  "method": "Browser-rendered HLTV player tables with minMapCount=0; no reverse-weighted inference",
+  "sources": {
+    "annual": "https://www.hltv.org/stats/players?startDate=2026-01-01&endDate=2026-11-10&minMapCount=0",
+    "5": "https://www.hltv.org/stats/players?startDate=2026-01-01&endDate=2026-11-10&minMapCount=0&rankingFilter=Top5",
+    "10": "https://www.hltv.org/stats/players?startDate=2026-01-01&endDate=2026-11-10&minMapCount=0&rankingFilter=Top10",
+    "20": "https://www.hltv.org/stats/players?startDate=2026-01-01&endDate=2026-11-10&minMapCount=0&rankingFilter=Top20",
+    "30": "https://www.hltv.org/stats/players?startDate=2026-01-01&endDate=2026-11-10&minMapCount=0&rankingFilter=Top30",
+    "50": "https://www.hltv.org/stats/players?startDate=2026-01-01&endDate=2026-11-10&minMapCount=0&rankingFilter=Top50"
+  },
+  "players": [
+    {
+      "name": "910",
+      "annual": {
+        "maps": 155,
+        "rating": 1.14
+      },
+      "5": {
+        "maps": 43,
+        "rating": 1.0
+      },
+      "10": {
+        "maps": 74,
+        "rating": 1.02
+      },
+      "20": {
+        "maps": 112,
+        "rating": 1.1
+      },
+      "30": {
+        "maps": 135,
+        "rating": 1.12
+      },
+      "50": {
+        "maps": 147,
+        "rating": 1.14
+      }
+    },
+    {
+      "name": "b1t",
+      "annual": {
+        "maps": 177,
+        "rating": 1.14
+      },
+      "5": {
+        "maps": 52,
+        "rating": 1.07
+      },
+      "10": {
+        "maps": 101,
+        "rating": 1.13
+      },
+      "20": {
+        "maps": 153,
+        "rating": 1.14
+      },
+      "30": {
+        "maps": 161,
+        "rating": 1.14
+      },
+      "50": {
+        "maps": 175,
+        "rating": 1.14
+      }
+    },
+    {
+      "name": "cmtry",
+      "annual": {
+        "maps": 155,
+        "rating": 0.98
+      },
+      "5": {
+        "maps": 35,
+        "rating": 0.94
+      },
+      "10": {
+        "maps": 60,
+        "rating": 0.98
+      },
+      "20": {
+        "maps": 111,
+        "rating": 0.98
+      },
+      "30": {
+        "maps": 125,
+        "rating": 0.99
+      },
+      "50": {
+        "maps": 147,
+        "rating": 0.98
+      }
+    },
+    {
+      "name": "dem0n",
+      "annual": {
+        "maps": 154,
+        "rating": 1.09
+      },
+      "5": {
+        "maps": 38,
+        "rating": 1.07
+      },
+      "10": {
+        "maps": 63,
+        "rating": 1.03
+      },
+      "20": {
+        "maps": 111,
+        "rating": 1.05
+      },
+      "30": {
+        "maps": 129,
+        "rating": 1.08
+      },
+      "50": {
+        "maps": 148,
+        "rating": 1.1
+      }
+    },
+    {
+      "name": "dgt",
+      "annual": {
+        "maps": 229,
+        "rating": 1.14
+      },
+      "5": {
+        "maps": 35,
+        "rating": 0.99
+      },
+      "10": {
+        "maps": 60,
+        "rating": 1.0
+      },
+      "20": {
+        "maps": 88,
+        "rating": 1.0
+      },
+      "30": {
+        "maps": 110,
+        "rating": 1.01
+      },
+      "50": {
+        "maps": 165,
+        "rating": 1.06
+      }
+    },
+    {
+      "name": "donk",
+      "annual": {
+        "maps": 161,
+        "rating": 1.39
+      },
+      "5": {
+        "maps": 49,
+        "rating": 1.28
+      },
+      "10": {
+        "maps": 76,
+        "rating": 1.29
+      },
+      "20": {
+        "maps": 121,
+        "rating": 1.33
+      },
+      "30": {
+        "maps": 134,
+        "rating": 1.35
+      },
+      "50": {
+        "maps": 145,
+        "rating": 1.37
+      }
+    },
+    {
+      "name": "dumau",
+      "annual": {
+        "maps": 186,
+        "rating": 1.14
+      },
+      "5": {
+        "maps": 34,
+        "rating": 1.05
+      },
+      "10": {
+        "maps": 65,
+        "rating": 1.1
+      },
+      "20": {
+        "maps": 100,
+        "rating": 1.09
+      },
+      "30": {
+        "maps": 137,
+        "rating": 1.1
+      },
+      "50": {
+        "maps": 158,
+        "rating": 1.11
+      }
+    },
+    {
+      "name": "dziugss",
+      "annual": {
+        "maps": 154,
+        "rating": 1.1
+      },
+      "5": {
+        "maps": 38,
+        "rating": 1.04
+      },
+      "10": {
+        "maps": 63,
+        "rating": 1.05
+      },
+      "20": {
+        "maps": 111,
+        "rating": 1.06
+      },
+      "30": {
+        "maps": 129,
+        "rating": 1.09
+      },
+      "50": {
+        "maps": 148,
+        "rating": 1.1
+      }
+    },
+    {
+      "name": "esenthial",
+      "annual": {
+        "maps": 184,
+        "rating": 1.03
+      },
+      "5": {
+        "maps": 17,
+        "rating": 0.9
+      },
+      "10": {
+        "maps": 47,
+        "rating": 0.93
+      },
+      "20": {
+        "maps": 80,
+        "rating": 0.97
+      },
+      "30": {
+        "maps": 116,
+        "rating": 0.97
+      },
+      "50": {
+        "maps": 154,
+        "rating": 1.0
+      }
+    },
+    {
+      "name": "flameZ",
+      "annual": {
+        "maps": 171,
+        "rating": 1.16
+      },
+      "5": {
+        "maps": 52,
+        "rating": 1.14
+      },
+      "10": {
+        "maps": 99,
+        "rating": 1.13
+      },
+      "20": {
+        "maps": 140,
+        "rating": 1.15
+      },
+      "30": {
+        "maps": 152,
+        "rating": 1.14
+      },
+      "50": {
+        "maps": 169,
+        "rating": 1.16
+      }
+    },
+    {
+      "name": "frozen",
+      "annual": {
+        "maps": 163,
+        "rating": 1.16
+      },
+      "5": {
+        "maps": 22,
+        "rating": 1.07
+      },
+      "10": {
+        "maps": 35,
+        "rating": 1.08
+      },
+      "20": {
+        "maps": 63,
+        "rating": 1.07
+      },
+      "30": {
+        "maps": 97,
+        "rating": 1.15
+      },
+      "50": {
+        "maps": 138,
+        "rating": 1.15
+      }
+    },
+    {
+      "name": "HeavyGod",
+      "annual": {
+        "maps": 199,
+        "rating": 1.14
+      },
+      "5": {
+        "maps": 36,
+        "rating": 1.1
+      },
+      "10": {
+        "maps": 73,
+        "rating": 1.11
+      },
+      "20": {
+        "maps": 132,
+        "rating": 1.14
+      },
+      "30": {
+        "maps": 163,
+        "rating": 1.14
+      },
+      "50": {
+        "maps": 179,
+        "rating": 1.12
+      }
+    },
+    {
+      "name": "HUASOPEEK",
+      "annual": {
+        "maps": 229,
+        "rating": 1.13
+      },
+      "5": {
+        "maps": 35,
+        "rating": 0.95
+      },
+      "10": {
+        "maps": 60,
+        "rating": 1.02
+      },
+      "20": {
+        "maps": 88,
+        "rating": 1.07
+      },
+      "30": {
+        "maps": 110,
+        "rating": 1.09
+      },
+      "50": {
+        "maps": 165,
+        "rating": 1.1
+      }
+    },
+    {
+      "name": "hypex",
+      "annual": {
+        "maps": 166,
+        "rating": 1.03
+      },
+      "5": {
+        "maps": 21,
+        "rating": 0.96
+      },
+      "10": {
+        "maps": 28,
+        "rating": 1.0
+      },
+      "20": {
+        "maps": 55,
+        "rating": 1.02
+      },
+      "30": {
+        "maps": 82,
+        "rating": 1.02
+      },
+      "50": {
+        "maps": 131,
+        "rating": 1.02
+      }
+    },
+    {
+      "name": "insani",
+      "annual": {
+        "maps": 189,
+        "rating": 1.26
+      },
+      "5": {
+        "maps": 6,
+        "rating": 0.93
+      },
+      "10": {
+        "maps": 18,
+        "rating": 1.13
+      },
+      "20": {
+        "maps": 62,
+        "rating": 1.18
+      },
+      "30": {
+        "maps": 76,
+        "rating": 1.19
+      },
+      "50": {
+        "maps": 118,
+        "rating": 1.21
+      }
+    },
+    {
+      "name": "jabbi",
+      "annual": {
+        "maps": 172,
+        "rating": 1.09
+      },
+      "5": {
+        "maps": 11,
+        "rating": 1.16
+      },
+      "10": {
+        "maps": 39,
+        "rating": 1.15
+      },
+      "20": {
+        "maps": 92,
+        "rating": 1.07
+      },
+      "30": {
+        "maps": 124,
+        "rating": 1.06
+      },
+      "50": {
+        "maps": 163,
+        "rating": 1.09
+      }
+    },
+    {
+      "name": "JamYoung",
+      "annual": {
+        "maps": 161,
+        "rating": 1.21
+      },
+      "5": {
+        "maps": 13,
+        "rating": 0.94
+      },
+      "10": {
+        "maps": 18,
+        "rating": 0.93
+      },
+      "20": {
+        "maps": 51,
+        "rating": 1.04
+      },
+      "30": {
+        "maps": 60,
+        "rating": 1.04
+      },
+      "50": {
+        "maps": 75,
+        "rating": 1.1
+      }
+    },
+    {
+      "name": "Jimpphat",
+      "annual": {
+        "maps": 145,
+        "rating": 1.1
+      },
+      "5": {
+        "maps": 35,
+        "rating": 0.97
+      },
+      "10": {
+        "maps": 72,
+        "rating": 1.01
+      },
+      "20": {
+        "maps": 104,
+        "rating": 1.06
+      },
+      "30": {
+        "maps": 118,
+        "rating": 1.05
+      },
+      "50": {
+        "maps": 141,
+        "rating": 1.09
+      }
+    },
+    {
+      "name": "KSCERATO",
+      "annual": {
+        "maps": 220,
+        "rating": 1.17
+      },
+      "5": {
+        "maps": 45,
+        "rating": 1.1
+      },
+      "10": {
+        "maps": 101,
+        "rating": 1.15
+      },
+      "20": {
+        "maps": 178,
+        "rating": 1.17
+      },
+      "30": {
+        "maps": 201,
+        "rating": 1.17
+      },
+      "50": {
+        "maps": 216,
+        "rating": 1.17
+      }
+    },
+    {
+      "name": "kyousuke",
+      "annual": {
+        "maps": 153,
+        "rating": 1.14
+      },
+      "5": {
+        "maps": 41,
+        "rating": 1.13
+      },
+      "10": {
+        "maps": 78,
+        "rating": 1.12
+      },
+      "20": {
+        "maps": 120,
+        "rating": 1.13
+      },
+      "30": {
+        "maps": 132,
+        "rating": 1.13
+      },
+      "50": {
+        "maps": 148,
+        "rating": 1.14
+      }
+    },
+    {
+      "name": "latto",
+      "annual": {
+        "maps": 186,
+        "rating": 1.16
+      },
+      "5": {
+        "maps": 34,
+        "rating": 1.16
+      },
+      "10": {
+        "maps": 65,
+        "rating": 1.16
+      },
+      "20": {
+        "maps": 100,
+        "rating": 1.13
+      },
+      "30": {
+        "maps": 137,
+        "rating": 1.16
+      },
+      "50": {
+        "maps": 158,
+        "rating": 1.15
+      }
+    },
+    {
+      "name": "lauNX",
+      "annual": {
+        "maps": 112,
+        "rating": 1.08
+      },
+      "5": {
+        "maps": 18,
+        "rating": 1.02
+      },
+      "10": {
+        "maps": 39,
+        "rating": 1.08
+      },
+      "20": {
+        "maps": 87,
+        "rating": 1.07
+      },
+      "30": {
+        "maps": 97,
+        "rating": 1.07
+      },
+      "50": {
+        "maps": 104,
+        "rating": 1.08
+      }
+    },
+    {
+      "name": "luchov",
+      "annual": {
+        "maps": 229,
+        "rating": 1.15
+      },
+      "5": {
+        "maps": 35,
+        "rating": 0.98
+      },
+      "10": {
+        "maps": 60,
+        "rating": 1.03
+      },
+      "20": {
+        "maps": 88,
+        "rating": 1.04
+      },
+      "30": {
+        "maps": 110,
+        "rating": 1.06
+      },
+      "50": {
+        "maps": 165,
+        "rating": 1.08
+      }
+    },
+    {
+      "name": "m0NESY",
+      "annual": {
+        "maps": 163,
+        "rating": 1.29
+      },
+      "5": {
+        "maps": 44,
+        "rating": 1.24
+      },
+      "10": {
+        "maps": 81,
+        "rating": 1.25
+      },
+      "20": {
+        "maps": 128,
+        "rating": 1.25
+      },
+      "30": {
+        "maps": 142,
+        "rating": 1.27
+      },
+      "50": {
+        "maps": 158,
+        "rating": 1.28
+      }
+    },
+    {
+      "name": "Magnojez",
+      "annual": {
+        "maps": 221,
+        "rating": 1.19
+      },
+      "5": {
+        "maps": 38,
+        "rating": 1.1
+      },
+      "10": {
+        "maps": 58,
+        "rating": 1.1
+      },
+      "20": {
+        "maps": 99,
+        "rating": 1.13
+      },
+      "30": {
+        "maps": 127,
+        "rating": 1.17
+      },
+      "50": {
+        "maps": 166,
+        "rating": 1.16
+      }
+    },
+    {
+      "name": "makazze",
+      "annual": {
+        "maps": 177,
+        "rating": 1.11
+      },
+      "5": {
+        "maps": 52,
+        "rating": 0.99
+      },
+      "10": {
+        "maps": 101,
+        "rating": 1.08
+      },
+      "20": {
+        "maps": 153,
+        "rating": 1.1
+      },
+      "30": {
+        "maps": 161,
+        "rating": 1.11
+      },
+      "50": {
+        "maps": 175,
+        "rating": 1.11
+      }
+    },
+    {
+      "name": "molodoy",
+      "annual": {
+        "maps": 220,
+        "rating": 1.14
+      },
+      "5": {
+        "maps": 45,
+        "rating": 0.99
+      },
+      "10": {
+        "maps": 101,
+        "rating": 1.08
+      },
+      "20": {
+        "maps": 178,
+        "rating": 1.13
+      },
+      "30": {
+        "maps": 201,
+        "rating": 1.14
+      },
+      "50": {
+        "maps": 216,
+        "rating": 1.15
+      }
+    },
+    {
+      "name": "n1ssim",
+      "annual": {
+        "maps": 180,
+        "rating": 1.01
+      },
+      "5": {
+        "maps": 34,
+        "rating": 0.89
+      },
+      "10": {
+        "maps": 65,
+        "rating": 0.95
+      },
+      "20": {
+        "maps": 97,
+        "rating": 0.96
+      },
+      "30": {
+        "maps": 131,
+        "rating": 0.99
+      },
+      "50": {
+        "maps": 152,
+        "rating": 0.99
+      }
+    },
+    {
+      "name": "NertZ",
+      "annual": {
+        "maps": 176,
+        "rating": 1.09
+      },
+      "5": {
+        "maps": 33,
+        "rating": 0.93
+      },
+      "10": {
+        "maps": 56,
+        "rating": 0.95
+      },
+      "20": {
+        "maps": 104,
+        "rating": 1.03
+      },
+      "30": {
+        "maps": 138,
+        "rating": 1.07
+      },
+      "50": {
+        "maps": 152,
+        "rating": 1.06
+      }
+    },
+    {
+      "name": "NiKo",
+      "annual": {
+        "maps": 163,
+        "rating": 1.12
+      },
+      "5": {
+        "maps": 44,
+        "rating": 1.04
+      },
+      "10": {
+        "maps": 81,
+        "rating": 1.09
+      },
+      "20": {
+        "maps": 128,
+        "rating": 1.11
+      },
+      "30": {
+        "maps": 142,
+        "rating": 1.12
+      },
+      "50": {
+        "maps": 158,
+        "rating": 1.12
+      }
+    },
+    {
+      "name": "nota",
+      "annual": {
+        "maps": 143,
+        "rating": 0.99
+      },
+      "5": {
+        "maps": 28,
+        "rating": 0.95
+      },
+      "10": {
+        "maps": 49,
+        "rating": 0.93
+      },
+      "20": {
+        "maps": 79,
+        "rating": 0.95
+      },
+      "30": {
+        "maps": 94,
+        "rating": 0.94
+      },
+      "50": {
+        "maps": 119,
+        "rating": 0.97
+      }
+    },
+    {
+      "name": "nqz",
+      "annual": {
+        "maps": 142,
+        "rating": 1.12
+      },
+      "5": {
+        "maps": 9,
+        "rating": 0.97
+      },
+      "10": {
+        "maps": 25,
+        "rating": 1.05
+      },
+      "20": {
+        "maps": 62,
+        "rating": 1.09
+      },
+      "30": {
+        "maps": 84,
+        "rating": 1.07
+      },
+      "50": {
+        "maps": 100,
+        "rating": 1.1
+      }
+    },
+    {
+      "name": "phzy",
+      "annual": {
+        "maps": 182,
+        "rating": 1.07
+      },
+      "5": {
+        "maps": 11,
+        "rating": 0.87
+      },
+      "10": {
+        "maps": 39,
+        "rating": 1.03
+      },
+      "20": {
+        "maps": 95,
+        "rating": 1.06
+      },
+      "30": {
+        "maps": 127,
+        "rating": 1.07
+      },
+      "50": {
+        "maps": 171,
+        "rating": 1.07
+      }
+    },
+    {
+      "name": "PR",
+      "annual": {
+        "maps": 183,
+        "rating": 1.07
+      },
+      "5": {
+        "maps": 53,
+        "rating": 1.06
+      },
+      "10": {
+        "maps": 67,
+        "rating": 1.1
+      },
+      "20": {
+        "maps": 106,
+        "rating": 1.06
+      },
+      "30": {
+        "maps": 132,
+        "rating": 1.06
+      },
+      "50": {
+        "maps": 162,
+        "rating": 1.07
+      }
+    },
+    {
+      "name": "REZ",
+      "annual": {
+        "maps": 161,
+        "rating": 1.14
+      },
+      "5": {
+        "maps": 21,
+        "rating": 1.04
+      },
+      "10": {
+        "maps": 28,
+        "rating": 1.08
+      },
+      "20": {
+        "maps": 54,
+        "rating": 1.09
+      },
+      "30": {
+        "maps": 79,
+        "rating": 1.11
+      },
+      "50": {
+        "maps": 127,
+        "rating": 1.13
+      }
+    },
+    {
+      "name": "ropz",
+      "annual": {
+        "maps": 171,
+        "rating": 1.13
+      },
+      "5": {
+        "maps": 52,
+        "rating": 1.17
+      },
+      "10": {
+        "maps": 99,
+        "rating": 1.14
+      },
+      "20": {
+        "maps": 140,
+        "rating": 1.13
+      },
+      "30": {
+        "maps": 152,
+        "rating": 1.12
+      },
+      "50": {
+        "maps": 169,
+        "rating": 1.13
+      }
+    },
+    {
+      "name": "Senzu",
+      "annual": {
+        "maps": 116,
+        "rating": 1.21
+      },
+      "5": {
+        "maps": 3,
+        "rating": 0.97
+      },
+      "10": {
+        "maps": 3,
+        "rating": 0.97
+      },
+      "20": {
+        "maps": 28,
+        "rating": 1.11
+      },
+      "30": {
+        "maps": 32,
+        "rating": 1.1
+      },
+      "50": {
+        "maps": 55,
+        "rating": 1.12
+      }
+    },
+    {
+      "name": "sh1ro",
+      "annual": {
+        "maps": 161,
+        "rating": 1.15
+      },
+      "5": {
+        "maps": 49,
+        "rating": 1.15
+      },
+      "10": {
+        "maps": 76,
+        "rating": 1.16
+      },
+      "20": {
+        "maps": 121,
+        "rating": 1.15
+      },
+      "30": {
+        "maps": 134,
+        "rating": 1.16
+      },
+      "50": {
+        "maps": 145,
+        "rating": 1.16
+      }
+    },
+    {
+      "name": "Spinx",
+      "annual": {
+        "maps": 188,
+        "rating": 1.12
+      },
+      "5": {
+        "maps": 57,
+        "rating": 1.02
+      },
+      "10": {
+        "maps": 96,
+        "rating": 1.07
+      },
+      "20": {
+        "maps": 146,
+        "rating": 1.11
+      },
+      "30": {
+        "maps": 167,
+        "rating": 1.11
+      },
+      "50": {
+        "maps": 186,
+        "rating": 1.12
+      }
+    },
+    {
+      "name": "Staehr",
+      "annual": {
+        "maps": 182,
+        "rating": 1.18
+      },
+      "5": {
+        "maps": 11,
+        "rating": 1.17
+      },
+      "10": {
+        "maps": 39,
+        "rating": 1.13
+      },
+      "20": {
+        "maps": 95,
+        "rating": 1.15
+      },
+      "30": {
+        "maps": 127,
+        "rating": 1.16
+      },
+      "50": {
+        "maps": 171,
+        "rating": 1.18
+      }
+    },
+    {
+      "name": "syph0",
+      "annual": {
+        "maps": 313,
+        "rating": 1.17
+      },
+      "5": {
+        "maps": 9,
+        "rating": 0.96
+      },
+      "10": {
+        "maps": 18,
+        "rating": 1.0
+      },
+      "20": {
+        "maps": 29,
+        "rating": 1.09
+      },
+      "30": {
+        "maps": 46,
+        "rating": 1.15
+      },
+      "50": {
+        "maps": 98,
+        "rating": 1.14
+      }
+    },
+    {
+      "name": "Tauson",
+      "annual": {
+        "maps": 163,
+        "rating": 1.05
+      },
+      "5": {
+        "maps": 21,
+        "rating": 0.94
+      },
+      "10": {
+        "maps": 28,
+        "rating": 0.96
+      },
+      "20": {
+        "maps": 55,
+        "rating": 0.99
+      },
+      "30": {
+        "maps": 82,
+        "rating": 1.03
+      },
+      "50": {
+        "maps": 128,
+        "rating": 1.04
+      }
+    },
+    {
+      "name": "Techno",
+      "annual": {
+        "maps": 150,
+        "rating": 0.96
+      },
+      "5": {
+        "maps": 43,
+        "rating": 0.98
+      },
+      "10": {
+        "maps": 74,
+        "rating": 0.99
+      },
+      "20": {
+        "maps": 112,
+        "rating": 0.97
+      },
+      "30": {
+        "maps": 132,
+        "rating": 0.96
+      },
+      "50": {
+        "maps": 144,
+        "rating": 0.96
+      }
+    },
+    {
+      "name": "tenzy",
+      "annual": {
+        "maps": 191,
+        "rating": 1.14
+      },
+      "5": {
+        "maps": 4,
+        "rating": 0.76
+      },
+      "10": {
+        "maps": 12,
+        "rating": 0.99
+      },
+      "20": {
+        "maps": 51,
+        "rating": 1.0
+      },
+      "30": {
+        "maps": 67,
+        "rating": 1.03
+      },
+      "50": {
+        "maps": 123,
+        "rating": 1.08
+      }
+    },
+    {
+      "name": "tN1R",
+      "annual": {
+        "maps": 161,
+        "rating": 1.04
+      },
+      "5": {
+        "maps": 49,
+        "rating": 1.03
+      },
+      "10": {
+        "maps": 76,
+        "rating": 1.02
+      },
+      "20": {
+        "maps": 121,
+        "rating": 1.03
+      },
+      "30": {
+        "maps": 134,
+        "rating": 1.02
+      },
+      "50": {
+        "maps": 145,
+        "rating": 1.02
+      }
+    },
+    {
+      "name": "torzsi",
+      "annual": {
+        "maps": 188,
+        "rating": 1.08
+      },
+      "5": {
+        "maps": 57,
+        "rating": 1.01
+      },
+      "10": {
+        "maps": 96,
+        "rating": 1.04
+      },
+      "20": {
+        "maps": 146,
+        "rating": 1.06
+      },
+      "30": {
+        "maps": 167,
+        "rating": 1.07
+      },
+      "50": {
+        "maps": 186,
+        "rating": 1.08
+      }
+    },
+    {
+      "name": "try",
+      "annual": {
+        "maps": 163,
+        "rating": 1.11
+      },
+      "5": {
+        "maps": 22,
+        "rating": 1.09
+      },
+      "10": {
+        "maps": 31,
+        "rating": 1.11
+      },
+      "20": {
+        "maps": 59,
+        "rating": 1.06
+      },
+      "30": {
+        "maps": 82,
+        "rating": 1.05
+      },
+      "50": {
+        "maps": 106,
+        "rating": 1.07
+      }
+    },
+    {
+      "name": "Vexite",
+      "annual": {
+        "maps": 124,
+        "rating": 1.3
+      },
+      "5": {
+        "maps": 0,
+        "rating": null
+      },
+      "10": {
+        "maps": 2,
+        "rating": 0.88
+      },
+      "20": {
+        "maps": 5,
+        "rating": 0.86
+      },
+      "30": {
+        "maps": 13,
+        "rating": 1.07
+      },
+      "50": {
+        "maps": 14,
+        "rating": 1.05
+      }
+    },
+    {
+      "name": "w0nderful",
+      "annual": {
+        "maps": 177,
+        "rating": 1.16
+      },
+      "5": {
+        "maps": 52,
+        "rating": 1.08
+      },
+      "10": {
+        "maps": 101,
+        "rating": 1.13
+      },
+      "20": {
+        "maps": 153,
+        "rating": 1.15
+      },
+      "30": {
+        "maps": 161,
+        "rating": 1.15
+      },
+      "50": {
+        "maps": 175,
+        "rating": 1.16
+      }
+    },
+    {
+      "name": "Wicadia",
+      "annual": {
+        "maps": 200,
+        "rating": 1.11
+      },
+      "5": {
+        "maps": 50,
+        "rating": 1.06
+      },
+      "10": {
+        "maps": 85,
+        "rating": 1.02
+      },
+      "20": {
+        "maps": 133,
+        "rating": 1.08
+      },
+      "30": {
+        "maps": 154,
+        "rating": 1.09
+      },
+      "50": {
+        "maps": 191,
+        "rating": 1.1
+      }
+    },
+    {
+      "name": "xelex",
+      "annual": {
+        "maps": 295,
+        "rating": 1.14
+      },
+      "5": {
+        "maps": 49,
+        "rating": 1.03
+      },
+      "10": {
+        "maps": 62,
+        "rating": 1.03
+      },
+      "20": {
+        "maps": 96,
+        "rating": 1.05
+      },
+      "30": {
+        "maps": 113,
+        "rating": 1.05
+      },
+      "50": {
+        "maps": 149,
+        "rating": 1.08
+      }
+    },
+    {
+      "name": "xertioN",
+      "annual": {
+        "maps": 188,
+        "rating": 1.13
+      },
+      "5": {
+        "maps": 57,
+        "rating": 0.98
+      },
+      "10": {
+        "maps": 96,
+        "rating": 1.06
+      },
+      "20": {
+        "maps": 146,
+        "rating": 1.1
+      },
+      "30": {
+        "maps": 167,
+        "rating": 1.12
+      },
+      "50": {
+        "maps": 186,
+        "rating": 1.13
+      }
+    },
+    {
+      "name": "xfl0ud",
+      "annual": {
+        "maps": 136,
+        "rating": 1.08
+      },
+      "5": {
+        "maps": 32,
+        "rating": 1.13
+      },
+      "10": {
+        "maps": 41,
+        "rating": 1.13
+      },
+      "20": {
+        "maps": 56,
+        "rating": 1.1
+      },
+      "30": {
+        "maps": 90,
+        "rating": 1.08
+      },
+      "50": {
+        "maps": 113,
+        "rating": 1.07
+      }
+    },
+    {
+      "name": "YEKINDAR",
+      "annual": {
+        "maps": 220,
+        "rating": 1.09
+      },
+      "5": {
+        "maps": 45,
+        "rating": 0.94
+      },
+      "10": {
+        "maps": 101,
+        "rating": 1.02
+      },
+      "20": {
+        "maps": 178,
+        "rating": 1.06
+      },
+      "30": {
+        "maps": 201,
+        "rating": 1.08
+      },
+      "50": {
+        "maps": 216,
+        "rating": 1.09
+      }
+    },
+    {
+      "name": "yuurih",
+      "annual": {
+        "maps": 220,
+        "rating": 0.99
+      },
+      "5": {
+        "maps": 45,
+        "rating": 0.92
+      },
+      "10": {
+        "maps": 101,
+        "rating": 0.97
+      },
+      "20": {
+        "maps": 178,
+        "rating": 0.98
+      },
+      "30": {
+        "maps": 201,
+        "rating": 0.98
+      },
+      "50": {
+        "maps": 216,
+        "rating": 0.99
+      }
+    },
+    {
+      "name": "zorte",
+      "annual": {
+        "maps": 225,
+        "rating": 1.09
+      },
+      "5": {
+        "maps": 38,
+        "rating": 0.99
+      },
+      "10": {
+        "maps": 58,
+        "rating": 1.0
+      },
+      "20": {
+        "maps": 97,
+        "rating": 1.0
+      },
+      "30": {
+        "maps": 119,
+        "rating": 1.01
+      },
+      "50": {
+        "maps": 138,
+        "rating": 1.03
+      }
+    },
+    {
+      "name": "zweih",
+      "annual": {
+        "maps": 176,
+        "rating": 1.05
+      },
+      "5": {
+        "maps": 42,
+        "rating": 0.92
+      },
+      "10": {
+        "maps": 80,
+        "rating": 0.98
+      },
+      "20": {
+        "maps": 127,
+        "rating": 0.99
+      },
+      "30": {
+        "maps": 151,
+        "rating": 1.02
+      },
+      "50": {
+        "maps": 172,
+        "rating": 1.05
+      }
+    },
+    {
+      "name": "ZywOo",
+      "annual": {
+        "maps": 171,
+        "rating": 1.39
+      },
+      "5": {
+        "maps": 52,
+        "rating": 1.31
+      },
+      "10": {
+        "maps": 99,
+        "rating": 1.35
+      },
+      "20": {
+        "maps": 140,
+        "rating": 1.38
+      },
+      "30": {
+        "maps": 152,
+        "rating": 1.39
+      },
+      "50": {
+        "maps": 169,
+        "rating": 1.38
+      }
+    }
+  ]
+}

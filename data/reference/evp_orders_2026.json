@@ -1,0 +1,315 @@
+{
+  "verified_on": "2026-11-17",
+  "basis": "Official 'best players ... in order' lists. MVP excluded from EVP positions; non-candidates retained. Award membership reconciled against archived MVP/EVP table.",
+  "pending": [],
+  "events": [
+    {
+      "event": "BLAST Bounty 2026 Season 1 Finals",
+      "source": "https://www.hltv.org/news/43729/the-evp-and-all-stars-of-blast-bounty-2026-season-1-finals",
+      "mvp": "niko",
+      "evps": [
+        "nota"
+      ],
+      "verified_on": "2026-11-16"
+    },
+    {
+      "event": "BLAST Open Rotterdam 2026",
+      "source": "https://www.hltv.org/news/44217/the-evps-and-all-stars-of-blast-open-rotterdam-2026",
+      "mvp": "ropz",
+      "evps": [
+        "zywoo",
+        "flamez",
+        "makazze",
+        "donk",
+        "wicadia"
+      ],
+      "verified_on": "2026-11-16"
+    },
+    {
+      "event": "Esports World Cup 2026",
+      "source": "https://www.hltv.org/news/45425/the-evps-and-all-stars-of-esports-world-cup-2026",
+      "mvp": "donk",
+      "evps": [
+        "try",
+        "m0nesy",
+        "molodoy",
+        "kscerato",
+        "dem0n",
+        "xfl0ud",
+        "sh1ro",
+        "latto",
+        "zywoo",
+        "tenzy"
+      ],
+      "verified_on": "2026-11-16"
+    },
+    {
+      "event": "ESL Pro League Season 24",
+      "source": "https://www.hltv.org/news/45751/the-evps-and-all-stars-of-esl-pro-league-s24",
+      "mvp": "zywoo",
+      "evps": [
+        "flamez",
+        "ropz",
+        "spinx",
+        "wicadia",
+        "m0nesy",
+        "donk"
+      ],
+      "verified_on": "2026-11-16"
+    },
+    {
+      "event": "BLAST Open Porto 2026",
+      "source": "https://www.hltv.org/news/45474/the-evps-and-all-stars-of-blast-open-porto-2026",
+      "mvp": "donk",
+      "evps": [
+        "sh1ro",
+        "xelex",
+        "m0nesy",
+        "zywoo",
+        "tn1r",
+        "spinx"
+      ],
+      "verified_on": "2026-11-16"
+    },
+    {
+      "event": "PGL Cluj-Napoca 2026",
+      "source": "https://www.hltv.org/news/43957/the-evps-and-all-stars-of-pgl-cluj-napoca-2026",
+      "mvp": "zywoo",
+      "evps": [
+        "flamez",
+        "ropz",
+        "torzsi",
+        "m0nesy",
+        "niko",
+        "xertion",
+        "910",
+        "zweih"
+      ],
+      "verified_on": "2026-11-16"
+    },
+    {
+      "event": "IEM Rio 2026",
+      "source": "https://www.hltv.org/news/44442/the-evps-and-all-stars-of-iem-rio-2026",
+      "mvp": "zywoo",
+      "evps": [
+        "m0nesy",
+        "tn1r",
+        "ropz",
+        "yuurih",
+        "donk",
+        "kscerato"
+      ],
+      "verified_on": "2026-11-16"
+    },
+    {
+      "event": "PGL Astana 2026",
+      "source": "https://www.hltv.org/news/44653/the-evps-and-all-stars-of-pgl-astana-2026",
+      "mvp": "donk",
+      "evps": [
+        "m0nesy",
+        "xertion",
+        "kyousuke",
+        "molodoy",
+        "sh1ro",
+        "tn1r",
+        "luchov",
+        "dgt"
+      ],
+      "verified_on": "2026-11-16"
+    },
+    {
+      "event": "CS Asia Championships 2026",
+      "source": "https://www.hltv.org/news/44725/the-evps-and-all-stars-of-cs-asia-championship-2026",
+      "mvp": "latto",
+      "evps": [
+        "kyousuke",
+        "insani",
+        "dumau",
+        "xertion",
+        "910",
+        "m0nesy"
+      ],
+      "verified_on": "2026-11-16"
+    },
+    {
+      "event": "XSE Pro League Guangzhou 2026",
+      "source": "https://www.hltv.org/news/45136/the-evps-and-all-stars-of-xse-pro-league-guangzhou-2026",
+      "mvp": "huasopeek",
+      "evps": [
+        "dgt",
+        "luchov",
+        "frozen",
+        "zweih",
+        "magnojez"
+      ],
+      "verified_on": "2026-11-16"
+    },
+    {
+      "event": "ESL Pro League Season 23 Finals",
+      "source": "https://www.hltv.org/news/44111/the-evps-and-all-stars-of-esl-pro-league-season-23-finals",
+      "mvp": "makazze",
+      "evps": [
+        "w0nderful",
+        "wicadia",
+        "phzy"
+      ],
+      "verified_on": "2026-11-16"
+    },
+    {
+      "event": "PGL Bucharest 2026",
+      "source": "https://www.hltv.org/news/44393/the-evps-and-all-stars-of-pgl-bucharest-2026",
+      "mvp": "cmtry",
+      "evps": [
+        "dziugss",
+        "jabbi",
+        "dem0n",
+        "launx",
+        "staehr",
+        "phzy",
+        "zweih",
+        "esenthial"
+      ],
+      "verified_on": "2026-11-16"
+    },
+    {
+      "event": "BLAST Rivals 2026 Season 1",
+      "source": "https://www.hltv.org/news/44521/the-evps-and-all-stars-of-blast-rivals-2026-season-1",
+      "mvp": "zywoo",
+      "evps": [
+        "flamez",
+        "ropz",
+        "w0nderful",
+        "makazze"
+      ],
+      "verified_on": "2026-11-16"
+    },
+    {
+      "event": "IEM Atlanta 2026",
+      "source": "https://www.hltv.org/news/44656/the-evps-and-all-stars-of-iem-atlanta-2026",
+      "mvp": "w0nderful",
+      "evps": [
+        "b1t",
+        "rez",
+        "hypex",
+        "latto",
+        "zywoo",
+        "tauson"
+      ],
+      "verified_on": "2026-11-16"
+    },
+    {
+      "event": "BLAST Bounty 2026 Season 2 Finals",
+      "source": "https://www.hltv.org/news/45242/the-evp-and-all-stars-of-blast-bounty-2026-season-2-finals",
+      "mvp": "spinx",
+      "evps": [
+        "torzsi"
+      ],
+      "verified_on": "2026-11-16"
+    },
+    {
+      "event": "StarLadder StarSeries Fall 2026",
+      "source": "https://www.hltv.org/news/45564/the-evps-and-all-stars-of-starladder-starseries-fall-2026",
+      "mvp": "zywoo",
+      "evps": [
+        "kscerato",
+        "jimpphat",
+        "ropz"
+      ],
+      "verified_on": "2026-11-16"
+    },
+    {
+      "event": "PGL Masters Bucharest 2026",
+      "source": "https://www.hltv.org/news/45920/the-evps-and-all-stars-of-pgl-masters-bucharest",
+      "mvp": "yekindar",
+      "evps": [
+        "molodoy",
+        "zywoo",
+        "pr",
+        "zorte",
+        "syph0"
+      ],
+      "verified_on": "2026-11-16"
+    },
+    {
+      "event": "IEM Beijing 2026",
+      "source": "https://www.hltv.org/news/45948/the-evps-and-all-stars-of-iem-beijing-2026",
+      "mvp": "xertion",
+      "evps": [
+        "w0nderful",
+        "torzsi",
+        "spinx",
+        "b1t",
+        "techno",
+        "pr",
+        "xelex"
+      ],
+      "verified_on": "2026-11-16"
+    },
+    {
+      "event": "FISSURE Playground 3",
+      "source": "https://www.hltv.org/news/45563/the-evps-and-all-stars-of-fissure-playground-3",
+      "mvp": "latto",
+      "evps": [
+        "nertz",
+        "n1ssim",
+        "nqz",
+        "heavygod",
+        "insani"
+      ],
+      "verified_on": "2026-11-16"
+    },
+    {
+      "event": "Thunderpick World Championship 2026",
+      "source": "https://www.hltv.org/news/45767/the-evp-and-all-stars-of-thunderpick-world-championship-2026",
+      "mvp": "kscerato",
+      "evps": [
+        "magnojez"
+      ],
+      "verified_on": "2026-11-16"
+    },
+    {
+      "event": "IEM Cologne Major 2026",
+      "source": "https://www.hltv.org/news/44989/the-evps-and-all-stars-of-iem-cologne-major-2026",
+      "mvp": "m0nesy",
+      "evps": [
+        "kyousuke",
+        "niko",
+        "donk",
+        "zywoo",
+        "molodoy",
+        "yekindar",
+        "heavygod",
+        "sh1ro",
+        "yuurih",
+        "wicadia"
+      ],
+      "verified_on": "2026-11-16"
+    },
+    {
+      "event": "IEM Kraków 2026",
+      "source": "https://www.hltv.org/news/43853/the-evps-and-all-stars-of-iem-krakow-2026",
+      "mvp": "zywoo",
+      "evps": [
+        "donk",
+        "kscerato",
+        "flamez",
+        "molodoy",
+        "sh1ro",
+        "spinx"
+      ],
+      "verified_on": "2026-11-16"
+    },
+    {
+      "event": "BLAST Rivals 2026 Season 2",
+      "source": "https://www.hltv.org/news/45998/the-evps-and-all-stars-of-blast-rivals-2026-season-2",
+      "mvp": "kscerato",
+      "evps": [
+        "molodoy",
+        "donk",
+        "ropz",
+        "m0nesy"
+      ],
+      "verified_on": "2026-11-17"
+    }
+  ]
+}

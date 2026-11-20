@@ -1,0 +1,521 @@
+{
+  "version": "HTPM-3.5",
+  "weights": {
+    "A": 0.3,
+    "E": 0.27,
+    "O": 0.23,
+    "T": 0.05,
+    "C": 0.05,
+    "N": 0.1
+  },
+  "tier_samples": {
+    "Major": {
+      "weight": 0.2,
+      "prior_maps": 12,
+      "prior_events": 0.5,
+      "target_maps": 12,
+      "target_events": 1
+    },
+    "Super-elite": {
+      "weight": 0.15,
+      "prior_maps": 12,
+      "prior_events": 0.5,
+      "target_maps": 12,
+      "target_events": 1
+    },
+    "Elite": {
+      "weight": 0.3,
+      "prior_maps": 20,
+      "prior_events": 1,
+      "target_maps": 48,
+      "target_events": 4
+    },
+    "Big": {
+      "weight": 0.3,
+      "prior_maps": 30,
+      "prior_events": 2,
+      "target_maps": 96,
+      "target_events": 8
+    },
+    "Medium": {
+      "weight": 0.05,
+      "prior_maps": 30,
+      "prior_events": 2,
+      "target_maps": 24,
+      "target_events": 3
+    }
+  },
+  "tier_coverage_map_weight": 0.6,
+  "sample_tier_weight": 0.55,
+  "opponent_sample_targets": {
+    "5": 50,
+    "10": 100,
+    "20": 150,
+    "30": 180
+  },
+  "evp_tail_step": 0.05,
+  "evp_tail_floor": 0.75,
+  "honor_factors": {
+    "BLAST Bounty 2026 Season 1 Finals": 0.6
+  },
+  "tiers": {
+    "Major": {
+      "weight": 1.8,
+      "MVP": 20,
+      "EVP1": 14,
+      "EVP2": 12,
+      "EVP": 10
+    },
+    "Super-elite": {
+      "weight": 1.5,
+      "MVP": 17,
+      "EVP1": 12,
+      "EVP2": 10,
+      "EVP": 8
+    },
+    "Elite": {
+      "weight": 1.3,
+      "MVP": 14,
+      "EVP1": 10,
+      "EVP2": 8,
+      "EVP": 6
+    },
+    "Big": {
+      "weight": 1.1,
+      "MVP": 11,
+      "EVP1": 8,
+      "EVP2": 6.5,
+      "EVP": 5
+    },
+    "Medium": {
+      "weight": 0.85,
+      "MVP": 7,
+      "EVP1": 5,
+      "EVP2": 4,
+      "EVP": 3
+    }
+  },
+  "rating": {
+    "low": 0.8,
+    "high": 1.5,
+    "prior": 1.05,
+    "prior_maps": 20
+  },
+  "opponent": {
+    "5": 0.4,
+    "10": 0.3,
+    "20": 0.2,
+    "30": 0.1
+  },
+  "award_scale": 60,
+  "event_map_cap": 16,
+  "team_scale": 5,
+  "team_rating_floor": 0.85,
+  "team_rating_span": 0.4,
+  "team_factor_cap": 1.25,
+  "team_maps_target": 8,
+  "placement_points": {
+    "1st": 1,
+    "2nd": 0.6,
+    "3rd": 0.3,
+    "4th": 0.3,
+    "3-4th": 0.3,
+    "5-6th": 0.12,
+    "5-8th": 0.12,
+    "7-8th": 0.12
+  },
+  "consistency": {
+    "prior_events": 4,
+    "positive_prior": 0.65,
+    "noncollapse_prior": 0.85,
+    "positive_threshold": 1,
+    "noncollapse_threshold": 0.9,
+    "positive_weight": 0.7
+  },
+  "sample_volume_weight": 0.7,
+  "difficulty_targets": {
+    "top10_share": 0.6,
+    "top5_share": 0.3,
+    "elite_share": 0.4
+  },
+  "difficulty_weights": {
+    "top10_share": 0.5,
+    "top5_share": 0.3,
+    "elite_share": 0.2
+  },
+  "event_prior_count": 2,
+  "opponent_prior_maps": {
+    "5": 30,
+    "10": 25,
+    "20": 20,
+    "30": 20,
+    "50": 20
+  },
+  "eligibility": {
+    "main_maps": 50,
+    "elite_maps": 20,
+    "top10_maps": 10
+  },
+  "event_tiers": {
+    "IEM Cologne Major 2026": "Major",
+    "IEM Kraków 2026": "Super-elite",
+    "Esports World Cup 2026": "Elite",
+    "ESL Pro League Season 24": "Elite",
+    "BLAST Open Porto 2026": "Elite",
+    "BLAST Open Rotterdam 2026": "Elite",
+    "BLAST Bounty 2026 Season 1 Finals": "Big",
+    "BLAST Rivals 2026 Season 1": "Big",
+    "BLAST Rivals 2026 Season 2": "Big",
+    "ESL Pro League Season 23 Finals": "Big",
+    "IEM Atlanta 2026": "Big",
+    "IEM Beijing 2026": "Big",
+    "IEM Rio 2026": "Big",
+    "PGL Astana 2026": "Big",
+    "PGL Cluj-Napoca 2026": "Big",
+    "PGL Masters Bucharest 2026": "Big",
+    "StarLadder StarSeries Fall 2026": "Big",
+    "Thunderpick World Championship 2026": "Big",
+    "BLAST Bounty 2026 Season 2 Finals": "Medium",
+    "PGL Bucharest 2026": "Medium",
+    "XSE Pro League Guangzhou 2026": "Medium",
+    "CS Asia Championships 2026": "Medium",
+    "FISSURE Playground 3": "Medium"
+  },
+  "event_medals": {
+    "IEM Cologne Major 2026": "gold",
+    "IEM Kraków 2026": "silver",
+    "Esports World Cup 2026": "silver",
+    "ESL Pro League Season 24": "silver",
+    "BLAST Open Porto 2026": "silver",
+    "BLAST Open Rotterdam 2026": "silver",
+    "BLAST Bounty 2026 Season 1 Finals": "silver",
+    "BLAST Rivals 2026 Season 1": "silver",
+    "BLAST Rivals 2026 Season 2": "silver",
+    "ESL Pro League Season 23 Finals": "silver",
+    "IEM Atlanta 2026": "silver",
+    "IEM Beijing 2026": "silver",
+    "IEM Rio 2026": "silver",
+    "PGL Astana 2026": "silver",
+    "PGL Cluj-Napoca 2026": "silver",
+    "PGL Masters Bucharest 2026": "silver",
+    "StarLadder StarSeries Fall 2026": "silver",
+    "Thunderpick World Championship 2026": "silver",
+    "BLAST Bounty 2026 Season 2 Finals": "bronze",
+    "PGL Bucharest 2026": "bronze",
+    "XSE Pro League Guangzhou 2026": "bronze",
+    "CS Asia Championships 2026": "bronze",
+    "FISSURE Playground 3": "bronze"
+  },
+  "tier_policy": "user-2026-11-16-medal",
+  "verified_evp_orders": {
+    "BLAST Bounty 2026 Season 1 Finals": {
+      "event": "BLAST Bounty 2026 Season 1 Finals",
+      "source": "https://www.hltv.org/news/43729/the-evp-and-all-stars-of-blast-bounty-2026-season-1-finals",
+      "mvp": "niko",
+      "evps": [
+        "nota"
+      ],
+      "verified_on": "2026-11-16"
+    },
+    "BLAST Open Rotterdam 2026": {
+      "event": "BLAST Open Rotterdam 2026",
+      "source": "https://www.hltv.org/news/44217/the-evps-and-all-stars-of-blast-open-rotterdam-2026",
+      "mvp": "ropz",
+      "evps": [
+        "zywoo",
+        "flamez",
+        "makazze",
+        "donk",
+        "wicadia"
+      ],
+      "verified_on": "2026-11-16"
+    },
+    "Esports World Cup 2026": {
+      "event": "Esports World Cup 2026",
+      "source": "https://www.hltv.org/news/45425/the-evps-and-all-stars-of-esports-world-cup-2026",
+      "mvp": "donk",
+      "evps": [
+        "try",
+        "m0nesy",
+        "molodoy",
+        "kscerato",
+        "dem0n",
+        "xfl0ud",
+        "sh1ro",
+        "latto",
+        "zywoo",
+        "tenzy"
+      ],
+      "verified_on": "2026-11-16"
+    },
+    "ESL Pro League Season 24": {
+      "event": "ESL Pro League Season 24",
+      "source": "https://www.hltv.org/news/45751/the-evps-and-all-stars-of-esl-pro-league-s24",
+      "mvp": "zywoo",
+      "evps": [
+        "flamez",
+        "ropz",
+        "spinx",
+        "wicadia",
+        "m0nesy",
+        "donk"
+      ],
+      "verified_on": "2026-11-16"
+    },
+    "BLAST Open Porto 2026": {
+      "event": "BLAST Open Porto 2026",
+      "source": "https://www.hltv.org/news/45474/the-evps-and-all-stars-of-blast-open-porto-2026",
+      "mvp": "donk",
+      "evps": [
+        "sh1ro",
+        "xelex",
+        "m0nesy",
+        "zywoo",
+        "tn1r",
+        "spinx"
+      ],
+      "verified_on": "2026-11-16"
+    },
+    "PGL Cluj-Napoca 2026": {
+      "event": "PGL Cluj-Napoca 2026",
+      "source": "https://www.hltv.org/news/43957/the-evps-and-all-stars-of-pgl-cluj-napoca-2026",
+      "mvp": "zywoo",
+      "evps": [
+        "flamez",
+        "ropz",
+        "torzsi",
+        "m0nesy",
+        "niko",
+        "xertion",
+        "910",
+        "zweih"
+      ],
+      "verified_on": "2026-11-16"
+    },
+    "IEM Rio 2026": {
+      "event": "IEM Rio 2026",
+      "source": "https://www.hltv.org/news/44442/the-evps-and-all-stars-of-iem-rio-2026",
+      "mvp": "zywoo",
+      "evps": [
+        "m0nesy",
+        "tn1r",
+        "ropz",
+        "yuurih",
+        "donk",
+        "kscerato"
+      ],
+      "verified_on": "2026-11-16"
+    },
+    "PGL Astana 2026": {
+      "event": "PGL Astana 2026",
+      "source": "https://www.hltv.org/news/44653/the-evps-and-all-stars-of-pgl-astana-2026",
+      "mvp": "donk",
+      "evps": [
+        "m0nesy",
+        "xertion",
+        "kyousuke",
+        "molodoy",
+        "sh1ro",
+        "tn1r",
+        "luchov",
+        "dgt"
+      ],
+      "verified_on": "2026-11-16"
+    },
+    "CS Asia Championships 2026": {
+      "event": "CS Asia Championships 2026",
+      "source": "https://www.hltv.org/news/44725/the-evps-and-all-stars-of-cs-asia-championship-2026",
+      "mvp": "latto",
+      "evps": [
+        "kyousuke",
+        "insani",
+        "dumau",
+        "xertion",
+        "910",
+        "m0nesy"
+      ],
+      "verified_on": "2026-11-16"
+    },
+    "XSE Pro League Guangzhou 2026": {
+      "event": "XSE Pro League Guangzhou 2026",
+      "source": "https://www.hltv.org/news/45136/the-evps-and-all-stars-of-xse-pro-league-guangzhou-2026",
+      "mvp": "huasopeek",
+      "evps": [
+        "dgt",
+        "luchov",
+        "frozen",
+        "zweih",
+        "magnojez"
+      ],
+      "verified_on": "2026-11-16"
+    },
+    "ESL Pro League Season 23 Finals": {
+      "event": "ESL Pro League Season 23 Finals",
+      "source": "https://www.hltv.org/news/44111/the-evps-and-all-stars-of-esl-pro-league-season-23-finals",
+      "mvp": "makazze",
+      "evps": [
+        "w0nderful",
+        "wicadia",
+        "phzy"
+      ],
+      "verified_on": "2026-11-16"
+    },
+    "PGL Bucharest 2026": {
+      "event": "PGL Bucharest 2026",
+      "source": "https://www.hltv.org/news/44393/the-evps-and-all-stars-of-pgl-bucharest-2026",
+      "mvp": "cmtry",
+      "evps": [
+        "dziugss",
+        "jabbi",
+        "dem0n",
+        "launx",
+        "staehr",
+        "phzy",
+        "zweih",
+        "esenthial"
+      ],
+      "verified_on": "2026-11-16"
+    },
+    "BLAST Rivals 2026 Season 1": {
+      "event": "BLAST Rivals 2026 Season 1",
+      "source": "https://www.hltv.org/news/44521/the-evps-and-all-stars-of-blast-rivals-2026-season-1",
+      "mvp": "zywoo",
+      "evps": [
+        "flamez",
+        "ropz",
+        "w0nderful",
+        "makazze"
+      ],
+      "verified_on": "2026-11-16"
+    },
+    "IEM Atlanta 2026": {
+      "event": "IEM Atlanta 2026",
+      "source": "https://www.hltv.org/news/44656/the-evps-and-all-stars-of-iem-atlanta-2026",
+      "mvp": "w0nderful",
+      "evps": [
+        "b1t",
+        "rez",
+        "hypex",
+        "latto",
+        "zywoo",
+        "tauson"
+      ],
+      "verified_on": "2026-11-16"
+    },
+    "BLAST Bounty 2026 Season 2 Finals": {
+      "event": "BLAST Bounty 2026 Season 2 Finals",
+      "source": "https://www.hltv.org/news/45242/the-evp-and-all-stars-of-blast-bounty-2026-season-2-finals",
+      "mvp": "spinx",
+      "evps": [
+        "torzsi"
+      ],
+      "verified_on": "2026-11-16"
+    },
+    "StarLadder StarSeries Fall 2026": {
+      "event": "StarLadder StarSeries Fall 2026",
+      "source": "https://www.hltv.org/news/45564/the-evps-and-all-stars-of-starladder-starseries-fall-2026",
+      "mvp": "zywoo",
+      "evps": [
+        "kscerato",
+        "jimpphat",
+        "ropz"
+      ],
+      "verified_on": "2026-11-16"
+    },
+    "PGL Masters Bucharest 2026": {
+      "event": "PGL Masters Bucharest 2026",
+      "source": "https://www.hltv.org/news/45920/the-evps-and-all-stars-of-pgl-masters-bucharest",
+      "mvp": "yekindar",
+      "evps": [
+        "molodoy",
+        "zywoo",
+        "pr",
+        "zorte",
+        "syph0"
+      ],
+      "verified_on": "2026-11-16"
+    },
+    "IEM Beijing 2026": {
+      "event": "IEM Beijing 2026",
+      "source": "https://www.hltv.org/news/45948/the-evps-and-all-stars-of-iem-beijing-2026",
+      "mvp": "xertion",
+      "evps": [
+        "w0nderful",
+        "torzsi",
+        "spinx",
+        "b1t",
+        "techno",
+        "pr",
+        "xelex"
+      ],
+      "verified_on": "2026-11-16"
+    },
+    "FISSURE Playground 3": {
+      "event": "FISSURE Playground 3",
+      "source": "https://www.hltv.org/news/45563/the-evps-and-all-stars-of-fissure-playground-3",
+      "mvp": "latto",
+      "evps": [
+        "nertz",
+        "n1ssim",
+        "nqz",
+        "heavygod",
+        "insani"
+      ],
+      "verified_on": "2026-11-16"
+    },
+    "Thunderpick World Championship 2026": {
+      "event": "Thunderpick World Championship 2026",
+      "source": "https://www.hltv.org/news/45767/the-evp-and-all-stars-of-thunderpick-world-championship-2026",
+      "mvp": "kscerato",
+      "evps": [
+        "magnojez"
+      ],
+      "verified_on": "2026-11-16"
+    },
+    "IEM Cologne Major 2026": {
+      "event": "IEM Cologne Major 2026",
+      "source": "https://www.hltv.org/news/44989/the-evps-and-all-stars-of-iem-cologne-major-2026",
+      "mvp": "m0nesy",
+      "evps": [
+        "kyousuke",
+        "niko",
+        "donk",
+        "zywoo",
+        "molodoy",
+        "yekindar",
+        "heavygod",
+        "sh1ro",
+        "yuurih",
+        "wicadia"
+      ],
+      "verified_on": "2026-11-16"
+    },
+    "IEM Kraków 2026": {
+      "event": "IEM Kraków 2026",
+      "source": "https://www.hltv.org/news/43853/the-evps-and-all-stars-of-iem-krakow-2026",
+      "mvp": "zywoo",
+      "evps": [
+        "donk",
+        "kscerato",
+        "flamez",
+        "molodoy",
+        "sh1ro",
+        "spinx"
+      ],
+      "verified_on": "2026-11-16"
+    },
+    "BLAST Rivals 2026 Season 2": {
+      "event": "BLAST Rivals 2026 Season 2",
+      "source": "https://www.hltv.org/news/45998/the-evps-and-all-stars-of-blast-rivals-2026-season-2",
+      "mvp": "kscerato",
+      "evps": [
+        "molodoy",
+        "donk",
+        "ropz",
+        "m0nesy"
+      ],
+      "verified_on": "2026-11-17"
+    }
+  },
+  "pending_awards": []
+}

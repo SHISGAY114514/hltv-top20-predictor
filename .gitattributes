@@ -1,0 +1,6 @@
+* text=auto eol=lf
+# Keep the exact bytes of versioned inputs used in SHA-256 manifests.
+data/** -text
+config/** -text
+*.png binary
+*.gz binary

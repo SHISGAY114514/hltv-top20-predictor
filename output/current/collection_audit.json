@@ -1,0 +1,587 @@
+{
+  "retrieved_on": "2026-11-17",
+  "query_start": "2026-01-01",
+  "query_end": "2026-12-31",
+  "players": [
+    {
+      "id": "910",
+      "source": "https://www.hltv.org/stats/players/21809/910?endDate=2026-12-31&startDate=2026-01-01",
+      "event_source": "https://www.hltv.org/stats/players/events/21809/910?endDate=2026-12-31&startDate=2026-01-01",
+      "retrieved_on": "2026-11-17",
+      "annual_maps": 155,
+      "event_maps": 155,
+      "event_count": 16,
+      "maps_reconciled": true
+    },
+    {
+      "id": "b1t",
+      "source": "https://www.hltv.org/stats/players/18987/b1t?endDate=2026-12-31&startDate=2026-01-01",
+      "event_source": "https://www.hltv.org/stats/players/events/18987/b1t?endDate=2026-12-31&startDate=2026-01-01",
+      "retrieved_on": "2026-11-17",
+      "annual_maps": 177,
+      "event_maps": 177,
+      "event_count": 17,
+      "maps_reconciled": true
+    },
+    {
+      "id": "cmtry",
+      "source": "https://www.hltv.org/stats/players/22674/cmtry?endDate=2026-12-31&startDate=2026-01-01",
+      "event_source": "https://www.hltv.org/stats/players/events/22674/cmtry?endDate=2026-12-31&startDate=2026-01-01",
+      "retrieved_on": "2026-11-17",
+      "annual_maps": 155,
+      "event_maps": 155,
+      "event_count": 18,
+      "maps_reconciled": true
+    },
+    {
+      "id": "dem0n",
+      "source": "https://www.hltv.org/stats/players/20584/dem0n?endDate=2026-12-31&startDate=2026-01-01",
+      "event_source": "https://www.hltv.org/stats/players/events/20584/dem0n?endDate=2026-12-31&startDate=2026-01-01",
+      "retrieved_on": "2026-11-17",
+      "annual_maps": 160,
+      "event_maps": 160,
+      "event_count": 18,
+      "maps_reconciled": true
+    },
+    {
+      "id": "dgt",
+      "source": "https://www.hltv.org/stats/players/14736/dgt?csVersion=CS2&endDate=2026-12-31&startDate=2026-01-01",
+      "event_source": "https://www.hltv.org/stats/players/events/14736/dgt?endDate=2026-12-31&startDate=2026-01-01",
+      "retrieved_on": "2026-11-17",
+      "annual_maps": 229,
+      "event_maps": 229,
+      "event_count": 24,
+      "maps_reconciled": true
+    },
+    {
+      "id": "donk",
+      "source": "https://www.hltv.org/stats/players/21167/donk?endDate=2026-12-31&startDate=2026-01-01",
+      "event_source": "https://www.hltv.org/stats/players/events/21167/donk?endDate=2026-12-31&startDate=2026-01-01",
+      "retrieved_on": "2026-11-17",
+      "annual_maps": 172,
+      "event_maps": 172,
+      "event_count": 17,
+      "maps_reconciled": true
+    },
+    {
+      "id": "dumau",
+      "source": "https://www.hltv.org/stats/players/15698/dumau?endDate=2026-12-31&startDate=2026-01-01",
+      "event_source": "https://www.hltv.org/stats/players/events/15698/dumau?endDate=2026-12-31&startDate=2026-01-01",
+      "retrieved_on": "2026-11-17",
+      "annual_maps": 190,
+      "event_maps": 190,
+      "event_count": 21,
+      "maps_reconciled": true
+    },
+    {
+      "id": "dziugss",
+      "source": "https://www.hltv.org/stats/players/23553/dziugss?endDate=2026-12-31&startDate=2026-01-01",
+      "event_source": "https://www.hltv.org/stats/players/events/23553/dziugss?endDate=2026-12-31&startDate=2026-01-01",
+      "retrieved_on": "2026-11-17",
+      "annual_maps": 160,
+      "event_maps": 160,
+      "event_count": 18,
+      "maps_reconciled": true
+    },
+    {
+      "id": "esenthial",
+      "source": "https://www.hltv.org/stats/players/23643/esenthial?endDate=2026-12-31&startDate=2026-01-01",
+      "event_source": "https://www.hltv.org/stats/players/events/23643/esenthial?endDate=2026-12-31&startDate=2026-01-01",
+      "retrieved_on": "2026-11-17",
+      "annual_maps": 184,
+      "event_maps": 184,
+      "event_count": 21,
+      "maps_reconciled": true
+    },
+    {
+      "id": "flamez",
+      "source": "https://www.hltv.org/stats/players/16693/flamez?endDate=2026-12-31&startDate=2026-01-01",
+      "event_source": "https://www.hltv.org/stats/players/events/16693/flamez?endDate=2026-12-31&startDate=2026-01-01",
+      "retrieved_on": "2026-11-17",
+      "annual_maps": 178,
+      "event_maps": 178,
+      "event_count": 16,
+      "maps_reconciled": true
+    },
+    {
+      "id": "frozen",
+      "source": "https://www.hltv.org/stats/players/9960/frozen?endDate=2026-12-31&startDate=2026-01-01",
+      "event_source": "https://www.hltv.org/stats/players/events/9960/frozen?endDate=2026-12-31&startDate=2026-01-01",
+      "retrieved_on": "2026-11-17",
+      "annual_maps": 168,
+      "event_maps": 168,
+      "event_count": 22,
+      "maps_reconciled": true
+    },
+    {
+      "id": "heavygod",
+      "source": "https://www.hltv.org/stats/players/20447/heavygod?endDate=2026-12-31&startDate=2026-01-01",
+      "event_source": "https://www.hltv.org/stats/players/events/20447/heavygod?endDate=2026-12-31&startDate=2026-01-01",
+      "retrieved_on": "2026-11-17",
+      "annual_maps": 208,
+      "event_maps": 208,
+      "event_count": 21,
+      "maps_reconciled": true
+    },
+    {
+      "id": "huasopeek",
+      "source": "https://www.hltv.org/stats/players/22613/huasopeek?endDate=2026-12-31&startDate=2026-01-01",
+      "event_source": "https://www.hltv.org/stats/players/events/22613/huasopeek?endDate=2026-12-31&startDate=2026-01-01",
+      "retrieved_on": "2026-11-17",
+      "annual_maps": 229,
+      "event_maps": 229,
+      "event_count": 24,
+      "maps_reconciled": true
+    },
+    {
+      "id": "hypex",
+      "source": "https://www.hltv.org/stats/players/23766/hypex?endDate=2026-12-31&startDate=2026-01-01",
+      "event_source": "https://www.hltv.org/stats/players/events/23766/hypex?endDate=2026-12-31&startDate=2026-01-01",
+      "retrieved_on": "2026-11-17",
+      "annual_maps": 166,
+      "event_maps": 166,
+      "event_count": 23,
+      "maps_reconciled": true
+    },
+    {
+      "id": "insani",
+      "source": "https://www.hltv.org/stats/players/21037/insani?endDate=2026-12-31&startDate=2026-01-01",
+      "event_source": "https://www.hltv.org/stats/players/events/21037/insani?endDate=2026-12-31&startDate=2026-01-01",
+      "retrieved_on": "2026-11-17",
+      "annual_maps": 189,
+      "event_maps": 189,
+      "event_count": 20,
+      "maps_reconciled": true
+    },
+    {
+      "id": "jabbi",
+      "source": "https://www.hltv.org/stats/players/17956/jabbi?endDate=2026-12-31&startDate=2026-01-01",
+      "event_source": "https://www.hltv.org/stats/players/events/17956/jabbi?endDate=2026-12-31&startDate=2026-01-01",
+      "retrieved_on": "2026-11-17",
+      "annual_maps": 172,
+      "event_maps": 172,
+      "event_count": 19,
+      "maps_reconciled": true
+    },
+    {
+      "id": "jamyoung",
+      "source": "https://www.hltv.org/stats/players/19645/jamyoung?endDate=2026-12-31&startDate=2026-01-01",
+      "event_source": "https://www.hltv.org/stats/players/events/19645/jamyoung?endDate=2026-12-31&startDate=2026-01-01",
+      "retrieved_on": "2026-11-17",
+      "annual_maps": 161,
+      "event_maps": 161,
+      "event_count": 22,
+      "maps_reconciled": true
+    },
+    {
+      "id": "jimpphat",
+      "source": "https://www.hltv.org/stats/players/18850/jimpphat?endDate=2026-12-31&startDate=2026-01-01",
+      "event_source": "https://www.hltv.org/stats/players/events/18850/jimpphat?endDate=2026-12-31&startDate=2026-01-01",
+      "retrieved_on": "2026-11-17",
+      "annual_maps": 145,
+      "event_maps": 145,
+      "event_count": 16,
+      "maps_reconciled": true
+    },
+    {
+      "id": "kscerato",
+      "source": "https://www.hltv.org/stats/players/15631/kscerato?endDate=2026-12-31&startDate=2026-01-01",
+      "event_source": "https://www.hltv.org/stats/players/events/15631/kscerato?endDate=2026-12-31&startDate=2026-01-01",
+      "retrieved_on": "2026-11-17",
+      "annual_maps": 230,
+      "event_maps": 230,
+      "event_count": 20,
+      "maps_reconciled": true
+    },
+    {
+      "id": "kyousuke",
+      "source": "https://www.hltv.org/stats/players/24177/kyousuke?endDate=2026-12-31&startDate=2026-01-01",
+      "event_source": "https://www.hltv.org/stats/players/events/24177/kyousuke?endDate=2026-12-31&startDate=2026-01-01",
+      "retrieved_on": "2026-11-17",
+      "annual_maps": 162,
+      "event_maps": 162,
+      "event_count": 15,
+      "maps_reconciled": true
+    },
+    {
+      "id": "latto",
+      "source": "https://www.hltv.org/stats/players/19045/latto?endDate=2026-12-31&startDate=2026-01-01",
+      "event_source": "https://www.hltv.org/stats/players/events/19045/latto?endDate=2026-12-31&startDate=2026-01-01",
+      "retrieved_on": "2026-11-17",
+      "annual_maps": 190,
+      "event_maps": 190,
+      "event_count": 21,
+      "maps_reconciled": true
+    },
+    {
+      "id": "launx",
+      "source": "https://www.hltv.org/stats/players/20761/launx?csVersion=CS2&endDate=2026-12-31&startDate=2026-01-01",
+      "event_source": "https://www.hltv.org/stats/players/events/20761/launx?endDate=2026-12-31&startDate=2026-01-01",
+      "retrieved_on": "2026-11-17",
+      "annual_maps": 112,
+      "event_maps": 112,
+      "event_count": 13,
+      "maps_reconciled": true
+    },
+    {
+      "id": "luchov",
+      "source": "https://www.hltv.org/stats/players/20394/luchov?csVersion=CS2&endDate=2026-12-31&startDate=2026-01-01",
+      "event_source": "https://www.hltv.org/stats/players/events/20394/luchov?endDate=2026-12-31&startDate=2026-01-01",
+      "retrieved_on": "2026-11-17",
+      "annual_maps": 229,
+      "event_maps": 229,
+      "event_count": 24,
+      "maps_reconciled": true
+    },
+    {
+      "id": "m0nesy",
+      "source": "https://www.hltv.org/stats/players/19230/m0nesy?endDate=2026-12-31&startDate=2026-01-01",
+      "event_source": "https://www.hltv.org/stats/players/events/19230/m0nesy?endDate=2026-12-31&startDate=2026-01-01",
+      "retrieved_on": "2026-11-17",
+      "annual_maps": 172,
+      "event_maps": 172,
+      "event_count": 16,
+      "maps_reconciled": true
+    },
+    {
+      "id": "magnojez",
+      "source": "https://www.hltv.org/stats/players/21667/magnojez?endDate=2026-12-31&startDate=2026-01-01",
+      "event_source": "https://www.hltv.org/stats/players/events/21667/magnojez?endDate=2026-12-31&startDate=2026-01-01",
+      "retrieved_on": "2026-11-17",
+      "annual_maps": 221,
+      "event_maps": 221,
+      "event_count": 23,
+      "maps_reconciled": true
+    },
+    {
+      "id": "makazze",
+      "source": "https://www.hltv.org/stats/players/22673/makazze?endDate=2026-12-31&startDate=2026-01-01",
+      "event_source": "https://www.hltv.org/stats/players/events/22673/makazze?endDate=2026-12-31&startDate=2026-01-01",
+      "retrieved_on": "2026-11-17",
+      "annual_maps": 177,
+      "event_maps": 177,
+      "event_count": 17,
+      "maps_reconciled": true
+    },
+    {
+      "id": "molodoy",
+      "source": "https://www.hltv.org/stats/players/24144/molodoy?endDate=2026-12-31&startDate=2026-01-01",
+      "event_source": "https://www.hltv.org/stats/players/events/24144/molodoy?endDate=2026-12-31&startDate=2026-01-01",
+      "retrieved_on": "2026-11-17",
+      "annual_maps": 230,
+      "event_maps": 230,
+      "event_count": 20,
+      "maps_reconciled": true
+    },
+    {
+      "id": "n1ssim",
+      "source": "https://www.hltv.org/stats/players/19686/n1ssim?endDate=2026-12-31&startDate=2026-01-01",
+      "event_source": "https://www.hltv.org/stats/players/events/19686/n1ssim?endDate=2026-12-31&startDate=2026-01-01",
+      "retrieved_on": "2026-11-17",
+      "annual_maps": 180,
+      "event_maps": 180,
+      "event_count": 19,
+      "maps_reconciled": true
+    },
+    {
+      "id": "nertz",
+      "source": "https://www.hltv.org/stats/players/9436/nertz?endDate=2026-12-31&startDate=2026-01-01",
+      "event_source": "https://www.hltv.org/stats/players/events/9436/nertz?endDate=2026-12-31&startDate=2026-01-01",
+      "retrieved_on": "2026-11-17",
+      "annual_maps": 185,
+      "event_maps": 185,
+      "event_count": 20,
+      "maps_reconciled": true
+    },
+    {
+      "id": "niko",
+      "source": "https://www.hltv.org/stats/players/3741/niko?endDate=2026-12-31&startDate=2026-01-01",
+      "event_source": "https://www.hltv.org/stats/players/events/3741/niko?endDate=2026-12-31&startDate=2026-01-01",
+      "retrieved_on": "2026-11-17",
+      "annual_maps": 172,
+      "event_maps": 172,
+      "event_count": 16,
+      "maps_reconciled": true
+    },
+    {
+      "id": "nota",
+      "source": "https://www.hltv.org/stats/players/22929/nota?endDate=2026-12-31&startDate=2026-01-01",
+      "event_source": "https://www.hltv.org/stats/players/events/22929/nota?endDate=2026-12-31&startDate=2026-01-01",
+      "retrieved_on": "2026-11-17",
+      "annual_maps": 143,
+      "event_maps": 143,
+      "event_count": 18,
+      "maps_reconciled": true
+    },
+    {
+      "id": "nqz",
+      "source": "https://www.hltv.org/stats/players/19694/nqz?endDate=2026-12-31&startDate=2026-01-01",
+      "event_source": "https://www.hltv.org/stats/players/events/19694/nqz?endDate=2026-12-31&startDate=2026-01-01",
+      "retrieved_on": "2026-11-17",
+      "annual_maps": 142,
+      "event_maps": 142,
+      "event_count": 15,
+      "maps_reconciled": true
+    },
+    {
+      "id": "phzy",
+      "source": "https://www.hltv.org/stats/players/16726/phzy?endDate=2026-12-31&startDate=2026-01-01",
+      "event_source": "https://www.hltv.org/stats/players/events/16726/phzy?endDate=2026-12-31&startDate=2026-01-01",
+      "retrieved_on": "2026-11-17",
+      "annual_maps": 182,
+      "event_maps": 182,
+      "event_count": 20,
+      "maps_reconciled": true
+    },
+    {
+      "id": "pr",
+      "source": "https://www.hltv.org/stats/players/22279/pr?endDate=2026-12-31&startDate=2026-01-01",
+      "event_source": "https://www.hltv.org/stats/players/events/22279/pr?endDate=2026-12-31&startDate=2026-01-01",
+      "retrieved_on": "2026-11-17",
+      "annual_maps": 193,
+      "event_maps": 193,
+      "event_count": 22,
+      "maps_reconciled": true
+    },
+    {
+      "id": "rez",
+      "source": "https://www.hltv.org/stats/players/9278/rez?endDate=2026-12-31&startDate=2026-01-01",
+      "event_source": "https://www.hltv.org/stats/players/events/9278/rez?endDate=2026-12-31&startDate=2026-01-01",
+      "retrieved_on": "2026-11-17",
+      "annual_maps": 161,
+      "event_maps": 161,
+      "event_count": 22,
+      "maps_reconciled": true
+    },
+    {
+      "id": "ropz",
+      "source": "https://www.hltv.org/stats/players/11816/ropz?endDate=2026-12-31&startDate=2026-01-01",
+      "event_source": "https://www.hltv.org/stats/players/events/11816/ropz?endDate=2026-12-31&startDate=2026-01-01",
+      "retrieved_on": "2026-11-17",
+      "annual_maps": 178,
+      "event_maps": 178,
+      "event_count": 16,
+      "maps_reconciled": true
+    },
+    {
+      "id": "senzu",
+      "source": "https://www.hltv.org/stats/players/20903/senzu?endDate=2026-12-31&startDate=2026-01-01",
+      "event_source": "https://www.hltv.org/stats/players/events/20903/senzu?endDate=2026-12-31&startDate=2026-01-01",
+      "retrieved_on": "2026-11-17",
+      "annual_maps": 116,
+      "event_maps": 116,
+      "event_count": 15,
+      "maps_reconciled": true
+    },
+    {
+      "id": "sh1ro",
+      "source": "https://www.hltv.org/stats/players/16920/sh1ro?endDate=2026-12-31&startDate=2026-01-01",
+      "event_source": "https://www.hltv.org/stats/players/events/16920/sh1ro?endDate=2026-12-31&startDate=2026-01-01",
+      "retrieved_on": "2026-11-17",
+      "annual_maps": 172,
+      "event_maps": 172,
+      "event_count": 17,
+      "maps_reconciled": true
+    },
+    {
+      "id": "spinx",
+      "source": "https://www.hltv.org/stats/players/18221/spinx?endDate=2026-12-31&startDate=2026-01-01",
+      "event_source": "https://www.hltv.org/stats/players/events/18221/spinx?endDate=2026-12-31&startDate=2026-01-01",
+      "retrieved_on": "2026-11-17",
+      "annual_maps": 198,
+      "event_maps": 198,
+      "event_count": 18,
+      "maps_reconciled": true
+    },
+    {
+      "id": "staehr",
+      "source": "https://www.hltv.org/stats/players/20304/staehr?csVersion=CS2&endDate=2026-12-31&startDate=2026-01-01",
+      "event_source": "https://www.hltv.org/stats/players/events/20304/staehr?endDate=2026-12-31&startDate=2026-01-01",
+      "retrieved_on": "2026-11-17",
+      "annual_maps": 182,
+      "event_maps": 182,
+      "event_count": 20,
+      "maps_reconciled": true
+    },
+    {
+      "id": "syph0",
+      "source": "https://www.hltv.org/stats/players/23319/syph0?endDate=2026-12-31&startDate=2026-01-01",
+      "event_source": "https://www.hltv.org/stats/players/events/23319/syph0?endDate=2026-12-31&startDate=2026-01-01",
+      "retrieved_on": "2026-11-17",
+      "annual_maps": 313,
+      "event_maps": 313,
+      "event_count": 39,
+      "maps_reconciled": true
+    },
+    {
+      "id": "tauson",
+      "source": "https://www.hltv.org/stats/players/20301/tauson?endDate=2026-12-31&startDate=2026-01-01",
+      "event_source": "https://www.hltv.org/stats/players/events/20301/tauson?endDate=2026-12-31&startDate=2026-01-01",
+      "retrieved_on": "2026-11-17",
+      "annual_maps": 163,
+      "event_maps": 163,
+      "event_count": 22,
+      "maps_reconciled": true
+    },
+    {
+      "id": "techno",
+      "source": "https://www.hltv.org/stats/players/20275/techno?endDate=2026-12-31&startDate=2026-01-01",
+      "event_source": "https://www.hltv.org/stats/players/events/20275/techno?endDate=2026-12-31&startDate=2026-01-01",
+      "retrieved_on": "2026-11-17",
+      "annual_maps": 150,
+      "event_maps": 150,
+      "event_count": 15,
+      "maps_reconciled": true
+    },
+    {
+      "id": "tenzy",
+      "source": "https://www.hltv.org/stats/players/24173/tenzy?endDate=2026-12-31&startDate=2026-01-01",
+      "event_source": "https://www.hltv.org/stats/players/events/24173/tenzy?endDate=2026-12-31&startDate=2026-01-01",
+      "retrieved_on": "2026-11-17",
+      "annual_maps": 202,
+      "event_maps": 202,
+      "event_count": 26,
+      "maps_reconciled": true
+    },
+    {
+      "id": "tn1r",
+      "source": "https://www.hltv.org/stats/players/19808/tn1r?endDate=2026-12-31&startDate=2026-01-01",
+      "event_source": "https://www.hltv.org/stats/players/events/19808/tn1r?endDate=2026-12-31&startDate=2026-01-01",
+      "retrieved_on": "2026-11-17",
+      "annual_maps": 172,
+      "event_maps": 172,
+      "event_count": 17,
+      "maps_reconciled": true
+    },
+    {
+      "id": "torzsi",
+      "source": "https://www.hltv.org/stats/players/18072/torzsi?endDate=2026-12-31&startDate=2026-01-01",
+      "event_source": "https://www.hltv.org/stats/players/events/18072/torzsi?endDate=2026-12-31&startDate=2026-01-01",
+      "retrieved_on": "2026-11-17",
+      "annual_maps": 198,
+      "event_maps": 198,
+      "event_count": 18,
+      "maps_reconciled": true
+    },
+    {
+      "id": "try",
+      "source": "https://www.hltv.org/stats/players/19869/try?endDate=2026-12-31&startDate=2026-01-01",
+      "event_source": "https://www.hltv.org/stats/players/events/19869/try?endDate=2026-12-31&startDate=2026-01-01",
+      "retrieved_on": "2026-11-17",
+      "annual_maps": 167,
+      "event_maps": 167,
+      "event_count": 22,
+      "maps_reconciled": true
+    },
+    {
+      "id": "vexite",
+      "source": "https://www.hltv.org/stats/players/17384/vexite?endDate=2026-12-31&startDate=2026-01-01",
+      "event_source": "https://www.hltv.org/stats/players/events/17384/vexite?endDate=2026-12-31&startDate=2026-01-01",
+      "retrieved_on": "2026-11-17",
+      "annual_maps": 124,
+      "event_maps": 124,
+      "event_count": 16,
+      "maps_reconciled": true
+    },
+    {
+      "id": "w0nderful",
+      "source": "https://www.hltv.org/stats/players/20127/w0nderful?endDate=2026-12-31&startDate=2026-01-01",
+      "event_source": "https://www.hltv.org/stats/players/events/20127/w0nderful?endDate=2026-12-31&startDate=2026-01-01",
+      "retrieved_on": "2026-11-17",
+      "annual_maps": 177,
+      "event_maps": 177,
+      "event_count": 17,
+      "maps_reconciled": true
+    },
+    {
+      "id": "wicadia",
+      "source": "https://www.hltv.org/stats/players/21243/wicadia?endDate=2026-12-31&startDate=2026-01-01",
+      "event_source": "https://www.hltv.org/stats/players/events/21243/wicadia?endDate=2026-12-31&startDate=2026-01-01",
+      "retrieved_on": "2026-11-17",
+      "annual_maps": 200,
+      "event_maps": 200,
+      "event_count": 20,
+      "maps_reconciled": true
+    },
+    {
+      "id": "xelex",
+      "source": "https://www.hltv.org/stats/players/24457/xelex?csVersion=CS2&endDate=2026-12-31&startDate=2026-01-01",
+      "event_source": "https://www.hltv.org/stats/players/events/24457/xelex?endDate=2026-12-31&startDate=2026-01-01",
+      "retrieved_on": "2026-11-17",
+      "annual_maps": 305,
+      "event_maps": 305,
+      "event_count": 34,
+      "maps_reconciled": true
+    },
+    {
+      "id": "xertion",
+      "source": "https://www.hltv.org/stats/players/20312/xertion?endDate=2026-12-31&startDate=2026-01-01",
+      "event_source": "https://www.hltv.org/stats/players/events/20312/xertion?endDate=2026-12-31&startDate=2026-01-01",
+      "retrieved_on": "2026-11-17",
+      "annual_maps": 198,
+      "event_maps": 198,
+      "event_count": 18,
+      "maps_reconciled": true
+    },
+    {
+      "id": "xfl0ud",
+      "source": "https://www.hltv.org/stats/players/19187/xfl0ud?endDate=2026-12-31&startDate=2026-01-01",
+      "event_source": "https://www.hltv.org/stats/players/events/19187/xfl0ud?endDate=2026-12-31&startDate=2026-01-01",
+      "retrieved_on": "2026-11-17",
+      "annual_maps": 142,
+      "event_maps": 142,
+      "event_count": 19,
+      "maps_reconciled": true
+    },
+    {
+      "id": "yekindar",
+      "source": "https://www.hltv.org/stats/players/13915/yekindar?endDate=2026-12-31&startDate=2026-01-01",
+      "event_source": "https://www.hltv.org/stats/players/events/13915/yekindar?endDate=2026-12-31&startDate=2026-01-01",
+      "retrieved_on": "2026-11-17",
+      "annual_maps": 230,
+      "event_maps": 230,
+      "event_count": 20,
+      "maps_reconciled": true
+    },
+    {
+      "id": "yuurih",
+      "source": "https://www.hltv.org/stats/players/12553/yuurih?endDate=2026-12-31&startDate=2026-01-01",
+      "event_source": "https://www.hltv.org/stats/players/events/12553/yuurih?endDate=2026-12-31&startDate=2026-01-01",
+      "retrieved_on": "2026-11-17",
+      "annual_maps": 230,
+      "event_maps": 230,
+      "event_count": 20,
+      "maps_reconciled": true
+    },
+    {
+      "id": "zorte",
+      "source": "https://www.hltv.org/stats/players/15662/zorte?endDate=2026-12-31&startDate=2026-01-01",
+      "event_source": "https://www.hltv.org/stats/players/events/15662/zorte?endDate=2026-12-31&startDate=2026-01-01",
+      "retrieved_on": "2026-11-17",
+      "annual_maps": 225,
+      "event_maps": 225,
+      "event_count": 22,
+      "maps_reconciled": true
+    },
+    {
+      "id": "zweih",
+      "source": "https://www.hltv.org/stats/players/23685/zweih?endDate=2026-12-31&startDate=2026-01-01",
+      "event_source": "https://www.hltv.org/stats/players/events/23685/zweih?endDate=2026-12-31&startDate=2026-01-01",
+      "retrieved_on": "2026-11-17",
+      "annual_maps": 182,
+      "event_maps": 182,
+      "event_count": 19,
+      "maps_reconciled": true
+    },
+    {
+      "id": "zywoo",
+      "source": "https://www.hltv.org/stats/players/11893/zywoo?endDate=2026-12-31&startDate=2026-01-01",
+      "event_source": "https://www.hltv.org/stats/players/events/11893/zywoo?endDate=2026-12-31&startDate=2026-01-01",
+      "retrieved_on": "2026-11-17",
+      "annual_maps": 178,
+      "event_maps": 178,
+      "event_count": 16,
+      "maps_reconciled": true
+    }
+  ]
+}

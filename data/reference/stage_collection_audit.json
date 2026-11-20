@@ -1,0 +1,618 @@
+{
+  "source": "https://www.kaggle.com/datasets/ektarr/counter-strike-pro-matches",
+  "archive_sha256": "3684af65b9962a8cbc4d6f2a3c086dde92ad8f0707dcb2afc08a65553df4e8b8",
+  "events": [
+    {
+      "year": "2025",
+      "event": "BLAST Bounty S1",
+      "finalists": [
+        "Eternal Fire",
+        "Team Spirit"
+      ],
+      "included_maps": 17,
+      "source_series": 7,
+      "excluded_maps": {},
+      "placement_series": []
+    },
+    {
+      "year": "2025",
+      "event": "IEM Katowice",
+      "finalists": [
+        "Team Spirit",
+        "Team Vitality"
+      ],
+      "included_maps": 67,
+      "source_series": 29,
+      "excluded_maps": {},
+      "placement_series": []
+    },
+    {
+      "year": "2025",
+      "event": "PGL Cluj-Napoca",
+      "finalists": [
+        "MOUZ",
+        "Team Falcons"
+      ],
+      "included_maps": 93,
+      "source_series": 41,
+      "excluded_maps": {},
+      "placement_series": []
+    },
+    {
+      "year": "2025",
+      "event": "ESL Pro League S21",
+      "finalists": [
+        "MOUZ",
+        "Team Vitality"
+      ],
+      "included_maps": 88,
+      "source_series": 40,
+      "excluded_maps": {},
+      "placement_series": []
+    },
+    {
+      "year": "2025",
+      "event": "BLAST Open S1",
+      "finalists": [
+        "MOUZ",
+        "Team Vitality"
+      ],
+      "included_maps": 69,
+      "source_series": 29,
+      "excluded_maps": {},
+      "placement_series": []
+    },
+    {
+      "year": "2025",
+      "event": "PGL Bucharest",
+      "finalists": [
+        "G2 Esports",
+        "Team Falcons"
+      ],
+      "included_maps": 95,
+      "source_series": 41,
+      "excluded_maps": {},
+      "placement_series": []
+    },
+    {
+      "year": "2025",
+      "event": "IEM Melbourne",
+      "finalists": [
+        "Team Falcons",
+        "Team Vitality"
+      ],
+      "included_maps": 66,
+      "source_series": 29,
+      "excluded_maps": {
+        "incomplete_scoreboard": 4
+      },
+      "placement_series": []
+    },
+    {
+      "year": "2025",
+      "event": "BLAST Rivals S1",
+      "finalists": [
+        "Team Falcons",
+        "Team Vitality"
+      ],
+      "included_maps": 32,
+      "source_series": 13,
+      "excluded_maps": {},
+      "placement_series": []
+    },
+    {
+      "year": "2025",
+      "event": "PGL Astana",
+      "finalists": [
+        "Astralis",
+        "Team Spirit"
+      ],
+      "included_maps": 97,
+      "source_series": 41,
+      "excluded_maps": {},
+      "placement_series": [
+        "2886630"
+      ]
+    },
+    {
+      "year": "2025",
+      "event": "IEM Dallas",
+      "finalists": [
+        "MOUZ",
+        "Team Vitality"
+      ],
+      "included_maps": 65,
+      "source_series": 29,
+      "excluded_maps": {
+        "incomplete_scoreboard": 4
+      },
+      "placement_series": []
+    },
+    {
+      "year": "2025",
+      "event": "BLAST.tv Austin (M)",
+      "finalists": [
+        "Team Vitality",
+        "The Mongolz"
+      ],
+      "included_maps": 68,
+      "source_series": 41,
+      "excluded_maps": {},
+      "placement_series": []
+    },
+    {
+      "year": "2025",
+      "event": "FISSURE Playground 1",
+      "finalists": [
+        "Astralis",
+        "TYLOO"
+      ],
+      "included_maps": 61,
+      "source_series": 27,
+      "excluded_maps": {},
+      "placement_series": []
+    },
+    {
+      "year": "2025",
+      "event": "IEM Cologne",
+      "finalists": [
+        "MOUZ",
+        "Team Spirit"
+      ],
+      "included_maps": 63,
+      "source_series": 29,
+      "excluded_maps": {},
+      "placement_series": []
+    },
+    {
+      "year": "2025",
+      "event": "BLAST Bounty S2",
+      "finalists": [
+        "Team Spirit",
+        "The Mongolz"
+      ],
+      "included_maps": 15,
+      "source_series": 7,
+      "excluded_maps": {},
+      "placement_series": []
+    },
+    {
+      "year": "2025",
+      "event": "Esports World Cup",
+      "finalists": [
+        "Aurora Gaming",
+        "The Mongolz"
+      ],
+      "included_maps": 40,
+      "source_series": 16,
+      "excluded_maps": {},
+      "placement_series": [
+        "3778076"
+      ]
+    },
+    {
+      "year": "2025",
+      "event": "BLAST Open S2",
+      "finalists": [
+        "G2 Esports",
+        "Team Vitality"
+      ],
+      "included_maps": 11,
+      "source_series": 5,
+      "excluded_maps": {},
+      "placement_series": []
+    },
+    {
+      "year": "2025",
+      "event": "FISSURE Playground 2",
+      "finalists": [
+        "FURIA Esports",
+        "The Mongolz"
+      ],
+      "included_maps": 89,
+      "source_series": 40,
+      "excluded_maps": {},
+      "placement_series": []
+    },
+    {
+      "year": "2025",
+      "event": "ESL Pro League S22",
+      "finalists": [
+        "Team Falcons",
+        "Team Vitality"
+      ],
+      "included_maps": 91,
+      "source_series": 41,
+      "excluded_maps": {},
+      "placement_series": [
+        "4882087"
+      ]
+    },
+    {
+      "year": "2025",
+      "event": "PW CAC",
+      "finalists": [
+        "Legacy",
+        "Team 3DMAX"
+      ],
+      "included_maps": 67,
+      "source_series": 30,
+      "excluded_maps": {},
+      "placement_series": [
+        "5039904"
+      ]
+    },
+    {
+      "year": "2025",
+      "event": "Thunderpick WC",
+      "finalists": [
+        "FURIA Esports",
+        "Natus Vincere"
+      ],
+      "included_maps": 30,
+      "source_series": 14,
+      "excluded_maps": {},
+      "placement_series": []
+    },
+    {
+      "year": "2025",
+      "event": "PGL Masters",
+      "finalists": [
+        "Aurora Gaming",
+        "Legacy"
+      ],
+      "included_maps": 84,
+      "source_series": 41,
+      "excluded_maps": {},
+      "placement_series": []
+    },
+    {
+      "year": "2025",
+      "event": "IEM Chengdu",
+      "finalists": [
+        "FURIA Esports",
+        "Team Vitality"
+      ],
+      "included_maps": 72,
+      "source_series": 30,
+      "excluded_maps": {
+        "incomplete_scoreboard": 1
+      },
+      "placement_series": [
+        "5513453"
+      ]
+    },
+    {
+      "year": "2025",
+      "event": "BLAST Rivals S2",
+      "finalists": [
+        "FURIA Esports",
+        "Team Falcons"
+      ],
+      "included_maps": 34,
+      "source_series": 13,
+      "excluded_maps": {},
+      "placement_series": []
+    },
+    {
+      "year": "2025",
+      "event": "SL Budapest (M)",
+      "finalists": [
+        "FaZe Clan",
+        "Team Vitality"
+      ],
+      "included_maps": 62,
+      "source_series": 41,
+      "excluded_maps": {},
+      "placement_series": []
+    },
+    {
+      "year": "2026",
+      "event": "BLAST Bounty 2026 Season 1 Finals",
+      "finalists": [
+        "PARIVISION",
+        "Team Falcons"
+      ],
+      "included_maps": 18,
+      "source_series": 7,
+      "excluded_maps": {},
+      "placement_series": []
+    },
+    {
+      "year": "2026",
+      "event": "IEM Kraków 2026",
+      "finalists": [
+        "FURIA Esports",
+        "Team Vitality"
+      ],
+      "included_maps": 74,
+      "source_series": 30,
+      "excluded_maps": {},
+      "placement_series": []
+    },
+    {
+      "year": "2026",
+      "event": "PGL Cluj-Napoca 2026",
+      "finalists": [
+        "PARIVISION",
+        "Team Vitality"
+      ],
+      "included_maps": 91,
+      "source_series": 41,
+      "excluded_maps": {},
+      "placement_series": []
+    },
+    {
+      "year": "2026",
+      "event": "ESL Pro League Season 23 Finals",
+      "finalists": [
+        "Aurora Gaming",
+        "Natus Vincere"
+      ],
+      "included_maps": 19,
+      "source_series": 8,
+      "excluded_maps": {
+        "incomplete_scoreboard": 1
+      },
+      "placement_series": [
+        "6928140"
+      ]
+    },
+    {
+      "year": "2026",
+      "event": "BLAST Open Rotterdam 2026",
+      "finalists": [
+        "Natus Vincere",
+        "Team Vitality"
+      ],
+      "included_maps": 69,
+      "source_series": 29,
+      "excluded_maps": {},
+      "placement_series": []
+    },
+    {
+      "year": "2026",
+      "event": "PGL Bucharest 2026",
+      "finalists": [
+        "Astralis",
+        "FUT Esports"
+      ],
+      "included_maps": 93,
+      "source_series": 41,
+      "excluded_maps": {},
+      "placement_series": [
+        "7299631"
+      ]
+    },
+    {
+      "year": "2026",
+      "event": "IEM Rio 2026",
+      "finalists": [
+        "Team Spirit",
+        "Team Vitality"
+      ],
+      "included_maps": 59,
+      "source_series": 30,
+      "excluded_maps": {},
+      "placement_series": [
+        "7299912"
+      ]
+    },
+    {
+      "year": "2026",
+      "event": "BLAST Rivals 2026 Season 1",
+      "finalists": [
+        "Natus Vincere",
+        "Team Vitality"
+      ],
+      "included_maps": 24,
+      "source_series": 13,
+      "excluded_maps": {},
+      "placement_series": []
+    },
+    {
+      "year": "2026",
+      "event": "PGL Astana 2026",
+      "finalists": [
+        "Team Falcons",
+        "Team Spirit"
+      ],
+      "included_maps": 81,
+      "source_series": 42,
+      "excluded_maps": {},
+      "placement_series": [
+        "7301564"
+      ]
+    },
+    {
+      "year": "2026",
+      "event": "IEM Atlanta 2026",
+      "finalists": [
+        "GamerLegion",
+        "Natus Vincere"
+      ],
+      "included_maps": 51,
+      "source_series": 30,
+      "excluded_maps": {
+        "incomplete_scoreboard": 2
+      },
+      "placement_series": [
+        "7301585"
+      ]
+    },
+    {
+      "year": "2026",
+      "event": "CS Asia Championships 2026",
+      "finalists": [
+        "Legacy",
+        "Team Falcons"
+      ],
+      "included_maps": 54,
+      "source_series": 30,
+      "excluded_maps": {
+        "incomplete_scoreboard": 3
+      },
+      "placement_series": [
+        "7301930"
+      ]
+    },
+    {
+      "year": "2026",
+      "event": "IEM Cologne Major 2026",
+      "finalists": [
+        "FURIA Esports",
+        "Team Falcons"
+      ],
+      "included_maps": 100,
+      "source_series": 41,
+      "excluded_maps": {},
+      "placement_series": []
+    },
+    {
+      "year": "2026",
+      "event": "XSE Pro League Guangzhou 2026",
+      "finalists": [
+        "9z Team",
+        "PARIVISION"
+      ],
+      "included_maps": 53,
+      "source_series": 40,
+      "excluded_maps": {},
+      "placement_series": []
+    },
+    {
+      "year": "2026",
+      "event": "BLAST Bounty 2026 Season 2 Finals",
+      "finalists": [
+        "MOUZ",
+        "Team Spirit"
+      ],
+      "included_maps": 19,
+      "source_series": 7,
+      "excluded_maps": {},
+      "placement_series": []
+    },
+    {
+      "year": "2026",
+      "event": "Esports World Cup 2026",
+      "finalists": [
+        "FUT Esports",
+        "Team Spirit"
+      ],
+      "included_maps": 111,
+      "source_series": 56,
+      "excluded_maps": {},
+      "placement_series": [
+        "7304922"
+      ]
+    },
+    {
+      "year": "2026",
+      "event": "BLAST Open Porto 2026",
+      "finalists": [
+        "MOUZ",
+        "Team Spirit"
+      ],
+      "included_maps": 61,
+      "source_series": 29,
+      "excluded_maps": {},
+      "placement_series": []
+    },
+    {
+      "year": "2026",
+      "event": "FISSURE Playground 3",
+      "finalists": [
+        "G2 Esports",
+        "Legacy"
+      ],
+      "included_maps": 65,
+      "source_series": 29,
+      "excluded_maps": {},
+      "placement_series": []
+    },
+    {
+      "year": "2026",
+      "event": "StarLadder StarSeries Fall 2026",
+      "finalists": [
+        "Aurora Gaming",
+        "Team Vitality"
+      ],
+      "included_maps": 32,
+      "source_series": 14,
+      "excluded_maps": {},
+      "placement_series": []
+    },
+    {
+      "year": "2026",
+      "event": "ESL Pro League Season 24",
+      "finalists": [
+        "MOUZ",
+        "Team Vitality"
+      ],
+      "included_maps": 88,
+      "source_series": 41,
+      "excluded_maps": {
+        "incomplete_scoreboard": 1
+      },
+      "placement_series": [
+        "7311400"
+      ]
+    },
+    {
+      "year": "2026",
+      "event": "Thunderpick World Championship 2026",
+      "finalists": [
+        "BETBOOM TEAM",
+        "FURIA Esports"
+      ],
+      "included_maps": 35,
+      "source_series": 14,
+      "excluded_maps": {},
+      "placement_series": [
+        "7311742"
+      ]
+    },
+    {
+      "year": "2026",
+      "event": "PGL Masters Bucharest 2026",
+      "finalists": [
+        "FURIA Esports",
+        "Nemiga Gaming"
+      ],
+      "included_maps": 96,
+      "source_series": 41,
+      "excluded_maps": {
+        "incomplete_scoreboard": 1
+      },
+      "placement_series": [
+        "7312557"
+      ]
+    },
+    {
+      "year": "2026",
+      "event": "IEM Beijing 2026",
+      "finalists": [
+        "MOUZ",
+        "The Mongolz"
+      ],
+      "included_maps": 73,
+      "source_series": 30,
+      "excluded_maps": {},
+      "placement_series": [
+        "7312922"
+      ]
+    },
+    {
+      "year": "2026",
+      "event": "BLAST Rivals 2026 Season 2",
+      "finalists": [
+        "FURIA Esports",
+        "Team Spirit"
+      ],
+      "included_maps": 33,
+      "source_series": 12,
+      "excluded_maps": {},
+      "placement_series": []
+    }
+  ]
+}

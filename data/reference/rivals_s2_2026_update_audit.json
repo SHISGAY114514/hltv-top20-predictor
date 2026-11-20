@@ -1,0 +1,22 @@
+{
+  "verified_on": "2026-11-17",
+  "event": "BLAST Rivals 2026 Season 2",
+  "source": "https://www.hltv.org/news/45998/the-evps-and-all-stars-of-blast-rivals-2026-season-2",
+  "added_evp_ids": [
+    "molodoy",
+    "donk",
+    "ropz",
+    "m0nesy"
+  ],
+  "mvp_already_present": "kscerato",
+  "statistics_modified": false,
+  "aggregate_sha256": "01d8e11e0e4774e4d58090e2a3a19e5873d0b04db6b736117606ec9e8badafaf",
+  "all_star_additional_A_points": 0,
+  "event_order": [
+    "kscerato",
+    "molodoy",
+    "donk",
+    "ropz",
+    "m0nesy"
+  ]
+}

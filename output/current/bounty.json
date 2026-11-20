@@ -1,0 +1,1402 @@
+{
+  "0.4": [
+    {
+      "id": "zywoo",
+      "name": "ZywOo",
+      "rank": 1,
+      "score": 75.25854390463392
+    },
+    {
+      "id": "donk",
+      "name": "donk",
+      "rank": 2,
+      "score": 69.17500309546679
+    },
+    {
+      "id": "m0nesy",
+      "name": "m0NESY",
+      "rank": 3,
+      "score": 64.23698082540604
+    },
+    {
+      "id": "kscerato",
+      "name": "KSCERATO",
+      "rank": 4,
+      "score": 57.825497390600766
+    },
+    {
+      "id": "ropz",
+      "name": "ropz",
+      "rank": 5,
+      "score": 57.40830814634877
+    },
+    {
+      "id": "flamez",
+      "name": "flameZ",
+      "rank": 6,
+      "score": 56.14834510213369
+    },
+    {
+      "id": "molodoy",
+      "name": "molodoy",
+      "rank": 7,
+      "score": 53.45444419913022
+    },
+    {
+      "id": "sh1ro",
+      "name": "sh1ro",
+      "rank": 8,
+      "score": 51.765547240293806
+    },
+    {
+      "id": "w0nderful",
+      "name": "w0nderful",
+      "rank": 9,
+      "score": 49.94695782486423
+    },
+    {
+      "id": "spinx",
+      "name": "Spinx",
+      "rank": 10,
+      "score": 47.67191751213642
+    },
+    {
+      "id": "kyousuke",
+      "name": "kyousuke",
+      "rank": 11,
+      "score": 46.516784292439304
+    },
+    {
+      "id": "xertion",
+      "name": "xertioN",
+      "rank": 12,
+      "score": 46.11274955212952
+    },
+    {
+      "id": "niko",
+      "name": "NiKo",
+      "rank": 13,
+      "score": 44.85210809732911
+    },
+    {
+      "id": "makazze",
+      "name": "makazze",
+      "rank": 14,
+      "score": 44.4207404565974
+    },
+    {
+      "id": "wicadia",
+      "name": "Wicadia",
+      "rank": 15,
+      "score": 44.03451834087312
+    },
+    {
+      "id": "latto",
+      "name": "latto",
+      "rank": 16,
+      "score": 43.79577333006847
+    },
+    {
+      "id": "yekindar",
+      "name": "YEKINDAR",
+      "rank": 17,
+      "score": 43.13178054889693
+    },
+    {
+      "id": "b1t",
+      "name": "b1t",
+      "rank": 18,
+      "score": 43.063970301922986
+    },
+    {
+      "id": "torzsi",
+      "name": "torzsi",
+      "rank": 19,
+      "score": 41.07676386596263
+    },
+    {
+      "id": "heavygod",
+      "name": "HeavyGod",
+      "rank": 20,
+      "score": 39.12356656347808
+    },
+    {
+      "id": "tn1r",
+      "name": "tN1R",
+      "rank": 21,
+      "score": 39.10763731696592
+    },
+    {
+      "id": "xelex",
+      "name": "xelex",
+      "rank": 22,
+      "score": 35.992178098741974
+    },
+    {
+      "id": "pr",
+      "name": "PR",
+      "rank": 23,
+      "score": 35.931025011579614
+    },
+    {
+      "id": "magnojez",
+      "name": "Magnojez",
+      "rank": 24,
+      "score": 35.79724549817193
+    },
+    {
+      "id": "yuurih",
+      "name": "yuurih",
+      "rank": 25,
+      "score": 35.23763166171067
+    },
+    {
+      "id": "dem0n",
+      "name": "dem0n",
+      "rank": 26,
+      "score": 34.833753233821554
+    },
+    {
+      "id": "910",
+      "name": "910",
+      "rank": 27,
+      "score": 33.9658842819958
+    },
+    {
+      "id": "dziugss",
+      "name": "dziugss",
+      "rank": 28,
+      "score": 33.27789756004157
+    },
+    {
+      "id": "jimpphat",
+      "name": "Jimpphat",
+      "rank": 29,
+      "score": 32.90839735065637
+    },
+    {
+      "id": "try",
+      "name": "try",
+      "rank": 30,
+      "score": 32.6554415162741
+    },
+    {
+      "id": "dumau",
+      "name": "dumau",
+      "rank": 31,
+      "score": 32.23076983379238
+    },
+    {
+      "id": "zweih",
+      "name": "zweih",
+      "rank": 32,
+      "score": 31.675086341487443
+    },
+    {
+      "id": "xfl0ud",
+      "name": "xfl0ud",
+      "rank": 33,
+      "score": 31.625751923510453
+    },
+    {
+      "id": "huasopeek",
+      "name": "HUASOPEEK",
+      "rank": 34,
+      "score": 31.134300861535735
+    },
+    {
+      "id": "staehr",
+      "name": "Staehr",
+      "rank": 35,
+      "score": 30.949041447674077
+    },
+    {
+      "id": "luchov",
+      "name": "luchov",
+      "rank": 36,
+      "score": 30.59070977708523
+    },
+    {
+      "id": "dgt",
+      "name": "dgt",
+      "rank": 37,
+      "score": 30.23284133446818
+    },
+    {
+      "id": "nertz",
+      "name": "NertZ",
+      "rank": 38,
+      "score": 29.895185569828683
+    },
+    {
+      "id": "phzy",
+      "name": "phzy",
+      "rank": 39,
+      "score": 29.33889225803994
+    },
+    {
+      "id": "jabbi",
+      "name": "jabbi",
+      "rank": 40,
+      "score": 28.990911055159867
+    },
+    {
+      "id": "cmtry",
+      "name": "cmtry",
+      "rank": 41,
+      "score": 28.477415466334072
+    },
+    {
+      "id": "launx",
+      "name": "lauNX",
+      "rank": 42,
+      "score": 28.098769487965605
+    },
+    {
+      "id": "zorte",
+      "name": "zorte",
+      "rank": 43,
+      "score": 28.03156669571113
+    },
+    {
+      "id": "techno",
+      "name": "Techno",
+      "rank": 44,
+      "score": 27.37487798792921
+    },
+    {
+      "id": "n1ssim",
+      "name": "n1ssim",
+      "rank": 45,
+      "score": 25.644107454417764
+    },
+    {
+      "id": "nota",
+      "name": "nota",
+      "rank": 46,
+      "score": 24.250168819527495
+    },
+    {
+      "id": "insani",
+      "name": "insani",
+      "rank": null,
+      "score": 29.316213766050815
+    },
+    {
+      "id": "rez",
+      "name": "REZ",
+      "rank": null,
+      "score": 29.10999604773536
+    },
+    {
+      "id": "frozen",
+      "name": "frozen",
+      "rank": null,
+      "score": 28.21484029090039
+    },
+    {
+      "id": "nqz",
+      "name": "nqz",
+      "rank": null,
+      "score": 26.421133165721034
+    },
+    {
+      "id": "hypex",
+      "name": "hypex",
+      "rank": null,
+      "score": 25.686978868447554
+    },
+    {
+      "id": "syph0",
+      "name": "syph0",
+      "rank": null,
+      "score": 25.378061683531577
+    },
+    {
+      "id": "tauson",
+      "name": "Tauson",
+      "rank": null,
+      "score": 25.082461487394088
+    },
+    {
+      "id": "tenzy",
+      "name": "tenzy",
+      "rank": null,
+      "score": 24.662688819332413
+    },
+    {
+      "id": "esenthial",
+      "name": "esenthial",
+      "rank": null,
+      "score": 23.23884512742415
+    },
+    {
+      "id": "jamyoung",
+      "name": "JamYoung",
+      "rank": null,
+      "score": 22.974939315056066
+    },
+    {
+      "id": "senzu",
+      "name": "Senzu",
+      "rank": null,
+      "score": 22.59139041000654
+    },
+    {
+      "id": "vexite",
+      "name": "Vexite",
+      "rank": null,
+      "score": null
+    }
+  ],
+  "0.6": [
+    {
+      "id": "zywoo",
+      "name": "ZywOo",
+      "rank": 1,
+      "score": 75.26049865354909
+    },
+    {
+      "id": "donk",
+      "name": "donk",
+      "rank": 2,
+      "score": 69.17625571177443
+    },
+    {
+      "id": "m0nesy",
+      "name": "m0NESY",
+      "rank": 3,
+      "score": 64.27231564874059
+    },
+    {
+      "id": "kscerato",
+      "name": "KSCERATO",
+      "rank": 4,
+      "score": 57.828665075684704
+    },
+    {
+      "id": "ropz",
+      "name": "ropz",
+      "rank": 5,
+      "score": 57.41093431419438
+    },
+    {
+      "id": "flamez",
+      "name": "flameZ",
+      "rank": 6,
+      "score": 56.153782717023454
+    },
+    {
+      "id": "molodoy",
+      "name": "molodoy",
+      "rank": 7,
+      "score": 53.465794622180894
+    },
+    {
+      "id": "sh1ro",
+      "name": "sh1ro",
+      "rank": 8,
+      "score": 51.76708978370133
+    },
+    {
+      "id": "w0nderful",
+      "name": "w0nderful",
+      "rank": 9,
+      "score": 49.94695782486423
+    },
+    {
+      "id": "spinx",
+      "name": "Spinx",
+      "rank": 10,
+      "score": 47.67191751213642
+    },
+    {
+      "id": "kyousuke",
+      "name": "kyousuke",
+      "rank": 11,
+      "score": 46.516784292439304
+    },
+    {
+      "id": "xertion",
+      "name": "xertioN",
+      "rank": 12,
+      "score": 46.11274955212952
+    },
+    {
+      "id": "niko",
+      "name": "NiKo",
+      "rank": 13,
+      "score": 45.665778132529425
+    },
+    {
+      "id": "makazze",
+      "name": "makazze",
+      "rank": 14,
+      "score": 44.4207404565974
+    },
+    {
+      "id": "wicadia",
+      "name": "Wicadia",
+      "rank": 15,
+      "score": 44.03451834087312
+    },
+    {
+      "id": "latto",
+      "name": "latto",
+      "rank": 16,
+      "score": 43.79577333006847
+    },
+    {
+      "id": "yekindar",
+      "name": "YEKINDAR",
+      "rank": 17,
+      "score": 43.14160916328076
+    },
+    {
+      "id": "b1t",
+      "name": "b1t",
+      "rank": 18,
+      "score": 43.063970301922986
+    },
+    {
+      "id": "torzsi",
+      "name": "torzsi",
+      "rank": 19,
+      "score": 41.07676386596263
+    },
+    {
+      "id": "heavygod",
+      "name": "HeavyGod",
+      "rank": 20,
+      "score": 39.12356656347808
+    },
+    {
+      "id": "tn1r",
+      "name": "tN1R",
+      "rank": 21,
+      "score": 39.11001156088223
+    },
+    {
+      "id": "xelex",
+      "name": "xelex",
+      "rank": 22,
+      "score": 35.992178098741974
+    },
+    {
+      "id": "pr",
+      "name": "PR",
+      "rank": 23,
+      "score": 35.931025011579614
+    },
+    {
+      "id": "magnojez",
+      "name": "Magnojez",
+      "rank": 24,
+      "score": 35.79724549817193
+    },
+    {
+      "id": "yuurih",
+      "name": "yuurih",
+      "rank": 25,
+      "score": 35.23763166171067
+    },
+    {
+      "id": "dem0n",
+      "name": "dem0n",
+      "rank": 26,
+      "score": 34.833753233821554
+    },
+    {
+      "id": "910",
+      "name": "910",
+      "rank": 27,
+      "score": 33.9658842819958
+    },
+    {
+      "id": "dziugss",
+      "name": "dziugss",
+      "rank": 28,
+      "score": 33.27789756004157
+    },
+    {
+      "id": "jimpphat",
+      "name": "Jimpphat",
+      "rank": 29,
+      "score": 32.90839735065637
+    },
+    {
+      "id": "try",
+      "name": "try",
+      "rank": 30,
+      "score": 32.6554415162741
+    },
+    {
+      "id": "dumau",
+      "name": "dumau",
+      "rank": 31,
+      "score": 32.23076983379238
+    },
+    {
+      "id": "zweih",
+      "name": "zweih",
+      "rank": 32,
+      "score": 31.768590085503178
+    },
+    {
+      "id": "xfl0ud",
+      "name": "xfl0ud",
+      "rank": 33,
+      "score": 31.633586208439734
+    },
+    {
+      "id": "huasopeek",
+      "name": "HUASOPEEK",
+      "rank": 34,
+      "score": 31.134300861535735
+    },
+    {
+      "id": "staehr",
+      "name": "Staehr",
+      "rank": 35,
+      "score": 30.949041447674077
+    },
+    {
+      "id": "luchov",
+      "name": "luchov",
+      "rank": 36,
+      "score": 30.59070977708523
+    },
+    {
+      "id": "dgt",
+      "name": "dgt",
+      "rank": 37,
+      "score": 30.23284133446818
+    },
+    {
+      "id": "nertz",
+      "name": "NertZ",
+      "rank": 38,
+      "score": 29.898166864531625
+    },
+    {
+      "id": "phzy",
+      "name": "phzy",
+      "rank": 39,
+      "score": 29.33889225803994
+    },
+    {
+      "id": "jabbi",
+      "name": "jabbi",
+      "rank": 40,
+      "score": 28.990911055159867
+    },
+    {
+      "id": "cmtry",
+      "name": "cmtry",
+      "rank": 41,
+      "score": 28.477415466334072
+    },
+    {
+      "id": "launx",
+      "name": "lauNX",
+      "rank": 42,
+      "score": 28.098769487965605
+    },
+    {
+      "id": "zorte",
+      "name": "zorte",
+      "rank": 43,
+      "score": 28.03156669571113
+    },
+    {
+      "id": "techno",
+      "name": "Techno",
+      "rank": 44,
+      "score": 27.37487798792921
+    },
+    {
+      "id": "n1ssim",
+      "name": "n1ssim",
+      "rank": 45,
+      "score": 25.644107454417764
+    },
+    {
+      "id": "nota",
+      "name": "nota",
+      "rank": 46,
+      "score": 25.138656641563152
+    },
+    {
+      "id": "insani",
+      "name": "insani",
+      "rank": null,
+      "score": 29.316213766050815
+    },
+    {
+      "id": "rez",
+      "name": "REZ",
+      "rank": null,
+      "score": 29.115909884935906
+    },
+    {
+      "id": "frozen",
+      "name": "frozen",
+      "rank": null,
+      "score": 28.21484029090039
+    },
+    {
+      "id": "nqz",
+      "name": "nqz",
+      "rank": null,
+      "score": 26.421133165721034
+    },
+    {
+      "id": "hypex",
+      "name": "hypex",
+      "rank": null,
+      "score": 25.689507557613105
+    },
+    {
+      "id": "syph0",
+      "name": "syph0",
+      "rank": null,
+      "score": 25.378061683531577
+    },
+    {
+      "id": "tauson",
+      "name": "Tauson",
+      "rank": null,
+      "score": 25.082461487394088
+    },
+    {
+      "id": "tenzy",
+      "name": "tenzy",
+      "rank": null,
+      "score": 24.662688819332413
+    },
+    {
+      "id": "esenthial",
+      "name": "esenthial",
+      "rank": null,
+      "score": 23.23884512742415
+    },
+    {
+      "id": "jamyoung",
+      "name": "JamYoung",
+      "rank": null,
+      "score": 22.974939315056066
+    },
+    {
+      "id": "senzu",
+      "name": "Senzu",
+      "rank": null,
+      "score": 22.59139041000654
+    },
+    {
+      "id": "vexite",
+      "name": "Vexite",
+      "rank": null,
+      "score": null
+    }
+  ],
+  "0.8": [
+    {
+      "id": "zywoo",
+      "name": "ZywOo",
+      "rank": 1,
+      "score": 75.26244495426684
+    },
+    {
+      "id": "donk",
+      "name": "donk",
+      "rank": 2,
+      "score": 69.17750671700185
+    },
+    {
+      "id": "m0nesy",
+      "name": "m0NESY",
+      "rank": 3,
+      "score": 64.30686638895418
+    },
+    {
+      "id": "kscerato",
+      "name": "KSCERATO",
+      "rank": 4,
+      "score": 57.83182493044209
+    },
+    {
+      "id": "ropz",
+      "name": "ropz",
+      "rank": 5,
+      "score": 57.41355345005892
+    },
+    {
+      "id": "flamez",
+      "name": "flameZ",
+      "rank": 6,
+      "score": 56.15918344781046
+    },
+    {
+      "id": "molodoy",
+      "name": "molodoy",
+      "rank": 7,
+      "score": 53.477063404392105
+    },
+    {
+      "id": "sh1ro",
+      "name": "sh1ro",
+      "rank": 8,
+      "score": 51.76863080074654
+    },
+    {
+      "id": "w0nderful",
+      "name": "w0nderful",
+      "rank": 9,
+      "score": 49.94695782486423
+    },
+    {
+      "id": "spinx",
+      "name": "Spinx",
+      "rank": 10,
+      "score": 47.67191751213642
+    },
+    {
+      "id": "kyousuke",
+      "name": "kyousuke",
+      "rank": 11,
+      "score": 46.516784292439304
+    },
+    {
+      "id": "niko",
+      "name": "NiKo",
+      "rank": 12,
+      "score": 46.45079613625735
+    },
+    {
+      "id": "xertion",
+      "name": "xertioN",
+      "rank": 13,
+      "score": 46.11274955212952
+    },
+    {
+      "id": "makazze",
+      "name": "makazze",
+      "rank": 14,
+      "score": 44.4207404565974
+    },
+    {
+      "id": "wicadia",
+      "name": "Wicadia",
+      "rank": 15,
+      "score": 44.03451834087312
+    },
+    {
+      "id": "latto",
+      "name": "latto",
+      "rank": 16,
+      "score": 43.79577333006847
+    },
+    {
+      "id": "yekindar",
+      "name": "YEKINDAR",
+      "rank": 17,
+      "score": 43.151387229303666
+    },
+    {
+      "id": "b1t",
+      "name": "b1t",
+      "rank": 18,
+      "score": 43.063970301922986
+    },
+    {
+      "id": "torzsi",
+      "name": "torzsi",
+      "rank": 19,
+      "score": 41.07676386596263
+    },
+    {
+      "id": "heavygod",
+      "name": "HeavyGod",
+      "rank": 20,
+      "score": 39.12356656347808
+    },
+    {
+      "id": "tn1r",
+      "name": "tN1R",
+      "rank": 21,
+      "score": 39.11238333805429
+    },
+    {
+      "id": "xelex",
+      "name": "xelex",
+      "rank": 22,
+      "score": 35.992178098741974
+    },
+    {
+      "id": "pr",
+      "name": "PR",
+      "rank": 23,
+      "score": 35.931025011579614
+    },
+    {
+      "id": "magnojez",
+      "name": "Magnojez",
+      "rank": 24,
+      "score": 35.79724549817193
+    },
+    {
+      "id": "yuurih",
+      "name": "yuurih",
+      "rank": 25,
+      "score": 35.23763166171067
+    },
+    {
+      "id": "dem0n",
+      "name": "dem0n",
+      "rank": 26,
+      "score": 34.833753233821554
+    },
+    {
+      "id": "910",
+      "name": "910",
+      "rank": 27,
+      "score": 33.9658842819958
+    },
+    {
+      "id": "dziugss",
+      "name": "dziugss",
+      "rank": 28,
+      "score": 33.27789756004157
+    },
+    {
+      "id": "jimpphat",
+      "name": "Jimpphat",
+      "rank": 29,
+      "score": 32.90839735065637
+    },
+    {
+      "id": "try",
+      "name": "try",
+      "rank": 30,
+      "score": 32.6554415162741
+    },
+    {
+      "id": "dumau",
+      "name": "dumau",
+      "rank": 31,
+      "score": 32.23076983379238
+    },
+    {
+      "id": "zweih",
+      "name": "zweih",
+      "rank": 32,
+      "score": 31.859757859418345
+    },
+    {
+      "id": "xfl0ud",
+      "name": "xfl0ud",
+      "rank": 33,
+      "score": 31.64140615800778
+    },
+    {
+      "id": "huasopeek",
+      "name": "HUASOPEEK",
+      "rank": 34,
+      "score": 31.134300861535735
+    },
+    {
+      "id": "staehr",
+      "name": "Staehr",
+      "rank": 35,
+      "score": 30.949041447674077
+    },
+    {
+      "id": "luchov",
+      "name": "luchov",
+      "rank": 36,
+      "score": 30.59070977708523
+    },
+    {
+      "id": "dgt",
+      "name": "dgt",
+      "rank": 37,
+      "score": 30.23284133446818
+    },
+    {
+      "id": "nertz",
+      "name": "NertZ",
+      "rank": 38,
+      "score": 29.901145995600103
+    },
+    {
+      "id": "phzy",
+      "name": "phzy",
+      "rank": 39,
+      "score": 29.33889225803994
+    },
+    {
+      "id": "jabbi",
+      "name": "jabbi",
+      "rank": 40,
+      "score": 28.990911055159867
+    },
+    {
+      "id": "cmtry",
+      "name": "cmtry",
+      "rank": 41,
+      "score": 28.477415466334072
+    },
+    {
+      "id": "launx",
+      "name": "lauNX",
+      "rank": 42,
+      "score": 28.098769487965605
+    },
+    {
+      "id": "zorte",
+      "name": "zorte",
+      "rank": 43,
+      "score": 28.03156669571113
+    },
+    {
+      "id": "techno",
+      "name": "Techno",
+      "rank": 44,
+      "score": 27.37487798792921
+    },
+    {
+      "id": "nota",
+      "name": "nota",
+      "rank": 45,
+      "score": 26.003052743467144
+    },
+    {
+      "id": "n1ssim",
+      "name": "n1ssim",
+      "rank": 46,
+      "score": 25.644107454417764
+    },
+    {
+      "id": "insani",
+      "name": "insani",
+      "rank": null,
+      "score": 29.316213766050815
+    },
+    {
+      "id": "rez",
+      "name": "REZ",
+      "rank": null,
+      "score": 29.121815531235693
+    },
+    {
+      "id": "frozen",
+      "name": "frozen",
+      "rank": null,
+      "score": 28.21484029090039
+    },
+    {
+      "id": "nqz",
+      "name": "nqz",
+      "rank": null,
+      "score": 26.421133165721034
+    },
+    {
+      "id": "hypex",
+      "name": "hypex",
+      "rank": null,
+      "score": 25.69203482858188
+    },
+    {
+      "id": "syph0",
+      "name": "syph0",
+      "rank": null,
+      "score": 25.378061683531577
+    },
+    {
+      "id": "tauson",
+      "name": "Tauson",
+      "rank": null,
+      "score": 25.082461487394088
+    },
+    {
+      "id": "tenzy",
+      "name": "tenzy",
+      "rank": null,
+      "score": 24.662688819332413
+    },
+    {
+      "id": "esenthial",
+      "name": "esenthial",
+      "rank": null,
+      "score": 23.23884512742415
+    },
+    {
+      "id": "jamyoung",
+      "name": "JamYoung",
+      "rank": null,
+      "score": 22.974939315056066
+    },
+    {
+      "id": "senzu",
+      "name": "Senzu",
+      "rank": null,
+      "score": 22.59139041000654
+    },
+    {
+      "id": "vexite",
+      "name": "Vexite",
+      "rank": null,
+      "score": null
+    }
+  ],
+  "1": [
+    {
+      "id": "zywoo",
+      "name": "ZywOo",
+      "rank": 1,
+      "score": 75.26438284329932
+    },
+    {
+      "id": "donk",
+      "name": "donk",
+      "rank": 2,
+      "score": 69.17875611322116
+    },
+    {
+      "id": "m0nesy",
+      "name": "m0NESY",
+      "rank": 3,
+      "score": 64.3406504449265
+    },
+    {
+      "id": "kscerato",
+      "name": "KSCERATO",
+      "rank": 4,
+      "score": 57.834976974229015
+    },
+    {
+      "id": "ropz",
+      "name": "ropz",
+      "rank": 5,
+      "score": 57.41616557277163
+    },
+    {
+      "id": "flamez",
+      "name": "flameZ",
+      "rank": 6,
+      "score": 56.164547544684766
+    },
+    {
+      "id": "molodoy",
+      "name": "molodoy",
+      "rank": 7,
+      "score": 53.488251132986605
+    },
+    {
+      "id": "sh1ro",
+      "name": "sh1ro",
+      "rank": 8,
+      "score": 51.77017029293982
+    },
+    {
+      "id": "w0nderful",
+      "name": "w0nderful",
+      "rank": 9,
+      "score": 49.94695782486423
+    },
+    {
+      "id": "spinx",
+      "name": "Spinx",
+      "rank": 10,
+      "score": 47.67191751213642
+    },
+    {
+      "id": "niko",
+      "name": "NiKo",
+      "rank": 11,
+      "score": 47.208178577053445
+    },
+    {
+      "id": "kyousuke",
+      "name": "kyousuke",
+      "rank": 12,
+      "score": 46.516784292439304
+    },
+    {
+      "id": "xertion",
+      "name": "xertioN",
+      "rank": 13,
+      "score": 46.11274955212952
+    },
+    {
+      "id": "makazze",
+      "name": "makazze",
+      "rank": 14,
+      "score": 44.4207404565974
+    },
+    {
+      "id": "wicadia",
+      "name": "Wicadia",
+      "rank": 15,
+      "score": 44.03451834087312
+    },
+    {
+      "id": "latto",
+      "name": "latto",
+      "rank": 16,
+      "score": 43.79577333006847
+    },
+    {
+      "id": "yekindar",
+      "name": "YEKINDAR",
+      "rank": 17,
+      "score": 43.161115006934814
+    },
+    {
+      "id": "b1t",
+      "name": "b1t",
+      "rank": 18,
+      "score": 43.063970301922986
+    },
+    {
+      "id": "torzsi",
+      "name": "torzsi",
+      "rank": 19,
+      "score": 41.07676386596263
+    },
+    {
+      "id": "heavygod",
+      "name": "HeavyGod",
+      "rank": 20,
+      "score": 39.12356656347808
+    },
+    {
+      "id": "tn1r",
+      "name": "tN1R",
+      "rank": 21,
+      "score": 39.114752651044974
+    },
+    {
+      "id": "xelex",
+      "name": "xelex",
+      "rank": 22,
+      "score": 35.992178098741974
+    },
+    {
+      "id": "pr",
+      "name": "PR",
+      "rank": 23,
+      "score": 35.931025011579614
+    },
+    {
+      "id": "magnojez",
+      "name": "Magnojez",
+      "rank": 24,
+      "score": 35.79724549817193
+    },
+    {
+      "id": "yuurih",
+      "name": "yuurih",
+      "rank": 25,
+      "score": 35.23763166171067
+    },
+    {
+      "id": "dem0n",
+      "name": "dem0n",
+      "rank": 26,
+      "score": 34.833753233821554
+    },
+    {
+      "id": "910",
+      "name": "910",
+      "rank": 27,
+      "score": 33.9658842819958
+    },
+    {
+      "id": "dziugss",
+      "name": "dziugss",
+      "rank": 28,
+      "score": 33.27789756004157
+    },
+    {
+      "id": "jimpphat",
+      "name": "Jimpphat",
+      "rank": 29,
+      "score": 32.90839735065637
+    },
+    {
+      "id": "try",
+      "name": "try",
+      "rank": 30,
+      "score": 32.6554415162741
+    },
+    {
+      "id": "dumau",
+      "name": "dumau",
+      "rank": 31,
+      "score": 32.23076983379238
+    },
+    {
+      "id": "zweih",
+      "name": "zweih",
+      "rank": 32,
+      "score": 31.94864802192616
+    },
+    {
+      "id": "xfl0ud",
+      "name": "xfl0ud",
+      "rank": 33,
+      "score": 31.649211798445773
+    },
+    {
+      "id": "huasopeek",
+      "name": "HUASOPEEK",
+      "rank": 34,
+      "score": 31.134300861535735
+    },
+    {
+      "id": "staehr",
+      "name": "Staehr",
+      "rank": 35,
+      "score": 30.949041447674077
+    },
+    {
+      "id": "luchov",
+      "name": "luchov",
+      "rank": 36,
+      "score": 30.59070977708523
+    },
+    {
+      "id": "dgt",
+      "name": "dgt",
+      "rank": 37,
+      "score": 30.23284133446818
+    },
+    {
+      "id": "nertz",
+      "name": "NertZ",
+      "rank": 38,
+      "score": 29.904122964604348
+    },
+    {
+      "id": "phzy",
+      "name": "phzy",
+      "rank": 39,
+      "score": 29.33889225803994
+    },
+    {
+      "id": "jabbi",
+      "name": "jabbi",
+      "rank": 40,
+      "score": 28.990911055159867
+    },
+    {
+      "id": "cmtry",
+      "name": "cmtry",
+      "rank": 41,
+      "score": 28.477415466334072
+    },
+    {
+      "id": "launx",
+      "name": "lauNX",
+      "rank": 42,
+      "score": 28.098769487965605
+    },
+    {
+      "id": "zorte",
+      "name": "zorte",
+      "rank": 43,
+      "score": 28.03156669571113
+    },
+    {
+      "id": "techno",
+      "name": "Techno",
+      "rank": 44,
+      "score": 27.37487798792921
+    },
+    {
+      "id": "nota",
+      "name": "nota",
+      "rank": 45,
+      "score": 26.844013429781576
+    },
+    {
+      "id": "n1ssim",
+      "name": "n1ssim",
+      "rank": 46,
+      "score": 25.644107454417764
+    },
+    {
+      "id": "insani",
+      "name": "insani",
+      "rank": null,
+      "score": 29.316213766050815
+    },
+    {
+      "id": "rez",
+      "name": "REZ",
+      "rank": null,
+      "score": 29.127712997979454
+    },
+    {
+      "id": "frozen",
+      "name": "frozen",
+      "rank": null,
+      "score": 28.21484029090039
+    },
+    {
+      "id": "nqz",
+      "name": "nqz",
+      "rank": null,
+      "score": 26.421133165721034
+    },
+    {
+      "id": "hypex",
+      "name": "hypex",
+      "rank": null,
+      "score": 25.694560682149252
+    },
+    {
+      "id": "syph0",
+      "name": "syph0",
+      "rank": null,
+      "score": 25.378061683531577
+    },
+    {
+      "id": "tauson",
+      "name": "Tauson",
+      "rank": null,
+      "score": 25.082461487394088
+    },
+    {
+      "id": "tenzy",
+      "name": "tenzy",
+      "rank": null,
+      "score": 24.662688819332413
+    },
+    {
+      "id": "esenthial",
+      "name": "esenthial",
+      "rank": null,
+      "score": 23.23884512742415
+    },
+    {
+      "id": "jamyoung",
+      "name": "JamYoung",
+      "rank": null,
+      "score": 22.974939315056066
+    },
+    {
+      "id": "senzu",
+      "name": "Senzu",
+      "rank": null,
+      "score": 22.59139041000654
+    },
+    {
+      "id": "vexite",
+      "name": "Vexite",
+      "rank": null,
+      "score": null
+    }
+  ]
+}

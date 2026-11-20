@@ -1,0 +1,26 @@
+{
+  "sha256": {
+    "config/model.json": "0d6cceb29b315cb81529c09741c17aea3035efcf5e67b43922152d37a7ba4579",
+    "config/season_model.json": "9d8a706c1aabf3eb97b37c5339dee817f13a918eee1c28e5a0155bc0f332632c",
+    "data/2025/awards.json": "4783abd80e12f85742eb691b9a9462789b52460de8ec5b926b766a532be2edf9",
+    "data/2025/boundary_ranks.json": "c148032dfcea28d637f8da1cc6df562075766d14c1b0b5c9d87ad23f8bb9785e",
+    "data/reference/official_top20_2025.json": "1db9344672655fe6722915702c6ee723b32c0ba1d0afda8f5667ee4a369bee9d",
+    "data/reference/season_stage_catalog.json": "cad84f8d5f0340736909121700bfad61dacf80e2657b9a483b1335beac4b8a79",
+    "data/reference/vrs_top10_monthly.json": "3e7bacfb53d6c903a0eb05cad2340194fedc5a33d1ee32209e7dfe08b333b9e1",
+    "data/reference/evp_orders_2026.json": "8c6a00994204ce08a4f8f701b7421ef80de0a08325b919443ef17e2c5d8edcb7",
+    "data/reference/first_evp_context.json": "62031b39910ad62f832bccbd51f029afd3d74585dc28c121bfc1b4d4bd7b0abb",
+    "data/reference/stage_collection_audit.json": "5df24c3e3ad095e756d81e1bdacaeacf30247e9fd658f4cc0b79f0d7c370247b",
+    "data/2026/published_stage_ratings.json": "3c87bfb80c9bab50a8037c3d5c925d5234f728de71fdd2f8069e1852b4dc1c5c",
+    "data/2026/hong_kong_final_maps.json": "f6ceb5bb4d49fefd4c610a4ae24eddac5071c0dfd48ac86c0c33bae710e1c07e",
+    "data/2025/official_event_tables.json": "258e8f4f8a5264d83a626cb8673066fa2e4afb982c242c66699f6edbd82a98cc",
+    "data/2025/stage_maps.csv.gz": "42cfb881ab8c4c8cf8963d1770433134916b2ab0353fbb5b4e4594c5d22426ec",
+    "data/2026/stage_maps.csv.gz": "ecf3be15a5b6d25f190978efcc202278b9b72841cb4b4c6c3322fc9c08603237",
+    "data/2025/series_ratings.json": "457c728c2d5ffac752484b8bdc4ea48b70475781f3bbf6a94450e1efd944cb3f",
+    "data/2026/series_ratings.json": "0430fac539f37923a3ec3b762a73b905d7af5b6120b34da6d24981609011523f",
+    "data/reference/event_tiers_2026_user.json": "2faec9076c7da83708ebae25e6562ed47087541433ac57e89ab9274bb76e14de",
+    "data/reference/peak_context.json": "1bacfc845812eb93e6c4e4fa6bd1b6864c850b112d1f042611b934fc33e40bb9",
+    "data/2026/aggregate_snapshot.json": "3c22bd651477c538af6093ae2308aef7198f41f87471cef9211a8623ed75ad67"
+  },
+  "legacy_result": "5af57ceb86614159ad0bf3bcbc714e65e48f7b242258eae2ba648c1a21466979",
+  "historical_fit": "honors"
+}

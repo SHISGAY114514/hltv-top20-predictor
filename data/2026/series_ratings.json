@@ -1,0 +1,1256 @@
+{
+ "rating": "HLTV Rating 3.0",
+ "scope": "published high-tier series, matched on ten names and ten K/D totals",
+ "events": {
+  "IEM Kraków 2026": 8240,
+  "BLAST Open Rotterdam 2026": 8248,
+  "IEM Cologne Major 2026": 8301,
+  "Esports World Cup 2026": 8261,
+  "BLAST Open Porto 2026": 8249,
+  "ESL Pro League Season 24": 8244
+ },
+ "series": [
+  {
+   "event": "BLAST Open Porto 2026",
+   "match": "7304687",
+   "stage": "group",
+   "ratings": {
+    "try": 1.33,
+    "latto": 1.24,
+    "dumau": 1.11,
+    "art": 0.95,
+    "n1ssim": 0.91,
+    "dem0n": 1.19,
+    "xfl0ud": 1.06,
+    "dziugss": 0.89,
+    "cmtry": 0.87,
+    "krabeni": 0.86
+   },
+   "source": "https://www.hltv.org/news/45402/lattos-ace-powers-legacy-past-fut-at-blast-open"
+  },
+  {
+   "event": "BLAST Open Porto 2026",
+   "match": "7304691",
+   "stage": "group",
+   "ratings": {
+    "b1t": 1.21,
+    "w0nderful": 1.16,
+    "im": 0.98,
+    "makazze": 0.89,
+    "aleksib": 0.77,
+    "jba": 1.31,
+    "s1n": 1.08,
+    "slaxz-": 1.07,
+    "swisher": 0.96,
+    "lake": 0.91
+   },
+   "source": "https://www.hltv.org/news/45396/m80-stun-navi-at-blast-open"
+  },
+  {
+   "event": "BLAST Open Porto 2026",
+   "match": "7304693",
+   "stage": "group",
+   "ratings": {
+    "kyxsan": 1.07,
+    "jimpphat": 0.92,
+    "xantares": 0.83,
+    "woxic": 0.75,
+    "wicadia": 0.67,
+    "r1nkle": 1.64,
+    "nertz": 1.38,
+    "heavygod": 1.25,
+    "hunter-": 1.19,
+    "matys": 1.04
+   },
+   "source": "https://www.hltv.org/news/45391/r1nkle-shines-as-g2-beat-aurora-in-blast-opener"
+  },
+  {
+   "event": "BLAST Open Porto 2026",
+   "match": "7305134",
+   "stage": "group",
+   "ratings": {
+    "lake": 1.24,
+    "slaxz-": 1.07,
+    "s1n": 0.88,
+    "jba": 0.77,
+    "swisher": 0.64,
+    "kscerato": 1.89,
+    "yekindar": 1.21,
+    "molodoy": 1.01,
+    "fallen": 0.97,
+    "yuurih": 0.81
+   },
+   "source": "https://www.hltv.org/news/45408/kscerato-masterclass-secures-blast-open-playoff-spot-for-furia"
+  },
+  {
+   "event": "BLAST Open Porto 2026",
+   "match": "7305227",
+   "stage": "group",
+   "ratings": {
+    "cptkurtka023": 0.87,
+    "onic": 0.81,
+    "dawy": 0.69,
+    "headtr1ck": 0.62,
+    "zerrofix": 0.61,
+    "spinx": 1.68,
+    "xertion": 1.65,
+    "pr": 1.57,
+    "xelex": 1.25,
+    "torzsi": 0.96
+   },
+   "source": "https://www.hltv.org/news/45414/mouz-smash-inner-circle-to-secure-porto-spot"
+  },
+  {
+   "event": "BLAST Open Porto 2026",
+   "match": "7305238",
+   "stage": "group",
+   "ratings": {
+    "latto": 1.07,
+    "dumau": 1.05,
+    "n1ssim": 0.95,
+    "try": 0.88,
+    "art": 0.68,
+    "m0nesy": 1.59,
+    "kyousuke": 1.33,
+    "niko": 1.23,
+    "teses": 0.84,
+    "karrigan": 0.8
+   },
+   "source": "https://www.hltv.org/news/45416/falcons-overwhelm-legacy-for-open-playoffs"
+  },
+  {
+   "event": "BLAST Open Porto 2026",
+   "match": "7305283",
+   "stage": "group",
+   "ratings": {
+    "woxic": 1.55,
+    "kyxsan": 1.52,
+    "xantares": 1.34,
+    "wicadia": 1.26,
+    "jimpphat": 1.17,
+    "lake": 0.87,
+    "swisher": 0.83,
+    "jba": 0.72,
+    "slaxz-": 0.64,
+    "s1n": 0.63
+   },
+   "source": "https://www.hltv.org/news/45419/aurora-eliminate-m80-from-blast-open-in-dominant-fashion"
+  },
+  {
+   "event": "BLAST Open Porto 2026",
+   "match": "7305284",
+   "stage": "group",
+   "ratings": {
+    "sh1ro": 1.35,
+    "tn1r": 1.33,
+    "donk": 1.31,
+    "zont1x": 0.97,
+    "magixx": 0.91,
+    "yekindar": 1.05,
+    "yuurih": 0.91,
+    "molodoy": 0.87,
+    "fallen": 0.84,
+    "kscerato": 0.71
+   },
+   "source": "https://www.hltv.org/news/45423/spirit-soar-into-semi-finals-over-furia"
+  },
+  {
+   "event": "BLAST Open Porto 2026",
+   "match": "7305369",
+   "stage": "group",
+   "ratings": {
+    "xelex": 1.38,
+    "pr": 1.31,
+    "torzsi": 1.23,
+    "xertion": 1.15,
+    "spinx": 0.85,
+    "teses": 1.04,
+    "m0nesy": 1.03,
+    "karrigan": 0.86,
+    "kyousuke": 0.78,
+    "niko": 0.76
+   },
+   "source": "https://www.hltv.org/news/45428/mouz-secure-semi-final-berth-over-falcons"
+  },
+  {
+   "event": "BLAST Open Porto 2026",
+   "match": "7305534",
+   "stage": "playoff",
+   "ratings": {
+    "niko": 1.63,
+    "kyousuke": 1.43,
+    "m0nesy": 1.22,
+    "teses": 1.18,
+    "karrigan": 0.83,
+    "hunter-": 1.17,
+    "matys": 1.02,
+    "nertz": 0.93,
+    "r1nkle": 0.61,
+    "heavygod": 0.59
+   },
+   "source": "https://www.hltv.org/news/45450/falcons-ease-past-g2-into-porto-semis"
+  },
+  {
+   "event": "BLAST Open Porto 2026",
+   "match": "7305733",
+   "stage": "playoff",
+   "ratings": {
+    "spinx": 1.66,
+    "xelex": 1.45,
+    "xertion": 1.11,
+    "pr": 0.95,
+    "torzsi": 0.9,
+    "zywoo": 1.33,
+    "ropz": 1.15,
+    "flamez": 0.85,
+    "apex": 0.66,
+    "jl": 0.59
+   },
+   "source": "https://www.hltv.org/news/45458/mouz-surge-past-vitality-to-make-porto-finals"
+  },
+  {
+   "event": "BLAST Open Porto 2026",
+   "match": "7305785",
+   "stage": "final",
+   "ratings": {
+    "sh1ro": 1.38,
+    "donk": 1.29,
+    "tn1r": 1.29,
+    "zont1x": 1.26,
+    "magixx": 0.83,
+    "pr": 0.94,
+    "torzsi": 0.9,
+    "xertion": 0.89,
+    "spinx": 0.85,
+    "xelex": 0.82
+   },
+   "source": "https://www.hltv.org/news/45467/spirit-take-down-mouz-for-blast-open-porto-title"
+  },
+  {
+   "event": "BLAST Open Rotterdam 2026",
+   "match": "6495924",
+   "stage": "group",
+   "ratings": {
+    "spinx": 0.9,
+    "xertion": 0.79,
+    "brollan": 0.78,
+    "jimpphat": 0.76,
+    "torzsi": 0.71,
+    "techno": 1.77,
+    "910": 1.46,
+    "cobrazera": 1.41,
+    "mzinho": 0.99,
+    "blitz": 0.75
+   },
+   "source": "https://www.hltv.org/news/44135/the-mongolz-earn-first-ever-series-win-over-mouz"
+  },
+  {
+   "event": "BLAST Open Rotterdam 2026",
+   "match": "6495926",
+   "stage": "group",
+   "ratings": {
+    "zweih": 1.29,
+    "belchonokk": 1.08,
+    "nota": 1.04,
+    "jame": 0.98,
+    "xielo": 0.95,
+    "xkacpersky": 1.29,
+    "r1nkle": 1.16,
+    "cairne": 1.11,
+    "sjuush": 0.87,
+    "snappi": 0.71
+   },
+   "source": "https://www.hltv.org/news/44131/nip-miss-out-on-big-vrs-payout-after-narrow-loss-to-parivision"
+  },
+  {
+   "event": "BLAST Open Rotterdam 2026",
+   "match": "6495928",
+   "stage": "group",
+   "ratings": {
+    "jcobbb": 1.24,
+    "twistzz": 1.23,
+    "frozen": 0.82,
+    "broky": 0.8,
+    "karrigan": 0.71,
+    "xantares": 1.26,
+    "soulfly": 1.19,
+    "woxic": 1.14,
+    "wicadia": 0.97,
+    "maj3r": 0.86
+   },
+   "source": "https://www.hltv.org/news/44127/fazes-2026-record-slips-to-3-10-after-narrow-loss-to-aurora"
+  },
+  {
+   "event": "BLAST Open Rotterdam 2026",
+   "match": "6495930",
+   "stage": "group",
+   "ratings": {
+    "m0nesy": 1.3,
+    "teses": 1.25,
+    "niko": 1.21,
+    "kyxsan": 1.17,
+    "nucleonz": 1.16,
+    "sonic": 1.64,
+    "br0": 1.06,
+    "grim": 1.03,
+    "osee": 0.66,
+    "nitr0": 0.57
+   },
+   "source": "https://www.hltv.org/news/44119/falcons-kick-off-blast-open-with-win-over-nrg"
+  },
+  {
+   "event": "BLAST Open Rotterdam 2026",
+   "match": "7024959",
+   "stage": "group",
+   "ratings": {
+    "karrigan": 1.21,
+    "frozen": 1.17,
+    "broky": 1.15,
+    "jcobbb": 0.87,
+    "twistzz": 0.78,
+    "jamyoung": 1.26,
+    "moseyuh": 1.08,
+    "mercury": 1.05,
+    "zero": 0.87,
+    "jee": 0.86
+   },
+   "source": "https://www.hltv.org/news/44142/faze-dumped-out-of-blast-open-by-tyloo-leaving-major-berth-in-danger"
+  },
+  {
+   "event": "BLAST Open Rotterdam 2026",
+   "match": "7024961",
+   "stage": "group",
+   "ratings": {
+    "wicadia": 1.45,
+    "xantares": 1.37,
+    "maj3r": 1.27,
+    "woxic": 0.97,
+    "soulfly": 0.86,
+    "kscerato": 1.16,
+    "molodoy": 0.97,
+    "yekindar": 0.94,
+    "yuurih": 0.8,
+    "fallen": 0.77
+   },
+   "source": "https://www.hltv.org/news/44146/aurora-defeat-furia-to-secure-blast-rotterdam-playoff-spot"
+  },
+  {
+   "event": "BLAST Open Rotterdam 2026",
+   "match": "7048401",
+   "stage": "group",
+   "ratings": {
+    "xertion": 1.06,
+    "spinx": 0.98,
+    "jimpphat": 0.95,
+    "torzsi": 0.93,
+    "brollan": 0.74,
+    "luchov": 1.22,
+    "meyern": 1.16,
+    "huasopeek": 1.14,
+    "dgt": 1.12,
+    "max": 0.81
+   },
+   "source": "https://www.hltv.org/news/44151/9z-consign-mouz-to-last-place-exit"
+  },
+  {
+   "event": "BLAST Open Rotterdam 2026",
+   "match": "7073663",
+   "stage": "group",
+   "ratings": {
+    "zero": 1.11,
+    "jamyoung": 1.02,
+    "jee": 0.87,
+    "mercury": 0.85,
+    "moseyuh": 0.64,
+    "niko": 1.49,
+    "kyousuke": 1.33,
+    "teses": 1.24,
+    "kyxsan": 1.22,
+    "m0nesy": 0.96
+   },
+   "source": "https://www.hltv.org/news/44157/falcons-obliterate-tyloo-after-losing-close-first-map-to-reach-group-a-lower-bracket-final"
+  },
+  {
+   "event": "BLAST Open Rotterdam 2026",
+   "match": "7076650",
+   "stage": "group",
+   "ratings": {
+    "makazze": 1.43,
+    "im": 1.32,
+    "aleksib": 1.07,
+    "w0nderful": 1.03,
+    "b1t": 0.96,
+    "woxic": 1.03,
+    "soulfly": 1.0,
+    "wicadia": 0.9,
+    "maj3r": 0.83,
+    "xantares": 0.81
+   },
+   "source": "https://www.hltv.org/news/44163/navi-make-blast-semi-finals-over-aurora"
+  },
+  {
+   "event": "BLAST Open Rotterdam 2026",
+   "match": "7101081",
+   "stage": "group",
+   "ratings": {
+    "elige": 1.51,
+    "malbsmd": 1.09,
+    "ultimate": 1.06,
+    "naf": 0.95,
+    "siuhy": 0.72,
+    "mzinho": 1.28,
+    "cobrazera": 1.25,
+    "910": 1.18,
+    "blitz": 0.96,
+    "techno": 0.74
+   },
+   "source": "https://www.hltv.org/news/44161/the-mongolz-send-pistol-less-liquid-home"
+  },
+  {
+   "event": "BLAST Open Rotterdam 2026",
+   "match": "7124116",
+   "stage": "group",
+   "ratings": {
+    "mzinho": 1.87,
+    "blitz": 1.19,
+    "cobrazera": 1.03,
+    "910": 0.87,
+    "techno": 0.85,
+    "donk": 1.45,
+    "sh1ro": 1.18,
+    "tn1r": 0.82,
+    "zont1x": 0.81,
+    "magixx": 0.79
+   },
+   "source": "https://www.hltv.org/news/44172/the-mongolz-shock-spirit-to-secure-final-rotterdam-playoffs-berth"
+  },
+  {
+   "event": "BLAST Open Rotterdam 2026",
+   "match": "7148752",
+   "stage": "playoff",
+   "ratings": {
+    "xantares": 1.42,
+    "wicadia": 1.38,
+    "woxic": 1.33,
+    "maj3r": 1.03,
+    "soulfly": 0.88,
+    "blitz": 1.12,
+    "910": 0.97,
+    "mzinho": 0.94,
+    "techno": 0.79,
+    "cobrazera": 0.55
+   },
+   "source": "https://www.hltv.org/news/44197/aurora-break-losing-streak-against-the-mongolz-to-reach-rotterdam-semis"
+  },
+  {
+   "event": "BLAST Open Rotterdam 2026",
+   "match": "7230540",
+   "stage": "playoff",
+   "ratings": {
+    "b1t": 1.31,
+    "w0nderful": 1.24,
+    "im": 1.1,
+    "makazze": 1.08,
+    "aleksib": 0.94,
+    "jame": 1.13,
+    "zweih": 1.1,
+    "xielo": 1.07,
+    "belchonokk": 0.81,
+    "nota": 0.78
+   },
+   "source": "https://www.hltv.org/news/44208/navi-beat-parivision-to-make-blast-rotterdam-final"
+  },
+  {
+   "event": "ESL Pro League Season 24",
+   "match": "7309973",
+   "stage": "group",
+   "ratings": {
+    "latto": 1.25,
+    "dumau": 0.96,
+    "try": 0.88,
+    "n1ssim": 0.8,
+    "bobz": 0.61,
+    "jame": 1.37,
+    "fl1t": 1.26,
+    "hobbit": 1.17,
+    "xielo": 1.16,
+    "zweih": 0.78
+   },
+   "source": "https://www.hltv.org/news/45621/parivision-secure-massive-vrs-payout-over-art-less-legacy"
+  },
+  {
+   "event": "ESL Pro League Season 24",
+   "match": "7310886",
+   "stage": "group",
+   "ratings": {
+    "heavygod": 1.17,
+    "hunter-": 1.14,
+    "matys": 1.08,
+    "nertz": 1.05,
+    "r1nkle": 0.99,
+    "belchonokk": 1.41,
+    "ax1le": 1.2,
+    "nafany": 0.89,
+    "fame": 0.81,
+    "artfr0st": 0.75
+   },
+   "source": "https://www.hltv.org/news/45633/g2-facing-elimination-in-epl-after-1win-loss"
+  },
+  {
+   "event": "ESL Pro League Season 24",
+   "match": "7310950",
+   "stage": "group",
+   "ratings": {
+    "niko": 1.37,
+    "teses": 1.16,
+    "m0nesy": 1.15,
+    "kyousuke": 1.07,
+    "karrigan": 0.7,
+    "b1t": 1.17,
+    "makazze": 1.06,
+    "w0nderful": 1.01,
+    "im": 0.89,
+    "aleksib": 0.79
+   },
+   "source": "https://www.hltv.org/news/45660/falcons-outlast-navi-to-secure-epl-playoffs"
+  },
+  {
+   "event": "ESL Pro League Season 24",
+   "match": "7311024",
+   "stage": "group",
+   "ratings": {
+    "sh1ro": 1.43,
+    "magixx": 1.36,
+    "donk": 1.36,
+    "zont1x": 1.1,
+    "tn1r": 0.74,
+    "jba": 1.28,
+    "lake": 1.11,
+    "swisher": 0.94,
+    "s1n": 0.92,
+    "slaxz-": 0.54
+   },
+   "source": "https://www.hltv.org/news/45672/spirit-secure-last-spot-in-the-spodek-over-m80"
+  },
+  {
+   "event": "ESL Pro League Season 24",
+   "match": "7311060",
+   "stage": "playoff",
+   "ratings": {
+    "m0nesy": 1.37,
+    "kyousuke": 1.17,
+    "niko": 0.95,
+    "teses": 0.89,
+    "karrigan": 0.54,
+    "donk": 1.44,
+    "tn1r": 1.37,
+    "magixx": 1.26,
+    "sh1ro": 0.93,
+    "zont1x": 0.7
+   },
+   "source": "https://www.hltv.org/news/45689/spirit-outclass-falcons-to-set-up-mouz-rematch"
+  },
+  {
+   "event": "ESL Pro League Season 24",
+   "match": "7311062",
+   "stage": "playoff",
+   "ratings": {
+    "zywoo": 1.66,
+    "flamez": 1.46,
+    "mezii": 1.23,
+    "ropz": 1.18,
+    "apex": 1.06,
+    "xielo": 0.94,
+    "jame": 0.88,
+    "zweih": 0.72,
+    "hobbit": 0.62,
+    "fl1t": 0.61
+   },
+   "source": "https://www.hltv.org/news/45683/vitality-move-past-parivision-to-make-epl-semi"
+  },
+  {
+   "event": "ESL Pro League Season 24",
+   "match": "7311261",
+   "stage": "playoff",
+   "ratings": {
+    "spinx": 1.16,
+    "torzsi": 1.11,
+    "xelex": 1.05,
+    "pr": 1.02,
+    "xertion": 0.94,
+    "zont1x": 1.22,
+    "donk": 1.01,
+    "magixx": 0.98,
+    "sh1ro": 0.96,
+    "tn1r": 0.94
+   },
+   "source": "https://www.hltv.org/news/45693/mouz-beat-spirit-en-route-to-epl-final"
+  },
+  {
+   "event": "ESL Pro League Season 24",
+   "match": "7311399",
+   "stage": "final",
+   "ratings": {
+    "zywoo": 1.64,
+    "flamez": 1.29,
+    "ropz": 1.21,
+    "mezii": 0.99,
+    "apex": 0.94,
+    "pr": 1.0,
+    "xertion": 0.99,
+    "spinx": 0.96,
+    "torzsi": 0.64,
+    "xelex": 0.59
+   },
+   "source": "https://www.hltv.org/news/45700/zywoo-shines-as-vitality-win-esl-pro-league-season-24-over-mouz"
+  },
+  {
+   "event": "Esports World Cup 2026",
+   "match": "7304369",
+   "stage": "group",
+   "ratings": {
+    "faven": 1.52,
+    "jdc": 1.37,
+    "blamef": 1.12,
+    "gr1ks": 0.91,
+    "tabsen": 0.8,
+    "wicadia": 1.3,
+    "xantares": 1.28,
+    "woxic": 0.88,
+    "jimpphat": 0.79,
+    "kyxsan": 0.71
+   },
+   "source": "https://www.hltv.org/news/45281/big-beat-aurora-as-ewc-bo1s-gets-underway"
+  },
+  {
+   "event": "Esports World Cup 2026",
+   "match": "7304371",
+   "stage": "group",
+   "ratings": {
+    "lux": 1.22,
+    "afro": 1.15,
+    "bymas": 0.95,
+    "azuwu": 0.73,
+    "rainwaker": 0.35,
+    "fl4mus": 1.88,
+    "rez": 1.8,
+    "hypex": 1.36,
+    "snax": 1.08,
+    "tauson": 0.96
+   },
+   "source": "https://www.hltv.org/news/45281/big-beat-aurora-as-ewc-bo1s-gets-underway"
+  },
+  {
+   "event": "Esports World Cup 2026",
+   "match": "7304465",
+   "stage": "group",
+   "ratings": {
+    "tauson": 1.71,
+    "fl4mus": 1.37,
+    "rez": 1.22,
+    "hypex": 1.22,
+    "snax": 1.15,
+    "cacanito": 1.18,
+    "bibu": 0.84,
+    "m1n1": 0.71,
+    "0samas": 0.69,
+    "sinnopsyy": 0.67
+   },
+   "source": "https://www.hltv.org/news/45290/gamerlegion-saunter-past-jijiehao-for-ewc-playoffs"
+  },
+  {
+   "event": "Esports World Cup 2026",
+   "match": "7304473",
+   "stage": "group",
+   "ratings": {
+    "dumau": 1.02,
+    "try": 0.93,
+    "n1ssim": 0.74,
+    "latto": 0.68,
+    "art": 0.51,
+    "twistzz": 1.75,
+    "jcobbb": 1.38,
+    "frozen": 1.34,
+    "jboen": 1.26,
+    "neityu": 0.83
+   },
+   "source": "https://www.hltv.org/news/45297/faze-ease-past-legacy-into-ewc-playoffs"
+  },
+  {
+   "event": "Esports World Cup 2026",
+   "match": "7304481",
+   "stage": "group",
+   "ratings": {
+    "kscerato": 1.5,
+    "yuurih": 1.1,
+    "molodoy": 1.08,
+    "yekindar": 1.03,
+    "fallen": 0.86,
+    "huasopeek": 1.3,
+    "meyern": 0.98,
+    "luchov": 0.98,
+    "dgt": 0.88,
+    "max": 0.81
+   },
+   "source": "https://www.hltv.org/news/45311/furia-march-past-9z-into-ewc-playoffs"
+  },
+  {
+   "event": "Esports World Cup 2026",
+   "match": "7304482",
+   "stage": "group",
+   "ratings": {
+    "jamyoung": 0.94,
+    "jee": 0.9,
+    "zero": 0.62,
+    "mercury": 0.62,
+    "moseyuh": 0.57,
+    "emiliaqaq": 1.72,
+    "c4llm3su3": 1.45,
+    "z4kr": 1.35,
+    "starry": 1.2,
+    "westmelon": 0.91
+   },
+   "source": "https://www.hltv.org/news/45300/lynn-vision-dominate-chinese-derby-to-eliminate-tyloo-from-ewc"
+  },
+  {
+   "event": "Esports World Cup 2026",
+   "match": "7304568",
+   "stage": "group",
+   "ratings": {
+    "emiliaqaq": 0.69,
+    "westmelon": 0.66,
+    "z4kr": 0.61,
+    "c4llm3su3": 0.59,
+    "starry": 0.57,
+    "zywoo": 2.2,
+    "mezii": 1.53,
+    "ropz": 1.49,
+    "flamez": 1.48,
+    "apex": 1.02
+   },
+   "source": "https://www.hltv.org/news/45319/vitality-make-quick-work-of-lynn-vision-to-reach-ewc-playoffs"
+  },
+  {
+   "event": "Esports World Cup 2026",
+   "match": "7304609",
+   "stage": "group",
+   "ratings": {
+    "aw": 1.45,
+    "tenzy": 1.38,
+    "mo0n": 0.92,
+    "masval": 0.92,
+    "sfade8": 0.82,
+    "meyern": 1.13,
+    "luchov": 1.01,
+    "huasopeek": 1.01,
+    "max": 0.93,
+    "dgt": 0.89
+   },
+   "source": "https://www.hltv.org/news/45323/magic-inch-past-9z-into-ewc-playoffs"
+  },
+  {
+   "event": "Esports World Cup 2026",
+   "match": "7304641",
+   "stage": "group",
+   "ratings": {
+    "esenthial": 0.99,
+    "s1zzi": 0.98,
+    "alex666": 0.93,
+    "npl": 0.86,
+    "kensizor": 0.76,
+    "donk": 1.86,
+    "tn1r": 1.18,
+    "sh1ro": 1.15,
+    "magixx": 0.93,
+    "zont1x": 0.81
+   },
+   "source": "https://www.hltv.org/news/45349/spirit-move-past-b8-at-ewc"
+  },
+  {
+   "event": "Esports World Cup 2026",
+   "match": "7304645",
+   "stage": "group",
+   "ratings": {
+    "tauson": 1.08,
+    "fl4mus": 1.02,
+    "hypex": 1.01,
+    "snax": 0.96,
+    "rez": 0.93,
+    "torzsi": 1.17,
+    "spinx": 1.17,
+    "xertion": 1.15,
+    "pr": 0.95,
+    "xelex": 0.87
+   },
+   "source": "https://www.hltv.org/news/45344/xelex-goes-from-zero-to-hero-in-mouz-comeback-to-make-ewc-quarters-over-gamerlegion"
+  },
+  {
+   "event": "Esports World Cup 2026",
+   "match": "7304809",
+   "stage": "playoff",
+   "ratings": {
+    "xfl0ud": 1.52,
+    "krabeni": 1.25,
+    "cmtry": 1.18,
+    "dem0n": 1.13,
+    "dziugss": 1.1,
+    "torzsi": 1.07,
+    "xertion": 1.01,
+    "xelex": 0.97,
+    "spinx": 0.89,
+    "pr": 0.5
+   },
+   "source": "https://www.hltv.org/news/45355/fut-sweep-mouz-to-make-ewc-semis"
+  },
+  {
+   "event": "Esports World Cup 2026",
+   "match": "7304890",
+   "stage": "playoff",
+   "ratings": {
+    "try": 1.2,
+    "latto": 1.1,
+    "dumau": 0.89,
+    "art": 0.79,
+    "n1ssim": 0.7,
+    "donk": 1.62,
+    "sh1ro": 1.56,
+    "zont1x": 1.2,
+    "magixx": 0.94,
+    "tn1r": 0.74
+   },
+   "source": "https://www.hltv.org/news/45369/spirit-outclass-legacy-to-make-ewc-grand-final"
+  },
+  {
+   "event": "Esports World Cup 2026",
+   "match": "7304921",
+   "stage": "final",
+   "ratings": {
+    "dem0n": 1.2,
+    "dziugss": 1.03,
+    "krabeni": 0.95,
+    "xfl0ud": 0.9,
+    "cmtry": 0.78,
+    "donk": 1.38,
+    "zont1x": 1.22,
+    "tn1r": 1.1,
+    "sh1ro": 1.06,
+    "magixx": 0.93
+   },
+   "source": "https://www.hltv.org/news/45377/spirit-beat-fut-3-1-to-win-esports-world-cup"
+  },
+  {
+   "event": "IEM Cologne Major 2026",
+   "match": "7302562",
+   "stage": "group",
+   "ratings": {
+    "910": 1.21,
+    "blitz": 1.1,
+    "cobrazera": 0.96,
+    "techno": 0.85,
+    "mzinho": 0.75,
+    "fl4mus": 1.26,
+    "boombl4": 1.13,
+    "zorte": 1.1,
+    "d1ledez": 1.08,
+    "magnojez": 1.0
+   },
+   "source": "https://www.hltv.org/news/44861/betboom-beat-the-mongolz-to-secure-biggest-win-so-far-in-cologne"
+  },
+  {
+   "event": "IEM Cologne Major 2026",
+   "match": "7302567",
+   "stage": "group",
+   "ratings": {
+    "niko": 1.55,
+    "m0nesy": 1.45,
+    "kyousuke": 1.15,
+    "teses": 1.01,
+    "karrigan": 0.68,
+    "heavygod": 1.26,
+    "hunter-": 0.98,
+    "nertz": 0.92,
+    "matys": 0.83,
+    "sunpayus": 0.75
+   },
+   "source": "https://www.hltv.org/news/44866/falcons-squeeze-past-g2-into-1-0-pool-in-stage-3"
+  },
+  {
+   "event": "IEM Cologne Major 2026",
+   "match": "7302612",
+   "stage": "group",
+   "ratings": {
+    "flamez": 1.25,
+    "zywoo": 1.2,
+    "mezii": 1.1,
+    "ropz": 0.99,
+    "apex": 0.71,
+    "meyern": 1.13,
+    "dgt": 1.01,
+    "luchov": 1.01,
+    "huasopeek": 0.94,
+    "max": 0.84
+   },
+   "source": "https://www.hltv.org/news/44882/9z-stun-vitality-to-move-into-2-0-pool"
+  },
+  {
+   "event": "IEM Cologne Major 2026",
+   "match": "7302616",
+   "stage": "group",
+   "ratings": {
+    "xielo": 1.06,
+    "nota": 1.01,
+    "jame": 0.91,
+    "zweih": 0.88,
+    "belchonokk": 0.86,
+    "rainwaker": 1.19,
+    "afro": 1.14,
+    "gizmy": 1.13,
+    "azuwu": 1.05,
+    "bymas": 0.95
+   },
+   "source": "https://www.hltv.org/news/44876/monte-put-parivision-on-the-precipice-after-dominant-inferno-decider"
+  },
+  {
+   "event": "IEM Cologne Major 2026",
+   "match": "7302662",
+   "stage": "group",
+   "ratings": {
+    "donk": 1.45,
+    "sh1ro": 1.25,
+    "magixx": 1.08,
+    "zont1x": 0.91,
+    "tn1r": 0.76,
+    "dgt": 1.29,
+    "meyern": 1.04,
+    "huasopeek": 1.03,
+    "luchov": 0.99,
+    "max": 0.76
+   },
+   "source": "https://www.hltv.org/news/44896/spirit-quell-9z-to-reach-cologne-playoffs"
+  },
+  {
+   "event": "IEM Cologne Major 2026",
+   "match": "7302665",
+   "stage": "group",
+   "ratings": {
+    "zywoo": 1.66,
+    "ropz": 1.24,
+    "apex": 0.92,
+    "mezii": 0.9,
+    "flamez": 0.87,
+    "xertion": 1.09,
+    "xelex": 1.0,
+    "torzsi": 0.96,
+    "brollan": 0.94,
+    "spinx": 0.86
+   },
+   "source": "https://www.hltv.org/news/44891/vitality-beat-mouz-to-go-2-1-in-stage-3"
+  },
+  {
+   "event": "IEM Cologne Major 2026",
+   "match": "7302731",
+   "stage": "group",
+   "ratings": {
+    "hunter-": 1.41,
+    "heavygod": 1.29,
+    "sunpayus": 1.26,
+    "nertz": 1.2,
+    "matys": 1.11,
+    "dumau": 1.03,
+    "saadzin": 0.78,
+    "n1ssim": 0.78,
+    "latto": 0.75,
+    "art": 0.62
+   },
+   "source": "https://www.hltv.org/news/44907/g2-outclass-legacy-to-survive-in-cologne"
+  },
+  {
+   "event": "IEM Cologne Major 2026",
+   "match": "7302735",
+   "stage": "group",
+   "ratings": {
+    "cobrazera": 1.15,
+    "910": 1.15,
+    "blitz": 1.12,
+    "mzinho": 1.11,
+    "techno": 0.75,
+    "afro": 1.16,
+    "gizmy": 1.08,
+    "azuwu": 1.04,
+    "rainwaker": 0.96,
+    "bymas": 0.81
+   },
+   "source": "https://www.hltv.org/news/44900/the-mongolz-end-montes-cologne-major-run"
+  },
+  {
+   "event": "IEM Cologne Major 2026",
+   "match": "7302761",
+   "stage": "group",
+   "ratings": {
+    "dgt": 1.82,
+    "luchov": 1.37,
+    "huasopeek": 1.17,
+    "meyern": 0.92,
+    "max": 0.89,
+    "mzinho": 1.29,
+    "blitz": 0.95,
+    "cobrazera": 0.79,
+    "910": 0.72,
+    "techno": 0.58
+   },
+   "source": "https://www.hltv.org/news/44917/9z-crown-fairytale-run-by-securing-playoff-spot-over-the-mongolz"
+  },
+  {
+   "event": "IEM Cologne Major 2026",
+   "match": "7302777",
+   "stage": "playoff",
+   "ratings": {
+    "matys": 1.2,
+    "heavygod": 1.09,
+    "hunter-": 1.06,
+    "sunpayus": 1.03,
+    "nertz": 0.84,
+    "donk": 1.35,
+    "zont1x": 1.05,
+    "sh1ro": 1.04,
+    "magixx": 0.93,
+    "tn1r": 0.89
+   },
+   "source": "https://www.hltv.org/news/44960/spirit-overcome-g2-in-instant-classic-to-secure-semi-final-spot-in-cologne"
+  },
+  {
+   "event": "IEM Kraków 2026",
+   "match": "6176203",
+   "stage": "group",
+   "ratings": {
+    "910": 1.2,
+    "blitz": 1.01,
+    "techno": 0.92,
+    "cobrazera": 0.87,
+    "mzinho": 0.51,
+    "sunpayus": 1.46,
+    "hunter-": 1.41,
+    "malbsmd": 1.37,
+    "heavygod": 1.03,
+    "matys": 1.0
+   },
+   "source": "https://www.hltv.org/news/43771/g2-open-iem-krakow-group-stage-with-2-0-win-against-the-mongolz"
+  },
+  {
+   "event": "IEM Kraków 2026",
+   "match": "6176380",
+   "stage": "group",
+   "ratings": {
+    "niko": 1.16,
+    "m0nesy": 1.12,
+    "kyousuke": 1.06,
+    "teses": 0.88,
+    "kyxsan": 0.68,
+    "soulfly": 1.31,
+    "woxic": 1.15,
+    "xantares": 1.14,
+    "maj3r": 0.96,
+    "wicadia": 0.77
+   },
+   "source": "https://www.hltv.org/news/43785/aurora-knock-falcons-to-lower-bracket-in-krakow"
+  },
+  {
+   "event": "IEM Kraków 2026",
+   "match": "6176382",
+   "stage": "group",
+   "ratings": {
+    "flamez": 1.69,
+    "ropz": 1.39,
+    "apex": 1.28,
+    "zywoo": 1.14,
+    "mezii": 0.88,
+    "krazy": 1.06,
+    "s1mple": 1.05,
+    "aragornn": 0.76,
+    "electronic": 0.67,
+    "mutiris": 0.63
+   },
+   "source": "https://www.hltv.org/news/43778/vitality-best-bcgame-to-wrap-up-first-day-of-krakow-stage-2"
+  },
+  {
+   "event": "IEM Kraków 2026",
+   "match": "6176385",
+   "stage": "group",
+   "ratings": {
+    "yekindar": 1.09,
+    "molodoy": 0.98,
+    "fallen": 0.95,
+    "kscerato": 0.89,
+    "yuurih": 0.65,
+    "dem0n": 1.48,
+    "dziugss": 1.28,
+    "launx": 1.25,
+    "krabeni": 1.21,
+    "cmtry": 0.98
+   },
+   "source": "https://www.hltv.org/news/43774/fut-stun-furia-in-krakow-stage-2-opener"
+  },
+  {
+   "event": "IEM Kraków 2026",
+   "match": "6185837",
+   "stage": "group",
+   "ratings": {
+    "b1t": 1.03,
+    "im": 1.01,
+    "makazze": 0.95,
+    "aleksib": 0.76,
+    "w0nderful": 0.66,
+    "donk": 1.66,
+    "sh1ro": 1.27,
+    "magixx": 1.21,
+    "zont1x": 1.18,
+    "tn1r": 0.91
+   },
+   "source": "https://www.hltv.org/news/43790/spirit-extend-dominant-head-to-head-over-navi-to-11-2-to-reach-playoffs-in-krakow"
+  },
+  {
+   "event": "IEM Kraków 2026",
+   "match": "6186573",
+   "stage": "group",
+   "ratings": {
+    "broky": 1.46,
+    "twistzz": 1.38,
+    "karrigan": 1.05,
+    "frozen": 0.99,
+    "jcobbb": 0.85,
+    "s1mple": 1.16,
+    "mutiris": 1.03,
+    "electronic": 0.97,
+    "aragornn": 0.86,
+    "krazy": 0.86
+   },
+   "source": "https://www.hltv.org/news/43797/bcgame-bow-out-of-krakow-at-the-hands-of-faze"
+  },
+  {
+   "event": "IEM Kraków 2026",
+   "match": "6186574",
+   "stage": "group",
+   "ratings": {
+    "graviti": 1.2,
+    "lucky": 0.81,
+    "maka": 0.71,
+    "bodyy": 0.66,
+    "ex3rcice": 0.51,
+    "zywoo": 1.61,
+    "flamez": 1.42,
+    "mezii": 1.26,
+    "ropz": 1.19,
+    "apex": 1.05
+   },
+   "source": "https://www.hltv.org/news/43793/vitality-ease-past-3dmax-to-book-arena-spot-in-krakow"
+  },
+  {
+   "event": "IEM Kraków 2026",
+   "match": "6196157",
+   "stage": "group",
+   "ratings": {
+    "matys": 1.31,
+    "heavygod": 1.17,
+    "sunpayus": 1.03,
+    "malbsmd": 1.0,
+    "hunter-": 0.71,
+    "sh1ro": 1.45,
+    "donk": 1.17,
+    "zont1x": 1.14,
+    "tn1r": 0.9,
+    "magixx": 0.78
+   },
+   "source": "https://www.hltv.org/news/43811/sh1ro-shines-as-spirit-narrowly-beat-g2-to-skip-to-semi-finals-in-krakow"
+  },
+  {
+   "event": "IEM Kraków 2026",
+   "match": "6196158",
+   "stage": "group",
+   "ratings": {
+    "yekindar": 1.35,
+    "molodoy": 1.25,
+    "kscerato": 1.24,
+    "yuurih": 1.15,
+    "fallen": 0.75,
+    "b1t": 1.04,
+    "makazze": 1.01,
+    "im": 0.97,
+    "w0nderful": 0.84,
+    "aleksib": 0.62
+   },
+   "source": "https://www.hltv.org/news/43802/furia-get-revenge-for-budapest-by-eliminating-navi-in-krakow"
+  },
+  {
+   "event": "IEM Kraków 2026",
+   "match": "6206315",
+   "stage": "group",
+   "ratings": {
+    "torzsi": 1.51,
+    "jimpphat": 1.44,
+    "spinx": 1.29,
+    "xertion": 1.24,
+    "brollan": 1.19,
+    "frozen": 1.28,
+    "jcobbb": 0.97,
+    "twistzz": 0.88,
+    "broky": 0.62,
+    "karrigan": 0.54
+   },
+   "source": "https://www.hltv.org/news/43807/mouz-eliminate-faze-from-iem-krakow"
+  },
+  {
+   "event": "IEM Kraków 2026",
+   "match": "6218296",
+   "stage": "playoff",
+   "ratings": {
+    "kscerato": 1.83,
+    "yuurih": 1.44,
+    "yekindar": 1.18,
+    "fallen": 1.17,
+    "molodoy": 1.13,
+    "xantares": 0.95,
+    "woxic": 0.82,
+    "maj3r": 0.82,
+    "wicadia": 0.59,
+    "soulfly": 0.58
+   },
+   "source": "https://www.hltv.org/news/43828/furia-cruise-into-iem-krakow-semis-as-auroras-arena-struggles-continue"
+  },
+  {
+   "event": "IEM Kraków 2026",
+   "match": "6248502",
+   "stage": "playoff",
+   "ratings": {
+    "zywoo": 1.72,
+    "ropz": 1.61,
+    "flamez": 1.15,
+    "apex": 1.01,
+    "mezii": 0.95,
+    "brollan": 0.99,
+    "jimpphat": 0.99,
+    "xertion": 0.77,
+    "spinx": 0.69,
+    "torzsi": 0.69
+   },
+   "source": "https://www.hltv.org/news/43835/vitality-stroll-past-mouz-into-krakow-grand-final"
+  },
+  {
+   "event": "IEM Kraków 2026",
+   "match": "6258175",
+   "stage": "final",
+   "ratings": {
+    "yekindar": 1.06,
+    "kscerato": 0.9,
+    "fallen": 0.86,
+    "yuurih": 0.84,
+    "molodoy": 0.76,
+    "zywoo": 1.72,
+    "flamez": 1.22,
+    "mezii": 1.07,
+    "apex": 1.05,
+    "ropz": 0.88
+   },
+   "source": "https://www.hltv.org/news/43841/zywoo-shines-as-vitality-take-iem-krakow-title-over-furia"
+  }
+ ]
+}

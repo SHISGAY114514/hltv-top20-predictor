@@ -1,0 +1,1186 @@
+{
+ "source": "https://news.wmpvp.com/community-pcDetail.html?id=392821231",
+ "as_of": "2026-11-17",
+ "scope": "MartisLaw v1.04 notable events; nested cohorts. Published table values take precedence over prose if rounded differently. tN1R from boundary comparison figure.",
+ "columns": [
+  "big",
+  "elite",
+  "super",
+  "playoff",
+  "arena",
+  "elite_playoff",
+  "final"
+ ],
+ "players": {
+  "donk": {
+   "big": [
+    142,
+    1.36
+   ],
+   "elite": [
+    82,
+    1.4
+   ],
+   "super": [
+    26,
+    1.37
+   ],
+   "playoff": [
+    55,
+    1.29
+   ],
+   "arena": [
+    52,
+    1.3
+   ],
+   "elite_playoff": [
+    31,
+    1.32
+   ],
+   "final": [
+    17,
+    1.29
+   ]
+  },
+  "zywoo": {
+   "big": [
+    172,
+    1.37
+   ],
+   "elite": [
+    93,
+    1.42
+   ],
+   "super": [
+    26,
+    1.53
+   ],
+   "playoff": [
+    73,
+    1.37
+   ],
+   "arena": [
+    54,
+    1.39
+   ],
+   "elite_playoff": [
+    39,
+    1.4
+   ],
+   "final": [
+    23,
+    1.44
+   ]
+  },
+  "m0nesy": {
+   "big": [
+    153,
+    1.28
+   ],
+   "elite": [
+    86,
+    1.3
+   ],
+   "super": [
+    30,
+    1.25
+   ],
+   "playoff": [
+    47,
+    1.23
+   ],
+   "arena": [
+    36,
+    1.25
+   ],
+   "elite_playoff": [
+    24,
+    1.28
+   ],
+   "final": [
+    9,
+    1.05
+   ]
+  },
+  "kscerato": {
+   "big": [
+    200,
+    1.19
+   ],
+   "elite": [
+    98,
+    1.18
+   ],
+   "super": [
+    35,
+    1.15
+   ],
+   "playoff": [
+    73,
+    1.17
+   ],
+   "arena": [
+    47,
+    1.17
+   ],
+   "elite_playoff": [
+    34,
+    1.11
+   ],
+   "final": [
+    20,
+    1.13
+   ]
+  },
+  "flamez": {
+   "big": [
+    172,
+    1.16
+   ],
+   "elite": [
+    93,
+    1.21
+   ],
+   "super": [
+    26,
+    1.15
+   ],
+   "playoff": [
+    73,
+    1.16
+   ],
+   "arena": [
+    54,
+    1.18
+   ],
+   "elite_playoff": [
+    39,
+    1.19
+   ],
+   "final": [
+    23,
+    1.23
+   ]
+  },
+  "staehr": {
+   "big": [
+    52,
+    1.16
+   ],
+   "elite": [
+    30,
+    1.14
+   ],
+   "super": [
+    11,
+    1.01
+   ],
+   "playoff": [
+    8,
+    1.15
+   ],
+   "arena": [
+    8,
+    1.15
+   ],
+   "elite_playoff": [
+    3,
+    1.14
+   ],
+   "final": [
+    0,
+    null
+   ]
+  },
+  "w0nderful": {
+   "big": [
+    159,
+    1.16
+   ],
+   "elite": [
+    76,
+    1.04
+   ],
+   "super": [
+    21,
+    0.96
+   ],
+   "playoff": [
+    43,
+    1.21
+   ],
+   "arena": [
+    40,
+    1.22
+   ],
+   "elite_playoff": [
+    11,
+    1.08
+   ],
+   "final": [
+    13,
+    1.26
+   ]
+  },
+  "magnojez": {
+   "big": [
+    80,
+    1.12
+   ],
+   "elite": [
+    25,
+    1.02
+   ],
+   "super": [
+    13,
+    1.09
+   ],
+   "playoff": [
+    19,
+    1.07
+   ],
+   "arena": [
+    9,
+    0.94
+   ],
+   "elite_playoff": [
+    2,
+    1.0
+   ],
+   "final": [
+    5,
+    1.23
+   ]
+  },
+  "latto": {
+   "big": [
+    86,
+    1.13
+   ],
+   "elite": [
+    40,
+    1.12
+   ],
+   "super": [
+    8,
+    1.09
+   ],
+   "playoff": [
+    12,
+    1.12
+   ],
+   "arena": [
+    12,
+    1.12
+   ],
+   "elite_playoff": [
+    6,
+    1.2
+   ],
+   "final": [
+    0,
+    null
+   ]
+  },
+  "sh1ro": {
+   "big": [
+    142,
+    1.14
+   ],
+   "elite": [
+    82,
+    1.18
+   ],
+   "super": [
+    26,
+    1.27
+   ],
+   "playoff": [
+    55,
+    1.11
+   ],
+   "arena": [
+    52,
+    1.12
+   ],
+   "elite_playoff": [
+    31,
+    1.15
+   ],
+   "final": [
+    17,
+    1.04
+   ]
+  },
+  "molodoy": {
+   "big": [
+    200,
+    1.15
+   ],
+   "elite": [
+    98,
+    1.14
+   ],
+   "super": [
+    35,
+    1.15
+   ],
+   "playoff": [
+    73,
+    1.07
+   ],
+   "arena": [
+    47,
+    1.09
+   ],
+   "elite_playoff": [
+    34,
+    1.07
+   ],
+   "final": [
+    20,
+    0.99
+   ]
+  },
+  "kyousuke": {
+   "big": [
+    143,
+    1.13
+   ],
+   "elite": [
+    84,
+    1.14
+   ],
+   "super": [
+    30,
+    1.18
+   ],
+   "playoff": [
+    39,
+    1.13
+   ],
+   "arena": [
+    36,
+    1.16
+   ],
+   "elite_playoff": [
+    24,
+    1.18
+   ],
+   "final": [
+    6,
+    1.26
+   ]
+  },
+  "b1t": {
+   "big": [
+    159,
+    1.14
+   ],
+   "elite": [
+    76,
+    1.11
+   ],
+   "super": [
+    21,
+    1.16
+   ],
+   "playoff": [
+    43,
+    1.14
+   ],
+   "arena": [
+    40,
+    1.13
+   ],
+   "elite_playoff": [
+    11,
+    1.07
+   ],
+   "final": [
+    13,
+    1.17
+   ]
+  },
+  "ropz": {
+   "big": [
+    172,
+    1.14
+   ],
+   "elite": [
+    93,
+    1.15
+   ],
+   "super": [
+    26,
+    1.11
+   ],
+   "playoff": [
+    73,
+    1.15
+   ],
+   "arena": [
+    54,
+    1.2
+   ],
+   "elite_playoff": [
+    39,
+    1.17
+   ],
+   "final": [
+    23,
+    1.26
+   ]
+  },
+  "910": {
+   "big": [
+    92,
+    1.09
+   ],
+   "elite": [
+    55,
+    1.11
+   ],
+   "super": [
+    18,
+    1.08
+   ],
+   "playoff": [
+    16,
+    0.94
+   ],
+   "arena": [
+    16,
+    0.94
+   ],
+   "elite_playoff": [
+    9,
+    1.08
+   ],
+   "final": [
+    3,
+    0.73
+   ]
+  },
+  "xertion": {
+   "big": [
+    160,
+    1.12
+   ],
+   "elite": [
+    84,
+    1.08
+   ],
+   "super": [
+    25,
+    1.03
+   ],
+   "playoff": [
+    49,
+    1.05
+   ],
+   "arena": [
+    44,
+    1.04
+   ],
+   "elite_playoff": [
+    28,
+    0.98
+   ],
+   "final": [
+    10,
+    1.05
+   ]
+  },
+  "heavygod": {
+   "big": [
+    123,
+    1.14
+   ],
+   "elite": [
+    69,
+    1.16
+   ],
+   "super": [
+    26,
+    1.21
+   ],
+   "playoff": [
+    15,
+    0.99
+   ],
+   "arena": [
+    15,
+    0.99
+   ],
+   "elite_playoff": [
+    13,
+    0.98
+   ],
+   "final": [
+    0,
+    null
+   ]
+  },
+  "spinx": {
+   "big": [
+    160,
+    1.1
+   ],
+   "elite": [
+    84,
+    1.11
+   ],
+   "super": [
+    25,
+    1.08
+   ],
+   "playoff": [
+    49,
+    1.05
+   ],
+   "arena": [
+    44,
+    1.04
+   ],
+   "elite_playoff": [
+    28,
+    1.08
+   ],
+   "final": [
+    10,
+    1.01
+   ]
+  },
+  "niko": {
+   "big": [
+    153,
+    1.12
+   ],
+   "elite": [
+    86,
+    1.14
+   ],
+   "super": [
+    30,
+    1.21
+   ],
+   "playoff": [
+    47,
+    1.08
+   ],
+   "arena": [
+    36,
+    1.07
+   ],
+   "elite_playoff": [
+    24,
+    1.12
+   ],
+   "final": [
+    9,
+    1.09
+   ]
+  },
+  "wicadia": {
+   "big": [
+    154,
+    1.09
+   ],
+   "elite": [
+    82,
+    1.1
+   ],
+   "super": [
+    22,
+    1.1
+   ],
+   "playoff": [
+    43,
+    1.1
+   ],
+   "arena": [
+    32,
+    1.12
+   ],
+   "elite_playoff": [
+    20,
+    1.1
+   ],
+   "final": [
+    8,
+    1.01
+   ]
+  },
+  "makazze": {
+   "big": [
+    159,
+    1.1
+   ],
+   "elite": [
+    76,
+    1.06
+   ],
+   "super": [
+    21,
+    0.99
+   ],
+   "playoff": [
+    43,
+    1.08
+   ],
+   "arena": [
+    40,
+    1.08
+   ],
+   "elite_playoff": [
+    11,
+    0.96
+   ],
+   "final": [
+    13,
+    1.11
+   ]
+  },
+  "jabbi": {
+   "big": [
+    52,
+    1.02
+   ],
+   "elite": [
+    30,
+    0.99
+   ],
+   "super": [
+    11,
+    1.12
+   ],
+   "playoff": [
+    8,
+    1.02
+   ],
+   "arena": [
+    8,
+    1.02
+   ],
+   "elite_playoff": [
+    3,
+    0.85
+   ],
+   "final": [
+    0,
+    null
+   ]
+  },
+  "dziugss": {
+   "big": [
+    96,
+    1.06
+   ],
+   "elite": [
+    60,
+    1.07
+   ],
+   "super": [
+    22,
+    1.08
+   ],
+   "playoff": [
+    20,
+    1.0
+   ],
+   "arena": [
+    18,
+    1.0
+   ],
+   "elite_playoff": [
+    12,
+    1.04
+   ],
+   "final": [
+    4,
+    1.03
+   ]
+  },
+  "dumau": {
+   "big": [
+    86,
+    1.07
+   ],
+   "elite": [
+    40,
+    1.07
+   ],
+   "super": [
+    8,
+    1.06
+   ],
+   "playoff": [
+    12,
+    1.06
+   ],
+   "arena": [
+    12,
+    1.06
+   ],
+   "elite_playoff": [
+    6,
+    1.0
+   ],
+   "final": [
+    0,
+    null
+   ]
+  },
+  "yekindar": {
+   "big": [
+    200,
+    1.09
+   ],
+   "elite": [
+    98,
+    1.08
+   ],
+   "super": [
+    35,
+    1.13
+   ],
+   "playoff": [
+    73,
+    1.1
+   ],
+   "arena": [
+    47,
+    1.04
+   ],
+   "elite_playoff": [
+    34,
+    1.06
+   ],
+   "final": [
+    20,
+    1.11
+   ]
+  },
+  "dem0n": {
+   "big": [
+    96,
+    1.09
+   ],
+   "elite": [
+    60,
+    1.08
+   ],
+   "super": [
+    22,
+    1.0
+   ],
+   "playoff": [
+    20,
+    1.09
+   ],
+   "arena": [
+    18,
+    1.12
+   ],
+   "elite_playoff": [
+    12,
+    1.21
+   ],
+   "final": [
+    4,
+    1.2
+   ]
+  },
+  "jimpphat": {
+   "big": [
+    122,
+    1.07
+   ],
+   "elite": [
+    69,
+    1.05
+   ],
+   "super": [
+    14,
+    1.0
+   ],
+   "playoff": [
+    33,
+    1.0
+   ],
+   "arena": [
+    22,
+    1.01
+   ],
+   "elite_playoff": [
+    17,
+    0.98
+   ],
+   "final": [
+    4,
+    0.81
+   ]
+  },
+  "launx": {
+   "big": [
+    51,
+    1.03
+   ],
+   "elite": [
+    35,
+    1.05
+   ],
+   "super": [
+    22,
+    0.96
+   ],
+   "playoff": [
+    6,
+    1.1
+   ],
+   "arena": [
+    6,
+    1.1
+   ],
+   "elite_playoff": [
+    0,
+    null
+   ],
+   "final": [
+    0,
+    null
+   ]
+  },
+  "torzsi": {
+   "big": [
+    160,
+    1.06
+   ],
+   "elite": [
+    84,
+    1.09
+   ],
+   "super": [
+    25,
+    1.07
+   ],
+   "playoff": [
+    49,
+    0.99
+   ],
+   "arena": [
+    44,
+    0.97
+   ],
+   "elite_playoff": [
+    28,
+    1.01
+   ],
+   "final": [
+    10,
+    0.89
+   ]
+  },
+  "phzy": {
+   "big": [
+    52,
+    1.07
+   ],
+   "elite": [
+    30,
+    1.05
+   ],
+   "super": [
+    11,
+    1.14
+   ],
+   "playoff": [
+    8,
+    1.13
+   ],
+   "arena": [
+    8,
+    1.13
+   ],
+   "elite_playoff": [
+    3,
+    0.97
+   ],
+   "final": [
+    0,
+    null
+   ]
+  },
+  "huasopeek": {
+   "big": [
+    74,
+    1.05
+   ],
+   "elite": [
+    44,
+    1.06
+   ],
+   "super": [
+    16,
+    1.03
+   ],
+   "playoff": [
+    6,
+    1.04
+   ],
+   "arena": [
+    6,
+    1.04
+   ],
+   "elite_playoff": [
+    3,
+    0.94
+   ],
+   "final": [
+    0,
+    null
+   ]
+  },
+  "nertz": {
+   "big": [
+    103,
+    1.02
+   ],
+   "elite": [
+    47,
+    1.01
+   ],
+   "super": [
+    16,
+    0.87
+   ],
+   "playoff": [
+    15,
+    0.89
+   ],
+   "arena": [
+    13,
+    0.87
+   ],
+   "elite_playoff": [
+    11,
+    0.89
+   ],
+   "final": [
+    0,
+    null
+   ]
+  },
+  "npl": {
+   "big": [
+    50,
+    1.06
+   ],
+   "elite": [
+    27,
+    1.04
+   ],
+   "super": [
+    7,
+    1.0
+   ],
+   "playoff": [
+    2,
+    0.86
+   ],
+   "arena": [
+    2,
+    0.86
+   ],
+   "elite_playoff": [
+    2,
+    0.86
+   ],
+   "final": [
+    0,
+    null
+   ]
+  },
+  "sunpayus": {
+   "big": [
+    85,
+    1.07
+   ],
+   "elite": [
+    38,
+    1.01
+   ],
+   "super": [
+    26,
+    1.03
+   ],
+   "playoff": [
+    9,
+    0.97
+   ],
+   "arena": [
+    7,
+    0.96
+   ],
+   "elite_playoff": [
+    5,
+    0.88
+   ],
+   "final": [
+    0,
+    null
+   ]
+  },
+  "dgt": {
+   "big": [
+    74,
+    1.03
+   ],
+   "elite": [
+    44,
+    1.02
+   ],
+   "super": [
+    16,
+    1.05
+   ],
+   "playoff": [
+    6,
+    0.98
+   ],
+   "arena": [
+    6,
+    0.98
+   ],
+   "elite_playoff": [
+    3,
+    0.89
+   ],
+   "final": [
+    0,
+    null
+   ]
+  },
+  "jame": {
+   "big": [
+    103,
+    1.05
+   ],
+   "elite": [
+    71,
+    1.04
+   ],
+   "super": [
+    14,
+    1.01
+   ],
+   "playoff": [
+    26,
+    1.03
+   ],
+   "arena": [
+    18,
+    1.0
+   ],
+   "elite_playoff": [
+    15,
+    0.99
+   ],
+   "final": [
+    6,
+    1.03
+   ]
+  },
+  "luchov": {
+   "big": [
+    74,
+    1.06
+   ],
+   "elite": [
+    44,
+    1.03
+   ],
+   "super": [
+    16,
+    1.17
+   ],
+   "playoff": [
+    6,
+    1.09
+   ],
+   "arena": [
+    6,
+    1.09
+   ],
+   "elite_playoff": [
+    3,
+    1.05
+   ],
+   "final": [
+    0,
+    null
+   ]
+  },
+  "xelex": {
+   "big": [
+    113,
+    1.04
+   ],
+   "elite": [
+    49,
+    1.01
+   ],
+   "super": [
+    11,
+    0.91
+   ],
+   "playoff": [
+    35,
+    0.95
+   ],
+   "arena": [
+    30,
+    0.95
+   ],
+   "elite_playoff": [
+    19,
+    0.93
+   ],
+   "final": [
+    10,
+    0.86
+   ]
+  },
+  "tn1r": {
+   "big": [
+    142,
+    1.04
+   ],
+   "elite": [
+    82,
+    1.02
+   ],
+   "super": [
+    26,
+    1.0
+   ],
+   "playoff": [
+    55,
+    1.1
+   ],
+   "arena": [
+    52,
+    1.1
+   ],
+   "elite_playoff": [
+    31,
+    1.08
+   ],
+   "final": [
+    17,
+    1.04
+   ]
+  }
+ }
+}

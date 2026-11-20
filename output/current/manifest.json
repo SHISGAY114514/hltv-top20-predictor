@@ -1,0 +1,15 @@
+{
+  "version": "HTPM-3.5",
+  "sources": {
+    "config\\model.json": "fd708fb00e1968eb05ee7a5a3c0aac0f70ea6bf80ffd26672748ee0c2874b85d",
+    "config\\watchlist.json": "c3613fd27fb6ec540fb1e92fe4d36a08b08bdd1bd996815abf35161a87a224e2",
+    "data\\2026\\aggregate_snapshot.json": "01d8e11e0e4774e4d58090e2a3a19e5873d0b04db6b736117606ec9e8badafaf",
+    "data\\2026\\award_snapshot.json": "d8e4113ff69372e782288573144bbdb12c56c216b6adc1aa1bdfcb5f906a04cc",
+    "data\\reference\\evp_orders_2026.json": "82e1b663b03f6d19c6f6670d133640fa87cd31c197c4bd7359e73d43049494e0",
+    "data\\reference\\event_tiers_2026_user.json": "16c9039d07014b1bdcc3fe0fc04eee93d17002ce8074ca51b079d71620fcb355",
+    "data\\reference\\rivals_s2_2026_honors.json": "de2a80b0abd5861918e534e0836a722fd343c82baa4a060f6726658d9b16a3a5"
+  },
+  "candidate_count": 58,
+  "scored_count": 58,
+  "pending_count": 0
+}

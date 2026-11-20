@@ -1,0 +1,284 @@
+{
+ "rating": "HLTV Rating 3.0",
+ "scope": "published high-tier series, matched on ten names and ten K/D totals",
+ "events": {
+  "IEM Katowice": 8034,
+  "BLAST Open S1": 7904,
+  "BLAST.tv Austin (M)": 7902,
+  "IEM Cologne": 8038,
+  "IEM Chengdu": 8041,
+  "SL Budapest (M)": 8042
+ },
+ "series": [
+  {
+   "event": "IEM Chengdu",
+   "match": "5423465",
+   "stage": "group",
+   "ratings": {
+    "z4kr": 1.18,
+    "emiliaqaq": 1.04,
+    "c4llm3su3": 1.03,
+    "westmelon": 1.01,
+    "starry": 0.92,
+    "bodyy": 1.14,
+    "ex3rcice": 1.05,
+    "graviti": 1.05,
+    "maka": 0.98,
+    "lucky": 0.89
+   },
+   "source": "https://www.hltv.org/news/43111/furia-head-to-chengdu-playoffs-lynn-vision-eliminate-3dmax"
+  },
+  {
+   "event": "IEM Chengdu",
+   "match": "5423466",
+   "stage": "group",
+   "ratings": {
+    "molodoy": 1.31,
+    "yuurih": 1.22,
+    "kscerato": 1.19,
+    "fallen": 1.05,
+    "yekindar": 1.04,
+    "sunpayus": 1.22,
+    "malbsmd": 1.18,
+    "heavygod": 0.74,
+    "matys": 0.74,
+    "hunter-": 0.64
+   },
+   "source": "https://www.hltv.org/news/43111/furia-head-to-chengdu-playoffs-lynn-vision-eliminate-3dmax"
+  },
+  {
+   "event": "IEM Chengdu",
+   "match": "5424395",
+   "stage": "group",
+   "ratings": {
+    "twistzz": 1.24,
+    "frozen": 1.16,
+    "jcobbb": 0.82,
+    "karrigan": 0.81,
+    "broky": 0.69,
+    "fl1t": 1.4,
+    "perfecto": 1.16,
+    "b1st": 1.1,
+    "fame": 1.05,
+    "to0ro": 0.88
+   },
+   "source": "https://www.hltv.org/news/43114/virtuspro-eliminate-faze-from-iem-chengdu-mouz-secure-playoff-berth"
+  },
+  {
+   "event": "IEM Chengdu",
+   "match": "5424396",
+   "stage": "group",
+   "ratings": {
+    "xertion": 1.27,
+    "spinx": 1.24,
+    "brollan": 1.13,
+    "jimpphat": 1.01,
+    "torzsi": 0.92,
+    "zywoo": 1.38,
+    "ropz": 1.37,
+    "flamez": 1.09,
+    "mezii": 0.7,
+    "apex": 0.61
+   },
+   "source": "https://www.hltv.org/news/43114/virtuspro-eliminate-faze-from-iem-chengdu-mouz-secure-playoff-berth"
+  },
+  {
+   "event": "IEM Chengdu",
+   "match": "5428254",
+   "stage": "group",
+   "ratings": {
+    "910": 1.49,
+    "mzinho": 0.92,
+    "techno": 0.92,
+    "blitz": 0.74,
+    "controlez": 0.7,
+    "magisk": 1.33,
+    "jabbi": 1.2,
+    "staehr": 1.16,
+    "hooxi": 1.14,
+    "device": 1.03
+   },
+   "source": "https://www.hltv.org/news/43115/heroic-eliminate-navi-in-china-astralis-secure-playoffs"
+  },
+  {
+   "event": "IEM Chengdu",
+   "match": "5439104",
+   "stage": "group",
+   "ratings": {
+    "matys": 1.33,
+    "heavygod": 1.27,
+    "malbsmd": 1.17,
+    "sunpayus": 1.02,
+    "hunter-": 0.93,
+    "fame": 1.16,
+    "perfecto": 1.09,
+    "fl1t": 0.99,
+    "b1st": 0.79,
+    "to0ro": 0.73
+   },
+   "source": "https://www.hltv.org/news/43124/vitality-romp-past-lynn-vision-g2-send-off-virtuspro"
+  },
+  {
+   "event": "IEM Chengdu",
+   "match": "5440005",
+   "stage": "group",
+   "ratings": {
+    "emiliaqaq": 0.87,
+    "z4kr": 0.81,
+    "westmelon": 0.69,
+    "starry": 0.55,
+    "c4llm3su3": 0.4,
+    "flamez": 1.87,
+    "ropz": 1.54,
+    "apex": 1.47,
+    "zywoo": 1.44,
+    "mezii": 1.1
+   },
+   "source": "https://www.hltv.org/news/43124/vitality-romp-past-lynn-vision-g2-send-off-virtuspro"
+  },
+  {
+   "event": "IEM Chengdu",
+   "match": "5440006",
+   "stage": "group",
+   "ratings": {
+    "kscerato": 1.32,
+    "molodoy": 1.14,
+    "yuurih": 0.82,
+    "yekindar": 0.8,
+    "fallen": 0.66,
+    "spinx": 1.29,
+    "xertion": 1.13,
+    "torzsi": 1.1,
+    "jimpphat": 1.03,
+    "brollan": 0.98
+   },
+   "source": "https://www.hltv.org/news/43127/mouz-top-group-b-straight-to-semis-over-furia"
+  },
+  {
+   "event": "IEM Chengdu",
+   "match": "5452092",
+   "stage": "group",
+   "ratings": {
+    "zywoo": 1.6,
+    "mezii": 1.27,
+    "flamez": 1.2,
+    "ropz": 1.03,
+    "apex": 1.01,
+    "matys": 1.07,
+    "heavygod": 1.03,
+    "sunpayus": 0.95,
+    "malbsmd": 0.72,
+    "saw": 0.61
+   },
+   "source": "https://www.hltv.org/news/43129/vitality-punch-iem-chengdu-playoff-ticket-over-hunter-less-g2"
+  },
+  {
+   "event": "IEM Chengdu",
+   "match": "5457835",
+   "stage": "playoff",
+   "ratings": {
+    "molodoy": 1.62,
+    "kscerato": 1.59,
+    "yekindar": 1.48,
+    "yuurih": 1.03,
+    "fallen": 0.75,
+    "techno": 0.93,
+    "910": 0.88,
+    "controlez": 0.87,
+    "mzinho": 0.8,
+    "blitz": 0.77
+   },
+   "source": "https://www.hltv.org/news/43142/furia-cruise-past-the-mongolz-into-semi-finals"
+  },
+  {
+   "event": "IEM Chengdu",
+   "match": "5457836",
+   "stage": "playoff",
+   "ratings": {
+    "flamez": 1.39,
+    "zywoo": 1.23,
+    "ropz": 1.15,
+    "mezii": 1.06,
+    "apex": 1.0,
+    "jabbi": 1.15,
+    "device": 1.05,
+    "magisk": 0.88,
+    "staehr": 0.79,
+    "hooxi": 0.79
+   },
+   "source": "https://www.hltv.org/news/43139/vitality-advance-to-iem-chengdu-semi-finals-over-astralis"
+  },
+  {
+   "event": "IEM Chengdu",
+   "match": "5496051",
+   "stage": "playoff",
+   "ratings": {
+    "xertion": 1.04,
+    "jimpphat": 1.0,
+    "spinx": 0.95,
+    "torzsi": 0.94,
+    "brollan": 0.82,
+    "ropz": 1.44,
+    "zywoo": 1.43,
+    "flamez": 1.22,
+    "apex": 1.0,
+    "mezii": 0.71
+   },
+   "source": "https://www.hltv.org/news/43149/vitality-strike-back-in-mouz-rivalry-to-secure-iem-chengdu-grand-final-spot"
+  },
+  {
+   "event": "IEM Chengdu",
+   "match": "5498371",
+   "stage": "playoff",
+   "ratings": {
+    "kyousuke": 1.33,
+    "niko": 0.97,
+    "m0nesy": 0.91,
+    "teses": 0.78,
+    "kyxsan": 0.72,
+    "yuurih": 1.45,
+    "yekindar": 1.28,
+    "kscerato": 1.07,
+    "molodoy": 1.06,
+    "fallen": 1.0
+   },
+   "source": "https://www.hltv.org/news/43148/iem-chengdu-semi-finals-as-they-happened"
+  },
+  {
+   "event": "IEM Chengdu",
+   "match": "5513454",
+   "stage": "final",
+   "ratings": {
+    "zywoo": 1.17,
+    "flamez": 1.07,
+    "mezii": 1.03,
+    "ropz": 0.87,
+    "apex": 0.79,
+    "yekindar": 1.27,
+    "molodoy": 1.25,
+    "yuurih": 1.23,
+    "kscerato": 0.98,
+    "fallen": 0.91
+   },
+   "source": "https://www.hltv.org/news/43158/furia-claim-breakthrough-trophy-with-3-0-win-over-vitality-in-chengdu"
+  },
+  {
+   "event": "SL Budapest (M)",
+   "match": "5796473",
+   "stage": "final",
+   "ratings": {
+    "mezii": 1.44,
+    "ropz": 1.42,
+    "zywoo": 1.23,
+    "flamez": 1.02,
+    "apex": 0.81,
+    "frozen": 1.19,
+    "broky": 0.93,
+    "twistzz": 0.88,
+    "jcobbb": 0.79,
+    "karrigan": 0.77
+   },
+   "source": "https://www.hltv.org/news/43449/vitality-beat-faze-3-1-to-become-back-to-back-major-champions-in-budapest"
+  }
+ ]
+}

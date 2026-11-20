@@ -1,0 +1,1567 @@
+{
+  "zywoo": {
+    "source": "https://www.hltv.org/news/43610/top-20-players-of-2025-zywoo-1",
+    "events": [
+      {
+        "event": "BLAST Bounty 2025 Season 1 Finals",
+        "rating": 1.06,
+        "award": null
+      },
+      {
+        "event": "IEM Katowice 2025",
+        "rating": 1.42,
+        "award": "MVP"
+      },
+      {
+        "event": "ESL Pro League Season 21",
+        "rating": 1.46,
+        "award": "MVP"
+      },
+      {
+        "event": "BLAST Open Lisbon 2025",
+        "rating": 1.53,
+        "award": "MVP"
+      },
+      {
+        "event": "IEM Melbourne 2025",
+        "rating": 1.39,
+        "award": "MVP"
+      },
+      {
+        "event": "BLAST Rivals 2025 Season 1",
+        "rating": 1.32,
+        "award": "MVP"
+      },
+      {
+        "event": "IEM Dallas 2025",
+        "rating": 1.28,
+        "award": "MVP"
+      },
+      {
+        "event": "BLAST.tv Austin Major 2025",
+        "rating": 1.41,
+        "award": "MVP"
+      },
+      {
+        "event": "IEM Cologne 2025",
+        "rating": 1.1,
+        "award": null
+      },
+      {
+        "event": "BLAST Bounty 2025 Season 2 Finals",
+        "rating": 1.16,
+        "award": "EVP"
+      },
+      {
+        "event": "Esports World Cup 2025",
+        "rating": 1.31,
+        "award": null
+      },
+      {
+        "event": "BLAST Open London 2025 Finals",
+        "rating": 1.37,
+        "award": "EVP"
+      },
+      {
+        "event": "ESL Pro League Season 22",
+        "rating": 1.34,
+        "award": "EVP"
+      },
+      {
+        "event": "IEM Chengdu 2025",
+        "rating": 1.31,
+        "award": "EVP"
+      },
+      {
+        "event": "BLAST Rivals 2025 Season 2",
+        "rating": 1.23,
+        "award": "EVP"
+      },
+      {
+        "event": "StarLadder Budapest Major 2025",
+        "rating": 1.4,
+        "award": "MVP"
+      }
+    ]
+  },
+  "donk": {
+    "source": "https://www.hltv.org/news/43609/top-20-players-of-2025-donk-2",
+    "events": [
+      {
+        "event": "BLAST Bounty 2025 Season 1 Finals",
+        "rating": 1.45,
+        "award": "MVP"
+      },
+      {
+        "event": "IEM Katowice 2025",
+        "rating": 1.41,
+        "award": "EVP"
+      },
+      {
+        "event": "ESL Pro League Season 21",
+        "rating": 1.49,
+        "award": "EVP"
+      },
+      {
+        "event": "BLAST Open Lisbon 2025",
+        "rating": 1.4,
+        "award": "EVP"
+      },
+      {
+        "event": "BLAST Rivals 2025 Season 1",
+        "rating": 1.38,
+        "award": "EVP"
+      },
+      {
+        "event": "PGL Astana 2025",
+        "rating": 1.55,
+        "award": "MVP"
+      },
+      {
+        "event": "BLAST.tv Austin Major 2025",
+        "rating": 1.54,
+        "award": "EVP"
+      },
+      {
+        "event": "IEM Cologne 2025",
+        "rating": 1.52,
+        "award": "MVP"
+      },
+      {
+        "event": "BLAST Bounty 2025 Season 2 Finals",
+        "rating": 1.48,
+        "award": "MVP"
+      },
+      {
+        "event": "Esports World Cup 2025",
+        "rating": 1.21,
+        "award": null
+      },
+      {
+        "event": "ESL Pro League Season 22",
+        "rating": 1.31,
+        "award": null
+      },
+      {
+        "event": "IEM Chengdu 2025",
+        "rating": 1.21,
+        "award": null
+      },
+      {
+        "event": "BLAST Rivals 2025 Season 2",
+        "rating": 1.27,
+        "award": null
+      },
+      {
+        "event": "StarLadder Budapest Major 2025",
+        "rating": 1.59,
+        "award": "EVP"
+      }
+    ]
+  },
+  "ropz": {
+    "source": "https://www.hltv.org/news/43608/top-20-players-of-2025-ropz-3",
+    "events": [
+      {
+        "event": "BLAST Bounty 2025 Season 1 Finals",
+        "rating": 0.82,
+        "award": null
+      },
+      {
+        "event": "IEM Katowice 2025",
+        "rating": 1.23,
+        "award": "EVP"
+      },
+      {
+        "event": "ESL Pro League Season 21",
+        "rating": 1.24,
+        "award": "EVP"
+      },
+      {
+        "event": "BLAST Open Lisbon 2025",
+        "rating": 1.17,
+        "award": null
+      },
+      {
+        "event": "IEM Melbourne 2025",
+        "rating": 1.38,
+        "award": "EVP"
+      },
+      {
+        "event": "BLAST Rivals 2025 Season 1",
+        "rating": 1.24,
+        "award": "EVP"
+      },
+      {
+        "event": "IEM Dallas 2025",
+        "rating": 1.05,
+        "award": null
+      },
+      {
+        "event": "BLAST.tv Austin Major 2025",
+        "rating": 1.16,
+        "award": "EVP"
+      },
+      {
+        "event": "IEM Cologne 2025",
+        "rating": 1.23,
+        "award": "EVP"
+      },
+      {
+        "event": "BLAST Bounty 2025 Season 2 Finals",
+        "rating": 1.19,
+        "award": null
+      },
+      {
+        "event": "Esports World Cup 2025",
+        "rating": 1.12,
+        "award": null
+      },
+      {
+        "event": "BLAST Open London 2025 Finals",
+        "rating": 1.0,
+        "award": null
+      },
+      {
+        "event": "ESL Pro League Season 22",
+        "rating": 1.15,
+        "award": null
+      },
+      {
+        "event": "IEM Chengdu 2025",
+        "rating": 1.2,
+        "award": "EVP"
+      },
+      {
+        "event": "BLAST Rivals 2025 Season 2",
+        "rating": 1.03,
+        "award": null
+      },
+      {
+        "event": "StarLadder Budapest Major 2025",
+        "rating": 1.39,
+        "award": "EVP"
+      }
+    ]
+  },
+  "m0nesy": {
+    "source": "https://www.hltv.org/news/43585/top-20-players-of-2025-m0nesy-4",
+    "events": [
+      {
+        "event": "BLAST Bounty 2025 Season 1 Finals",
+        "rating": 1.46,
+        "award": null
+      },
+      {
+        "event": "IEM Katowice 2025",
+        "rating": 1.01,
+        "award": null
+      },
+      {
+        "event": "ESL Pro League Season 21",
+        "rating": 1.45,
+        "award": "EVP"
+      },
+      {
+        "event": "BLAST Open Lisbon 2025",
+        "rating": 1.17,
+        "award": null
+      },
+      {
+        "event": "PGL Bucharest 2025",
+        "rating": 1.31,
+        "award": "EVP"
+      },
+      {
+        "event": "IEM Melbourne 2025",
+        "rating": 1.25,
+        "award": "EVP"
+      },
+      {
+        "event": "BLAST Rivals 2025 Season 1",
+        "rating": 1.33,
+        "award": "EVP"
+      },
+      {
+        "event": "IEM Dallas 2025",
+        "rating": 1.32,
+        "award": "EVP"
+      },
+      {
+        "event": "IEM Cologne 2025",
+        "rating": 1.11,
+        "award": null
+      },
+      {
+        "event": "Esports World Cup 2025",
+        "rating": 1.32,
+        "award": null
+      },
+      {
+        "event": "FISSURE Playground 2",
+        "rating": 1.13,
+        "award": null
+      },
+      {
+        "event": "ESL Pro League Season 22",
+        "rating": 1.4,
+        "award": "MVP"
+      },
+      {
+        "event": "IEM Chengdu 2025",
+        "rating": 1.35,
+        "award": null
+      },
+      {
+        "event": "BLAST Rivals 2025 Season 2",
+        "rating": 1.45,
+        "award": "MVP"
+      },
+      {
+        "event": "StarLadder Budapest Major 2025",
+        "rating": 1.15,
+        "award": null
+      }
+    ]
+  },
+  "sh1ro": {
+    "source": "https://www.hltv.org/news/43588/top-20-players-of-2025-sh1ro-5",
+    "events": [
+      {
+        "event": "BLAST Bounty 2025 Season 1 Finals",
+        "rating": 1.46,
+        "award": "EVP"
+      },
+      {
+        "event": "IEM Katowice 2025",
+        "rating": 1.07,
+        "award": null
+      },
+      {
+        "event": "ESL Pro League Season 21",
+        "rating": 1.18,
+        "award": null
+      },
+      {
+        "event": "BLAST Open Lisbon 2025",
+        "rating": 1.26,
+        "award": "EVP"
+      },
+      {
+        "event": "BLAST Rivals 2025 Season 1",
+        "rating": 1.36,
+        "award": null
+      },
+      {
+        "event": "PGL Astana 2025",
+        "rating": 1.26,
+        "award": "EVP"
+      },
+      {
+        "event": "BLAST.tv Austin Major 2025",
+        "rating": 1.03,
+        "award": null
+      },
+      {
+        "event": "IEM Cologne 2025",
+        "rating": 1.17,
+        "award": "EVP"
+      },
+      {
+        "event": "BLAST Bounty 2025 Season 2 Finals",
+        "rating": 1.19,
+        "award": "EVP"
+      },
+      {
+        "event": "Esports World Cup 2025",
+        "rating": 1.48,
+        "award": null
+      },
+      {
+        "event": "ESL Pro League Season 22",
+        "rating": 1.14,
+        "award": null
+      },
+      {
+        "event": "IEM Chengdu 2025",
+        "rating": 1.31,
+        "award": null
+      },
+      {
+        "event": "BLAST Rivals 2025 Season 2",
+        "rating": 1.15,
+        "award": null
+      },
+      {
+        "event": "StarLadder Budapest Major 2025",
+        "rating": 1.17,
+        "award": "EVP"
+      }
+    ]
+  },
+  "molodoy": {
+    "source": "https://www.hltv.org/news/43576/top-20-players-of-2025-molodoy-6",
+    "events": [
+      {
+        "event": "PGL Astana 2025",
+        "rating": 1.07,
+        "award": null
+      },
+      {
+        "event": "IEM Dallas 2025",
+        "rating": 1.19,
+        "award": null
+      },
+      {
+        "event": "BLAST.tv Austin Major 2025",
+        "rating": 1.11,
+        "award": null
+      },
+      {
+        "event": "FISSURE Playground 1",
+        "rating": 1.19,
+        "award": null
+      },
+      {
+        "event": "IEM Cologne 2025",
+        "rating": 1.2,
+        "award": "EVP"
+      },
+      {
+        "event": "BLAST Open London 2025 Finals",
+        "rating": 0.77,
+        "award": null
+      },
+      {
+        "event": "FISSURE Playground 2",
+        "rating": 1.19,
+        "award": "MVP"
+      },
+      {
+        "event": "ESL Pro League Season 22",
+        "rating": 1.11,
+        "award": null
+      },
+      {
+        "event": "Thunderpick World Championship 2025",
+        "rating": 1.16,
+        "award": "EVP"
+      },
+      {
+        "event": "IEM Chengdu 2025",
+        "rating": 1.3,
+        "award": "MVP"
+      },
+      {
+        "event": "BLAST Rivals 2025 Season 2",
+        "rating": 1.11,
+        "award": null
+      },
+      {
+        "event": "StarLadder Budapest Major 2025",
+        "rating": 1.13,
+        "award": null
+      }
+    ]
+  },
+  "flamez": {
+    "source": "https://www.hltv.org/news/43573/top-20-players-of-2025-flamez-7",
+    "events": [
+      {
+        "event": "BLAST Bounty 2025 Season 1 Finals",
+        "rating": 1.1,
+        "award": null
+      },
+      {
+        "event": "IEM Katowice 2025",
+        "rating": 1.2,
+        "award": null
+      },
+      {
+        "event": "ESL Pro League Season 21",
+        "rating": 1.24,
+        "award": "EVP"
+      },
+      {
+        "event": "BLAST Open Lisbon 2025",
+        "rating": 1.12,
+        "award": null
+      },
+      {
+        "event": "IEM Melbourne 2025",
+        "rating": 1.15,
+        "award": null
+      },
+      {
+        "event": "BLAST Rivals 2025 Season 1",
+        "rating": 1.07,
+        "award": null
+      },
+      {
+        "event": "IEM Dallas 2025",
+        "rating": 1.16,
+        "award": null
+      },
+      {
+        "event": "BLAST.tv Austin Major 2025",
+        "rating": 1.09,
+        "award": null
+      },
+      {
+        "event": "IEM Cologne 2025",
+        "rating": 1.03,
+        "award": null
+      },
+      {
+        "event": "BLAST Bounty 2025 Season 2 Finals",
+        "rating": 0.91,
+        "award": null
+      },
+      {
+        "event": "Esports World Cup 2025",
+        "rating": 0.97,
+        "award": null
+      },
+      {
+        "event": "BLAST Open London 2025 Finals",
+        "rating": 1.16,
+        "award": "EVP"
+      },
+      {
+        "event": "ESL Pro League Season 22",
+        "rating": 1.22,
+        "award": "EVP"
+      },
+      {
+        "event": "IEM Chengdu 2025",
+        "rating": 1.2,
+        "award": "EVP"
+      },
+      {
+        "event": "BLAST Rivals 2025 Season 2",
+        "rating": 1.02,
+        "award": null
+      },
+      {
+        "event": "StarLadder Budapest Major 2025",
+        "rating": 1.04,
+        "award": null
+      }
+    ]
+  },
+  "frozen": {
+    "source": "https://www.hltv.org/news/43558/top-20-players-of-2025-frozen-8",
+    "events": [
+      {
+        "event": "IEM Katowice 2025",
+        "rating": 1.14,
+        "award": null
+      },
+      {
+        "event": "PGL Cluj-Napoca 2025",
+        "rating": 1.31,
+        "award": "EVP"
+      },
+      {
+        "event": "BLAST Open Lisbon 2025",
+        "rating": 1.17,
+        "award": null
+      },
+      {
+        "event": "PGL Bucharest 2025",
+        "rating": 1.24,
+        "award": "EVP"
+      },
+      {
+        "event": "IEM Melbourne 2025",
+        "rating": 1.13,
+        "award": null
+      },
+      {
+        "event": "BLAST Rivals 2025 Season 1",
+        "rating": 1.02,
+        "award": null
+      },
+      {
+        "event": "IEM Dallas 2025",
+        "rating": 1.11,
+        "award": null
+      },
+      {
+        "event": "BLAST.tv Austin Major 2025",
+        "rating": 1.14,
+        "award": null
+      },
+      {
+        "event": "IEM Cologne 2025",
+        "rating": 1.25,
+        "award": null
+      },
+      {
+        "event": "Esports World Cup 2025",
+        "rating": 1.05,
+        "award": null
+      },
+      {
+        "event": "BLAST Open London 2025 Finals",
+        "rating": 1.01,
+        "award": null
+      },
+      {
+        "event": "FISSURE Playground 2",
+        "rating": 1.08,
+        "award": null
+      },
+      {
+        "event": "ESL Pro League Season 22",
+        "rating": 1.23,
+        "award": "EVP"
+      },
+      {
+        "event": "CS Asia Championships 2025",
+        "rating": 1.21,
+        "award": null
+      },
+      {
+        "event": "IEM Chengdu 2025",
+        "rating": 1.01,
+        "award": null
+      },
+      {
+        "event": "StarLadder Budapest Major 2025",
+        "rating": 1.15,
+        "award": "EVP"
+      }
+    ]
+  },
+  "kscerato": {
+    "source": "https://www.hltv.org/news/43559/top-20-players-of-2025-kscerato-9",
+    "events": [
+      {
+        "event": "IEM Katowice 2025",
+        "rating": 1.02,
+        "award": null
+      },
+      {
+        "event": "ESL Pro League Season 21",
+        "rating": 1.17,
+        "award": null
+      },
+      {
+        "event": "BLAST Open Lisbon 2025",
+        "rating": 1.21,
+        "award": null
+      },
+      {
+        "event": "PGL Bucharest 2025",
+        "rating": 1.25,
+        "award": null
+      },
+      {
+        "event": "PGL Astana 2025",
+        "rating": 1.15,
+        "award": null
+      },
+      {
+        "event": "IEM Dallas 2025",
+        "rating": 1.15,
+        "award": null
+      },
+      {
+        "event": "BLAST.tv Austin Major 2025",
+        "rating": 1.07,
+        "award": null
+      },
+      {
+        "event": "FISSURE Playground 1",
+        "rating": 1.22,
+        "award": null
+      },
+      {
+        "event": "IEM Cologne 2025",
+        "rating": 1.11,
+        "award": null
+      },
+      {
+        "event": "BLAST Open London 2025 Finals",
+        "rating": 0.9,
+        "award": null
+      },
+      {
+        "event": "FISSURE Playground 2",
+        "rating": 1.2,
+        "award": "EVP"
+      },
+      {
+        "event": "ESL Pro League Season 22",
+        "rating": 1.28,
+        "award": null
+      },
+      {
+        "event": "Thunderpick World Championship 2025",
+        "rating": 1.22,
+        "award": "MVP"
+      },
+      {
+        "event": "IEM Chengdu 2025",
+        "rating": 1.23,
+        "award": "EVP"
+      },
+      {
+        "event": "BLAST Rivals 2025 Season 2",
+        "rating": 1.26,
+        "award": "EVP"
+      },
+      {
+        "event": "StarLadder Budapest Major 2025",
+        "rating": 1.29,
+        "award": null
+      }
+    ]
+  },
+  "spinx": {
+    "source": "https://www.hltv.org/news/43547/top-20-players-of-2025-spinx-10",
+    "events": [
+      {
+        "event": "PGL Cluj-Napoca 2025",
+        "rating": 1.16,
+        "award": "EVP"
+      },
+      {
+        "event": "ESL Pro League Season 21",
+        "rating": 1.01,
+        "award": null
+      },
+      {
+        "event": "BLAST Open Lisbon 2025",
+        "rating": 1.11,
+        "award": null
+      },
+      {
+        "event": "IEM Melbourne 2025",
+        "rating": 1.22,
+        "award": null
+      },
+      {
+        "event": "BLAST Rivals 2025 Season 1",
+        "rating": 1.06,
+        "award": null
+      },
+      {
+        "event": "IEM Dallas 2025",
+        "rating": 1.28,
+        "award": "EVP"
+      },
+      {
+        "event": "BLAST.tv Austin Major 2025",
+        "rating": 1.14,
+        "award": "EVP"
+      },
+      {
+        "event": "IEM Cologne 2025",
+        "rating": 1.08,
+        "award": null
+      },
+      {
+        "event": "BLAST Bounty 2025 Season 2 Finals",
+        "rating": 0.9,
+        "award": null
+      },
+      {
+        "event": "Esports World Cup 2025",
+        "rating": 1.07,
+        "award": null
+      },
+      {
+        "event": "BLAST Open London 2025 Finals",
+        "rating": 1.37,
+        "award": null
+      },
+      {
+        "event": "ESL Pro League Season 22",
+        "rating": 1.26,
+        "award": "EVP"
+      },
+      {
+        "event": "IEM Chengdu 2025",
+        "rating": 1.1,
+        "award": null
+      },
+      {
+        "event": "StarLadder Budapest Major 2025",
+        "rating": 1.09,
+        "award": null
+      }
+    ]
+  },
+  "twistzz": {
+    "source": "https://www.hltv.org/news/43533/top-20-players-of-2025-twistzz-11",
+    "events": [
+      {
+        "event": "IEM Katowice 2025",
+        "rating": 1.1,
+        "award": null
+      },
+      {
+        "event": "ESL Pro League Season 21",
+        "rating": 1.14,
+        "award": null
+      },
+      {
+        "event": "BLAST Open Lisbon 2025",
+        "rating": 1.17,
+        "award": null
+      },
+      {
+        "event": "PGL Bucharest 2025",
+        "rating": 1.13,
+        "award": null
+      },
+      {
+        "event": "IEM Melbourne 2025",
+        "rating": 1.22,
+        "award": null
+      },
+      {
+        "event": "IEM Dallas 2025",
+        "rating": 1.2,
+        "award": null
+      },
+      {
+        "event": "BLAST.tv Austin Major 2025",
+        "rating": 1.15,
+        "award": null
+      },
+      {
+        "event": "IEM Cologne 2025",
+        "rating": 0.65,
+        "award": null
+      },
+      {
+        "event": "BLAST Bounty 2025 Season 2 Finals",
+        "rating": 0.85,
+        "award": null
+      },
+      {
+        "event": "Esports World Cup 2025",
+        "rating": 1.5,
+        "award": null
+      },
+      {
+        "event": "FISSURE Playground 2",
+        "rating": 1.28,
+        "award": "EVP"
+      },
+      {
+        "event": "ESL Pro League Season 22",
+        "rating": 1.34,
+        "award": "EVP"
+      },
+      {
+        "event": "CS Asia Championships 2025",
+        "rating": 1.26,
+        "award": null
+      },
+      {
+        "event": "IEM Chengdu 2025",
+        "rating": 1.16,
+        "award": null
+      },
+      {
+        "event": "StarLadder Budapest Major 2025",
+        "rating": 1.11,
+        "award": "EVP"
+      }
+    ]
+  },
+  "mezii": {
+    "source": "https://www.hltv.org/news/43534/top-20-players-of-2025-mezii-12",
+    "events": [
+      {
+        "event": "BLAST Bounty 2025 Season 1 Finals",
+        "rating": 1.08,
+        "award": null
+      },
+      {
+        "event": "IEM Katowice 2025",
+        "rating": 1.12,
+        "award": null
+      },
+      {
+        "event": "ESL Pro League Season 21",
+        "rating": 1.1,
+        "award": null
+      },
+      {
+        "event": "BLAST Open Lisbon 2025",
+        "rating": 1.01,
+        "award": null
+      },
+      {
+        "event": "IEM Melbourne 2025",
+        "rating": 1.17,
+        "award": null
+      },
+      {
+        "event": "BLAST Rivals 2025 Season 1",
+        "rating": 1.08,
+        "award": null
+      },
+      {
+        "event": "IEM Dallas 2025",
+        "rating": 1.12,
+        "award": null
+      },
+      {
+        "event": "BLAST.tv Austin Major 2025",
+        "rating": 1.13,
+        "award": "EVP"
+      },
+      {
+        "event": "IEM Cologne 2025",
+        "rating": 1.23,
+        "award": null
+      },
+      {
+        "event": "BLAST Bounty 2025 Season 2 Finals",
+        "rating": 1.05,
+        "award": null
+      },
+      {
+        "event": "Esports World Cup 2025",
+        "rating": 1.01,
+        "award": null
+      },
+      {
+        "event": "BLAST Open London 2025 Finals",
+        "rating": 0.98,
+        "award": null
+      },
+      {
+        "event": "ESL Pro League Season 22",
+        "rating": 1.23,
+        "award": "EVP"
+      },
+      {
+        "event": "IEM Chengdu 2025",
+        "rating": 0.95,
+        "award": null
+      },
+      {
+        "event": "BLAST Rivals 2025 Season 2",
+        "rating": 1.02,
+        "award": null
+      },
+      {
+        "event": "StarLadder Budapest Major 2025",
+        "rating": 1.24,
+        "award": "EVP"
+      }
+    ]
+  },
+  "senzu": {
+    "source": "https://www.hltv.org/news/43528/top-20-players-of-2025-senzu-13",
+    "events": [
+      {
+        "event": "IEM Katowice 2025",
+        "rating": 0.86,
+        "award": null
+      },
+      {
+        "event": "PGL Cluj-Napoca 2025",
+        "rating": 1.17,
+        "award": null
+      },
+      {
+        "event": "ESL Pro League Season 21",
+        "rating": 1.17,
+        "award": null
+      },
+      {
+        "event": "BLAST Open Lisbon 2025",
+        "rating": 1.11,
+        "award": null
+      },
+      {
+        "event": "PGL Bucharest 2025",
+        "rating": 1.11,
+        "award": null
+      },
+      {
+        "event": "IEM Melbourne 2025",
+        "rating": 0.99,
+        "award": null
+      },
+      {
+        "event": "PGL Astana 2025",
+        "rating": 1.18,
+        "award": null
+      },
+      {
+        "event": "IEM Dallas 2025",
+        "rating": 1.18,
+        "award": null
+      },
+      {
+        "event": "BLAST.tv Austin Major 2025",
+        "rating": 1.33,
+        "award": "EVP"
+      },
+      {
+        "event": "IEM Cologne 2025",
+        "rating": 1.09,
+        "award": null
+      },
+      {
+        "event": "BLAST Bounty 2025 Season 2 Finals",
+        "rating": 1.14,
+        "award": null
+      },
+      {
+        "event": "Esports World Cup 2025",
+        "rating": 1.18,
+        "award": "EVP"
+      },
+      {
+        "event": "FISSURE Playground 2",
+        "rating": 1.18,
+        "award": "EVP"
+      },
+      {
+        "event": "ESL Pro League Season 22",
+        "rating": 0.98,
+        "award": null
+      },
+      {
+        "event": "Thunderpick World Championship 2025",
+        "rating": 1.24,
+        "award": "EVP"
+      }
+    ]
+  },
+  "xantares": {
+    "source": "https://www.hltv.org/news/43524/top-20-players-of-2025-xantares-14",
+    "events": [
+      {
+        "event": "BLAST Bounty 2025 Season 1 Finals",
+        "rating": 1.05,
+        "award": "EVP"
+      },
+      {
+        "event": "IEM Katowice 2025",
+        "rating": 1.2,
+        "award": "EVP"
+      },
+      {
+        "event": "PGL Cluj-Napoca 2025",
+        "rating": 1.14,
+        "award": null
+      },
+      {
+        "event": "ESL Pro League Season 21",
+        "rating": 1.03,
+        "award": null
+      },
+      {
+        "event": "BLAST Open Lisbon 2025",
+        "rating": 0.99,
+        "award": null
+      },
+      {
+        "event": "PGL Bucharest 2025",
+        "rating": 1.2,
+        "award": null
+      },
+      {
+        "event": "PGL Astana 2025",
+        "rating": 1.14,
+        "award": null
+      },
+      {
+        "event": "IEM Dallas 2025",
+        "rating": 1.25,
+        "award": null
+      },
+      {
+        "event": "BLAST.tv Austin Major 2025",
+        "rating": 1.05,
+        "award": null
+      },
+      {
+        "event": "BLAST Bounty 2025 Season 2 Finals",
+        "rating": 0.85,
+        "award": null
+      },
+      {
+        "event": "Esports World Cup 2025",
+        "rating": 1.34,
+        "award": "EVP"
+      },
+      {
+        "event": "FISSURE Playground 2",
+        "rating": 1.23,
+        "award": null
+      },
+      {
+        "event": "ESL Pro League Season 22",
+        "rating": 1.29,
+        "award": null
+      },
+      {
+        "event": "Thunderpick World Championship 2025",
+        "rating": 1.17,
+        "award": null
+      },
+      {
+        "event": "PGL Masters Bucharest 2025",
+        "rating": 1.28,
+        "award": "MVP"
+      }
+    ]
+  },
+  "yekindar": {
+    "source": "https://www.hltv.org/news/43518/top-20-players-of-2025-yekindar-15",
+    "events": [
+      {
+        "event": "PGL Astana 2025",
+        "rating": 1.13,
+        "award": null
+      },
+      {
+        "event": "IEM Dallas 2025",
+        "rating": 0.79,
+        "award": null
+      },
+      {
+        "event": "BLAST.tv Austin Major 2025",
+        "rating": 1.17,
+        "award": null
+      },
+      {
+        "event": "FISSURE Playground 1",
+        "rating": 0.95,
+        "award": null
+      },
+      {
+        "event": "IEM Cologne 2025",
+        "rating": 1.06,
+        "award": null
+      },
+      {
+        "event": "BLAST Open London 2025 Finals",
+        "rating": 0.6,
+        "award": null
+      },
+      {
+        "event": "FISSURE Playground 2",
+        "rating": 1.13,
+        "award": "EVP"
+      },
+      {
+        "event": "ESL Pro League Season 22",
+        "rating": 1.19,
+        "award": null
+      },
+      {
+        "event": "Thunderpick World Championship 2025",
+        "rating": 1.02,
+        "award": null
+      },
+      {
+        "event": "IEM Chengdu 2025",
+        "rating": 1.12,
+        "award": "EVP"
+      },
+      {
+        "event": "BLAST Rivals 2025 Season 2",
+        "rating": 1.17,
+        "award": "EVP"
+      },
+      {
+        "event": "StarLadder Budapest Major 2025",
+        "rating": 0.95,
+        "award": null
+      }
+    ]
+  },
+  "xertion": {
+    "source": "https://www.hltv.org/news/43512/top-20-players-of-2025-xertion-16",
+    "events": [
+      {
+        "event": "IEM Katowice 2025",
+        "rating": 0.83,
+        "award": null
+      },
+      {
+        "event": "PGL Cluj-Napoca 2025",
+        "rating": 1.1,
+        "award": "EVP"
+      },
+      {
+        "event": "ESL Pro League Season 21",
+        "rating": 1.01,
+        "award": null
+      },
+      {
+        "event": "BLAST Open Lisbon 2025",
+        "rating": 1.04,
+        "award": null
+      },
+      {
+        "event": "IEM Melbourne 2025",
+        "rating": 1.06,
+        "award": null
+      },
+      {
+        "event": "BLAST Rivals 2025 Season 1",
+        "rating": 1.26,
+        "award": null
+      },
+      {
+        "event": "IEM Dallas 2025",
+        "rating": 1.03,
+        "award": null
+      },
+      {
+        "event": "BLAST.tv Austin Major 2025",
+        "rating": 1.11,
+        "award": null
+      },
+      {
+        "event": "IEM Cologne 2025",
+        "rating": 1.09,
+        "award": null
+      },
+      {
+        "event": "BLAST Bounty 2025 Season 2 Finals",
+        "rating": 1.33,
+        "award": "EVP"
+      },
+      {
+        "event": "Esports World Cup 2025",
+        "rating": 0.87,
+        "award": null
+      },
+      {
+        "event": "BLAST Open London 2025 Finals",
+        "rating": 0.79,
+        "award": null
+      },
+      {
+        "event": "ESL Pro League Season 22",
+        "rating": 1.16,
+        "award": null
+      },
+      {
+        "event": "IEM Chengdu 2025",
+        "rating": 1.22,
+        "award": "EVP"
+      },
+      {
+        "event": "StarLadder Budapest Major 2025",
+        "rating": 1.16,
+        "award": null
+      }
+    ]
+  },
+  "torzsi": {
+    "source": "https://www.hltv.org/news/43509/top-20-players-of-2025-torzsi-17",
+    "events": [
+      {
+        "event": "IEM Katowice 2025",
+        "rating": 1.19,
+        "award": null
+      },
+      {
+        "event": "PGL Cluj-Napoca 2025",
+        "rating": 1.11,
+        "award": "EVP"
+      },
+      {
+        "event": "ESL Pro League Season 21",
+        "rating": 1.13,
+        "award": "EVP"
+      },
+      {
+        "event": "BLAST Open Lisbon 2025",
+        "rating": 1.02,
+        "award": null
+      },
+      {
+        "event": "IEM Melbourne 2025",
+        "rating": 1.0,
+        "award": null
+      },
+      {
+        "event": "BLAST Rivals 2025 Season 1",
+        "rating": 1.1,
+        "award": null
+      },
+      {
+        "event": "IEM Dallas 2025",
+        "rating": 1.24,
+        "award": "EVP"
+      },
+      {
+        "event": "BLAST.tv Austin Major 2025",
+        "rating": 0.93,
+        "award": null
+      },
+      {
+        "event": "IEM Cologne 2025",
+        "rating": 1.16,
+        "award": "EVP"
+      },
+      {
+        "event": "BLAST Bounty 2025 Season 2 Finals",
+        "rating": 1.13,
+        "award": null
+      },
+      {
+        "event": "Esports World Cup 2025",
+        "rating": 1.15,
+        "award": null
+      },
+      {
+        "event": "BLAST Open London 2025 Finals",
+        "rating": 0.96,
+        "award": null
+      },
+      {
+        "event": "ESL Pro League Season 22",
+        "rating": 1.05,
+        "award": null
+      },
+      {
+        "event": "IEM Chengdu 2025",
+        "rating": 1.02,
+        "award": null
+      },
+      {
+        "event": "StarLadder Budapest Major 2025",
+        "rating": 1.06,
+        "award": null
+      }
+    ]
+  },
+  "niko": {
+    "source": "https://www.hltv.org/news/43505/top-20-players-of-2025-niko-18",
+    "events": [
+      {
+        "event": "IEM Katowice 2025",
+        "rating": 1.16,
+        "award": null
+      },
+      {
+        "event": "PGL Cluj-Napoca 2025",
+        "rating": 1.25,
+        "award": "MVP"
+      },
+      {
+        "event": "ESL Pro League Season 21",
+        "rating": 1.08,
+        "award": null
+      },
+      {
+        "event": "BLAST Open Lisbon 2025",
+        "rating": 1.11,
+        "award": null
+      },
+      {
+        "event": "PGL Bucharest 2025",
+        "rating": 1.18,
+        "award": "EVP"
+      },
+      {
+        "event": "IEM Melbourne 2025",
+        "rating": 1.17,
+        "award": null
+      },
+      {
+        "event": "BLAST Rivals 2025 Season 1",
+        "rating": 1.13,
+        "award": null
+      },
+      {
+        "event": "IEM Dallas 2025",
+        "rating": 1.02,
+        "award": null
+      },
+      {
+        "event": "IEM Cologne 2025",
+        "rating": 0.92,
+        "award": null
+      },
+      {
+        "event": "Esports World Cup 2025",
+        "rating": 1.29,
+        "award": null
+      },
+      {
+        "event": "FISSURE Playground 2",
+        "rating": 1.38,
+        "award": "EVP"
+      },
+      {
+        "event": "ESL Pro League Season 22",
+        "rating": 1.15,
+        "award": null
+      },
+      {
+        "event": "IEM Chengdu 2025",
+        "rating": 1.17,
+        "award": null
+      },
+      {
+        "event": "BLAST Rivals 2025 Season 2",
+        "rating": 0.95,
+        "award": null
+      },
+      {
+        "event": "StarLadder Budapest Major 2025",
+        "rating": 1.17,
+        "award": null
+      }
+    ]
+  },
+  "im": {
+    "source": "https://www.hltv.org/news/43503/top-20-players-of-2025-im-19",
+    "events": [
+      {
+        "event": "BLAST Bounty 2025 Season 1 Finals",
+        "rating": 1.12,
+        "award": null
+      },
+      {
+        "event": "IEM Katowice 2025",
+        "rating": 1.18,
+        "award": null
+      },
+      {
+        "event": "ESL Pro League Season 21",
+        "rating": 0.95,
+        "award": null
+      },
+      {
+        "event": "BLAST Open Lisbon 2025",
+        "rating": 1.05,
+        "award": null
+      },
+      {
+        "event": "IEM Melbourne 2025",
+        "rating": 1.07,
+        "award": null
+      },
+      {
+        "event": "PGL Astana 2025",
+        "rating": 1.08,
+        "award": null
+      },
+      {
+        "event": "BLAST.tv Austin Major 2025",
+        "rating": 1.07,
+        "award": null
+      },
+      {
+        "event": "IEM Cologne 2025",
+        "rating": 1.19,
+        "award": null
+      },
+      {
+        "event": "Esports World Cup 2025",
+        "rating": 0.91,
+        "award": null
+      },
+      {
+        "event": "ESL Pro League Season 22",
+        "rating": 1.28,
+        "award": "EVP"
+      },
+      {
+        "event": "Thunderpick World Championship 2025",
+        "rating": 1.07,
+        "award": null
+      },
+      {
+        "event": "IEM Chengdu 2025",
+        "rating": 0.99,
+        "award": null
+      },
+      {
+        "event": "StarLadder Budapest Major 2025",
+        "rating": 1.2,
+        "award": "EVP"
+      }
+    ]
+  },
+  "b1t": {
+    "source": "https://www.hltv.org/news/43502/top-20-players-of-2025-b1t-20",
+    "events": [
+      {
+        "event": "BLAST Bounty 2025 Season 1 Finals",
+        "rating": 1.18,
+        "award": "EVP"
+      },
+      {
+        "event": "IEM Katowice 2025",
+        "rating": 1.33,
+        "award": "EVP"
+      },
+      {
+        "event": "ESL Pro League Season 21",
+        "rating": 1.17,
+        "award": null
+      },
+      {
+        "event": "BLAST Open Lisbon 2025",
+        "rating": 0.83,
+        "award": null
+      },
+      {
+        "event": "IEM Melbourne 2025",
+        "rating": 1.13,
+        "award": null
+      },
+      {
+        "event": "PGL Astana 2025",
+        "rating": 1.02,
+        "award": null
+      },
+      {
+        "event": "BLAST.tv Austin Major 2025",
+        "rating": 1.0,
+        "award": null
+      },
+      {
+        "event": "IEM Cologne 2025",
+        "rating": 1.21,
+        "award": "EVP"
+      },
+      {
+        "event": "Esports World Cup 2025",
+        "rating": 1.11,
+        "award": null
+      },
+      {
+        "event": "ESL Pro League Season 22",
+        "rating": 1.21,
+        "award": null
+      },
+      {
+        "event": "Thunderpick World Championship 2025",
+        "rating": 1.11,
+        "award": null
+      },
+      {
+        "event": "IEM Chengdu 2025",
+        "rating": 1.11,
+        "award": null
+      },
+      {
+        "event": "StarLadder Budapest Major 2025",
+        "rating": 1.01,
+        "award": null
+      }
+    ]
+  }
+}

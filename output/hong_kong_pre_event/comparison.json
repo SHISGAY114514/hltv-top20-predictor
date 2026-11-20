@@ -1,0 +1,930 @@
+[
+  {
+    "id": "zywoo",
+    "name": "ZywOo",
+    "before_rank": 1,
+    "before_score": 76.12367154412549,
+    "after_rank": 1,
+    "after_score": 75.26049865354909,
+    "contribution_change": {
+      "A": 0.0,
+      "E": -0.13710325872938256,
+      "O": -0.7529194311781957,
+      "T": 0.0015631215184326308,
+      "C": -0.17549019607843164,
+      "N": 0.20077687389118992
+    }
+  },
+  {
+    "id": "donk",
+    "name": "donk",
+    "before_rank": 2,
+    "before_score": 67.60616735892226,
+    "after_rank": 2,
+    "after_score": 69.17625571177443,
+    "contribution_change": {
+      "A": 0.8635621752893243,
+      "E": 0.17343911971456372,
+      "O": -0.0028290770266998777,
+      "T": 0.15199799356638843,
+      "C": 0.03970588235294059,
+      "N": 0.34421225895565577
+    }
+  },
+  {
+    "id": "m0nesy",
+    "name": "m0NESY",
+    "before_rank": 3,
+    "before_score": 62.8565518352572,
+    "after_rank": 3,
+    "after_score": 64.27231564874059,
+    "contribution_change": {
+      "A": 0.8030608661714354,
+      "E": 0.07116211128465011,
+      "O": 0.08370144595084028,
+      "T": 0.10348921236959985,
+      "C": 0.018954248366013005,
+      "N": 0.33539592934084794
+    }
+  },
+  {
+    "id": "ropz",
+    "name": "ropz",
+    "before_rank": 4,
+    "before_score": 55.68224281107162,
+    "after_rank": 5,
+    "after_score": 57.41093431419438,
+    "contribution_change": {
+      "A": 1.1330503270180934,
+      "E": 0.12425008153866735,
+      "O": 0.21330920019078725,
+      "T": 0.026912863621283645,
+      "C": 0.030392156862745878,
+      "N": 0.20077687389118992
+    }
+  },
+  {
+    "id": "flamez",
+    "name": "flameZ",
+    "before_rank": 5,
+    "before_score": 55.5994372858427,
+    "after_rank": 6,
+    "after_score": 56.153782717023454,
+    "contribution_change": {
+      "A": 0.0,
+      "E": 0.07230218703140423,
+      "O": 0.23320849316734815,
+      "T": 0.017665720228073667,
+      "C": 0.030392156862745878,
+      "N": 0.20077687389118992
+    }
+  },
+  {
+    "id": "kscerato",
+    "name": "KSCERATO",
+    "before_rank": 6,
+    "before_score": 53.69306774041838,
+    "after_rank": 4,
+    "after_score": 57.828665075684704,
+    "contribution_change": {
+      "A": 2.6256141479897384,
+      "E": 0.2912125496329825,
+      "O": 0.593941408406474,
+      "T": 0.4046178608953319,
+      "C": 0.030476190476190546,
+      "N": 0.1897351778656109
+    }
+  },
+  {
+    "id": "sh1ro",
+    "name": "sh1ro",
+    "before_rank": 7,
+    "before_score": 51.348627414151466,
+    "after_rank": 8,
+    "after_score": 51.76708978370133,
+    "contribution_change": {
+      "A": 0.0,
+      "E": 0.05326311044342269,
+      "O": -0.15823967397374084,
+      "T": 0.13952079177158794,
+      "C": 0.03970588235294059,
+      "N": 0.34421225895565577
+    }
+  },
+  {
+    "id": "molodoy",
+    "name": "molodoy",
+    "before_rank": 8,
+    "before_score": 50.139494094075,
+    "after_rank": 7,
+    "after_score": 53.465794622180894,
+    "contribution_change": {
+      "A": 2.077575645378028,
+      "E": 0.1260239673098642,
+      "O": 0.4818737368238235,
+      "T": 0.4289491435857178,
+      "C": 0.022142857142857686,
+      "N": 0.1897351778656109
+    }
+  },
+  {
+    "id": "w0nderful",
+    "name": "w0nderful",
+    "before_rank": 9,
+    "before_score": 49.94695782486423,
+    "after_rank": 9,
+    "after_score": 49.94695782486423,
+    "contribution_change": {
+      "A": 0.0,
+      "E": 0.0,
+      "O": 0.0,
+      "T": 0.0,
+      "C": 0.0,
+      "N": 0.0
+    }
+  },
+  {
+    "id": "spinx",
+    "name": "Spinx",
+    "before_rank": 10,
+    "before_score": 47.4983243768043,
+    "after_rank": 10,
+    "after_score": 47.67191751213642,
+    "contribution_change": {
+      "A": 0.0,
+      "E": 0.00543271406488266,
+      "O": -0.14632658051981373,
+      "T": 0.07304713545858865,
+      "C": 0.042894736842105985,
+      "N": 0.1985451294863534
+    }
+  },
+  {
+    "id": "kyousuke",
+    "name": "kyousuke",
+    "before_rank": 11,
+    "before_score": 46.190909362004106,
+    "after_rank": 11,
+    "after_score": 46.516784292439304,
+    "contribution_change": {
+      "A": 0.0,
+      "E": 0.03495131580785049,
+      "O": -0.19683029697887022,
+      "T": 0.10549227852706489,
+      "C": 0.0470588235294116,
+      "N": 0.33520280954974524
+    }
+  },
+  {
+    "id": "xertion",
+    "name": "xertioN",
+    "before_rank": 12,
+    "before_score": 45.62125670801502,
+    "after_rank": 12,
+    "after_score": 46.11274955212952,
+    "contribution_change": {
+      "A": 0.0,
+      "E": -0.02801105665576209,
+      "O": 0.21666576895426282,
+      "T": 0.07981931811912713,
+      "C": 0.02447368421052598,
+      "N": 0.1985451294863534
+    }
+  },
+  {
+    "id": "niko",
+    "name": "NiKo",
+    "before_rank": 13,
+    "before_score": 45.5113623033572,
+    "after_rank": 13,
+    "after_score": 45.665778132529425,
+    "contribution_change": {
+      "A": 0.0,
+      "E": -0.03745986500948284,
+      "O": -0.2382072212546067,
+      "T": 0.06429482923271834,
+      "C": 0.030392156862745878,
+      "N": 0.33539592934084794
+    }
+  },
+  {
+    "id": "makazze",
+    "name": "makazze",
+    "before_rank": 14,
+    "before_score": 44.4207404565974,
+    "after_rank": 14,
+    "after_score": 44.4207404565974,
+    "contribution_change": {
+      "A": 0.0,
+      "E": 0.0,
+      "O": 0.0,
+      "T": 0.0,
+      "C": 0.0,
+      "N": 0.0
+    }
+  },
+  {
+    "id": "wicadia",
+    "name": "Wicadia",
+    "before_rank": 15,
+    "before_score": 44.03451834087312,
+    "after_rank": 15,
+    "after_score": 44.03451834087312,
+    "contribution_change": {
+      "A": 0.0,
+      "E": 0.0,
+      "O": 0.0,
+      "T": 0.0,
+      "C": 0.0,
+      "N": 0.0
+    }
+  },
+  {
+    "id": "latto",
+    "name": "latto",
+    "before_rank": 16,
+    "before_score": 43.639427677919514,
+    "after_rank": 16,
+    "after_score": 43.79577333006847,
+    "contribution_change": {
+      "A": 0.0,
+      "E": -0.008291139270159675,
+      "O": -0.13549679675867488,
+      "T": 0.018732863286819335,
+      "C": 0.035294117647059586,
+      "N": 0.24610660724391575
+    }
+  },
+  {
+    "id": "b1t",
+    "name": "b1t",
+    "before_rank": 17,
+    "before_score": 43.063970301922986,
+    "after_rank": 18,
+    "after_score": 43.063970301922986,
+    "contribution_change": {
+      "A": 0.0,
+      "E": 0.0,
+      "O": 0.0,
+      "T": 0.0,
+      "C": 0.0,
+      "N": 0.0
+    }
+  },
+  {
+    "id": "yekindar",
+    "name": "YEKINDAR",
+    "before_rank": 18,
+    "before_score": 42.759901107836455,
+    "after_rank": 17,
+    "after_score": 43.14160916328076,
+    "contribution_change": {
+      "A": 0.0,
+      "E": -0.04217972044477136,
+      "O": 0.03711774399307721,
+      "T": 0.17489199688752377,
+      "C": 0.022142857142857686,
+      "N": 0.1897351778656109
+    }
+  },
+  {
+    "id": "torzsi",
+    "name": "torzsi",
+    "before_rank": 19,
+    "before_score": 41.18211483612568,
+    "after_rank": 19,
+    "after_score": 41.07676386596263,
+    "contribution_change": {
+      "A": 0.0,
+      "E": -0.0736758568335496,
+      "O": -0.15462275987622576,
+      "T": 0.03940251706038822,
+      "C": -0.11500000000000066,
+      "N": 0.1985451294863534
+    }
+  },
+  {
+    "id": "heavygod",
+    "name": "HeavyGod",
+    "before_rank": 20,
+    "before_score": 38.8754338628709,
+    "after_rank": 20,
+    "after_score": 39.12356656347808,
+    "contribution_change": {
+      "A": 0.0,
+      "E": -0.07766920523598309,
+      "O": -0.2724123428534284,
+      "T": 0.038547712253062194,
+      "C": 0.03419117647058734,
+      "N": 0.5254753599729423
+    }
+  },
+  {
+    "id": "tn1r",
+    "name": "tN1R",
+    "before_rank": 21,
+    "before_score": 38.78934033933935,
+    "after_rank": 21,
+    "after_score": 39.11001156088223,
+    "contribution_change": {
+      "A": 0.0,
+      "E": -0.056591981516191936,
+      "O": -0.1739694934978111,
+      "T": 0.11584396701298694,
+      "C": 0.09117647058823541,
+      "N": 0.34421225895565577
+    }
+  },
+  {
+    "id": "magnojez",
+    "name": "Magnojez",
+    "before_rank": 22,
+    "before_score": 35.79724549817193,
+    "after_rank": 24,
+    "after_score": 35.79724549817193,
+    "contribution_change": {
+      "A": 0.0,
+      "E": 0.0,
+      "O": 0.0,
+      "T": 0.0,
+      "C": 0.0,
+      "N": 0.0
+    }
+  },
+  {
+    "id": "pr",
+    "name": "PR",
+    "before_rank": 23,
+    "before_score": 35.33421576027987,
+    "after_rank": 23,
+    "after_score": 35.931025011579614,
+    "contribution_change": {
+      "A": 0.0,
+      "E": 0.009434090621359914,
+      "O": 0.09879602157254119,
+      "T": 0.09681891944462917,
+      "C": 0.09190476190476149,
+      "N": 0.29985545775644784
+    }
+  },
+  {
+    "id": "xelex",
+    "name": "xelex",
+    "before_rank": 24,
+    "before_score": 35.2568309284111,
+    "after_rank": 22,
+    "after_score": 35.992178098741974,
+    "contribution_change": {
+      "A": 0.0,
+      "E": 0.030514266095345022,
+      "O": 0.20253414063011466,
+      "T": 0.10557138612621264,
+      "C": 0.06095238095238109,
+      "N": 0.33577499652681286
+    }
+  },
+  {
+    "id": "dem0n",
+    "name": "dem0n",
+    "before_rank": 25,
+    "before_score": 34.8982929183845,
+    "after_rank": 26,
+    "after_score": 34.833753233821554,
+    "contribution_change": {
+      "A": 0.0,
+      "E": -0.08333436528866933,
+      "O": -0.3070475625918858,
+      "T": 0.013923249811119032,
+      "C": -0.1557142857142857,
+      "N": 0.46763327922078
+    }
+  },
+  {
+    "id": "yuurih",
+    "name": "yuurih",
+    "before_rank": 26,
+    "before_score": 34.38048518339418,
+    "after_rank": 25,
+    "after_score": 35.23763166171067,
+    "contribution_change": {
+      "A": 0.0,
+      "E": 0.02464905769860337,
+      "O": 0.24454924721398985,
+      "T": 0.29392728125258083,
+      "C": 0.10428571428571365,
+      "N": 0.1897351778656109
+    }
+  },
+  {
+    "id": "910",
+    "name": "910",
+    "before_rank": 27,
+    "before_score": 33.9658842819958,
+    "after_rank": 27,
+    "after_score": 33.9658842819958,
+    "contribution_change": {
+      "A": 0.0,
+      "E": 0.0,
+      "O": 0.0,
+      "T": 0.0,
+      "C": 0.0,
+      "N": 0.0
+    }
+  },
+  {
+    "id": "dziugss",
+    "name": "dziugss",
+    "before_rank": 28,
+    "before_score": 33.110640061790306,
+    "after_rank": 28,
+    "after_score": 33.27789756004157,
+    "contribution_change": {
+      "A": 0.0,
+      "E": -0.046480958041467346,
+      "O": -0.10455219198384391,
+      "T": 0.02303832143675022,
+      "C": -0.1723809523809523,
+      "N": 0.46763327922078
+    }
+  },
+  {
+    "id": "jimpphat",
+    "name": "Jimpphat",
+    "before_rank": 29,
+    "before_score": 32.90839735065637,
+    "after_rank": 29,
+    "after_score": 32.90839735065637,
+    "contribution_change": {
+      "A": 0.0,
+      "E": 0.0,
+      "O": 0.0,
+      "T": 0.0,
+      "C": 0.0,
+      "N": 0.0
+    }
+  },
+  {
+    "id": "try",
+    "name": "try",
+    "before_rank": 30,
+    "before_score": 32.254531303759094,
+    "after_rank": 30,
+    "after_score": 32.6554415162741,
+    "contribution_change": {
+      "A": 0.0,
+      "E": 0.005898297420172227,
+      "O": 0.03054971084917213,
+      "T": 0.02783918962298082,
+      "C": 0.07032967032967097,
+      "N": 0.26629334429300844
+    }
+  },
+  {
+    "id": "dumau",
+    "name": "dumau",
+    "before_rank": 31,
+    "before_score": 32.2283977594694,
+    "after_rank": 31,
+    "after_score": 32.23076983379238,
+    "contribution_change": {
+      "A": 0.0,
+      "E": -0.04921007419471124,
+      "O": -0.06459672490148094,
+      "T": 0.01124873676349658,
+      "C": -0.14117647058823568,
+      "N": 0.24610660724391575
+    }
+  },
+  {
+    "id": "zweih",
+    "name": "zweih",
+    "before_rank": 32,
+    "before_score": 31.843140535053628,
+    "after_rank": 32,
+    "after_score": 31.768590085503178,
+    "contribution_change": {
+      "A": 0.0,
+      "E": 0.0,
+      "O": 0.0,
+      "T": 0.0,
+      "C": 0.0,
+      "N": -0.07455044955044876
+    }
+  },
+  {
+    "id": "huasopeek",
+    "name": "HUASOPEEK",
+    "before_rank": 33,
+    "before_score": 31.134300861535735,
+    "after_rank": 34,
+    "after_score": 31.134300861535735,
+    "contribution_change": {
+      "A": 0.0,
+      "E": 0.0,
+      "O": 0.0,
+      "T": 0.0,
+      "C": 0.0,
+      "N": 0.0
+    }
+  },
+  {
+    "id": "staehr",
+    "name": "Staehr",
+    "before_rank": 34,
+    "before_score": 30.949041447674077,
+    "after_rank": 35,
+    "after_score": 30.949041447674077,
+    "contribution_change": {
+      "A": 0.0,
+      "E": 0.0,
+      "O": 0.0,
+      "T": 0.0,
+      "C": 0.0,
+      "N": 0.0
+    }
+  },
+  {
+    "id": "xfl0ud",
+    "name": "xfl0ud",
+    "before_rank": 35,
+    "before_score": 30.857544864646847,
+    "after_rank": 33,
+    "after_score": 31.633586208439734,
+    "contribution_change": {
+      "A": 0.0,
+      "E": 0.05322536552895052,
+      "O": 0.07703578566363589,
+      "T": 0.05750015851880452,
+      "C": 0.08454545454545404,
+      "N": 0.5037345795360402
+    }
+  },
+  {
+    "id": "luchov",
+    "name": "luchov",
+    "before_rank": 36,
+    "before_score": 30.59070977708523,
+    "after_rank": 36,
+    "after_score": 30.59070977708523,
+    "contribution_change": {
+      "A": 0.0,
+      "E": 0.0,
+      "O": 0.0,
+      "T": 0.0,
+      "C": 0.0,
+      "N": 0.0
+    }
+  },
+  {
+    "id": "dgt",
+    "name": "dgt",
+    "before_rank": 37,
+    "before_score": 30.23284133446818,
+    "after_rank": 37,
+    "after_score": 30.23284133446818,
+    "contribution_change": {
+      "A": 0.0,
+      "E": 0.0,
+      "O": 0.0,
+      "T": 0.0,
+      "C": 0.0,
+      "N": 0.0
+    }
+  },
+  {
+    "id": "phzy",
+    "name": "phzy",
+    "before_rank": 38,
+    "before_score": 29.33889225803994,
+    "after_rank": 39,
+    "after_score": 29.33889225803994,
+    "contribution_change": {
+      "A": 0.0,
+      "E": 0.0,
+      "O": 0.0,
+      "T": 0.0,
+      "C": 0.0,
+      "N": 0.0
+    }
+  },
+  {
+    "id": "nertz",
+    "name": "NertZ",
+    "before_rank": 39,
+    "before_score": 29.169591678898456,
+    "after_rank": 38,
+    "after_score": 29.898166864531625,
+    "contribution_change": {
+      "A": 0.0,
+      "E": 0.0052151004516840516,
+      "O": 0.04876061555099742,
+      "T": 0.05454488834465365,
+      "C": 0.0741666666666676,
+      "N": 0.5458879146191649
+    }
+  },
+  {
+    "id": "jabbi",
+    "name": "jabbi",
+    "before_rank": 40,
+    "before_score": 28.990911055159867,
+    "after_rank": 40,
+    "after_score": 28.990911055159867,
+    "contribution_change": {
+      "A": 0.0,
+      "E": 0.0,
+      "O": 0.0,
+      "T": 0.0,
+      "C": 0.0,
+      "N": 0.0
+    }
+  },
+  {
+    "id": "cmtry",
+    "name": "cmtry",
+    "before_rank": 41,
+    "before_score": 28.477415466334072,
+    "after_rank": 41,
+    "after_score": 28.477415466334072,
+    "contribution_change": {
+      "A": 0.0,
+      "E": 0.0,
+      "O": 0.0,
+      "T": 0.0,
+      "C": 0.0,
+      "N": 0.0
+    }
+  },
+  {
+    "id": "launx",
+    "name": "lauNX",
+    "before_rank": 42,
+    "before_score": 28.098769487965605,
+    "after_rank": 42,
+    "after_score": 28.098769487965605,
+    "contribution_change": {
+      "A": 0.0,
+      "E": 0.0,
+      "O": 0.0,
+      "T": 0.0,
+      "C": 0.0,
+      "N": 0.0
+    }
+  },
+  {
+    "id": "zorte",
+    "name": "zorte",
+    "before_rank": 43,
+    "before_score": 28.03156669571113,
+    "after_rank": 43,
+    "after_score": 28.03156669571113,
+    "contribution_change": {
+      "A": 0.0,
+      "E": 0.0,
+      "O": 0.0,
+      "T": 0.0,
+      "C": 0.0,
+      "N": 0.0
+    }
+  },
+  {
+    "id": "techno",
+    "name": "Techno",
+    "before_rank": 44,
+    "before_score": 27.37487798792921,
+    "after_rank": 44,
+    "after_score": 27.37487798792921,
+    "contribution_change": {
+      "A": 0.0,
+      "E": 0.0,
+      "O": 0.0,
+      "T": 0.0,
+      "C": 0.0,
+      "N": 0.0
+    }
+  },
+  {
+    "id": "n1ssim",
+    "name": "n1ssim",
+    "before_rank": 45,
+    "before_score": 25.644107454417764,
+    "after_rank": 45,
+    "after_score": 25.644107454417764,
+    "contribution_change": {
+      "A": 0.0,
+      "E": 0.0,
+      "O": 0.0,
+      "T": 0.0,
+      "C": 0.0,
+      "N": 0.0
+    }
+  },
+  {
+    "id": "nota",
+    "name": "nota",
+    "before_rank": 46,
+    "before_score": 25.138656641563152,
+    "after_rank": 46,
+    "after_score": 25.138656641563152,
+    "contribution_change": {
+      "A": 0.0,
+      "E": 0.0,
+      "O": 0.0,
+      "T": 0.0,
+      "C": 0.0,
+      "N": 0.0
+    }
+  },
+  {
+    "id": "insani",
+    "name": "insani",
+    "before_rank": null,
+    "before_score": 29.316213766050815,
+    "after_rank": null,
+    "after_score": 29.316213766050815,
+    "contribution_change": {
+      "A": 0.0,
+      "E": 0.0,
+      "O": 0.0,
+      "T": 0.0,
+      "C": 0.0,
+      "N": 0.0
+    }
+  },
+  {
+    "id": "rez",
+    "name": "REZ",
+    "before_rank": null,
+    "before_score": 29.115909884935906,
+    "after_rank": null,
+    "after_score": 29.115909884935906,
+    "contribution_change": {
+      "A": 0.0,
+      "E": 0.0,
+      "O": 0.0,
+      "T": 0.0,
+      "C": 0.0,
+      "N": 0.0
+    }
+  },
+  {
+    "id": "frozen",
+    "name": "frozen",
+    "before_rank": null,
+    "before_score": 28.26421633063334,
+    "after_rank": null,
+    "after_score": 28.21484029090039,
+    "contribution_change": {
+      "A": 0.0,
+      "E": 0.0,
+      "O": -0.025168838447527264,
+      "T": 0.0,
+      "C": 0.0,
+      "N": -0.02420720128542264
+    }
+  },
+  {
+    "id": "nqz",
+    "name": "nqz",
+    "before_rank": null,
+    "before_score": 26.421133165721034,
+    "after_rank": null,
+    "after_score": 26.421133165721034,
+    "contribution_change": {
+      "A": 0.0,
+      "E": 0.0,
+      "O": 0.0,
+      "T": 0.0,
+      "C": 0.0,
+      "N": 0.0
+    }
+  },
+  {
+    "id": "hypex",
+    "name": "hypex",
+    "before_rank": null,
+    "before_score": 25.689507557613105,
+    "after_rank": null,
+    "after_score": 25.689507557613105,
+    "contribution_change": {
+      "A": 0.0,
+      "E": 0.0,
+      "O": 0.0,
+      "T": 0.0,
+      "C": 0.0,
+      "N": 0.0
+    }
+  },
+  {
+    "id": "syph0",
+    "name": "syph0",
+    "before_rank": null,
+    "before_score": 25.378061683531577,
+    "after_rank": null,
+    "after_score": 25.378061683531577,
+    "contribution_change": {
+      "A": 0.0,
+      "E": 0.0,
+      "O": 0.0,
+      "T": 0.0,
+      "C": 0.0,
+      "N": 0.0
+    }
+  },
+  {
+    "id": "tauson",
+    "name": "Tauson",
+    "before_rank": null,
+    "before_score": 25.082461487394088,
+    "after_rank": null,
+    "after_score": 25.082461487394088,
+    "contribution_change": {
+      "A": 0.0,
+      "E": 0.0,
+      "O": 0.0,
+      "T": 0.0,
+      "C": 0.0,
+      "N": 0.0
+    }
+  },
+  {
+    "id": "tenzy",
+    "name": "tenzy",
+    "before_rank": null,
+    "before_score": 24.64319579757888,
+    "after_rank": null,
+    "after_score": 24.662688819332413,
+    "contribution_change": {
+      "A": 0.0,
+      "E": 0.0,
+      "O": 0.024816462736373168,
+      "T": 0.0,
+      "C": 0.0,
+      "N": -0.005323440982841543
+    }
+  },
+  {
+    "id": "esenthial",
+    "name": "esenthial",
+    "before_rank": null,
+    "before_score": 23.23884512742415,
+    "after_rank": null,
+    "after_score": 23.23884512742415,
+    "contribution_change": {
+      "A": 0.0,
+      "E": 0.0,
+      "O": 0.0,
+      "T": 0.0,
+      "C": 0.0,
+      "N": 0.0
+    }
+  },
+  {
+    "id": "jamyoung",
+    "name": "JamYoung",
+    "before_rank": null,
+    "before_score": 22.974939315056066,
+    "after_rank": null,
+    "after_score": 22.974939315056066,
+    "contribution_change": {
+      "A": 0.0,
+      "E": 0.0,
+      "O": 0.0,
+      "T": 0.0,
+      "C": 0.0,
+      "N": 0.0
+    }
+  },
+  {
+    "id": "senzu",
+    "name": "Senzu",
+    "before_rank": null,
+    "before_score": 22.59139041000654,
+    "after_rank": null,
+    "after_score": 22.59139041000654,
+    "contribution_change": {
+      "A": 0.0,
+      "E": 0.0,
+      "O": 0.0,
+      "T": 0.0,
+      "C": 0.0,
+      "N": 0.0
+    }
+  },
+  {
+    "id": "vexite",
+    "name": "Vexite",
+    "before_rank": null,
+    "before_score": null,
+    "after_rank": null,
+    "after_score": null,
+    "contribution_change": {
+      "A": 0.0,
+      "E": 0.0,
+      "O": 0.0,
+      "T": 0.0,
+      "C": 0.0,
+      "N": 0.0
+    }
+  }
+]

@@ -1,0 +1,465 @@
+{
+  "2025": [
+    {
+      "dataset_name": "BLAST Bounty Spring 2025",
+      "event": "BLAST Bounty S1",
+      "tier": "Big",
+      "start": null,
+      "playoffs": "2025-01-23",
+      "venue": "studio",
+      "official_event": "BLAST Bounty 2025 Season 1 Finals",
+      "source": "https://www.hltv.org/events/7909/blast-bounty-2025-season-1-finals",
+      "venue_source": "https://blast.tv/cs/news/BLAST-open-lisbon-ticketing"
+    },
+    {
+      "dataset_name": "IEM Katowice 2025",
+      "event": "IEM Katowice",
+      "tier": "Super-elite",
+      "start": "2025-02-01",
+      "playoffs": "2025-02-07",
+      "venue": "arena",
+      "official_event": "IEM Katowice 2025",
+      "source": "https://www.hltv.org/events/8034/iem-katowice-2025"
+    },
+    {
+      "dataset_name": "PGL Cluj-Napoca 2025",
+      "event": "PGL Cluj-Napoca",
+      "tier": "Big",
+      "start": null,
+      "playoffs": "2025-02-21",
+      "venue": "arena",
+      "official_event": "PGL Cluj-Napoca 2025",
+      "source": "https://www.hltv.org/events/8043/pgl-cluj-napoca-2025"
+    },
+    {
+      "dataset_name": "ESL Pro League Season 21",
+      "event": "ESL Pro League S21",
+      "tier": "Big",
+      "start": "2025-03-07",
+      "playoffs": "2025-03-13",
+      "venue": "unknown",
+      "official_event": "ESL Pro League Season 21",
+      "source": "https://www.hltv.org/events/8292/esl-pro-league-season-21"
+    },
+    {
+      "dataset_name": "BLAST Open Lisbon 2025",
+      "event": "BLAST Open S1",
+      "tier": "Elite",
+      "start": null,
+      "playoffs": "2025-03-28",
+      "venue": "split",
+      "official_event": "BLAST Open Lisbon 2025",
+      "source": "https://www.hltv.org/events/7904/blast-open-lisbon-2025",
+      "venue_source": "https://blast.tv/cs/news/BLAST-open-lisbon-ticketing"
+    },
+    {
+      "dataset_name": "PGL Bucharest 2025",
+      "event": "PGL Bucharest",
+      "tier": "Big",
+      "start": null,
+      "playoffs": "2025-04-11",
+      "venue": "unknown",
+      "official_event": "PGL Bucharest 2025",
+      "source": "https://www.hltv.org/events/8044/pgl-bucharest-2025"
+    },
+    {
+      "dataset_name": "IEM Melbourne 2025",
+      "event": "IEM Melbourne",
+      "tier": "Big",
+      "start": null,
+      "playoffs": "2025-04-25",
+      "venue": "arena",
+      "official_event": "IEM Melbourne 2025",
+      "source": "https://www.hltv.org/events/8036/iem-melbourne-2025"
+    },
+    {
+      "dataset_name": "BLAST Rivals Spring 2025",
+      "event": "BLAST Rivals S1",
+      "tier": "Big",
+      "start": null,
+      "playoffs": "2025-05-02",
+      "venue": "studio",
+      "official_event": "BLAST Rivals 2025 Season 1",
+      "source": "https://www.hltv.org/events/7905/blast-rivals-2025-season-1"
+    },
+    {
+      "dataset_name": "PGL Astana 2025",
+      "event": "PGL Astana",
+      "tier": "Big",
+      "start": null,
+      "playoffs": "2025-05-16",
+      "venue": "arena",
+      "official_event": "PGL Astana 2025",
+      "source": "https://www.hltv.org/events/8045/pgl-astana-2025"
+    },
+    {
+      "dataset_name": "IEM Dallas 2025",
+      "event": "IEM Dallas",
+      "tier": "Big",
+      "start": null,
+      "playoffs": "2025-05-23",
+      "venue": "arena",
+      "official_event": "IEM Dallas 2025",
+      "source": "https://www.hltv.org/events/8037/iem-dallas-2025"
+    },
+    {
+      "dataset_name": "BLAST.tv Austin Major 2025",
+      "event": "BLAST.tv Austin (M)",
+      "tier": "Major",
+      "start": "2025-06-12",
+      "playoffs": "2025-06-19",
+      "venue": "arena",
+      "official_event": "BLAST.tv Austin Major 2025",
+      "source": "https://www.hltv.org/events/7902/blasttv-austin-major-2025",
+      "venue_source": "https://blast.tv/cs/news/everything-you-need-to-know-about-blasttv-austin-major-playoffs"
+    },
+    {
+      "dataset_name": "FISSURE PLAYGROUND 1 — CS",
+      "event": "FISSURE Playground 1",
+      "tier": "Medium",
+      "start": null,
+      "playoffs": "2025-07-18",
+      "venue": "unknown",
+      "official_event": "FISSURE Playground 1",
+      "source": "https://www.hltv.org/events/8063/fissure-playground-1"
+    },
+    {
+      "dataset_name": "IEM Cologne 2025",
+      "event": "IEM Cologne",
+      "tier": "Super-elite",
+      "start": "2025-07-26",
+      "playoffs": "2025-08-01",
+      "venue": "arena",
+      "official_event": "IEM Cologne 2025",
+      "source": "https://www.hltv.org/events/8038/iem-cologne-2025"
+    },
+    {
+      "dataset_name": "BLAST Bounty Fall 2025",
+      "event": "BLAST Bounty S2",
+      "tier": "Big",
+      "start": null,
+      "playoffs": "2025-08-14",
+      "venue": "studio",
+      "official_event": "BLAST Bounty 2025 Season 2 Finals",
+      "source": "https://www.hltv.org/events/7910/blast-bounty-2025-season-2-finals",
+      "venue_source": "https://blast.tv/cs/news/blast-bounty-malta-audience"
+    },
+    {
+      "dataset_name": "Esports World Cup 2025 по CS2",
+      "event": "Esports World Cup",
+      "tier": "Big",
+      "start": null,
+      "playoffs": "2025-08-21 17:15",
+      "venue": "unknown",
+      "official_event": "Esports World Cup 2025",
+      "source": "https://www.hltv.org/events/8039/esports-world-cup-2025"
+    },
+    {
+      "dataset_name": "BLAST Open London 2025",
+      "event": "BLAST Open S2",
+      "tier": "Big",
+      "start": null,
+      "playoffs": "2025-09-05",
+      "venue": "arena",
+      "official_event": "BLAST Open London 2025 Finals",
+      "source": "https://www.hltv.org/events/7912/blast-open-london-2025-finals"
+    },
+    {
+      "dataset_name": "FISSURE PLAYGROUND 2 — CS",
+      "event": "FISSURE Playground 2",
+      "tier": "Big",
+      "start": null,
+      "playoffs": "2025-09-19",
+      "venue": "unknown",
+      "official_event": "FISSURE Playground 2",
+      "source": "https://www.hltv.org/events/8064/fissure-playground-2"
+    },
+    {
+      "dataset_name": "ESL Pro League Season 22",
+      "event": "ESL Pro League S22",
+      "tier": "Big",
+      "start": "2025-10-04",
+      "playoffs": "2025-10-10",
+      "venue": "unknown",
+      "official_event": "ESL Pro League Season 22",
+      "source": "https://www.hltv.org/events/8040/esl-pro-league-season-22"
+    },
+    {
+      "dataset_name": "CS2 Asia Championships 2025",
+      "event": "PW CAC",
+      "tier": "Medium",
+      "start": null,
+      "playoffs": "2025-10-17",
+      "venue": "unknown",
+      "official_event": "CS Asia Championships 2025",
+      "source": "https://www.hltv.org/events/8027/cs-asia-championships-2025"
+    },
+    {
+      "dataset_name": "Thunderpick World Championship 2025",
+      "event": "Thunderpick WC",
+      "tier": "Medium",
+      "start": null,
+      "playoffs": "2025-10-17",
+      "venue": "unknown",
+      "official_event": "Thunderpick World Championship 2025",
+      "source": "https://www.hltv.org/events/8067/thunderpick-world-championship-2025"
+    },
+    {
+      "dataset_name": "PGL Masters Bucharest 2025",
+      "event": "PGL Masters",
+      "tier": "Medium",
+      "start": null,
+      "playoffs": "2025-10-31",
+      "venue": "unknown",
+      "official_event": "PGL Masters Bucharest 2025",
+      "source": "https://www.hltv.org/events/8046/pgl-masters-bucharest-2025"
+    },
+    {
+      "dataset_name": "IEM Chengdu 2025",
+      "event": "IEM Chengdu",
+      "tier": "Elite",
+      "start": null,
+      "playoffs": "2025-11-07",
+      "venue": "arena",
+      "official_event": "IEM Chengdu 2025",
+      "source": "https://www.hltv.org/events/8041/iem-chengdu-2025"
+    },
+    {
+      "dataset_name": "BLAST Rivals Fall 2025",
+      "event": "BLAST Rivals S2",
+      "tier": "Big",
+      "start": null,
+      "playoffs": "2025-11-14",
+      "venue": "arena",
+      "official_event": "BLAST Rivals 2025 Season 2",
+      "source": "https://www.hltv.org/events/7908/blast-rivals-2025-season-2"
+    },
+    {
+      "dataset_name": "StarLadder Budapest Major 2025",
+      "event": "SL Budapest (M)",
+      "tier": "Major",
+      "start": "2025-12-04",
+      "playoffs": "2025-12-11",
+      "venue": "arena",
+      "official_event": "StarLadder Budapest Major 2025",
+      "source": "https://www.hltv.org/events/8042/starladder-budapest-major-2025",
+      "venue_source": "https://www.starladder.com/en/news/all-you-need-to-know-about-starladder-budapest-major-2025-playoffs"
+    }
+  ],
+  "2026": [
+    {
+      "dataset_name": "BLAST Bounty Winter 2026",
+      "event": "BLAST Bounty 2026 Season 1 Finals",
+      "tier": "Big",
+      "start": null,
+      "playoffs": "2026-01-22",
+      "venue": "studio",
+      "source": "https://www.hltv.org/news/43729/the-evp-and-all-stars-of-blast-bounty-2026-season-1-finals"
+    },
+    {
+      "dataset_name": "IEM Krakow 2026",
+      "event": "IEM Kraków 2026",
+      "tier": "Super-elite",
+      "start": "2026-01-31",
+      "playoffs": "2026-02-06",
+      "venue": "arena",
+      "source": "https://www.hltv.org/news/43853/the-evps-and-all-stars-of-iem-krakow-2026",
+      "venue_source": "https://eslfaceitgroup.com/press/a-new-chapter-of-intel-extreme-masters-begins-as-elite-competition-arrives-in-krakow-poland/"
+    },
+    {
+      "dataset_name": "PGL Cluj-Napoca 2026",
+      "event": "PGL Cluj-Napoca 2026",
+      "tier": "Big",
+      "start": null,
+      "playoffs": "2026-02-20",
+      "venue": "arena",
+      "source": "https://www.hltv.org/news/43957/the-evps-and-all-stars-of-pgl-cluj-napoca-2026"
+    },
+    {
+      "dataset_name": "ESL Pro League Season 23",
+      "event": "ESL Pro League Season 23 Finals",
+      "tier": "Big",
+      "start": "2026-03-13",
+      "playoffs": "2026-03-13",
+      "venue": "unknown",
+      "source": "https://www.hltv.org/news/44111/the-evps-and-all-stars-of-esl-pro-league-season-23-finals"
+    },
+    {
+      "dataset_name": "BLAST Open Spring 2026",
+      "event": "BLAST Open Rotterdam 2026",
+      "tier": "Elite",
+      "start": null,
+      "playoffs": "2026-03-27",
+      "venue": "split",
+      "source": "https://www.hltv.org/news/44217/the-evps-and-all-stars-of-blast-open-rotterdam-2026",
+      "venue_source": "https://www.hltv.org/news/43919/blast-unveil-opening-matchups-of-open-rotterdam"
+    },
+    {
+      "dataset_name": "PGL Bucharest 2026",
+      "event": "PGL Bucharest 2026",
+      "tier": "Medium",
+      "start": null,
+      "playoffs": "2026-04-10",
+      "venue": "unknown",
+      "source": "https://www.hltv.org/news/44393/the-evps-and-all-stars-of-pgl-bucharest-2026"
+    },
+    {
+      "dataset_name": "IEM Rio 2026",
+      "event": "IEM Rio 2026",
+      "tier": "Big",
+      "start": null,
+      "playoffs": "2026-04-17",
+      "venue": "arena",
+      "source": "https://www.hltv.org/news/44442/the-evps-and-all-stars-of-iem-rio-2026"
+    },
+    {
+      "dataset_name": "BLAST Rivals Spring 2026",
+      "event": "BLAST Rivals 2026 Season 1",
+      "tier": "Big",
+      "start": null,
+      "playoffs": "2026-05-01 22:30",
+      "venue": "arena",
+      "source": "https://www.hltv.org/news/44521/the-evps-and-all-stars-of-blast-rivals-2026-season-1"
+    },
+    {
+      "dataset_name": "PGL Astana 2026",
+      "event": "PGL Astana 2026",
+      "tier": "Big",
+      "start": null,
+      "playoffs": "2026-05-15",
+      "venue": "arena",
+      "source": "https://www.hltv.org/news/44653/the-evps-and-all-stars-of-pgl-astana-2026"
+    },
+    {
+      "dataset_name": "IEM Atlanta 2026",
+      "event": "IEM Atlanta 2026",
+      "tier": "Big",
+      "start": null,
+      "playoffs": "2026-05-15",
+      "venue": "arena",
+      "source": "https://www.hltv.org/news/44656/the-evps-and-all-stars-of-iem-atlanta-2026"
+    },
+    {
+      "dataset_name": "CS Asia Championships 2026",
+      "event": "CS Asia Championships 2026",
+      "tier": "Medium",
+      "start": null,
+      "playoffs": "2026-05-22 11:45",
+      "venue": "unknown",
+      "source": "https://www.hltv.org/news/44725/the-evps-and-all-stars-of-cs-asia-championship-2026"
+    },
+    {
+      "dataset_name": "IEM Cologne Major 2026",
+      "event": "IEM Cologne Major 2026",
+      "tier": "Major",
+      "start": "2026-06-11",
+      "playoffs": "2026-06-18",
+      "venue": "arena",
+      "source": "https://www.hltv.org/news/44989/the-evps-and-all-stars-of-iem-cologne-major-2026",
+      "venue_source": "https://pro.eslgaming.com/tour/2025/08/iem-cologne-major-announcement/"
+    },
+    {
+      "dataset_name": "XSE Pro League 2026",
+      "event": "XSE Pro League Guangzhou 2026",
+      "tier": "Medium",
+      "start": null,
+      "playoffs": "2026-07-09",
+      "venue": "unknown",
+      "source": "https://www.hltv.org/news/45136/the-evps-and-all-stars-of-xse-pro-league-guangzhou-2026"
+    },
+    {
+      "dataset_name": "BLAST Bounty Summer 2026",
+      "event": "BLAST Bounty 2026 Season 2 Finals",
+      "tier": "Medium",
+      "start": null,
+      "playoffs": "2026-07-30",
+      "venue": "studio",
+      "source": "https://www.hltv.org/news/45242/the-evp-and-all-stars-of-blast-bounty-2026-season-2-finals"
+    },
+    {
+      "dataset_name": "Esports World Cup 2026 по CS2",
+      "event": "Esports World Cup 2026",
+      "tier": "Elite",
+      "start": null,
+      "playoffs": "2026-08-20 19:10",
+      "venue": "unknown",
+      "source": "https://www.hltv.org/news/45425/the-evps-and-all-stars-of-esports-world-cup-2026"
+    },
+    {
+      "dataset_name": "BLAST Open Fall 2026",
+      "event": "BLAST Open Porto 2026",
+      "tier": "Elite",
+      "start": null,
+      "playoffs": "2026-09-04",
+      "venue": "split",
+      "source": "https://www.hltv.org/news/45474/the-evps-and-all-stars-of-blast-open-porto-2026",
+      "venue_source": "https://www.hltv.org/news/45384/blast-open-porto-teams-format-schedule-prizes-talent-fantasy"
+    },
+    {
+      "dataset_name": "FISSURE Playground #3",
+      "event": "FISSURE Playground 3",
+      "tier": "Medium",
+      "start": null,
+      "playoffs": "2026-09-11",
+      "venue": "unknown",
+      "source": "https://www.hltv.org/news/45563/the-evps-and-all-stars-of-fissure-playground-3"
+    },
+    {
+      "dataset_name": "StarLadder StarSeries Fall 2026",
+      "event": "StarLadder StarSeries Fall 2026",
+      "tier": "Big",
+      "start": null,
+      "playoffs": "2026-09-20",
+      "venue": "unknown",
+      "source": "https://www.hltv.org/news/45564/the-evps-and-all-stars-of-starladder-starseries-fall-2026"
+    },
+    {
+      "dataset_name": "ESL Pro League Season 24",
+      "event": "ESL Pro League Season 24",
+      "tier": "Elite",
+      "start": null,
+      "playoffs": "2026-10-09",
+      "venue": "arena",
+      "source": "https://www.hltv.org/news/45751/the-evps-and-all-stars-of-esl-pro-league-s24",
+      "venue_source": "https://pro.eslgaming.com/tour/details/esl-pro-league-season-24/"
+    },
+    {
+      "dataset_name": "Thunderpick World Championship 2026",
+      "event": "Thunderpick World Championship 2026",
+      "tier": "Big",
+      "start": null,
+      "playoffs": "2026-10-16",
+      "venue": "unknown",
+      "source": "https://www.hltv.org/news/45767/the-evp-and-all-stars-of-thunderpick-world-championship-2026"
+    },
+    {
+      "dataset_name": "PGL Masters Bucharest 2026",
+      "event": "PGL Masters Bucharest 2026",
+      "tier": "Big",
+      "start": null,
+      "playoffs": "2026-10-29",
+      "venue": "unknown",
+      "source": "https://www.hltv.org/news/45920/the-evps-and-all-stars-of-pgl-masters-bucharest"
+    },
+    {
+      "dataset_name": "IEM Beijing 2026",
+      "event": "IEM Beijing 2026",
+      "tier": "Big",
+      "start": null,
+      "playoffs": "2026-11-06",
+      "venue": "arena",
+      "source": "https://www.hltv.org/news/45948/the-evps-and-all-stars-of-iem-beijing-2026",
+      "venue_source": "https://pro.eslgaming.com/tour/details/iem-beijing-2026/"
+    },
+    {
+      "dataset_name": "BLAST Rivals Fall 2026",
+      "event": "BLAST Rivals 2026 Season 2",
+      "tier": "Big",
+      "start": null,
+      "playoffs": "2026-11-13",
+      "venue": "arena",
+      "source": "https://www.hltv.org/news/45998/the-evps-and-all-stars-of-blast-rivals-2026-season-2",
+      "venue_source": "https://blast.tv/cs/tournaments/rivals-2026-season-2/match?view=results"
+    }
+  ]
+}

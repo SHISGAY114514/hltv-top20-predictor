@@ -1,0 +1,29 @@
+{
+  "event": "BLAST Rivals 2026 Season 2",
+  "event_id": 8251,
+  "verified_on": "2026-11-17",
+  "published_display": "17-11-2026 01:15（页面显示）",
+  "source": "https://www.hltv.org/news/45998/the-evps-and-all-stars-of-blast-rivals-2026-season-2",
+  "event_source": "https://www.hltv.org/events/8251/blast-rivals-2026-season-2",
+  "verified_via": "Browser rendered official article, ordered best-player list, event MVP and official All-Star/MVP images",
+  "mvp": "kscerato",
+  "evps": ["molodoy", "donk", "ropz", "m0nesy"],
+  "best_players_including_mvp": ["kscerato", "molodoy", "donk", "ropz", "m0nesy"],
+  "all_stars": [
+    {"player_id": "fallen", "role": "IGL"},
+    {"player_id": "molodoy", "role": "AWP"},
+    {"player_id": "donk", "role": "Opener"},
+    {"player_id": "kscerato", "role": "Closer"},
+    {"player_id": "pr", "role": "Anchor"}
+  ],
+  "honorable_mentions": ["sh1ro", "tn1r", "kyousuke", "nertz", "flamez"],
+  "team_mentions": [{"team": "MOUZ", "status": "Shared credit among four players; none awarded EVP"}],
+  "team_placements": {"FURIA": "1st", "Spirit": "2nd", "Falcons": "3-4th", "MOUZ": "3-4th", "G2": "5-6th", "Vitality": "5-6th", "FUT": "7-8th", "Legacy": "7-8th"},
+  "award_ratings_3_0": {"kscerato": 1.55, "molodoy": 1.29, "donk": 1.29, "ropz": 1.32, "m0nesy": 1.24},
+  "rating_scope_note": "KSCERATO整站1.55由MVP雷达图和All-Star图确认；正文1.52是对Vitality、Spirit和Falcons范围，不替换整站值。EVP Rating沿用2026-11-17已采集整站快照。",
+  "scoring_policy": "Only MVP and EVP enter A; All-Star and honorable mentions are archived without additional award points.",
+  "images": [
+    {"role": "mvp_radar", "local_path": "data/reference/rivals_s2_2026_assets/mvp_radar.png", "source": "https://img-cdn.hltv.org/gallerypicture/_xwBK5oxhqVCGp61kSkKNA.png?auto=compress&ixlib=java-2.1.0&q=75&w=800&s=cbb034e7b0ad67a053e01eae4b0ee534"},
+    {"role": "all_stars", "local_path": "data/reference/rivals_s2_2026_assets/all_stars.png", "source": "https://img-cdn.hltv.org/gallerypicture/xQuJygbaZ-yruiVQXIjobJ.png?auto=compress&ixlib=java-2.1.0&q=75&w=800&s=6651751e908feaed2030c344dd6f16b9"}
+  ]
+}

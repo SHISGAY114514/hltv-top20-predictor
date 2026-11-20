@@ -1,0 +1,824 @@
+{
+  "kind": "hypothetical_major_projection",
+  "base_date": "2026-11-17",
+  "assumptions": [
+    "仅新增一届Major，其余比赛及待公布奖项不变；不是概率预测。",
+    "沿用现行参数，包括Major层20%占比及现有覆盖目标。",
+    "按情景指定参赛图数与嵌套Top N图数；假设新赛事各对手组Rating等于赛事Rating。",
+    "累计Rating以图数加权近似，非HLTV数据库精确重算；临界值不能当成真实保底线。",
+    "奖项、名次均为条件假设，不从Rating自动推定MVP/EVP。",
+    "本结果仅比较指定两人，不能据此排除其他选手反超。"
+  ],
+  "baseline": {
+    "zywoo": 75.26049865354909,
+    "donk": 69.17625571177443,
+    "m0nesy": 64.27231564874059
+  },
+  "award_only_gain": {
+    "zywoo": {
+      "MVP": 1.2364080517082459,
+      "EVP1": 0.9077172380009106,
+      "EVP2": 0.7906437810649789
+    },
+    "donk": {
+      "MVP": 2.139439281707748,
+      "EVP1": 1.5706836533289275,
+      "EVP2": 1.3681036456461917
+    },
+    "m0nesy": {
+      "MVP": 2.7631659623675127,
+      "EVP1": 2.0285967662803754,
+      "EVP2": 1.7669570989754588
+    }
+  },
+  "scenarios": [
+    {
+      "scenario": "donk常规MVP，ZywOo早退",
+      "players": [
+        {
+          "name": "donk",
+          "rating": 1.4,
+          "placement": "1st",
+          "award": "MVP",
+          "maps": 16,
+          "opponent_maps": {
+            "5": 8,
+            "10": 12,
+            "20": 16,
+            "30": 16
+          },
+          "score": 73.06562852134832,
+          "contributions": {
+            "A": 24.592082689915053,
+            "E": 15.695151125459903,
+            "O": 14.80033870723761,
+            "T": 4.379806087388244,
+            "C": 4.4,
+            "N": 9.198249911347517
+          },
+          "delta": 3.889372809573885
+        },
+        {
+          "name": "ZywOo",
+          "rating": 0.9,
+          "placement": "15-16th",
+          "award": null,
+          "maps": 6,
+          "opponent_maps": {
+            "5": 0,
+            "10": 2,
+            "20": 6,
+            "30": 6
+          },
+          "score": 74.67951448092847,
+          "contributions": {
+            "A": 25.638290584364192,
+            "E": 15.753342204680479,
+            "O": 14.677698309991396,
+            "T": 4.549663788070892,
+            "C": 4.326315789473684,
+            "N": 9.734203804347825
+          },
+          "delta": -0.5809841726206173
+        }
+      ],
+      "gap": -1.6138859595801591
+    },
+    {
+      "scenario": "donk极强MVP，ZywOo早退",
+      "players": [
+        {
+          "name": "donk",
+          "rating": 1.6,
+          "placement": "1st",
+          "award": "MVP",
+          "maps": 16,
+          "opponent_maps": {
+            "5": 8,
+            "10": 12,
+            "20": 16,
+            "30": 16
+          },
+          "score": 74.14276006523906,
+          "contributions": {
+            "A": 24.592082689915053,
+            "E": 16.16493761909821,
+            "O": 15.40768375749003,
+            "T": 4.379806087388244,
+            "C": 4.4,
+            "N": 9.198249911347517
+          },
+          "delta": 4.966504353464629
+        },
+        {
+          "name": "ZywOo",
+          "rating": 0.9,
+          "placement": "15-16th",
+          "award": null,
+          "maps": 6,
+          "opponent_maps": {
+            "5": 0,
+            "10": 2,
+            "20": 6,
+            "30": 6
+          },
+          "score": 74.67951448092847,
+          "contributions": {
+            "A": 25.638290584364192,
+            "E": 15.753342204680479,
+            "O": 14.677698309991396,
+            "T": 4.549663788070892,
+            "C": 4.326315789473684,
+            "N": 9.734203804347825
+          },
+          "delta": -0.5809841726206173
+        }
+      ],
+      "gap": -0.5367544156894155
+    },
+    {
+      "scenario": "donk极强MVP，ZywOo八强EVP3",
+      "players": [
+        {
+          "name": "donk",
+          "rating": 1.6,
+          "placement": "1st",
+          "award": "MVP",
+          "maps": 16,
+          "opponent_maps": {
+            "5": 8,
+            "10": 12,
+            "20": 16,
+            "30": 16
+          },
+          "score": 74.14276006523906,
+          "contributions": {
+            "A": 24.592082689915053,
+            "E": 16.16493761909821,
+            "O": 15.40768375749003,
+            "T": 4.379806087388244,
+            "C": 4.4,
+            "N": 9.198249911347517
+          },
+          "delta": 4.966504353464629
+        },
+        {
+          "name": "ZywOo",
+          "rating": 1.15,
+          "placement": "5-8th",
+          "award": "EVP3",
+          "maps": 10,
+          "opponent_maps": {
+            "5": 4,
+            "10": 6,
+            "20": 10,
+            "30": 10
+          },
+          "score": 75.85230605765518,
+          "contributions": {
+            "A": 26.30789269038097,
+            "E": 16.00019753039036,
+            "O": 14.706494477822138,
+            "T": 4.564020841144572,
+            "C": 4.510526315789473,
+            "N": 9.763174202127658
+          },
+          "delta": 0.5918074041060919
+        }
+      ],
+      "gap": -1.7095459924161247
+    },
+    {
+      "scenario": "m0NESY常规MVP，donk早退",
+      "players": [
+        {
+          "name": "m0NESY",
+          "rating": 1.3,
+          "placement": "1st",
+          "award": "MVP",
+          "maps": 16,
+          "opponent_maps": {
+            "5": 8,
+            "10": 12,
+            "20": 16,
+            "30": 16
+          },
+          "score": 68.65321537008609,
+          "contributions": {
+            "A": 23.01547224719694,
+            "E": 14.285046055556084,
+            "O": 13.376326181981169,
+            "T": 3.9614942382820937,
+            "C": 4.6947368421052635,
+            "N": 9.32013980496454
+          },
+          "delta": 4.3808997213455
+        },
+        {
+          "name": "donk",
+          "rating": 0.9,
+          "placement": "15-16th",
+          "award": null,
+          "maps": 6,
+          "opponent_maps": {
+            "5": 0,
+            "10": 2,
+            "20": 6,
+            "30": 6
+          },
+          "score": 68.63991399425282,
+          "contributions": {
+            "A": 22.452643408207305,
+            "E": 14.878733972453052,
+            "O": 14.100119393346768,
+            "T": 4.027342329484158,
+            "C": 4.205555555555555,
+            "N": 8.975519335205993
+          },
+          "delta": -0.5363417175216085
+        }
+      ],
+      "gap": 0.013301375833265183
+    },
+    {
+      "scenario": "m0NESY强势MVP，donk早退",
+      "players": [
+        {
+          "name": "m0NESY",
+          "rating": 1.4,
+          "placement": "1st",
+          "award": "MVP",
+          "maps": 16,
+          "opponent_maps": {
+            "5": 8,
+            "10": 12,
+            "20": 16,
+            "30": 16
+          },
+          "score": 69.23143174428243,
+          "contributions": {
+            "A": 23.01547224719694,
+            "E": 14.509461639971667,
+            "O": 13.684430103115504,
+            "T": 4.007191106928516,
+            "C": 4.6947368421052635,
+            "N": 9.32013980496454
+          },
+          "delta": 4.9591160955418445
+        },
+        {
+          "name": "donk",
+          "rating": 0.9,
+          "placement": "15-16th",
+          "award": null,
+          "maps": 6,
+          "opponent_maps": {
+            "5": 0,
+            "10": 2,
+            "20": 6,
+            "30": 6
+          },
+          "score": 68.63991399425282,
+          "contributions": {
+            "A": 22.452643408207305,
+            "E": 14.878733972453052,
+            "O": 14.100119393346768,
+            "T": 4.027342329484158,
+            "C": 4.205555555555555,
+            "N": 8.975519335205993
+          },
+          "delta": -0.5363417175216085
+        }
+      ],
+      "gap": 0.5915177500296096
+    },
+    {
+      "scenario": "m0NESY强势MVP，donk八强EVP3",
+      "players": [
+        {
+          "name": "m0NESY",
+          "rating": 1.5,
+          "placement": "1st",
+          "award": "MVP",
+          "maps": 16,
+          "opponent_maps": {
+            "5": 8,
+            "10": 12,
+            "20": 16,
+            "30": 16
+          },
+          "score": 69.76395124983235,
+          "contributions": {
+            "A": 23.01547224719694,
+            "E": 14.733877224387252,
+            "O": 13.992534024249837,
+            "T": 4.007191106928516,
+            "C": 4.6947368421052635,
+            "N": 9.32013980496454
+          },
+          "delta": 5.491635601091758
+        },
+        {
+          "name": "donk",
+          "rating": 1.15,
+          "placement": "5-8th",
+          "award": "EVP3",
+          "maps": 10,
+          "opponent_maps": {
+            "5": 4,
+            "10": 6,
+            "20": 10,
+            "30": 10
+          },
+          "score": 70.43094676357282,
+          "contributions": {
+            "A": 23.611300573814773,
+            "E": 15.146247784607747,
+            "O": 14.149529123433883,
+            "T": 4.058351378786009,
+            "C": 4.4,
+            "N": 9.065517902930402
+          },
+          "delta": 1.254691051798389
+        }
+      ],
+      "gap": -0.6669955137404742
+    },
+    {
+      "scenario": "m0NESY强势MVP，donk四强EVP2",
+      "players": [
+        {
+          "name": "m0NESY",
+          "rating": 1.5,
+          "placement": "1st",
+          "award": "MVP",
+          "maps": 16,
+          "opponent_maps": {
+            "5": 8,
+            "10": 12,
+            "20": 16,
+            "30": 16
+          },
+          "score": 69.76395124983235,
+          "contributions": {
+            "A": 23.01547224719694,
+            "E": 14.733877224387252,
+            "O": 13.992534024249837,
+            "T": 4.007191106928516,
+            "C": 4.6947368421052635,
+            "N": 9.32013980496454
+          },
+          "delta": 5.491635601091758
+        },
+        {
+          "name": "donk",
+          "rating": 1.25,
+          "placement": "3-4th",
+          "award": "EVP2",
+          "maps": 12,
+          "opponent_maps": {
+            "5": 6,
+            "10": 8,
+            "20": 12,
+            "30": 12
+          },
+          "score": 71.12086635965568,
+          "contributions": {
+            "A": 23.820747053853495,
+            "E": 15.32919949796897,
+            "O": 14.333950008101315,
+            "T": 4.126915633065239,
+            "C": 4.4,
+            "N": 9.110054166666668
+          },
+          "delta": 1.9446106478812482
+        }
+      ],
+      "gap": -1.3569151098233334
+    },
+    {
+      "scenario": "m0NESY极强MVP，donk亚军EVP1",
+      "players": [
+        {
+          "name": "m0NESY",
+          "rating": 1.6,
+          "placement": "1st",
+          "award": "MVP",
+          "maps": 16,
+          "opponent_maps": {
+            "5": 8,
+            "10": 12,
+            "20": 16,
+            "30": 16
+          },
+          "score": 70.29647075538227,
+          "contributions": {
+            "A": 23.01547224719694,
+            "E": 14.958292808802835,
+            "O": 14.300637945384175,
+            "T": 4.007191106928516,
+            "C": 4.6947368421052635,
+            "N": 9.32013980496454
+          },
+          "delta": 6.024155106641686
+        },
+        {
+          "name": "donk",
+          "rating": 1.3,
+          "placement": "2nd",
+          "award": "EVP1",
+          "maps": 16,
+          "opponent_maps": {
+            "5": 8,
+            "10": 12,
+            "20": 16,
+            "30": 16
+          },
+          "score": 71.81567332999893,
+          "contributions": {
+            "A": 24.023327061536232,
+            "E": 15.460257878640746,
+            "O": 14.496666182111404,
+            "T": 4.237172296363026,
+            "C": 4.4,
+            "N": 9.198249911347517
+          },
+          "delta": 2.639417618224499
+        }
+      ],
+      "gap": -1.5192025746166564
+    },
+    {
+      "scenario": "m0NESY极强MVP，ZywOo早退",
+      "players": [
+        {
+          "name": "m0NESY",
+          "rating": 1.6,
+          "placement": "1st",
+          "award": "MVP",
+          "maps": 16,
+          "opponent_maps": {
+            "5": 8,
+            "10": 12,
+            "20": 16,
+            "30": 16
+          },
+          "score": 70.29647075538227,
+          "contributions": {
+            "A": 23.01547224719694,
+            "E": 14.958292808802835,
+            "O": 14.300637945384175,
+            "T": 4.007191106928516,
+            "C": 4.6947368421052635,
+            "N": 9.32013980496454
+          },
+          "delta": 6.024155106641686
+        },
+        {
+          "name": "ZywOo",
+          "rating": 0.9,
+          "placement": "15-16th",
+          "award": null,
+          "maps": 6,
+          "opponent_maps": {
+            "5": 0,
+            "10": 2,
+            "20": 6,
+            "30": 6
+          },
+          "score": 74.67951448092847,
+          "contributions": {
+            "A": 25.638290584364192,
+            "E": 15.753342204680479,
+            "O": 14.677698309991396,
+            "T": 4.549663788070892,
+            "C": 4.326315789473684,
+            "N": 9.734203804347825
+          },
+          "delta": -0.5809841726206173
+        }
+      ],
+      "gap": -4.383043725546202
+    },
+    {
+      "scenario": "m0NESY亚军第一EVP，donk早退",
+      "players": [
+        {
+          "name": "m0NESY",
+          "rating": 1.4,
+          "placement": "2nd",
+          "award": "EVP1",
+          "maps": 16,
+          "opponent_maps": {
+            "5": 8,
+            "10": 12,
+            "20": 16,
+            "30": 16
+          },
+          "score": 68.30106339621986,
+          "contributions": {
+            "A": 22.280903051109803,
+            "E": 14.509461639971667,
+            "O": 13.684430103115504,
+            "T": 3.8113919549530753,
+            "C": 4.6947368421052635,
+            "N": 9.32013980496454
+          },
+          "delta": 4.028747747479272
+        },
+        {
+          "name": "donk",
+          "rating": 0.9,
+          "placement": "15-16th",
+          "award": null,
+          "maps": 6,
+          "opponent_maps": {
+            "5": 0,
+            "10": 2,
+            "20": 6,
+            "30": 6
+          },
+          "score": 68.63991399425282,
+          "contributions": {
+            "A": 22.452643408207305,
+            "E": 14.878733972453052,
+            "O": 14.100119393346768,
+            "T": 4.027342329484158,
+            "C": 4.205555555555555,
+            "N": 8.975519335205993
+          },
+          "delta": -0.5363417175216085
+        }
+      ],
+      "gap": -0.3388505980329626
+    },
+    {
+      "scenario": "m0NESY高表现亚军第一EVP，donk早退",
+      "players": [
+        {
+          "name": "m0NESY",
+          "rating": 1.5,
+          "placement": "2nd",
+          "award": "EVP1",
+          "maps": 16,
+          "opponent_maps": {
+            "5": 8,
+            "10": 12,
+            "20": 16,
+            "30": 16
+          },
+          "score": 68.83358290176977,
+          "contributions": {
+            "A": 22.280903051109803,
+            "E": 14.733877224387252,
+            "O": 13.992534024249837,
+            "T": 3.8113919549530753,
+            "C": 4.6947368421052635,
+            "N": 9.32013980496454
+          },
+          "delta": 4.561267253029186
+        },
+        {
+          "name": "donk",
+          "rating": 0.9,
+          "placement": "15-16th",
+          "award": null,
+          "maps": 6,
+          "opponent_maps": {
+            "5": 0,
+            "10": 2,
+            "20": 6,
+            "30": 6
+          },
+          "score": 68.63991399425282,
+          "contributions": {
+            "A": 22.452643408207305,
+            "E": 14.878733972453052,
+            "O": 14.100119393346768,
+            "T": 4.027342329484158,
+            "C": 4.205555555555555,
+            "N": 8.975519335205993
+          },
+          "delta": -0.5363417175216085
+        }
+      ],
+      "gap": 0.1936689075169511
+    }
+  ],
+  "alternative_sample_scenarios": [
+    {
+      "scenario": "更长强队赛程：donk冠军MVP 1.60，ZywOo早退 .90",
+      "players": [
+        {
+          "name": "donk",
+          "rating": 1.6,
+          "placement": "1st",
+          "award": "MVP",
+          "maps": 20,
+          "opponent_maps": {
+            "5": 12,
+            "10": 16,
+            "20": 20,
+            "30": 20
+          },
+          "score": 74.59163304608276,
+          "contributions": {
+            "A": 24.592082689915053,
+            "E": 16.16493761909821,
+            "O": 15.777869149681246,
+            "T": 4.379806087388244,
+            "C": 4.4,
+            "N": 9.276937499999999
+          },
+          "delta": 5.415377334308332
+        },
+        {
+          "name": "ZywOo",
+          "rating": 0.9,
+          "placement": "12-14th",
+          "award": null,
+          "maps": 8,
+          "opponent_maps": {
+            "5": 4,
+            "10": 6,
+            "20": 8,
+            "30": 8
+          },
+          "score": 74.30853670790394,
+          "contributions": {
+            "A": 25.638290584364192,
+            "E": 15.661968731573339,
+            "O": 14.361985314421824,
+            "T": 4.549663788070892,
+            "C": 4.326315789473684,
+            "N": 9.7703125
+          },
+          "delta": -0.9519619456451522
+        }
+      ],
+      "gap": 0.2830963381788223
+    },
+    {
+      "scenario": "更长强队赛程：donk冠军MVP 1.70，ZywOo早退 .90",
+      "players": [
+        {
+          "name": "donk",
+          "rating": 1.7,
+          "placement": "1st",
+          "award": "MVP",
+          "maps": 20,
+          "opponent_maps": {
+            "5": 12,
+            "10": 16,
+            "20": 20,
+            "30": 20
+          },
+          "score": 75.22891663141317,
+          "contributions": {
+            "A": 24.592082689915053,
+            "E": 16.399830865917362,
+            "O": 16.18025948819251,
+            "T": 4.379806087388244,
+            "C": 4.4,
+            "N": 9.276937499999999
+          },
+          "delta": 6.05266091963874
+        },
+        {
+          "name": "ZywOo",
+          "rating": 0.9,
+          "placement": "12-14th",
+          "award": null,
+          "maps": 8,
+          "opponent_maps": {
+            "5": 4,
+            "10": 6,
+            "20": 8,
+            "30": 8
+          },
+          "score": 74.30853670790394,
+          "contributions": {
+            "A": 25.638290584364192,
+            "E": 15.661968731573339,
+            "O": 14.361985314421824,
+            "T": 4.549663788070892,
+            "C": 4.326315789473684,
+            "N": 9.7703125
+          },
+          "delta": -0.9519619456451522
+        }
+      ],
+      "gap": 0.9203799235092305
+    }
+  ],
+  "conditional_break_even": [
+    {
+      "chaser": "donk",
+      "leader": "zywoo",
+      "leader_profile": "early",
+      "leader_rating": 0.9,
+      "champion_uniform_rating_break_even": 1.6996636703722532,
+      "search_max_rating": 2.5,
+      "reached_in_search_range": true
+    },
+    {
+      "chaser": "donk",
+      "leader": "zywoo",
+      "leader_profile": "quarter",
+      "leader_rating": 1.15,
+      "champion_uniform_rating_break_even": 1.9174256667372378,
+      "search_max_rating": 2.5,
+      "reached_in_search_range": true
+    },
+    {
+      "chaser": "donk",
+      "leader": "zywoo",
+      "leader_profile": "semi",
+      "leader_rating": 1.25,
+      "champion_uniform_rating_break_even": 2.0105930888178447,
+      "search_max_rating": 2.5,
+      "reached_in_search_range": true
+    },
+    {
+      "chaser": "donk",
+      "leader": "zywoo",
+      "leader_profile": "finalist",
+      "leader_rating": 1.3,
+      "champion_uniform_rating_break_even": 2.0890425798814536,
+      "search_max_rating": 2.5,
+      "reached_in_search_range": true
+    },
+    {
+      "chaser": "m0nesy",
+      "leader": "donk",
+      "leader_profile": "early",
+      "leader_rating": 0.9,
+      "champion_uniform_rating_break_even": 1.2978754322173025,
+      "search_max_rating": 2.5,
+      "reached_in_search_range": true
+    },
+    {
+      "chaser": "m0nesy",
+      "leader": "donk",
+      "leader_profile": "quarter",
+      "leader_rating": 1.15,
+      "champion_uniform_rating_break_even": 1.6252527854452308,
+      "search_max_rating": 2.5,
+      "reached_in_search_range": true
+    },
+    {
+      "chaser": "m0nesy",
+      "leader": "donk",
+      "leader_profile": "semi",
+      "leader_rating": 1.25,
+      "champion_uniform_rating_break_even": 1.754810405192962,
+      "search_max_rating": 2.5,
+      "reached_in_search_range": true
+    },
+    {
+      "chaser": "m0nesy",
+      "leader": "donk",
+      "leader_profile": "finalist",
+      "leader_rating": 1.3,
+      "champion_uniform_rating_break_even": 1.8852858080846808,
+      "search_max_rating": 2.5,
+      "reached_in_search_range": true
+    },
+    {
+      "chaser": "m0nesy",
+      "leader": "zywoo",
+      "leader_profile": "early",
+      "leader_rating": 0.9,
+      "champion_uniform_rating_break_even": 2.4567288414894,
+      "search_max_rating": 2.5,
+      "reached_in_search_range": true
+    },
+    {
+      "chaser": "m0nesy",
+      "leader": "zywoo",
+      "leader_profile": "quarter",
+      "leader_rating": 1.15,
+      "champion_uniform_rating_break_even": null,
+      "search_max_rating": 2.5,
+      "reached_in_search_range": false
+    },
+    {
+      "chaser": "m0nesy",
+      "leader": "zywoo",
+      "leader_profile": "semi",
+      "leader_rating": 1.25,
+      "champion_uniform_rating_break_even": null,
+      "search_max_rating": 2.5,
+      "reached_in_search_range": false
+    },
+    {
+      "chaser": "m0nesy",
+      "leader": "zywoo",
+      "leader_profile": "finalist",
+      "leader_rating": 1.3,
+      "champion_uniform_rating_break_even": null,
+      "search_max_rating": 2.5,
+      "reached_in_search_range": false
+    }
+  ]
+}

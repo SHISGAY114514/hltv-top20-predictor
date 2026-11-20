@@ -1,0 +1,198 @@
+{
+  "policy": "user-2026-11-16-medal",
+  "verified_on": "2026-11-16",
+  "performance_snapshot_as_of": "2026-11-15",
+  "source": "https://www.hltv.org/players/mvp",
+  "medal_mapping": {
+    "T1": "gold",
+    "T2": "silver",
+    "T3": "bronze"
+  },
+  "note": "用户指定六项优先，其余铜色=Medium、银色=Big。23项已颁MVP主赛事；非HLTV官方年度五档。",
+  "events": [
+    {
+      "event": "IEM Cologne Major 2026",
+      "mvp": "m0NESY",
+      "tier": "Major",
+      "medal": "gold",
+      "archive_tier": "T1",
+      "source": "https://www.hltv.org/players/mvp"
+    },
+    {
+      "event": "IEM Kraków 2026",
+      "mvp": "ZywOo",
+      "tier": "Super-elite",
+      "medal": "silver",
+      "archive_tier": "T2",
+      "source": "https://www.hltv.org/players/mvp"
+    },
+    {
+      "event": "Esports World Cup 2026",
+      "mvp": "donk",
+      "tier": "Elite",
+      "medal": "silver",
+      "archive_tier": "T2",
+      "source": "https://www.hltv.org/players/mvp"
+    },
+    {
+      "event": "ESL Pro League Season 24",
+      "mvp": "ZywOo",
+      "tier": "Elite",
+      "medal": "silver",
+      "archive_tier": "T2",
+      "source": "https://www.hltv.org/players/mvp"
+    },
+    {
+      "event": "BLAST Open Porto 2026",
+      "mvp": "donk",
+      "tier": "Elite",
+      "medal": "silver",
+      "archive_tier": "T2",
+      "source": "https://www.hltv.org/players/mvp"
+    },
+    {
+      "event": "BLAST Open Rotterdam 2026",
+      "mvp": "ropz",
+      "tier": "Elite",
+      "medal": "silver",
+      "archive_tier": "T2",
+      "source": "https://www.hltv.org/players/mvp"
+    },
+    {
+      "event": "BLAST Bounty 2026 Season 1 Finals",
+      "mvp": "NiKo",
+      "tier": "Big",
+      "medal": "silver",
+      "archive_tier": "T2",
+      "source": "https://www.hltv.org/players/mvp"
+    },
+    {
+      "event": "BLAST Rivals 2026 Season 1",
+      "mvp": "ZywOo",
+      "tier": "Big",
+      "medal": "silver",
+      "archive_tier": "T2",
+      "source": "https://www.hltv.org/players/mvp"
+    },
+    {
+      "event": "BLAST Rivals 2026 Season 2",
+      "mvp": "KSCERATO",
+      "tier": "Big",
+      "medal": "silver",
+      "archive_tier": "T2",
+      "source": "https://www.hltv.org/players/mvp"
+    },
+    {
+      "event": "ESL Pro League Season 23 Finals",
+      "mvp": "makazze",
+      "tier": "Big",
+      "medal": "silver",
+      "archive_tier": "T2",
+      "source": "https://www.hltv.org/players/mvp"
+    },
+    {
+      "event": "IEM Atlanta 2026",
+      "mvp": "w0nderful",
+      "tier": "Big",
+      "medal": "silver",
+      "archive_tier": "T2",
+      "source": "https://www.hltv.org/players/mvp"
+    },
+    {
+      "event": "IEM Beijing 2026",
+      "mvp": "xertioN",
+      "tier": "Big",
+      "medal": "silver",
+      "archive_tier": "T2",
+      "source": "https://www.hltv.org/players/mvp"
+    },
+    {
+      "event": "IEM Rio 2026",
+      "mvp": "ZywOo",
+      "tier": "Big",
+      "medal": "silver",
+      "archive_tier": "T2",
+      "source": "https://www.hltv.org/players/mvp"
+    },
+    {
+      "event": "PGL Astana 2026",
+      "mvp": "donk",
+      "tier": "Big",
+      "medal": "silver",
+      "archive_tier": "T2",
+      "source": "https://www.hltv.org/players/mvp"
+    },
+    {
+      "event": "PGL Cluj-Napoca 2026",
+      "mvp": "ZywOo",
+      "tier": "Big",
+      "medal": "silver",
+      "archive_tier": "T2",
+      "source": "https://www.hltv.org/players/mvp"
+    },
+    {
+      "event": "PGL Masters Bucharest 2026",
+      "mvp": "YEKINDAR",
+      "tier": "Big",
+      "medal": "silver",
+      "archive_tier": "T2",
+      "source": "https://www.hltv.org/players/mvp"
+    },
+    {
+      "event": "StarLadder StarSeries Fall 2026",
+      "mvp": "ZywOo",
+      "tier": "Big",
+      "medal": "silver",
+      "archive_tier": "T2",
+      "source": "https://www.hltv.org/players/mvp"
+    },
+    {
+      "event": "Thunderpick World Championship 2026",
+      "mvp": "KSCERATO",
+      "tier": "Big",
+      "medal": "silver",
+      "archive_tier": "T2",
+      "source": "https://www.hltv.org/players/mvp"
+    },
+    {
+      "event": "BLAST Bounty 2026 Season 2 Finals",
+      "mvp": "Spinx",
+      "tier": "Medium",
+      "medal": "bronze",
+      "archive_tier": "T3",
+      "source": "https://www.hltv.org/players/mvp"
+    },
+    {
+      "event": "PGL Bucharest 2026",
+      "mvp": "cmtry",
+      "tier": "Medium",
+      "medal": "bronze",
+      "archive_tier": "T3",
+      "source": "https://www.hltv.org/players/mvp"
+    },
+    {
+      "event": "XSE Pro League Guangzhou 2026",
+      "mvp": "HUASOPEEK",
+      "tier": "Medium",
+      "medal": "bronze",
+      "archive_tier": "T3",
+      "source": "https://www.hltv.org/players/mvp"
+    },
+    {
+      "event": "CS Asia Championships 2026",
+      "mvp": "latto",
+      "tier": "Medium",
+      "medal": "bronze",
+      "archive_tier": "T3",
+      "source": "https://www.hltv.org/players/mvp"
+    },
+    {
+      "event": "FISSURE Playground 3",
+      "mvp": "latto",
+      "tier": "Medium",
+      "medal": "bronze",
+      "archive_tier": "T3",
+      "source": "https://www.hltv.org/players/mvp"
+    }
+  ]
+}

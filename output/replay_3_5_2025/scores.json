@@ -1,0 +1,3505 @@
+{
+  "model": "HTPM-3.5",
+  "config_sha256": "fd708fb00e1968eb05ee7a5a3c0aac0f70ea6bf80ffd26672748ee0c2874b85d",
+  "snapshot_sha256": "1fbcff67920a2628c1c9b2f84d9532c7873adbd9eb834acd7b54c7c770cb3227",
+  "scopes": {
+    "original_3_5": {
+      "candidates": 50,
+      "unavailable": [],
+      "screened": [],
+      "metrics": {
+        "eligible": 39,
+        "top20_hits": 19,
+        "top10_hits": 10,
+        "exact_top20": 8,
+        "within_one_top20": 12,
+        "mae_top20_ranked": 1.5,
+        "mae_denominator": 20,
+        "ordered_pairs_top30": 346,
+        "tied_pairs": 0,
+        "comparable_pairs": 378,
+        "all_pairs": 435,
+        "missed": [
+          "im"
+        ],
+        "false_positives": [
+          "heavygod"
+        ],
+        "actual30": {
+          "zywoo": {
+            "actual": 1,
+            "predicted": 1
+          },
+          "donk": {
+            "actual": 2,
+            "predicted": 2
+          },
+          "ropz": {
+            "actual": 3,
+            "predicted": 3
+          },
+          "m0nesy": {
+            "actual": 4,
+            "predicted": 4
+          },
+          "sh1ro": {
+            "actual": 5,
+            "predicted": 5
+          },
+          "molodoy": {
+            "actual": 6,
+            "predicted": 6
+          },
+          "flamez": {
+            "actual": 7,
+            "predicted": 8
+          },
+          "frozen": {
+            "actual": 8,
+            "predicted": 10
+          },
+          "kscerato": {
+            "actual": 9,
+            "predicted": 9
+          },
+          "spinx": {
+            "actual": 10,
+            "predicted": 7
+          },
+          "twistzz": {
+            "actual": 11,
+            "predicted": 16
+          },
+          "mezii": {
+            "actual": 12,
+            "predicted": 11
+          },
+          "senzu": {
+            "actual": 13,
+            "predicted": 12
+          },
+          "xantares": {
+            "actual": 14,
+            "predicted": 14
+          },
+          "yekindar": {
+            "actual": 15,
+            "predicted": 20
+          },
+          "xertion": {
+            "actual": 16,
+            "predicted": 17
+          },
+          "torzsi": {
+            "actual": 17,
+            "predicted": 15
+          },
+          "niko": {
+            "actual": 18,
+            "predicted": 13
+          },
+          "im": {
+            "actual": 19,
+            "predicted": 21
+          },
+          "b1t": {
+            "actual": 20,
+            "predicted": 18
+          },
+          "heavygod": {
+            "actual": 21,
+            "predicted": 19
+          },
+          "kyousuke": {
+            "actual": 22,
+            "predicted": 26
+          },
+          "w0nderful": {
+            "actual": 23,
+            "predicted": 25
+          },
+          "wicadia": {
+            "actual": 24,
+            "predicted": 24
+          },
+          "yuurih": {
+            "actual": 25,
+            "predicted": 23
+          },
+          "makazze": {
+            "actual": 26,
+            "predicted": 30
+          },
+          "910": {
+            "actual": 27,
+            "predicted": 22
+          },
+          "matys": {
+            "actual": 28,
+            "predicted": 29
+          },
+          "tn1r": {
+            "actual": 29,
+            "predicted": null
+          },
+          "latto": {
+            "actual": 30,
+            "predicted": null
+          }
+        }
+      },
+      "scores": [
+        {
+          "id": "zywoo",
+          "rank": 1,
+          "score": 77.52595937715346,
+          "counts": {
+            "main_maps": 183,
+            "elite_maps": 79,
+            "main_events": 16,
+            "elite_events": 6,
+            "top5_maps": 63,
+            "top10_maps": 112
+          },
+          "modules": {
+            "A": 91.92717470664088,
+            "E": 57.532602952311336,
+            "O": 68.05081790863213,
+            "T": 96.86382098103475,
+            "C": 94.2,
+            "N": 92.09125
+          },
+          "issues": []
+        },
+        {
+          "id": "donk",
+          "rank": 2,
+          "score": 75.99856267872286,
+          "counts": {
+            "main_maps": 140,
+            "elite_maps": 70,
+            "main_events": 14,
+            "elite_events": 6,
+            "top5_maps": 58,
+            "top10_maps": 81
+          },
+          "modules": {
+            "A": 85.4730794271624,
+            "E": 60.36283994139292,
+            "O": 72.31890355180701,
+            "T": 85.31098132088559,
+            "C": 93.55555555555556,
+            "N": 84.81997405660377
+          },
+          "issues": []
+        },
+        {
+          "id": "ropz",
+          "rank": 3,
+          "score": 61.2706018760681,
+          "counts": {
+            "main_maps": 183,
+            "elite_maps": 79,
+            "main_events": 16,
+            "elite_events": 6,
+            "top5_maps": 63,
+            "top10_maps": 112
+          },
+          "modules": {
+            "A": 65.8986541021837,
+            "E": 46.40677525954756,
+            "O": 46.457653853603134,
+            "T": 92.3358187801286,
+            "C": 89.2,
+            "N": 92.09125
+          },
+          "issues": []
+        },
+        {
+          "id": "m0nesy",
+          "rank": 4,
+          "score": 60.33708952586114,
+          "counts": {
+            "main_maps": 166,
+            "elite_maps": 47,
+            "main_events": 15,
+            "elite_events": 5,
+            "top5_maps": 66,
+            "top10_maps": 104
+          },
+          "modules": {
+            "A": 59.680434288749986,
+            "E": 47.907839535240534,
+            "O": 54.064532443358345,
+            "T": 70.26729299064817,
+            "C": 93.89473684210527,
+            "N": 88.54898611111112
+          },
+          "issues": []
+        },
+        {
+          "id": "sh1ro",
+          "rank": 5,
+          "score": 56.124141904163146,
+          "counts": {
+            "main_maps": 140,
+            "elite_maps": 70,
+            "main_events": 14,
+            "elite_events": 6,
+            "top5_maps": 58,
+            "top10_maps": 81
+          },
+          "modules": {
+            "A": 54.69109827198311,
+            "E": 45.67827876885106,
+            "O": 45.48739557126365,
+            "T": 75.23601980299259,
+            "C": 93.55555555555556,
+            "N": 84.81997405660377
+          },
+          "issues": []
+        },
+        {
+          "id": "molodoy",
+          "rank": 6,
+          "score": 50.21971524001077,
+          "counts": {
+            "main_maps": 128,
+            "elite_maps": 40,
+            "main_events": 12,
+            "elite_events": 4,
+            "top5_maps": 43,
+            "top10_maps": 79
+          },
+          "modules": {
+            "A": 46.562993085606244,
+            "E": 41.43258782944814,
+            "O": 47.248824466384754,
+            "T": 58.94427928023755,
+            "C": 86.5,
+            "N": 69.24575009097525
+          },
+          "issues": []
+        },
+        {
+          "id": "spinx",
+          "rank": 7,
+          "score": 48.12332931034142,
+          "counts": {
+            "main_maps": 172,
+            "elite_maps": 72,
+            "main_events": 14,
+            "elite_events": 5,
+            "top5_maps": 64,
+            "top10_maps": 119
+          },
+          "modules": {
+            "A": 36.502310505617594,
+            "E": 40.68245517003119,
+            "O": 40.6870964015721,
+            "T": 61.44164970627345,
+            "C": 89.66666666666667,
+            "N": 92.7492527173913
+          },
+          "issues": []
+        },
+        {
+          "id": "flamez",
+          "rank": 8,
+          "score": 48.11885415904265,
+          "counts": {
+            "main_maps": 183,
+            "elite_maps": 79,
+            "main_events": 16,
+            "elite_events": 6,
+            "top5_maps": 63,
+            "top10_maps": 112
+          },
+          "modules": {
+            "A": 31.841433380615214,
+            "E": 40.7613529118532,
+            "O": 41.969850720842985,
+            "T": 86.7733638572766,
+            "C": 87.2,
+            "N": 92.09125
+          },
+          "issues": []
+        },
+        {
+          "id": "kscerato",
+          "rank": 9,
+          "score": 47.93149331561306,
+          "counts": {
+            "main_maps": 158,
+            "elite_maps": 50,
+            "main_events": 16,
+            "elite_events": 6,
+            "top5_maps": 47,
+            "top10_maps": 93
+          },
+          "modules": {
+            "A": 31.841433380615214,
+            "E": 43.81732980573984,
+            "O": 46.626319710180454,
+            "T": 62.76654496630015,
+            "C": 90.7,
+            "N": 81.51003472222223
+          },
+          "issues": []
+        },
+        {
+          "id": "frozen",
+          "rank": 10,
+          "score": 46.81779652314256,
+          "counts": {
+            "main_maps": 151,
+            "elite_maps": 55,
+            "main_events": 16,
+            "elite_events": 6,
+            "top5_maps": 43,
+            "top10_maps": 80
+          },
+          "modules": {
+            "A": 32.688112693212275,
+            "E": 42.410785126796426,
+            "O": 48.4517938464805,
+            "T": 39.48930138660498,
+            "C": 94.2,
+            "N": 77.32073076923078
+          },
+          "issues": []
+        },
+        {
+          "id": "mezii",
+          "rank": 11,
+          "score": 46.38033154547904,
+          "counts": {
+            "main_maps": 183,
+            "elite_maps": 79,
+            "main_events": 16,
+            "elite_events": 6,
+            "top5_maps": 63,
+            "top10_maps": 112
+          },
+          "modules": {
+            "A": 32.967995396436066,
+            "E": 39.18634737185502,
+            "O": 35.027396598487584,
+            "T": 85.68385836990441,
+            "C": 87.2,
+            "N": 92.09125
+          },
+          "issues": []
+        },
+        {
+          "id": "senzu",
+          "rank": 12,
+          "score": 46.28565544312162,
+          "counts": {
+            "main_maps": 174,
+            "elite_maps": 43,
+            "main_events": 15,
+            "elite_events": 4,
+            "top5_maps": 48,
+            "top10_maps": 100
+          },
+          "modules": {
+            "A": 35.54266582134014,
+            "E": 40.315960912968684,
+            "O": 40.11192668335526,
+            "T": 59.36102075352663,
+            "C": 81.26315789473684,
+            "N": 84.80594180633148
+          },
+          "issues": []
+        },
+        {
+          "id": "niko",
+          "rank": 13,
+          "score": 46.2825637412086,
+          "counts": {
+            "main_maps": 182,
+            "elite_maps": 41,
+            "main_events": 15,
+            "elite_events": 5,
+            "top5_maps": 68,
+            "top10_maps": 115
+          },
+          "modules": {
+            "A": 32.688112693212275,
+            "E": 40.99323077275914,
+            "O": 40.471360416853635,
+            "T": 60.2917019005765,
+            "C": 86.52631578947367,
+            "N": 87.58643844221106
+          },
+          "issues": []
+        },
+        {
+          "id": "xantares",
+          "rank": 14,
+          "score": 45.48431984271007,
+          "counts": {
+            "main_maps": 178,
+            "elite_maps": 26,
+            "main_events": 15,
+            "elite_events": 3,
+            "top5_maps": 32,
+            "top10_maps": 69
+          },
+          "modules": {
+            "A": 38.43028032357149,
+            "E": 40.195600204411235,
+            "O": 42.87998512657237,
+            "T": 48.4954483154702,
+            "C": 84.94736842105263,
+            "N": 65.67886274509803
+          },
+          "issues": []
+        },
+        {
+          "id": "torzsi",
+          "rank": 15,
+          "score": 45.29809615629094,
+          "counts": {
+            "main_maps": 176,
+            "elite_maps": 76,
+            "main_events": 15,
+            "elite_events": 6,
+            "top5_maps": 64,
+            "top10_maps": 121
+          },
+          "modules": {
+            "A": 36.766333781375025,
+            "E": 36.598541478668814,
+            "O": 34.89106473565661,
+            "T": 54.870035104393786,
+            "C": 86.52631578947367,
+            "N": 92.91827388743455
+          },
+          "issues": []
+        },
+        {
+          "id": "twistzz",
+          "rank": 16,
+          "score": 44.839545113982965,
+          "counts": {
+            "main_maps": 131,
+            "elite_maps": 44,
+            "main_events": 15,
+            "elite_events": 6,
+            "top5_maps": 49,
+            "top10_maps": 96
+          },
+          "modules": {
+            "A": 29.531191028128656,
+            "E": 41.27264595081256,
+            "O": 47.57950323627857,
+            "T": 29.999653923433243,
+            "C": 83.36842105263158,
+            "N": 82.24883905677656
+          },
+          "issues": []
+        },
+        {
+          "id": "xertion",
+          "rank": 17,
+          "score": 42.945077072436455,
+          "counts": {
+            "main_maps": 176,
+            "elite_maps": 76,
+            "main_events": 15,
+            "elite_events": 6,
+            "top5_maps": 64,
+            "top10_maps": 121
+          },
+          "modules": {
+            "A": 27.867585566105802,
+            "E": 38.78618360893,
+            "O": 35.47103189731219,
+            "T": 55.14207890347236,
+            "C": 78.10526315789474,
+            "N": 92.91827388743455
+          },
+          "issues": []
+        },
+        {
+          "id": "b1t",
+          "rank": 18,
+          "score": 42.7648769636732,
+          "counts": {
+            "main_maps": 132,
+            "elite_maps": 61,
+            "main_events": 13,
+            "elite_events": 6,
+            "top5_maps": 40,
+            "top10_maps": 77
+          },
+          "modules": {
+            "A": 34.07593697995562,
+            "E": 37.938022094406705,
+            "O": 37.3199904467716,
+            "T": 34.51252283851585,
+            "C": 87.29411764705881,
+            "N": 76.24900077160494
+          },
+          "issues": []
+        },
+        {
+          "id": "heavygod",
+          "rank": 19,
+          "score": 42.130892265126555,
+          "counts": {
+            "main_maps": 139,
+            "elite_maps": 52,
+            "main_events": 15,
+            "elite_events": 6,
+            "top5_maps": 48,
+            "top10_maps": 82
+          },
+          "modules": {
+            "A": 22.7662256719919,
+            "E": 41.06731450202285,
+            "O": 39.8983181392737,
+            "T": 42.853954886194366,
+            "C": 93.89473684210527,
+            "N": 81.98801889534883
+          },
+          "issues": []
+        },
+        {
+          "id": "yekindar",
+          "rank": 20,
+          "score": 40.14732096975916,
+          "counts": {
+            "main_maps": 128,
+            "elite_maps": 40,
+            "main_events": 12,
+            "elite_events": 4,
+            "top5_maps": 43,
+            "top10_maps": 79
+          },
+          "modules": {
+            "A": 23.662050566314676,
+            "E": 37.40288804727464,
+            "O": 40.72266165285537,
+            "T": 50.588154347355086,
+            "C": 71.5,
+            "N": 74.79306129576108
+          },
+          "issues": []
+        },
+        {
+          "id": "im",
+          "rank": 21,
+          "score": 38.689400659830284,
+          "counts": {
+            "main_maps": 132,
+            "elite_maps": 61,
+            "main_events": 13,
+            "elite_events": 6,
+            "top5_maps": 40,
+            "top10_maps": 77
+          },
+          "modules": {
+            "A": 17.44179833633439,
+            "E": 39.29080327167988,
+            "O": 40.975270740707344,
+            "T": 35.15910914929952,
+            "C": 80.82352941176471,
+            "N": 76.24900077160494
+          },
+          "issues": []
+        },
+        {
+          "id": "910",
+          "rank": 22,
+          "score": 38.15203942312091,
+          "counts": {
+            "main_maps": 199,
+            "elite_maps": 63,
+            "main_events": 18,
+            "elite_events": 6,
+            "top5_maps": 52,
+            "top10_maps": 111
+          },
+          "modules": {
+            "A": 20.480401020487427,
+            "E": 36.952425608186,
+            "O": 28.273236298003535,
+            "T": 47.63228968696854,
+            "C": 85.18181818181819,
+            "N": 88.87214460784314
+          },
+          "issues": []
+        },
+        {
+          "id": "yuurih",
+          "rank": 23,
+          "score": 37.967713826731895,
+          "counts": {
+            "main_maps": 158,
+            "elite_maps": 50,
+            "main_events": 16,
+            "elite_events": 6,
+            "top5_maps": 47,
+            "top10_maps": 93
+          },
+          "modules": {
+            "A": 14.501099234054049,
+            "E": 39.537017263663664,
+            "O": 34.15419098727106,
+            "T": 53.018439920638436,
+            "C": 85.7,
+            "N": 81.51003472222223
+          },
+          "issues": []
+        },
+        {
+          "id": "wicadia",
+          "rank": 24,
+          "score": 36.67615341562639,
+          "counts": {
+            "main_maps": 184,
+            "elite_maps": 32,
+            "main_events": 16,
+            "elite_events": 4,
+            "top5_maps": 34,
+            "top10_maps": 73
+          },
+          "modules": {
+            "A": 16.75093873883973,
+            "E": 38.20332457437201,
+            "O": 36.29891329826979,
+            "T": 42.693148672506155,
+            "C": 82.19999999999999,
+            "N": 67.42566666666667
+          },
+          "issues": []
+        },
+        {
+          "id": "w0nderful",
+          "rank": 25,
+          "score": 36.54133769089914,
+          "counts": {
+            "main_maps": 132,
+            "elite_maps": 61,
+            "main_events": 13,
+            "elite_events": 6,
+            "top5_maps": 40,
+            "top10_maps": 77
+          },
+          "modules": {
+            "A": 13.92920235749422,
+            "E": 38.81787753927383,
+            "O": 37.19745052171065,
+            "T": 34.96990348844816,
+            "C": 79.05882352941175,
+            "N": 76.24900077160494
+          },
+          "issues": []
+        },
+        {
+          "id": "kyousuke",
+          "rank": 26,
+          "score": 35.352782297899836,
+          "counts": {
+            "main_maps": 74,
+            "elite_maps": 29,
+            "main_events": 7,
+            "elite_events": 3,
+            "top5_maps": 30,
+            "top10_maps": 53
+          },
+          "modules": {
+            "A": 11.307956328284252,
+            "E": 41.44330190577529,
+            "O": 42.21227495908348,
+            "T": 30.86575556208817,
+            "C": 89.45454545454545,
+            "N": 50.45865593434343
+          },
+          "issues": []
+        },
+        {
+          "id": "mzinho",
+          "rank": 27,
+          "score": 35.04267025162508,
+          "counts": {
+            "main_maps": 199,
+            "elite_maps": 63,
+            "main_events": 18,
+            "elite_events": 6,
+            "top5_maps": 52,
+            "top10_maps": 111
+          },
+          "modules": {
+            "A": 12.482668095705252,
+            "E": 34.378991215059855,
+            "O": 31.18477042384897,
+            "T": 43.48024709519173,
+            "C": 75.63636363636364,
+            "N": 88.87214460784314
+          },
+          "issues": []
+        },
+        {
+          "id": "teses",
+          "rank": 28,
+          "score": 33.88711594475077,
+          "counts": {
+            "main_maps": 182,
+            "elite_maps": 41,
+            "main_events": 15,
+            "elite_events": 5,
+            "top5_maps": 68,
+            "top10_maps": 115
+          },
+          "modules": {
+            "A": 17.44179833633439,
+            "E": 32.03242415310347,
+            "O": 27.489046321711506,
+            "T": 42.49394848595518,
+            "C": 56.00000000000001,
+            "N": 87.58643844221106
+          },
+          "issues": []
+        },
+        {
+          "id": "matys",
+          "rank": 29,
+          "score": 33.524049285050246,
+          "counts": {
+            "main_maps": 57,
+            "elite_maps": 26,
+            "main_events": 7,
+            "elite_events": 3,
+            "top5_maps": 39,
+            "top10_maps": 54
+          },
+          "modules": {
+            "A": 17.785075186522946,
+            "E": 37.28729937163367,
+            "O": 35.8563427291461,
+            "T": 27.737148544731948,
+            "C": 70.36363636363636,
+            "N": 49.689578256302525
+          },
+          "issues": []
+        },
+        {
+          "id": "makazze",
+          "rank": 30,
+          "score": 33.038493161665876,
+          "counts": {
+            "main_maps": 65,
+            "elite_maps": 34,
+            "main_events": 6,
+            "elite_events": 3,
+            "top5_maps": 21,
+            "top10_maps": 41
+          },
+          "modules": {
+            "A": 16.054297923079265,
+            "E": 37.02583329585521,
+            "O": 39.565579836950455,
+            "T": 19.02664208098671,
+            "C": 81.4,
+            "N": 41.038133283132524
+          },
+          "issues": []
+        },
+        {
+          "id": "techno",
+          "rank": 31,
+          "score": 33.025572226340756,
+          "counts": {
+            "main_maps": 199,
+            "elite_maps": 63,
+            "main_events": 18,
+            "elite_events": 6,
+            "top5_maps": 52,
+            "top10_maps": 111
+          },
+          "modules": {
+            "A": 16.75093873883973,
+            "E": 31.562971983661228,
+            "O": 24.187825067444507,
+            "T": 44.46656976516606,
+            "C": 56.09090909090908,
+            "N": 88.87214460784314
+          },
+          "issues": []
+        },
+        {
+          "id": "blitz",
+          "rank": 32,
+          "score": 32.97268494458299,
+          "counts": {
+            "main_maps": 199,
+            "elite_maps": 63,
+            "main_events": 18,
+            "elite_events": 6,
+            "top5_maps": 52,
+            "top10_maps": 111
+          },
+          "modules": {
+            "A": 10.267156290571588,
+            "E": 33.867305994195156,
+            "O": 26.044046751679936,
+            "T": 47.69313177888963,
+            "C": 69.72727272727272,
+            "N": 88.87214460784314
+          },
+          "issues": []
+        },
+        {
+          "id": "broky",
+          "rank": 33,
+          "score": 31.800978848556106,
+          "counts": {
+            "main_maps": 137,
+            "elite_maps": 48,
+            "main_events": 14,
+            "elite_events": 5,
+            "top5_maps": 38,
+            "top10_maps": 72
+          },
+          "modules": {
+            "A": 12.482668095705252,
+            "E": 33.30207804038993,
+            "O": 31.154793054125985,
+            "T": 27.248451868148372,
+            "C": 63.0,
+            "N": 73.86592353082852
+          },
+          "issues": []
+        },
+        {
+          "id": "elige",
+          "rank": 34,
+          "score": 31.30896250099758,
+          "counts": {
+            "main_maps": 119,
+            "elite_maps": 38,
+            "main_events": 13,
+            "elite_events": 5,
+            "top5_maps": 21,
+            "top10_maps": 53
+          },
+          "modules": {
+            "A": 6.83828512860305,
+            "E": 37.41072749079675,
+            "O": 36.065476540266445,
+            "T": 22.579222634373718,
+            "C": 80.82352941176471,
+            "N": 56.91383333333333
+          },
+          "issues": []
+        },
+        {
+          "id": "staehr",
+          "rank": 35,
+          "score": 30.916532085371347,
+          "counts": {
+            "main_maps": 130,
+            "elite_maps": 25,
+            "main_events": 13,
+            "elite_events": 4,
+            "top5_maps": 29,
+            "top10_maps": 78
+          },
+          "modules": {
+            "A": 14.287084575281671,
+            "E": 33.41316648294597,
+            "O": 33.32309408728183,
+            "T": 20.26926173874496,
+            "C": 59.647058823529406,
+            "N": 59.48724094202898
+          },
+          "issues": []
+        },
+        {
+          "id": "jabbi",
+          "rank": 36,
+          "score": 30.3974687495086,
+          "counts": {
+            "main_maps": 130,
+            "elite_maps": 25,
+            "main_events": 13,
+            "elite_events": 4,
+            "top5_maps": 29,
+            "top10_maps": 78
+          },
+          "modules": {
+            "A": 14.643478719467895,
+            "E": 32.710582867079516,
+            "O": 32.20362658803854,
+            "T": 19.046073355041116,
+            "C": 57.294117647058826,
+            "N": 59.48724094202898
+          },
+          "issues": []
+        },
+        {
+          "id": "nqz",
+          "rank": 37,
+          "score": 30.146340120285807,
+          "counts": {
+            "main_maps": 124,
+            "elite_maps": 27,
+            "main_events": 15,
+            "elite_events": 3,
+            "top5_maps": 27,
+            "top10_maps": 55
+          },
+          "modules": {
+            "A": 13.208948822205357,
+            "E": 36.37348404854076,
+            "O": 29.4740005159422,
+            "T": 15.987324523579494,
+            "C": 63.368421052631575,
+            "N": 56.16007383040935
+          },
+          "issues": []
+        },
+        {
+          "id": "device",
+          "rank": 38,
+          "score": 28.39232007171946,
+          "counts": {
+            "main_maps": 127,
+            "elite_maps": 25,
+            "main_events": 13,
+            "elite_events": 4,
+            "top5_maps": 29,
+            "top10_maps": 75
+          },
+          "modules": {
+            "A": 6.449301496838222,
+            "E": 33.57938340736632,
+            "O": 33.336408496030884,
+            "T": 20.095658658114136,
+            "C": 56.705882352941174,
+            "N": 58.836450980392165
+          },
+          "issues": []
+        },
+        {
+          "id": "snow",
+          "rank": 39,
+          "score": 24.245089205134875,
+          "counts": {
+            "main_maps": 124,
+            "elite_maps": 27,
+            "main_events": 15,
+            "elite_events": 3,
+            "top5_maps": 27,
+            "top10_maps": 55
+          },
+          "modules": {
+            "A": 7.995558537067671,
+            "E": 30.37761450673299,
+            "O": 23.168402269324574,
+            "T": 4.836621707379418,
+            "C": 49.1578947368421,
+            "N": 56.16007383040935
+          },
+          "issues": []
+        },
+        {
+          "id": "degster",
+          "rank": null,
+          "score": 31.8517239938277,
+          "counts": {
+            "main_maps": 67,
+            "elite_maps": 12,
+            "main_events": 5,
+            "elite_events": 2,
+            "top5_maps": 11,
+            "top10_maps": 33
+          },
+          "modules": {
+            "A": 16.75093873883973,
+            "E": 35.45015234442112,
+            "O": 37.44273628146878,
+            "T": 17.419779880227082,
+            "C": 79.33333333333333,
+            "N": 38.05416233766235
+          },
+          "issues": [
+            "elite_maps样本不足"
+          ]
+        },
+        {
+          "id": "latto",
+          "rank": null,
+          "score": 30.71245045037803,
+          "counts": {
+            "main_maps": 74,
+            "elite_maps": 9,
+            "main_events": 6,
+            "elite_events": 1,
+            "top5_maps": 12,
+            "top10_maps": 34
+          },
+          "modules": {
+            "A": 11.011822901197622,
+            "E": 37.57970431218067,
+            "O": 39.109788374280605,
+            "T": 20.23616661560348,
+            "C": 88.4,
+            "N": 28.353237588652487
+          },
+          "issues": [
+            "elite_maps样本不足"
+          ]
+        },
+        {
+          "id": "pr",
+          "rank": null,
+          "score": 29.66223343708453,
+          "counts": {
+            "main_maps": 123,
+            "elite_maps": 14,
+            "main_events": 13,
+            "elite_events": 2,
+            "top5_maps": 29,
+            "top10_maps": 55
+          },
+          "modules": {
+            "A": 6.449301496838222,
+            "E": 38.11336540508251,
+            "O": 32.36192445638202,
+            "T": 14.935466507601113,
+            "C": 83.17647058823529,
+            "N": 50.87994848901099
+          },
+          "issues": [
+            "elite_maps样本不足"
+          ]
+        },
+        {
+          "id": "stavn",
+          "rank": null,
+          "score": 28.88335935506084,
+          "counts": {
+            "main_maps": 89,
+            "elite_maps": 15,
+            "main_events": 9,
+            "elite_events": 3,
+            "top5_maps": 22,
+            "top10_maps": 50
+          },
+          "modules": {
+            "A": 10.267156290571588,
+            "E": 35.014989366879014,
+            "O": 31.996367225374854,
+            "T": 18.176852038750713,
+            "C": 70.30769230769232,
+            "N": 45.65773659673659
+          },
+          "issues": [
+            "elite_maps样本不足"
+          ]
+        },
+        {
+          "id": "jamyoung",
+          "rank": null,
+          "score": 28.117320300186627,
+          "counts": {
+            "main_maps": 51,
+            "elite_maps": 4,
+            "main_events": 7,
+            "elite_events": 1,
+            "top5_maps": 17,
+            "top10_maps": 20
+          },
+          "modules": {
+            "A": 11.011822901197622,
+            "E": 35.814990885651675,
+            "O": 35.815423080694195,
+            "T": 21.3090869199146,
+            "C": 67.63636363636364,
+            "N": 24.589060543278084
+          },
+          "issues": [
+            "elite_maps样本不足"
+          ]
+        },
+        {
+          "id": "hallzerk",
+          "rank": null,
+          "score": 26.267057804080373,
+          "counts": {
+            "main_maps": 57,
+            "elite_maps": 8,
+            "main_events": 6,
+            "elite_events": 1,
+            "top5_maps": 9,
+            "top10_maps": 34
+          },
+          "modules": {
+            "A": 6.83828512860305,
+            "E": 35.366163596638444,
+            "O": 34.7805546619106,
+            "T": 6.910612636335268,
+            "C": 67.4,
+            "N": 29.51649890350877
+          },
+          "issues": [
+            "elite_maps样本不足"
+          ]
+        },
+        {
+          "id": "n1ssim",
+          "rank": null,
+          "score": 26.193930539160803,
+          "counts": {
+            "main_maps": 74,
+            "elite_maps": 9,
+            "main_events": 6,
+            "elite_events": 1,
+            "top5_maps": 12,
+            "top10_maps": 34
+          },
+          "modules": {
+            "A": 6.449301496838222,
+            "E": 34.444219375094946,
+            "O": 34.44435296934942,
+            "T": 15.63351834036163,
+            "C": 68.39999999999999,
+            "N": 28.353237588652487
+          },
+          "issues": [
+            "elite_maps样本不足"
+          ]
+        },
+        {
+          "id": "blamef",
+          "rank": null,
+          "score": 25.460992893414527,
+          "counts": {
+            "main_maps": 17,
+            "elite_maps": 0,
+            "main_events": 2,
+            "elite_events": 0,
+            "top5_maps": 2,
+            "top10_maps": 9
+          },
+          "modules": {
+            "A": 7.995558537067671,
+            "E": 36.11556713965489,
+            "O": 37.47130338485242,
+            "T": 2.268865188093583,
+            "C": 80.66666666666666,
+            "N": 5.459458333333332
+          },
+          "issues": [
+            "main_maps样本不足",
+            "elite_maps样本不足",
+            "top10_maps样本不足"
+          ]
+        },
+        {
+          "id": "saadzin",
+          "rank": null,
+          "score": 24.919527227586293,
+          "counts": {
+            "main_maps": 74,
+            "elite_maps": 9,
+            "main_events": 6,
+            "elite_events": 1,
+            "top5_maps": 12,
+            "top10_maps": 34
+          },
+          "modules": {
+            "A": 4.877057549928598,
+            "E": 34.73730053599081,
+            "O": 30.053359544600106,
+            "T": 12.194847275338372,
+            "C": 74.4,
+            "N": 28.353237588652487
+          },
+          "issues": [
+            "elite_maps样本不足"
+          ]
+        },
+        {
+          "id": "nilo",
+          "rank": null,
+          "score": 23.90933410908605,
+          "counts": {
+            "main_maps": 53,
+            "elite_maps": 13,
+            "main_events": 7,
+            "elite_events": 2,
+            "top5_maps": 8,
+            "top10_maps": 20
+          },
+          "modules": {
+            "A": 4.638952686737364,
+            "E": 34.29846426308899,
+            "O": 31.042606516290725,
+            "T": 5.000637031046862,
+            "C": 61.27272727272728,
+            "N": 28.035952380952377
+          },
+          "issues": [
+            "elite_maps样本不足"
+          ]
+        },
+        {
+          "id": "vexite",
+          "rank": null,
+          "score": 21.732930254500513,
+          "counts": {
+            "main_maps": 30,
+            "elite_maps": 0,
+            "main_events": 4,
+            "elite_events": 0,
+            "top5_maps": 13,
+            "top10_maps": 26
+          },
+          "modules": {
+            "A": 0.0,
+            "E": 35.77930987990767,
+            "O": 26.070539428094957,
+            "T": 0.29655939131054687,
+            "C": 76.75,
+            "N": 22.239645488980717
+          },
+          "issues": [
+            "main_maps样本不足",
+            "elite_maps样本不足"
+          ]
+        }
+      ],
+      "five_fold_order_verified": true
+    },
+    "shared_4_x": {
+      "candidates": 151,
+      "unavailable": [],
+      "screened": [
+        "ag1l",
+        "alkarenn",
+        "aragornn",
+        "artfr0st",
+        "attacker",
+        "boombl4",
+        "brnz4n",
+        "c4llm3su3",
+        "cadian",
+        "chelo",
+        "cxzi",
+        "dumau",
+        "emiliaqaq",
+        "ewjerkz",
+        "exit",
+        "grim",
+        "hades",
+        "hooxi",
+        "hyped",
+        "hypex",
+        "ins",
+        "insani",
+        "jdc",
+        "jee",
+        "jks",
+        "jt",
+        "kauez",
+        "krazy",
+        "krimbo",
+        "kursy",
+        "kyuubii",
+        "lnz",
+        "lucaozy",
+        "lux",
+        "magnojez",
+        "mercury",
+        "moseyuh",
+        "mutiris",
+        "nettik",
+        "nicx",
+        "perfecto",
+        "r1nkle",
+        "regali",
+        "rez",
+        "s1ren",
+        "saffee",
+        "siuhy",
+        "sjuush",
+        "skullz",
+        "sl3nd",
+        "snappi",
+        "starry",
+        "story",
+        "tabsen",
+        "tauson",
+        "to0ro",
+        "westmelon",
+        "xfl0ud",
+        "yxngstxr",
+        "z4kr",
+        "ztr"
+      ],
+      "metrics": {
+        "eligible": 78,
+        "top20_hits": 19,
+        "top10_hits": 10,
+        "exact_top20": 8,
+        "within_one_top20": 12,
+        "mae_top20_ranked": 1.5,
+        "mae_denominator": 20,
+        "ordered_pairs_top30": 374,
+        "tied_pairs": 0,
+        "comparable_pairs": 406,
+        "all_pairs": 435,
+        "missed": [
+          "im"
+        ],
+        "false_positives": [
+          "heavygod"
+        ],
+        "actual30": {
+          "zywoo": {
+            "actual": 1,
+            "predicted": 1
+          },
+          "donk": {
+            "actual": 2,
+            "predicted": 2
+          },
+          "ropz": {
+            "actual": 3,
+            "predicted": 3
+          },
+          "m0nesy": {
+            "actual": 4,
+            "predicted": 4
+          },
+          "sh1ro": {
+            "actual": 5,
+            "predicted": 5
+          },
+          "molodoy": {
+            "actual": 6,
+            "predicted": 6
+          },
+          "flamez": {
+            "actual": 7,
+            "predicted": 8
+          },
+          "frozen": {
+            "actual": 8,
+            "predicted": 10
+          },
+          "kscerato": {
+            "actual": 9,
+            "predicted": 9
+          },
+          "spinx": {
+            "actual": 10,
+            "predicted": 7
+          },
+          "twistzz": {
+            "actual": 11,
+            "predicted": 16
+          },
+          "mezii": {
+            "actual": 12,
+            "predicted": 11
+          },
+          "senzu": {
+            "actual": 13,
+            "predicted": 12
+          },
+          "xantares": {
+            "actual": 14,
+            "predicted": 14
+          },
+          "yekindar": {
+            "actual": 15,
+            "predicted": 20
+          },
+          "xertion": {
+            "actual": 16,
+            "predicted": 17
+          },
+          "torzsi": {
+            "actual": 17,
+            "predicted": 15
+          },
+          "niko": {
+            "actual": 18,
+            "predicted": 13
+          },
+          "im": {
+            "actual": 19,
+            "predicted": 21
+          },
+          "b1t": {
+            "actual": 20,
+            "predicted": 18
+          },
+          "heavygod": {
+            "actual": 21,
+            "predicted": 19
+          },
+          "kyousuke": {
+            "actual": 22,
+            "predicted": 26
+          },
+          "w0nderful": {
+            "actual": 23,
+            "predicted": 25
+          },
+          "wicadia": {
+            "actual": 24,
+            "predicted": 24
+          },
+          "yuurih": {
+            "actual": 25,
+            "predicted": 23
+          },
+          "makazze": {
+            "actual": 26,
+            "predicted": 30
+          },
+          "910": {
+            "actual": 27,
+            "predicted": 22
+          },
+          "matys": {
+            "actual": 28,
+            "predicted": 29
+          },
+          "tn1r": {
+            "actual": 29,
+            "predicted": 42
+          },
+          "latto": {
+            "actual": 30,
+            "predicted": null
+          }
+        }
+      },
+      "scores": [
+        {
+          "id": "zywoo",
+          "rank": 1,
+          "score": 77.52595937715346,
+          "counts": {
+            "main_maps": 183,
+            "elite_maps": 79,
+            "main_events": 16,
+            "elite_events": 6,
+            "top5_maps": 63,
+            "top10_maps": 112
+          },
+          "modules": {
+            "A": 91.92717470664088,
+            "E": 57.532602952311336,
+            "O": 68.05081790863213,
+            "T": 96.86382098103475,
+            "C": 94.2,
+            "N": 92.09125
+          },
+          "issues": []
+        },
+        {
+          "id": "donk",
+          "rank": 2,
+          "score": 75.99856267872286,
+          "counts": {
+            "main_maps": 140,
+            "elite_maps": 70,
+            "main_events": 14,
+            "elite_events": 6,
+            "top5_maps": 58,
+            "top10_maps": 81
+          },
+          "modules": {
+            "A": 85.4730794271624,
+            "E": 60.36283994139292,
+            "O": 72.31890355180701,
+            "T": 85.31098132088559,
+            "C": 93.55555555555556,
+            "N": 84.81997405660377
+          },
+          "issues": []
+        },
+        {
+          "id": "ropz",
+          "rank": 3,
+          "score": 61.2706018760681,
+          "counts": {
+            "main_maps": 183,
+            "elite_maps": 79,
+            "main_events": 16,
+            "elite_events": 6,
+            "top5_maps": 63,
+            "top10_maps": 112
+          },
+          "modules": {
+            "A": 65.8986541021837,
+            "E": 46.40677525954756,
+            "O": 46.457653853603134,
+            "T": 92.3358187801286,
+            "C": 89.2,
+            "N": 92.09125
+          },
+          "issues": []
+        },
+        {
+          "id": "m0nesy",
+          "rank": 4,
+          "score": 60.33708952586114,
+          "counts": {
+            "main_maps": 166,
+            "elite_maps": 47,
+            "main_events": 15,
+            "elite_events": 5,
+            "top5_maps": 66,
+            "top10_maps": 104
+          },
+          "modules": {
+            "A": 59.680434288749986,
+            "E": 47.907839535240534,
+            "O": 54.064532443358345,
+            "T": 70.26729299064817,
+            "C": 93.89473684210527,
+            "N": 88.54898611111112
+          },
+          "issues": []
+        },
+        {
+          "id": "sh1ro",
+          "rank": 5,
+          "score": 56.124141904163146,
+          "counts": {
+            "main_maps": 140,
+            "elite_maps": 70,
+            "main_events": 14,
+            "elite_events": 6,
+            "top5_maps": 58,
+            "top10_maps": 81
+          },
+          "modules": {
+            "A": 54.69109827198311,
+            "E": 45.67827876885106,
+            "O": 45.48739557126365,
+            "T": 75.23601980299259,
+            "C": 93.55555555555556,
+            "N": 84.81997405660377
+          },
+          "issues": []
+        },
+        {
+          "id": "molodoy",
+          "rank": 6,
+          "score": 50.21971524001077,
+          "counts": {
+            "main_maps": 128,
+            "elite_maps": 40,
+            "main_events": 12,
+            "elite_events": 4,
+            "top5_maps": 43,
+            "top10_maps": 79
+          },
+          "modules": {
+            "A": 46.562993085606244,
+            "E": 41.43258782944814,
+            "O": 47.248824466384754,
+            "T": 58.94427928023755,
+            "C": 86.5,
+            "N": 69.24575009097525
+          },
+          "issues": []
+        },
+        {
+          "id": "spinx",
+          "rank": 7,
+          "score": 48.12332931034142,
+          "counts": {
+            "main_maps": 172,
+            "elite_maps": 72,
+            "main_events": 14,
+            "elite_events": 5,
+            "top5_maps": 64,
+            "top10_maps": 119
+          },
+          "modules": {
+            "A": 36.502310505617594,
+            "E": 40.68245517003119,
+            "O": 40.6870964015721,
+            "T": 61.44164970627345,
+            "C": 89.66666666666667,
+            "N": 92.7492527173913
+          },
+          "issues": []
+        },
+        {
+          "id": "flamez",
+          "rank": 8,
+          "score": 48.11885415904265,
+          "counts": {
+            "main_maps": 183,
+            "elite_maps": 79,
+            "main_events": 16,
+            "elite_events": 6,
+            "top5_maps": 63,
+            "top10_maps": 112
+          },
+          "modules": {
+            "A": 31.841433380615214,
+            "E": 40.7613529118532,
+            "O": 41.969850720842985,
+            "T": 86.7733638572766,
+            "C": 87.2,
+            "N": 92.09125
+          },
+          "issues": []
+        },
+        {
+          "id": "kscerato",
+          "rank": 9,
+          "score": 47.93149331561306,
+          "counts": {
+            "main_maps": 158,
+            "elite_maps": 50,
+            "main_events": 16,
+            "elite_events": 6,
+            "top5_maps": 47,
+            "top10_maps": 93
+          },
+          "modules": {
+            "A": 31.841433380615214,
+            "E": 43.81732980573984,
+            "O": 46.626319710180454,
+            "T": 62.76654496630015,
+            "C": 90.7,
+            "N": 81.51003472222223
+          },
+          "issues": []
+        },
+        {
+          "id": "frozen",
+          "rank": 10,
+          "score": 46.81779652314256,
+          "counts": {
+            "main_maps": 151,
+            "elite_maps": 55,
+            "main_events": 16,
+            "elite_events": 6,
+            "top5_maps": 43,
+            "top10_maps": 80
+          },
+          "modules": {
+            "A": 32.688112693212275,
+            "E": 42.410785126796426,
+            "O": 48.4517938464805,
+            "T": 39.48930138660498,
+            "C": 94.2,
+            "N": 77.32073076923078
+          },
+          "issues": []
+        },
+        {
+          "id": "mezii",
+          "rank": 11,
+          "score": 46.38033154547904,
+          "counts": {
+            "main_maps": 183,
+            "elite_maps": 79,
+            "main_events": 16,
+            "elite_events": 6,
+            "top5_maps": 63,
+            "top10_maps": 112
+          },
+          "modules": {
+            "A": 32.967995396436066,
+            "E": 39.18634737185502,
+            "O": 35.027396598487584,
+            "T": 85.68385836990441,
+            "C": 87.2,
+            "N": 92.09125
+          },
+          "issues": []
+        },
+        {
+          "id": "senzu",
+          "rank": 12,
+          "score": 46.28565544312162,
+          "counts": {
+            "main_maps": 174,
+            "elite_maps": 43,
+            "main_events": 15,
+            "elite_events": 4,
+            "top5_maps": 48,
+            "top10_maps": 100
+          },
+          "modules": {
+            "A": 35.54266582134014,
+            "E": 40.315960912968684,
+            "O": 40.11192668335526,
+            "T": 59.36102075352663,
+            "C": 81.26315789473684,
+            "N": 84.80594180633148
+          },
+          "issues": []
+        },
+        {
+          "id": "niko",
+          "rank": 13,
+          "score": 46.2825637412086,
+          "counts": {
+            "main_maps": 182,
+            "elite_maps": 41,
+            "main_events": 15,
+            "elite_events": 5,
+            "top5_maps": 68,
+            "top10_maps": 115
+          },
+          "modules": {
+            "A": 32.688112693212275,
+            "E": 40.99323077275914,
+            "O": 40.471360416853635,
+            "T": 60.2917019005765,
+            "C": 86.52631578947367,
+            "N": 87.58643844221106
+          },
+          "issues": []
+        },
+        {
+          "id": "xantares",
+          "rank": 14,
+          "score": 45.48431984271007,
+          "counts": {
+            "main_maps": 178,
+            "elite_maps": 26,
+            "main_events": 15,
+            "elite_events": 3,
+            "top5_maps": 32,
+            "top10_maps": 69
+          },
+          "modules": {
+            "A": 38.43028032357149,
+            "E": 40.195600204411235,
+            "O": 42.87998512657237,
+            "T": 48.4954483154702,
+            "C": 84.94736842105263,
+            "N": 65.67886274509803
+          },
+          "issues": []
+        },
+        {
+          "id": "torzsi",
+          "rank": 15,
+          "score": 45.29809615629094,
+          "counts": {
+            "main_maps": 176,
+            "elite_maps": 76,
+            "main_events": 15,
+            "elite_events": 6,
+            "top5_maps": 64,
+            "top10_maps": 121
+          },
+          "modules": {
+            "A": 36.766333781375025,
+            "E": 36.598541478668814,
+            "O": 34.89106473565661,
+            "T": 54.870035104393786,
+            "C": 86.52631578947367,
+            "N": 92.91827388743455
+          },
+          "issues": []
+        },
+        {
+          "id": "twistzz",
+          "rank": 16,
+          "score": 44.839545113982965,
+          "counts": {
+            "main_maps": 131,
+            "elite_maps": 44,
+            "main_events": 15,
+            "elite_events": 6,
+            "top5_maps": 49,
+            "top10_maps": 96
+          },
+          "modules": {
+            "A": 29.531191028128656,
+            "E": 41.27264595081256,
+            "O": 47.57950323627857,
+            "T": 29.999653923433243,
+            "C": 83.36842105263158,
+            "N": 82.24883905677656
+          },
+          "issues": []
+        },
+        {
+          "id": "xertion",
+          "rank": 17,
+          "score": 42.945077072436455,
+          "counts": {
+            "main_maps": 176,
+            "elite_maps": 76,
+            "main_events": 15,
+            "elite_events": 6,
+            "top5_maps": 64,
+            "top10_maps": 121
+          },
+          "modules": {
+            "A": 27.867585566105802,
+            "E": 38.78618360893,
+            "O": 35.47103189731219,
+            "T": 55.14207890347236,
+            "C": 78.10526315789474,
+            "N": 92.91827388743455
+          },
+          "issues": []
+        },
+        {
+          "id": "b1t",
+          "rank": 18,
+          "score": 42.7648769636732,
+          "counts": {
+            "main_maps": 132,
+            "elite_maps": 61,
+            "main_events": 13,
+            "elite_events": 6,
+            "top5_maps": 40,
+            "top10_maps": 77
+          },
+          "modules": {
+            "A": 34.07593697995562,
+            "E": 37.938022094406705,
+            "O": 37.3199904467716,
+            "T": 34.51252283851585,
+            "C": 87.29411764705881,
+            "N": 76.24900077160494
+          },
+          "issues": []
+        },
+        {
+          "id": "heavygod",
+          "rank": 19,
+          "score": 42.130892265126555,
+          "counts": {
+            "main_maps": 139,
+            "elite_maps": 52,
+            "main_events": 15,
+            "elite_events": 6,
+            "top5_maps": 48,
+            "top10_maps": 82
+          },
+          "modules": {
+            "A": 22.7662256719919,
+            "E": 41.06731450202285,
+            "O": 39.8983181392737,
+            "T": 42.853954886194366,
+            "C": 93.89473684210527,
+            "N": 81.98801889534883
+          },
+          "issues": []
+        },
+        {
+          "id": "yekindar",
+          "rank": 20,
+          "score": 40.14732096975916,
+          "counts": {
+            "main_maps": 128,
+            "elite_maps": 40,
+            "main_events": 12,
+            "elite_events": 4,
+            "top5_maps": 43,
+            "top10_maps": 79
+          },
+          "modules": {
+            "A": 23.662050566314676,
+            "E": 37.40288804727464,
+            "O": 40.72266165285537,
+            "T": 50.588154347355086,
+            "C": 71.5,
+            "N": 74.79306129576108
+          },
+          "issues": []
+        },
+        {
+          "id": "im",
+          "rank": 21,
+          "score": 38.689400659830284,
+          "counts": {
+            "main_maps": 132,
+            "elite_maps": 61,
+            "main_events": 13,
+            "elite_events": 6,
+            "top5_maps": 40,
+            "top10_maps": 77
+          },
+          "modules": {
+            "A": 17.44179833633439,
+            "E": 39.29080327167988,
+            "O": 40.975270740707344,
+            "T": 35.15910914929952,
+            "C": 80.82352941176471,
+            "N": 76.24900077160494
+          },
+          "issues": []
+        },
+        {
+          "id": "910",
+          "rank": 22,
+          "score": 38.15203942312091,
+          "counts": {
+            "main_maps": 199,
+            "elite_maps": 63,
+            "main_events": 18,
+            "elite_events": 6,
+            "top5_maps": 52,
+            "top10_maps": 111
+          },
+          "modules": {
+            "A": 20.480401020487427,
+            "E": 36.952425608186,
+            "O": 28.273236298003535,
+            "T": 47.63228968696854,
+            "C": 85.18181818181819,
+            "N": 88.87214460784314
+          },
+          "issues": []
+        },
+        {
+          "id": "yuurih",
+          "rank": 23,
+          "score": 37.967713826731895,
+          "counts": {
+            "main_maps": 158,
+            "elite_maps": 50,
+            "main_events": 16,
+            "elite_events": 6,
+            "top5_maps": 47,
+            "top10_maps": 93
+          },
+          "modules": {
+            "A": 14.501099234054049,
+            "E": 39.537017263663664,
+            "O": 34.15419098727106,
+            "T": 53.018439920638436,
+            "C": 85.7,
+            "N": 81.51003472222223
+          },
+          "issues": []
+        },
+        {
+          "id": "wicadia",
+          "rank": 24,
+          "score": 36.67615341562639,
+          "counts": {
+            "main_maps": 184,
+            "elite_maps": 32,
+            "main_events": 16,
+            "elite_events": 4,
+            "top5_maps": 34,
+            "top10_maps": 73
+          },
+          "modules": {
+            "A": 16.75093873883973,
+            "E": 38.20332457437201,
+            "O": 36.29891329826979,
+            "T": 42.693148672506155,
+            "C": 82.19999999999999,
+            "N": 67.42566666666667
+          },
+          "issues": []
+        },
+        {
+          "id": "w0nderful",
+          "rank": 25,
+          "score": 36.54133769089914,
+          "counts": {
+            "main_maps": 132,
+            "elite_maps": 61,
+            "main_events": 13,
+            "elite_events": 6,
+            "top5_maps": 40,
+            "top10_maps": 77
+          },
+          "modules": {
+            "A": 13.92920235749422,
+            "E": 38.81787753927383,
+            "O": 37.19745052171065,
+            "T": 34.96990348844816,
+            "C": 79.05882352941175,
+            "N": 76.24900077160494
+          },
+          "issues": []
+        },
+        {
+          "id": "kyousuke",
+          "rank": 26,
+          "score": 35.352782297899836,
+          "counts": {
+            "main_maps": 74,
+            "elite_maps": 29,
+            "main_events": 7,
+            "elite_events": 3,
+            "top5_maps": 30,
+            "top10_maps": 53
+          },
+          "modules": {
+            "A": 11.307956328284252,
+            "E": 41.44330190577529,
+            "O": 42.21227495908348,
+            "T": 30.86575556208817,
+            "C": 89.45454545454545,
+            "N": 50.45865593434343
+          },
+          "issues": []
+        },
+        {
+          "id": "mzinho",
+          "rank": 27,
+          "score": 35.04267025162508,
+          "counts": {
+            "main_maps": 199,
+            "elite_maps": 63,
+            "main_events": 18,
+            "elite_events": 6,
+            "top5_maps": 52,
+            "top10_maps": 111
+          },
+          "modules": {
+            "A": 12.482668095705252,
+            "E": 34.378991215059855,
+            "O": 31.18477042384897,
+            "T": 43.48024709519173,
+            "C": 75.63636363636364,
+            "N": 88.87214460784314
+          },
+          "issues": []
+        },
+        {
+          "id": "teses",
+          "rank": 28,
+          "score": 33.88711594475077,
+          "counts": {
+            "main_maps": 182,
+            "elite_maps": 41,
+            "main_events": 15,
+            "elite_events": 5,
+            "top5_maps": 68,
+            "top10_maps": 115
+          },
+          "modules": {
+            "A": 17.44179833633439,
+            "E": 32.03242415310347,
+            "O": 27.489046321711506,
+            "T": 42.49394848595518,
+            "C": 56.00000000000001,
+            "N": 87.58643844221106
+          },
+          "issues": []
+        },
+        {
+          "id": "matys",
+          "rank": 29,
+          "score": 33.524049285050246,
+          "counts": {
+            "main_maps": 57,
+            "elite_maps": 26,
+            "main_events": 7,
+            "elite_events": 3,
+            "top5_maps": 39,
+            "top10_maps": 54
+          },
+          "modules": {
+            "A": 17.785075186522946,
+            "E": 37.28729937163367,
+            "O": 35.8563427291461,
+            "T": 27.737148544731948,
+            "C": 70.36363636363636,
+            "N": 49.689578256302525
+          },
+          "issues": []
+        },
+        {
+          "id": "makazze",
+          "rank": 30,
+          "score": 33.038493161665876,
+          "counts": {
+            "main_maps": 65,
+            "elite_maps": 34,
+            "main_events": 6,
+            "elite_events": 3,
+            "top5_maps": 21,
+            "top10_maps": 41
+          },
+          "modules": {
+            "A": 16.054297923079265,
+            "E": 37.02583329585521,
+            "O": 39.565579836950455,
+            "T": 19.02664208098671,
+            "C": 81.4,
+            "N": 41.038133283132524
+          },
+          "issues": []
+        },
+        {
+          "id": "techno",
+          "rank": 31,
+          "score": 33.025572226340756,
+          "counts": {
+            "main_maps": 199,
+            "elite_maps": 63,
+            "main_events": 18,
+            "elite_events": 6,
+            "top5_maps": 52,
+            "top10_maps": 111
+          },
+          "modules": {
+            "A": 16.75093873883973,
+            "E": 31.562971983661228,
+            "O": 24.187825067444507,
+            "T": 44.46656976516606,
+            "C": 56.09090909090908,
+            "N": 88.87214460784314
+          },
+          "issues": []
+        },
+        {
+          "id": "blitz",
+          "rank": 32,
+          "score": 32.97268494458299,
+          "counts": {
+            "main_maps": 199,
+            "elite_maps": 63,
+            "main_events": 18,
+            "elite_events": 6,
+            "top5_maps": 52,
+            "top10_maps": 111
+          },
+          "modules": {
+            "A": 10.267156290571588,
+            "E": 33.867305994195156,
+            "O": 26.044046751679936,
+            "T": 47.69313177888963,
+            "C": 69.72727272727272,
+            "N": 88.87214460784314
+          },
+          "issues": []
+        },
+        {
+          "id": "jimpphat",
+          "rank": 33,
+          "score": 32.48466080971426,
+          "counts": {
+            "main_maps": 176,
+            "elite_maps": 76,
+            "main_events": 15,
+            "elite_events": 6,
+            "top5_maps": 64,
+            "top10_maps": 121
+          },
+          "modules": {
+            "A": 0.0,
+            "E": 35.10136278280377,
+            "O": 31.93094054719023,
+            "T": 49.848035506779745,
+            "C": 77.57894736842104,
+            "N": 92.91827388743455
+          },
+          "issues": []
+        },
+        {
+          "id": "zont1x",
+          "rank": 34,
+          "score": 32.45244844364509,
+          "counts": {
+            "main_maps": 105,
+            "elite_maps": 51,
+            "main_events": 10,
+            "elite_events": 4,
+            "top5_maps": 39,
+            "top10_maps": 60
+          },
+          "modules": {
+            "A": 0.0,
+            "E": 37.74745006753416,
+            "O": 34.92369901438917,
+            "T": 56.23813894064459,
+            "C": 86.71428571428572,
+            "N": 70.80564919354839
+          },
+          "issues": []
+        },
+        {
+          "id": "broky",
+          "rank": 35,
+          "score": 31.800978848556106,
+          "counts": {
+            "main_maps": 137,
+            "elite_maps": 48,
+            "main_events": 14,
+            "elite_events": 5,
+            "top5_maps": 38,
+            "top10_maps": 72
+          },
+          "modules": {
+            "A": 12.482668095705252,
+            "E": 33.30207804038993,
+            "O": 31.154793054125985,
+            "T": 27.248451868148372,
+            "C": 63.0,
+            "N": 73.86592353082852
+          },
+          "issues": []
+        },
+        {
+          "id": "elige",
+          "rank": 36,
+          "score": 31.30896250099758,
+          "counts": {
+            "main_maps": 119,
+            "elite_maps": 38,
+            "main_events": 13,
+            "elite_events": 5,
+            "top5_maps": 21,
+            "top10_maps": 53
+          },
+          "modules": {
+            "A": 6.83828512860305,
+            "E": 37.41072749079675,
+            "O": 36.065476540266445,
+            "T": 22.579222634373718,
+            "C": 80.82352941176471,
+            "N": 56.91383333333333
+          },
+          "issues": []
+        },
+        {
+          "id": "staehr",
+          "rank": 37,
+          "score": 30.916532085371347,
+          "counts": {
+            "main_maps": 130,
+            "elite_maps": 25,
+            "main_events": 13,
+            "elite_events": 4,
+            "top5_maps": 29,
+            "top10_maps": 78
+          },
+          "modules": {
+            "A": 14.287084575281671,
+            "E": 33.41316648294597,
+            "O": 33.32309408728183,
+            "T": 20.26926173874496,
+            "C": 59.647058823529406,
+            "N": 59.48724094202898
+          },
+          "issues": []
+        },
+        {
+          "id": "jabbi",
+          "rank": 38,
+          "score": 30.3974687495086,
+          "counts": {
+            "main_maps": 130,
+            "elite_maps": 25,
+            "main_events": 13,
+            "elite_events": 4,
+            "top5_maps": 29,
+            "top10_maps": 78
+          },
+          "modules": {
+            "A": 14.643478719467895,
+            "E": 32.710582867079516,
+            "O": 32.20362658803854,
+            "T": 19.046073355041116,
+            "C": 57.294117647058826,
+            "N": 59.48724094202898
+          },
+          "issues": []
+        },
+        {
+          "id": "woxic",
+          "rank": 39,
+          "score": 30.216551317954455,
+          "counts": {
+            "main_maps": 184,
+            "elite_maps": 32,
+            "main_events": 16,
+            "elite_events": 4,
+            "top5_maps": 34,
+            "top10_maps": 73
+          },
+          "modules": {
+            "A": 0.0,
+            "E": 36.00157244009974,
+            "O": 34.15335496725612,
+            "T": 37.76576899983885,
+            "C": 80.2,
+            "N": 67.42566666666667
+          },
+          "issues": []
+        },
+        {
+          "id": "nqz",
+          "rank": 40,
+          "score": 30.146340120285807,
+          "counts": {
+            "main_maps": 124,
+            "elite_maps": 27,
+            "main_events": 15,
+            "elite_events": 3,
+            "top5_maps": 27,
+            "top10_maps": 55
+          },
+          "modules": {
+            "A": 13.208948822205357,
+            "E": 36.37348404854076,
+            "O": 29.4740005159422,
+            "T": 15.987324523579494,
+            "C": 63.368421052631575,
+            "N": 56.16007383040935
+          },
+          "issues": []
+        },
+        {
+          "id": "malbsmd",
+          "rank": 41,
+          "score": 29.359629886143466,
+          "counts": {
+            "main_maps": 139,
+            "elite_maps": 52,
+            "main_events": 15,
+            "elite_events": 6,
+            "top5_maps": 48,
+            "top10_maps": 82
+          },
+          "modules": {
+            "A": 0.0,
+            "E": 34.376201650951714,
+            "O": 30.31013977466524,
+            "T": 24.263691211467055,
+            "C": 73.89473684210526,
+            "N": 81.98801889534883
+          },
+          "issues": []
+        },
+        {
+          "id": "tn1r",
+          "rank": 42,
+          "score": 29.15617236317374,
+          "counts": {
+            "main_maps": 62,
+            "elite_maps": 23,
+            "main_events": 8,
+            "elite_events": 3,
+            "top5_maps": 33,
+            "top10_maps": 53
+          },
+          "modules": {
+            "A": 0.0,
+            "E": 36.386752369392724,
+            "O": 41.70583897894821,
+            "T": 11.97263905448126,
+            "C": 78.66666666666666,
+            "N": 52.074409722222214
+          },
+          "issues": []
+        },
+        {
+          "id": "rain",
+          "rank": 43,
+          "score": 28.664990599597818,
+          "counts": {
+            "main_maps": 113,
+            "elite_maps": 34,
+            "main_events": 12,
+            "elite_events": 4,
+            "top5_maps": 33,
+            "top10_maps": 63
+          },
+          "modules": {
+            "A": 0.0,
+            "E": 35.67429563628226,
+            "O": 33.03166680512098,
+            "T": 14.986489919142388,
+            "C": 80.25,
+            "N": 66.73822916666666
+          },
+          "issues": []
+        },
+        {
+          "id": "jl",
+          "rank": 44,
+          "score": 28.59979784463923,
+          "counts": {
+            "main_maps": 67,
+            "elite_maps": 27,
+            "main_events": 7,
+            "elite_events": 3,
+            "top5_maps": 19,
+            "top10_maps": 36
+          },
+          "modules": {
+            "A": 0.0,
+            "E": 36.66066424334222,
+            "O": 35.26099994937417,
+            "T": 16.26693544503064,
+            "C": 83.09090909090908,
+            "N": 56.23496283783784
+          },
+          "issues": []
+        },
+        {
+          "id": "maka",
+          "rank": 45,
+          "score": 28.52468075552965,
+          "counts": {
+            "main_maps": 150,
+            "elite_maps": 31,
+            "main_events": 16,
+            "elite_events": 5,
+            "top5_maps": 29,
+            "top10_maps": 70
+          },
+          "modules": {
+            "A": 0.0,
+            "E": 35.02585757640338,
+            "O": 35.207942310726565,
+            "T": 9.543851529456948,
+            "C": 78.7,
+            "N": 65.57679901960783
+          },
+          "issues": []
+        },
+        {
+          "id": "device",
+          "rank": 46,
+          "score": 28.39232007171946,
+          "counts": {
+            "main_maps": 127,
+            "elite_maps": 25,
+            "main_events": 13,
+            "elite_events": 4,
+            "top5_maps": 29,
+            "top10_maps": 75
+          },
+          "modules": {
+            "A": 6.449301496838222,
+            "E": 33.57938340736632,
+            "O": 33.336408496030884,
+            "T": 20.095658658114136,
+            "C": 56.705882352941174,
+            "N": 58.836450980392165
+          },
+          "issues": []
+        },
+        {
+          "id": "sunpayus",
+          "rank": 47,
+          "score": 27.76879746161761,
+          "counts": {
+            "main_maps": 71,
+            "elite_maps": 26,
+            "main_events": 9,
+            "elite_events": 3,
+            "top5_maps": 48,
+            "top10_maps": 77
+          },
+          "modules": {
+            "A": 0.0,
+            "E": 34.497571369745714,
+            "O": 32.66510001829897,
+            "T": 16.675703110524466,
+            "C": 70.30769230769232,
+            "N": 65.92310416666666
+          },
+          "issues": []
+        },
+        {
+          "id": "magixx",
+          "rank": 48,
+          "score": 27.763953742346672,
+          "counts": {
+            "main_maps": 82,
+            "elite_maps": 38,
+            "main_events": 7,
+            "elite_events": 3,
+            "top5_maps": 26,
+            "top10_maps": 42
+          },
+          "modules": {
+            "A": 0.0,
+            "E": 35.57194235610866,
+            "O": 28.524708876955852,
+            "T": 30.95004791151421,
+            "C": 76.72727272727273,
+            "N": 62.149802325581405
+          },
+          "issues": []
+        },
+        {
+          "id": "jotta",
+          "rank": 49,
+          "score": 27.754539068399573,
+          "counts": {
+            "main_maps": 184,
+            "elite_maps": 32,
+            "main_events": 16,
+            "elite_events": 4,
+            "top5_maps": 34,
+            "top10_maps": 73
+          },
+          "modules": {
+            "A": 0.0,
+            "E": 34.42368442305371,
+            "O": 29.653276587016702,
+            "T": 25.74647984989127,
+            "C": 72.2,
+            "N": 67.42566666666667
+          },
+          "issues": []
+        },
+        {
+          "id": "nertz",
+          "rank": 50,
+          "score": 27.56775683727188,
+          "counts": {
+            "main_maps": 113,
+            "elite_maps": 27,
+            "main_events": 14,
+            "elite_events": 5,
+            "top5_maps": 33,
+            "top10_maps": 79
+          },
+          "modules": {
+            "A": 0.0,
+            "E": 35.204356854955066,
+            "O": 31.595333238190378,
+            "T": 8.0072116949374,
+            "C": 74.66666666666666,
+            "N": 66.6195992357002
+          },
+          "issues": []
+        },
+        {
+          "id": "fame",
+          "rank": 51,
+          "score": 27.543808295686976,
+          "counts": {
+            "main_maps": 109,
+            "elite_maps": 37,
+            "main_events": 13,
+            "elite_events": 4,
+            "top5_maps": 21,
+            "top10_maps": 50
+          },
+          "modules": {
+            "A": 0.0,
+            "E": 35.185882836042786,
+            "O": 33.7836102615976,
+            "T": 6.145079976659473,
+            "C": 79.05882352941175,
+            "N": 60.131943944844124
+          },
+          "issues": []
+        },
+        {
+          "id": "fl1t",
+          "rank": 52,
+          "score": 27.44048123108892,
+          "counts": {
+            "main_maps": 109,
+            "elite_maps": 37,
+            "main_events": 13,
+            "elite_events": 4,
+            "top5_maps": 21,
+            "top10_maps": 50
+          },
+          "modules": {
+            "A": 0.0,
+            "E": 35.239224721795715,
+            "O": 33.35884663456202,
+            "T": 5.744405185996227,
+            "C": 79.05882352941175,
+            "N": 60.131943944844124
+          },
+          "issues": []
+        },
+        {
+          "id": "kyxsan",
+          "rank": 53,
+          "score": 26.992179596597687,
+          "counts": {
+            "main_maps": 182,
+            "elite_maps": 41,
+            "main_events": 15,
+            "elite_events": 5,
+            "top5_maps": 68,
+            "top10_maps": 115
+          },
+          "modules": {
+            "A": 0.0,
+            "E": 30.39287559560173,
+            "O": 25.416847864238218,
+            "T": 34.47379191894432,
+            "C": 49.1578947368421,
+            "N": 87.58643844221106
+          },
+          "issues": []
+        },
+        {
+          "id": "hunter-",
+          "rank": 54,
+          "score": 26.58951758011424,
+          "counts": {
+            "main_maps": 124,
+            "elite_maps": 50,
+            "main_events": 14,
+            "elite_events": 6,
+            "top5_maps": 46,
+            "top10_maps": 80
+          },
+          "modules": {
+            "A": 0.0,
+            "E": 32.4313072355998,
+            "O": 22.896421934197082,
+            "T": 25.946231109030748,
+            "C": 63.555555555555564,
+            "N": 80.91798248407643
+          },
+          "issues": []
+        },
+        {
+          "id": "apex",
+          "rank": 55,
+          "score": 26.575110917037907,
+          "counts": {
+            "main_maps": 183,
+            "elite_maps": 79,
+            "main_events": 16,
+            "elite_events": 6,
+            "top5_maps": 63,
+            "top10_maps": 112
+          },
+          "modules": {
+            "A": 0.0,
+            "E": 28.366210053444686,
+            "O": 19.956335052531482,
+            "T": 57.64304281051198,
+            "C": 44.699999999999996,
+            "N": 92.09125
+          },
+          "issues": []
+        },
+        {
+          "id": "ultimate",
+          "rank": 56,
+          "score": 26.466193474747158,
+          "counts": {
+            "main_maps": 113,
+            "elite_maps": 27,
+            "main_events": 14,
+            "elite_events": 5,
+            "top5_maps": 33,
+            "top10_maps": 79
+          },
+          "modules": {
+            "A": 0.0,
+            "E": 33.401626164429665,
+            "O": 29.916325368983166,
+            "T": 10.656348593855537,
+            "C": 67.44444444444444,
+            "N": 66.6195992357002
+          },
+          "issues": []
+        },
+        {
+          "id": "magisk",
+          "rank": 57,
+          "score": 25.652312900863016,
+          "counts": {
+            "main_maps": 149,
+            "elite_maps": 22,
+            "main_events": 12,
+            "elite_events": 3,
+            "top5_maps": 45,
+            "top10_maps": 90
+          },
+          "modules": {
+            "A": 0.0,
+            "E": 32.25368326762397,
+            "O": 25.536907385675153,
+            "T": 19.760959477350283,
+            "C": 60.25,
+            "N": 70.69781746031745
+          },
+          "issues": []
+        },
+        {
+          "id": "brollan",
+          "rank": 58,
+          "score": 25.517462886066,
+          "counts": {
+            "main_maps": 176,
+            "elite_maps": 76,
+            "main_events": 15,
+            "elite_events": 6,
+            "top5_maps": 64,
+            "top10_maps": 121
+          },
+          "modules": {
+            "A": 0.0,
+            "E": 28.079730575382985,
+            "O": 21.527120822079922,
+            "T": 30.488988005183582,
+            "C": 43.368421052631575,
+            "N": 92.91827388743455
+          },
+          "issues": []
+        },
+        {
+          "id": "bodyy",
+          "rank": 59,
+          "score": 25.482903521377988,
+          "counts": {
+            "main_maps": 143,
+            "elite_maps": 24,
+            "main_events": 15,
+            "elite_events": 4,
+            "top5_maps": 27,
+            "top10_maps": 65
+          },
+          "modules": {
+            "A": 0.0,
+            "E": 33.85773140347085,
+            "O": 30.86360607334641,
+            "T": 7.068265499370208,
+            "C": 53.89473684210526,
+            "N": 61.945365284974095
+          },
+          "issues": []
+        },
+        {
+          "id": "icy",
+          "rank": 60,
+          "score": 25.446851330167494,
+          "counts": {
+            "main_maps": 100,
+            "elite_maps": 28,
+            "main_events": 12,
+            "elite_events": 3,
+            "top5_maps": 18,
+            "top10_maps": 44
+          },
+          "modules": {
+            "A": 0.0,
+            "E": 34.36086566781919,
+            "O": 29.216947648624664,
+            "T": 4.820918454478407,
+            "C": 75.875,
+            "N": 54.147237179487185
+          },
+          "issues": []
+        },
+        {
+          "id": "ex3rcice",
+          "rank": 61,
+          "score": 25.361847875926138,
+          "counts": {
+            "main_maps": 150,
+            "elite_maps": 31,
+            "main_events": 16,
+            "elite_events": 5,
+            "top5_maps": 29,
+            "top10_maps": 70
+          },
+          "modules": {
+            "A": 0.0,
+            "E": 31.557198723943014,
+            "O": 28.028728091188942,
+            "T": 8.480671904737191,
+            "C": 68.69999999999999,
+            "N": 65.35763164251208
+          },
+          "issues": []
+        },
+        {
+          "id": "dgt",
+          "rank": 62,
+          "score": 25.281657814030936,
+          "counts": {
+            "main_maps": 83,
+            "elite_maps": 27,
+            "main_events": 10,
+            "elite_events": 3,
+            "top5_maps": 16,
+            "top10_maps": 30
+          },
+          "modules": {
+            "A": 0.0,
+            "E": 35.971468400764635,
+            "O": 31.333049949561914,
+            "T": 11.285336973302773,
+            "C": 69.57142857142857,
+            "N": 43.199215801886794
+          },
+          "issues": []
+        },
+        {
+          "id": "lucky",
+          "rank": 63,
+          "score": 24.92728619893445,
+          "counts": {
+            "main_maps": 150,
+            "elite_maps": 31,
+            "main_events": 16,
+            "elite_events": 5,
+            "top5_maps": 29,
+            "top10_maps": 70
+          },
+          "modules": {
+            "A": 0.0,
+            "E": 32.18553495833447,
+            "O": 28.89761335525293,
+            "T": 6.399550484495187,
+            "C": 54.7,
+            "N": 65.35763164251208
+          },
+          "issues": []
+        },
+        {
+          "id": "snow",
+          "rank": 64,
+          "score": 24.245089205134875,
+          "counts": {
+            "main_maps": 124,
+            "elite_maps": 27,
+            "main_events": 15,
+            "elite_events": 3,
+            "top5_maps": 27,
+            "top10_maps": 55
+          },
+          "modules": {
+            "A": 7.995558537067671,
+            "E": 30.37761450673299,
+            "O": 23.168402269324574,
+            "T": 4.836621707379418,
+            "C": 49.1578947368421,
+            "N": 56.16007383040935
+          },
+          "issues": []
+        },
+        {
+          "id": "dav1d",
+          "rank": 65,
+          "score": 23.91131857176343,
+          "counts": {
+            "main_maps": 124,
+            "elite_maps": 27,
+            "main_events": 15,
+            "elite_events": 3,
+            "top5_maps": 27,
+            "top10_maps": 55
+          },
+          "modules": {
+            "A": 0.0,
+            "E": 32.88738726639023,
+            "O": 25.34570625234364,
+            "T": 8.355662722530322,
+            "C": 63.368421052631575,
+            "N": 56.16007383040935
+          },
+          "issues": []
+        },
+        {
+          "id": "zweih",
+          "rank": 66,
+          "score": 23.77192581754411,
+          "counts": {
+            "main_maps": 63,
+            "elite_maps": 37,
+            "main_events": 8,
+            "elite_events": 4,
+            "top5_maps": 33,
+            "top10_maps": 44
+          },
+          "modules": {
+            "A": 0.0,
+            "E": 31.727562321559432,
+            "O": 28.644397664011915,
+            "T": 21.58186722667307,
+            "C": 47.833333333333336,
+            "N": 51.465125
+          },
+          "issues": []
+        },
+        {
+          "id": "biguzera",
+          "rank": 67,
+          "score": 23.661813678265514,
+          "counts": {
+            "main_maps": 120,
+            "elite_maps": 27,
+            "main_events": 14,
+            "elite_events": 3,
+            "top5_maps": 27,
+            "top10_maps": 53
+          },
+          "modules": {
+            "A": 0.0,
+            "E": 33.24622484395321,
+            "O": 23.24313186813187,
+            "T": 11.10617447124297,
+            "C": 64.66666666666666,
+            "N": 55.50770583832334
+          },
+          "issues": []
+        },
+        {
+          "id": "fallen",
+          "rank": 68,
+          "score": 23.285564824134532,
+          "counts": {
+            "main_maps": 158,
+            "elite_maps": 50,
+            "main_events": 16,
+            "elite_events": 6,
+            "top5_maps": 47,
+            "top10_maps": 93
+          },
+          "modules": {
+            "A": 0.0,
+            "E": 28.913887307893788,
+            "O": 17.73517206680769,
+            "T": 20.27444406830441,
+            "C": 44.699999999999996,
+            "N": 81.51003472222223
+          },
+          "issues": []
+        },
+        {
+          "id": "graviti",
+          "rank": 69,
+          "score": 22.837377963254177,
+          "counts": {
+            "main_maps": 150,
+            "elite_maps": 31,
+            "main_events": 16,
+            "elite_events": 5,
+            "top5_maps": 29,
+            "top10_maps": 70
+          },
+          "modules": {
+            "A": 0.0,
+            "E": 29.816839567762408,
+            "O": 23.594148465186514,
+            "T": 8.288279374284413,
+            "C": 48.199999999999996,
+            "N": 65.35763164251208
+          },
+          "issues": []
+        },
+        {
+          "id": "jcobbb",
+          "rank": 70,
+          "score": 22.63657075310391,
+          "counts": {
+            "main_maps": 55,
+            "elite_maps": 21,
+            "main_events": 6,
+            "elite_events": 2,
+            "top5_maps": 18,
+            "top10_maps": 31
+          },
+          "modules": {
+            "A": 0.0,
+            "E": 34.63549091278303,
+            "O": 30.31789164941339,
+            "T": 11.291990323526024,
+            "C": 51.4,
+            "N": 31.77273611111111
+          },
+          "issues": []
+        },
+        {
+          "id": "naf",
+          "rank": 71,
+          "score": 22.499830050905132,
+          "counts": {
+            "main_maps": 113,
+            "elite_maps": 27,
+            "main_events": 14,
+            "elite_events": 5,
+            "top5_maps": 33,
+            "top10_maps": 79
+          },
+          "modules": {
+            "A": 0.0,
+            "E": 29.09535473982725,
+            "O": 22.156458574647935,
+            "T": 9.722777508254499,
+            "C": 48.00000000000001,
+            "N": 66.6195992357002
+          },
+          "issues": []
+        },
+        {
+          "id": "fl4mus",
+          "rank": 72,
+          "score": 22.356636126268363,
+          "counts": {
+            "main_maps": 69,
+            "elite_maps": 26,
+            "main_events": 7,
+            "elite_events": 3,
+            "top5_maps": 11,
+            "top10_maps": 29
+          },
+          "modules": {
+            "A": 0.0,
+            "E": 32.07843654193733,
+            "O": 29.274341371419368,
+            "T": 3.2127582020648915,
+            "C": 58.54545454545455,
+            "N": 38.74449107142857
+          },
+          "issues": []
+        },
+        {
+          "id": "chopper",
+          "rank": 73,
+          "score": 22.173489444864273,
+          "counts": {
+            "main_maps": 140,
+            "elite_maps": 70,
+            "main_events": 14,
+            "elite_events": 6,
+            "top5_maps": 58,
+            "top10_maps": 81
+          },
+          "modules": {
+            "A": 0.0,
+            "E": 25.24945868240776,
+            "O": 16.176916563783955,
+            "T": 32.84672548344757,
+            "C": 30.22222222222222,
+            "N": 84.81997405660377
+          },
+          "issues": []
+        },
+        {
+          "id": "aleksib",
+          "rank": 74,
+          "score": 21.806617917899825,
+          "counts": {
+            "main_maps": 132,
+            "elite_maps": 61,
+            "main_events": 13,
+            "elite_events": 6,
+            "top5_maps": 40,
+            "top10_maps": 77
+          },
+          "modules": {
+            "A": 0.0,
+            "E": 27.48198887744504,
+            "O": 18.34372563254551,
+            "T": 10.02694955510931,
+            "C": 40.82352941176471,
+            "N": 76.24900077160494
+          },
+          "issues": []
+        },
+        {
+          "id": "maj3r",
+          "rank": 75,
+          "score": 19.782853962870664,
+          "counts": {
+            "main_maps": 184,
+            "elite_maps": 32,
+            "main_events": 16,
+            "elite_events": 4,
+            "top5_maps": 34,
+            "top10_maps": 73
+          },
+          "modules": {
+            "A": 0.0,
+            "E": 27.335080050271596,
+            "O": 15.704789618647165,
+            "T": 11.25428140683632,
+            "C": 29.700000000000003,
+            "N": 67.42566666666667
+          },
+          "issues": []
+        },
+        {
+          "id": "snax",
+          "rank": 76,
+          "score": 19.61757109850151,
+          "counts": {
+            "main_maps": 82,
+            "elite_maps": 26,
+            "main_events": 8,
+            "elite_events": 3,
+            "top5_maps": 11,
+            "top10_maps": 30
+          },
+          "modules": {
+            "A": 0.0,
+            "E": 29.42431027011411,
+            "O": 21.63295361669345,
+            "T": 4.652302298866573,
+            "C": 36.16666666666667,
+            "N": 46.564795454545454
+          },
+          "issues": []
+        },
+        {
+          "id": "electronic",
+          "rank": 77,
+          "score": 19.199442724555,
+          "counts": {
+            "main_maps": 80,
+            "elite_maps": 28,
+            "main_events": 10,
+            "elite_events": 3,
+            "top5_maps": 18,
+            "top10_maps": 39
+          },
+          "modules": {
+            "A": 0.0,
+            "E": 29.68962026497944,
+            "O": 20.367641129032258,
+            "T": 1.2639442724596939,
+            "C": 31.000000000000007,
+            "N": 48.85490579710145
+          },
+          "issues": []
+        },
+        {
+          "id": "karrigan",
+          "rank": 78,
+          "score": 18.49126434742203,
+          "counts": {
+            "main_maps": 151,
+            "elite_maps": 55,
+            "main_events": 16,
+            "elite_events": 6,
+            "top5_maps": 43,
+            "top10_maps": 80
+          },
+          "modules": {
+            "A": 0.0,
+            "E": 24.36614418774413,
+            "O": 10.54350124005604,
+            "T": 4.906541091903005,
+            "C": 30.200000000000003,
+            "N": 77.32073076923078
+          },
+          "issues": []
+        },
+        {
+          "id": "degster",
+          "rank": null,
+          "score": 31.8517239938277,
+          "counts": {
+            "main_maps": 67,
+            "elite_maps": 12,
+            "main_events": 5,
+            "elite_events": 2,
+            "top5_maps": 11,
+            "top10_maps": 33
+          },
+          "modules": {
+            "A": 16.75093873883973,
+            "E": 35.45015234442112,
+            "O": 37.44273628146878,
+            "T": 17.419779880227082,
+            "C": 79.33333333333333,
+            "N": 38.05416233766235
+          },
+          "issues": [
+            "elite_maps样本不足"
+          ]
+        },
+        {
+          "id": "latto",
+          "rank": null,
+          "score": 30.71245045037803,
+          "counts": {
+            "main_maps": 74,
+            "elite_maps": 9,
+            "main_events": 6,
+            "elite_events": 1,
+            "top5_maps": 12,
+            "top10_maps": 34
+          },
+          "modules": {
+            "A": 11.011822901197622,
+            "E": 37.57970431218067,
+            "O": 39.109788374280605,
+            "T": 20.23616661560348,
+            "C": 88.4,
+            "N": 28.353237588652487
+          },
+          "issues": [
+            "elite_maps样本不足"
+          ]
+        },
+        {
+          "id": "pr",
+          "rank": null,
+          "score": 29.66223343708453,
+          "counts": {
+            "main_maps": 123,
+            "elite_maps": 14,
+            "main_events": 13,
+            "elite_events": 2,
+            "top5_maps": 29,
+            "top10_maps": 55
+          },
+          "modules": {
+            "A": 6.449301496838222,
+            "E": 38.11336540508251,
+            "O": 32.36192445638202,
+            "T": 14.935466507601113,
+            "C": 83.17647058823529,
+            "N": 50.87994848901099
+          },
+          "issues": [
+            "elite_maps样本不足"
+          ]
+        },
+        {
+          "id": "stavn",
+          "rank": null,
+          "score": 28.88335935506084,
+          "counts": {
+            "main_maps": 89,
+            "elite_maps": 15,
+            "main_events": 9,
+            "elite_events": 3,
+            "top5_maps": 22,
+            "top10_maps": 50
+          },
+          "modules": {
+            "A": 10.267156290571588,
+            "E": 35.014989366879014,
+            "O": 31.996367225374854,
+            "T": 18.176852038750713,
+            "C": 70.30769230769232,
+            "N": 45.65773659673659
+          },
+          "issues": [
+            "elite_maps样本不足"
+          ]
+        },
+        {
+          "id": "jamyoung",
+          "rank": null,
+          "score": 28.117320300186627,
+          "counts": {
+            "main_maps": 51,
+            "elite_maps": 4,
+            "main_events": 7,
+            "elite_events": 1,
+            "top5_maps": 17,
+            "top10_maps": 20
+          },
+          "modules": {
+            "A": 11.011822901197622,
+            "E": 35.814990885651675,
+            "O": 35.815423080694195,
+            "T": 21.3090869199146,
+            "C": 67.63636363636364,
+            "N": 24.589060543278084
+          },
+          "issues": [
+            "elite_maps样本不足"
+          ]
+        },
+        {
+          "id": "hallzerk",
+          "rank": null,
+          "score": 26.267057804080373,
+          "counts": {
+            "main_maps": 57,
+            "elite_maps": 8,
+            "main_events": 6,
+            "elite_events": 1,
+            "top5_maps": 9,
+            "top10_maps": 34
+          },
+          "modules": {
+            "A": 6.83828512860305,
+            "E": 35.366163596638444,
+            "O": 34.7805546619106,
+            "T": 6.910612636335268,
+            "C": 67.4,
+            "N": 29.51649890350877
+          },
+          "issues": [
+            "elite_maps样本不足"
+          ]
+        },
+        {
+          "id": "n1ssim",
+          "rank": null,
+          "score": 26.193930539160803,
+          "counts": {
+            "main_maps": 74,
+            "elite_maps": 9,
+            "main_events": 6,
+            "elite_events": 1,
+            "top5_maps": 12,
+            "top10_maps": 34
+          },
+          "modules": {
+            "A": 6.449301496838222,
+            "E": 34.444219375094946,
+            "O": 34.44435296934942,
+            "T": 15.63351834036163,
+            "C": 68.39999999999999,
+            "N": 28.353237588652487
+          },
+          "issues": [
+            "elite_maps样本不足"
+          ]
+        },
+        {
+          "id": "blamef",
+          "rank": null,
+          "score": 25.460992893414527,
+          "counts": {
+            "main_maps": 17,
+            "elite_maps": 0,
+            "main_events": 2,
+            "elite_events": 0,
+            "top5_maps": 2,
+            "top10_maps": 9
+          },
+          "modules": {
+            "A": 7.995558537067671,
+            "E": 36.11556713965489,
+            "O": 37.47130338485242,
+            "T": 2.268865188093583,
+            "C": 80.66666666666666,
+            "N": 5.459458333333332
+          },
+          "issues": [
+            "main_maps样本不足",
+            "elite_maps样本不足",
+            "top10_maps样本不足"
+          ]
+        },
+        {
+          "id": "saadzin",
+          "rank": null,
+          "score": 24.919527227586293,
+          "counts": {
+            "main_maps": 74,
+            "elite_maps": 9,
+            "main_events": 6,
+            "elite_events": 1,
+            "top5_maps": 12,
+            "top10_maps": 34
+          },
+          "modules": {
+            "A": 4.877057549928598,
+            "E": 34.73730053599081,
+            "O": 30.053359544600106,
+            "T": 12.194847275338372,
+            "C": 74.4,
+            "N": 28.353237588652487
+          },
+          "issues": [
+            "elite_maps样本不足"
+          ]
+        },
+        {
+          "id": "nilo",
+          "rank": null,
+          "score": 23.90933410908605,
+          "counts": {
+            "main_maps": 53,
+            "elite_maps": 13,
+            "main_events": 7,
+            "elite_events": 2,
+            "top5_maps": 8,
+            "top10_maps": 20
+          },
+          "modules": {
+            "A": 4.638952686737364,
+            "E": 34.29846426308899,
+            "O": 31.042606516290725,
+            "T": 5.000637031046862,
+            "C": 61.27272727272728,
+            "N": 28.035952380952377
+          },
+          "issues": [
+            "elite_maps样本不足"
+          ]
+        },
+        {
+          "id": "controlez",
+          "rank": null,
+          "score": 23.062947863835046,
+          "counts": {
+            "main_maps": 25,
+            "elite_maps": 20,
+            "main_events": 3,
+            "elite_events": 2,
+            "top5_maps": 4,
+            "top10_maps": 11
+          },
+          "modules": {
+            "A": 0.0,
+            "E": 35.73103212576898,
+            "O": 31.957983193277315,
+            "T": 4.2646430836572495,
+            "C": 83.42857142857143,
+            "N": 16.805723298122068
+          },
+          "issues": [
+            "main_maps样本不足"
+          ]
+        },
+        {
+          "id": "vexite",
+          "rank": null,
+          "score": 21.732930254500513,
+          "counts": {
+            "main_maps": 30,
+            "elite_maps": 0,
+            "main_events": 4,
+            "elite_events": 0,
+            "top5_maps": 13,
+            "top10_maps": 26
+          },
+          "modules": {
+            "A": 0.0,
+            "E": 35.77930987990767,
+            "O": 26.070539428094957,
+            "T": 0.29655939131054687,
+            "C": 76.75,
+            "N": 22.239645488980717
+          },
+          "issues": [
+            "main_maps样本不足",
+            "elite_maps样本不足"
+          ]
+        }
+      ],
+      "five_fold_order_verified": true
+    }
+  },
+  "same_pairs": {
+    "denominator": 406,
+    "3.5": 374,
+    "4.1": 360,
+    "4.1.1": 354
+  }
+}
