@@ -153,7 +153,7 @@ def features(inputs, base, config, year, near=True, venue=True, tier_override=No
         require(len(set([a["mvp"]]+a["evps"]+a.get("unranked_evps",[]))) ==
                 1+len(a["evps"])+len(a.get("unranked_evps",[])), "Duplicate award at "+event)
         grades = base["tiers"][tier]
-        entries = [(a["mvp"],"MVP",None)] + [(pid,"EVP",i) for i,pid in enumerate(a["evps"],1)]
+        entries = ([(a["mvp"],"MVP",None)] if a["mvp"] else []) + [(pid,"EVP",i) for i,pid in enumerate(a["evps"],1)]
         entries.extend((pid,"EVP",None) for pid in a.get("unranked_evps",[]))
         mvp_rows = stats.get(a["mvp"],{}).get(event,[])
         if mvp_rows:
@@ -167,7 +167,7 @@ def features(inputs, base, config, year, near=True, venue=True, tier_override=No
             if pos and pos>=3:
                 points *= max(base["evp_tail_floor"],1-base["evp_tail_step"]*(pos-3))
             dominance = 0.
-            if kind=="MVP" and not documented_challenger and len(mvp_rows)>=config["peak_min_maps"] and rivals:
+            if kind=="MVP" and not a.get("pending") and not documented_challenger and len(mvp_rows)>=config["peak_min_maps"] and rivals:
                 quality=signals[pid,event][2]
                 margin=quality-max(rivals)
                 if quality>=config["exceptional_peak_threshold"]:

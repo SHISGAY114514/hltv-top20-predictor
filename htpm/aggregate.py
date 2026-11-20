@@ -2,7 +2,7 @@
 import copy
 import math
 from .core import HIGH, fingerprint, iso, normalize, number, require
-from .event_tiers import POLICY, OVERRIDES, classify
+from .event_tiers import POLICY, OVERRIDES, ADDITIONAL_MAJORS, classify
 
 MODULES = ("A", "E", "O", "T", "C", "N")
 
@@ -63,7 +63,7 @@ def validate(data, c):
             require(set(OVERRIDES) <= set(medals), "缺少用户指定赛事")
             for name, medal in medals.items():
                 require(medal in {"gold", "silver", "bronze"}, "未知奖章类别")
-                require(medal != "gold" or name in OVERRIDES, "新增金色奖章赛事需要明确分级")
+                require(medal != "gold" or name in OVERRIDES or name in ADDITIONAL_MAJORS, "新增金色奖章赛事需要明确分级")
                 require(c["event_tiers"][name] == classify(name, medal), "违反用户固定赛事分级: " + name)
         forced = {"IEM Cologne Major 2026": "Major", "IEM Kraków 2026": "Super-elite",
                   "XSE Pro League Guangzhou 2026": "Medium", "CS Asia Championships 2026": "Medium",

@@ -1,6 +1,7 @@
 """User's 2026 overrides take precedence over the MVP medal category."""
 
 POLICY = "user-2026-11-16-medal"
+ADDITIONAL_MAJORS = {"PGL Major Singapore 2026"}
 OVERRIDES = {
     "IEM Cologne Major 2026": "Major",
     "IEM Kraków 2026": "Super-elite",
@@ -16,6 +17,8 @@ def classify(event, medal):
         raise ValueError("MVP medal must be verified before classification")
     if event in OVERRIDES:
         return OVERRIDES[event]
+    if event in ADDITIONAL_MAJORS and medal == "gold":
+        return "Major"
     if medal == "bronze":
         return "Medium"
     if medal == "silver":

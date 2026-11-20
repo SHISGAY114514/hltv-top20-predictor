@@ -1,0 +1,17 @@
+{
+  "version": "HTPM-4.2",
+  "profile": "honors",
+  "tier_stage_share_of_K": 0.50,
+  "event_credit_share": 0.25,
+  "major_target_maps_per_event": 12,
+  "event": "PGL Major Singapore 2026",
+  "event_id": 8302,
+  "source": "https://www.hltv.org/events/8302/pgl-major-singapore-2026",
+  "start": "2026-12-02",
+  "group_end": "2026-12-06",
+  "playoffs": "2026-12-10",
+  "end": "2026-12-13",
+  "series_counts": {"group": 33, "playoff": 6, "placement": 1, "final": 1},
+  "teams": 16,
+  "standings": "2026-11-02"
+}

@@ -75,7 +75,7 @@ def evaluate(players, truth):
     }
 
 
-def run():
+def score_inputs(major_targets=None):
     snap=load("data/2025/aggregate_replay_3_5.json")
     catalog=load("data/reference/season_stage_catalog.json")["2025"]
     archive=load("data/2025/awards.json")
@@ -84,6 +84,8 @@ def run():
     config=load("config/model.json")
     check_snapshot(snap, catalog, config)
     original_config=fingerprint(config)
+    if major_targets:
+        config["tier_samples"]["Major"].update(major_targets)
     # The saved discount explicitly names a 2026 event. No discount is documented for 2025.
     config.update(event_tiers=tiers,honor_factors={k:v for k,v in config["honor_factors"].items() if k in tiers})
     awards={}
@@ -112,6 +114,11 @@ def run():
             if a["event"]=="BLAST Open London 2025 Finals" and a["event"] not in present and "BLAST Open London 2025" in present:
                 a["participation_event"]="BLAST Open London 2025"
         data["players"].append(p)
+    return data,config,snap,original_config
+
+
+def run(major_targets=None, write=True):
+    data,config,snap,original_config = score_inputs(major_targets)
     result=score(data,config)["players"]
     # Calculate scores on held-out subsets without recomputing the rankings inside each fold.
     fold=lambda pid:int(hashlib.sha256(pid.encode()).hexdigest(),16)%5
@@ -156,7 +163,8 @@ def run():
                  else load("output/forecast_4_1_1/scores.json")["replay"]["players"])
         output["same_pairs"][version] = sum(other[a]["predicted"] < other[b]["predicted"] for a,b in pairs)
     dest=ROOT/"output/replay_3_5_2025"
-    dump_json(dest/"scores.json",output)
+    if write:
+        dump_json(dest/"scores.json",output)
     return output
 
 

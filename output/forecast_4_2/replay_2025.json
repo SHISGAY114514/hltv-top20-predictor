@@ -1,0 +1,152 @@
+{
+  "year": 2025,
+  "core": {
+    "top20_hits": 19,
+    "top10_hits": 7,
+    "mae_top20": 3.05,
+    "ordered_pairs_top30": 382,
+    "pairs": 435,
+    "missed": [
+      "im"
+    ],
+    "false_positives": [
+      "910"
+    ]
+  },
+  "H_reference_only": {
+    "1": {
+      "top20_hits": 19,
+      "top10_hits": 10,
+      "mae_top20_ranked": 1.5,
+      "comparable_pairs": 406,
+      "ordered_pairs_top30": 374
+    },
+    "2": {
+      "top20_hits": 19,
+      "top10_hits": 10,
+      "mae_top20_ranked": 1.6,
+      "comparable_pairs": 406,
+      "ordered_pairs_top30": 374
+    }
+  },
+  "core_plus_H": {
+    "1": {
+      "top20_hits": 19,
+      "top10_hits": 8,
+      "mae_top20": 2.8,
+      "ordered_pairs_top30": 387,
+      "pairs": 435,
+      "missed": [
+        "im"
+      ],
+      "false_positives": [
+        "910"
+      ]
+    },
+    "2": {
+      "top20_hits": 19,
+      "top10_hits": 8,
+      "mae_top20": 2.8,
+      "ordered_pairs_top30": 388,
+      "pairs": 435,
+      "missed": [
+        "im"
+      ],
+      "false_positives": [
+        "910"
+      ]
+    }
+  },
+  "major_map_coverage": {
+    "BLAST.tv Austin Major 2025": [
+      68,
+      71
+    ],
+    "StarLadder Budapest Major 2025": [
+      62,
+      68
+    ]
+  },
+  "H_rank_changes": {
+    "xantares": [
+      14,
+      15
+    ],
+    "torzsi": [
+      15,
+      14
+    ],
+    "wicadia": [
+      24,
+      25
+    ],
+    "w0nderful": [
+      25,
+      24
+    ],
+    "makazze": [
+      30,
+      32
+    ],
+    "techno": [
+      31,
+      30
+    ],
+    "blitz": [
+      32,
+      31
+    ],
+    "woxic": [
+      39,
+      40
+    ],
+    "nqz": [
+      40,
+      39
+    ],
+    "rain": [
+      43,
+      44
+    ],
+    "jl": [
+      44,
+      46
+    ],
+    "device": [
+      46,
+      43
+    ],
+    "sunpayus": [
+      47,
+      49
+    ],
+    "jotta": [
+      49,
+      47
+    ],
+    "hunter-": [
+      54,
+      55
+    ],
+    "apex": [
+      55,
+      54
+    ],
+    "icy": [
+      60,
+      62
+    ],
+    "dgt": [
+      62,
+      60
+    ],
+    "zweih": [
+      66,
+      67
+    ],
+    "biguzera": [
+      67,
+      66
+    ]
+  }
+}
