@@ -1,0 +1,49 @@
+{
+  "models": [
+    "HTPM-4.4",
+    "HTPM-4.4.1"
+  ],
+  "snapshots": [
+    "d1ebc4b1e3c25d70",
+    "9a7ba5fd6d60709b"
+  ],
+  "cutoff": "2026-11-17",
+  "events": [
+    "BLAST Bounty 2026 Season 1 Finals",
+    "IEM Kraków 2026",
+    "PGL Cluj-Napoca 2026",
+    "ESL Pro League Season 23 Finals",
+    "BLAST Open Rotterdam 2026",
+    "PGL Bucharest 2026",
+    "IEM Rio 2026",
+    "BLAST Rivals 2026 Season 1",
+    "PGL Astana 2026",
+    "IEM Atlanta 2026",
+    "CS Asia Championships 2026",
+    "IEM Cologne Major 2026",
+    "XSE Pro League Guangzhou 2026",
+    "BLAST Bounty 2026 Season 2 Finals",
+    "Esports World Cup 2026",
+    "BLAST Open Porto 2026",
+    "FISSURE Playground 3",
+    "StarLadder StarSeries Fall 2026",
+    "ESL Pro League Season 24",
+    "Thunderpick World Championship 2026",
+    "PGL Masters Bucharest 2026",
+    "IEM Beijing 2026",
+    "BLAST Rivals 2026 Season 2"
+  ],
+  "input_hash": "cd462ffd7a5682fb7b99f0235a0ba4845e04772432c2146b5f8e021ee2c4b9d4",
+  "cohort_sha256": "771cd866ff7766db5bab44b83dce7070ff2591fc6a102562865f8098fec800e4",
+  "cohort": 177,
+  "scenarios": [
+    "restore_R",
+    "restore_event_multipliers",
+    "matched_only",
+    "previous_award_context",
+    "no_H"
+  ],
+  "top20_overlap": 20,
+  "spearman": 0.9997489655650006,
+  "revision_policy_sha256": "0c07166008b47efb15486309efa4e15aeec8dec02eb1bcad1a779c77bfa5728e"
+}

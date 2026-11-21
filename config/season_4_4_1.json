@@ -1,0 +1,25 @@
+{
+  "version": "HTPM-4.4.1",
+  "base_snapshot": "d1ebc4b1e3c25d70",
+  "big_event_resume_adjustments": {},
+  "partial_event_ratings": true,
+  "community_stage_scoring": false,
+  "first_evp_evidence": [
+    {
+      "event": "BLAST Rivals 2026 Season 1",
+      "player": "flamez",
+      "published_on": "2026-05-06",
+      "source": "https://www.hltv.org/news/44521/the-evps-and-all-stars-of-blast-rivals-2026-season-1",
+      "signal": "close",
+      "note": "HLTV 明确称 ZywOo 和 flameZ 在 Fort Worth 的 MVP 竞争接近。"
+    },
+    {
+      "event": "Thunderpick World Championship 2026",
+      "player": "magnojez",
+      "published_on": "2026-10-18",
+      "source": "https://www.hltv.org/news/45753/kscerato-crowned-thunderpick-world-championship-2026-mvp",
+      "signal": "clear",
+      "note": "Magnojez 形成竞争，颁奖文指出 KSCERATO 在决赛结束时仍是明确的 MVP 人选。"
+    }
+  ]
+}

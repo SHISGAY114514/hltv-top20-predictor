@@ -31,13 +31,14 @@ def regularized(cell, prior, prior_maps):
     return prior + cell["maps"]/(cell["maps"]+prior_maps)*(cell["index"]-prior)
 
 
-def mvp_quality(rows, config, overall):
+def mvp_quality(rows, config, overall, event_overall=None):
     playoff_rows = [r for r in rows if r[1] in ("playoff","final")]
     late = series_cell(playoff_rows, config)
     if len(playoff_rows)==len(rows):
         late["index"] = overall
     wins = shrunk([r[0] for r in rows if r[5]], overall, 5)
-    return .45*overall + .35*regularized(late,overall,4) + .20*wins
+    whole = overall if event_overall is None else event_overall
+    return .45*whole + .35*regularized(late,overall,4) + .20*wins
 
 
 def event_signals(inputs, config):
@@ -49,10 +50,15 @@ def event_signals(inputs, config):
             cell = series_cell(rows,config)
             index_value = cell["index"]
             rating = catalog[event].get("event_ratings",{}).get(pid)
+            partial = catalog[event].get("partial_ratings", {}).get(pid)
+            if partial:
+                rating = partial["rating"]
             if rating is not None:
                 measured = 50+(rating-config["rating_center"])/config["rating_index_slope"]
                 index_value = cell["box_index"]+config["measured_series_share"]*(measured-cell["box_index"])
-            quality = mvp_quality(rows,config,index_value)
+            # The longer event observation cannot replace a stage or map-win sample.
+            local = cell["index"] if partial else index_value
+            quality = mvp_quality(rows,config,local,index_value)
             quality_with_overall = .70*quality+.30*index_value
             signals[pid,event] = (index_value,quality,quality_with_overall)
             if len(rows)>=config["peak_min_maps"]:
@@ -76,7 +82,7 @@ def index(row):
             + .55*(float(row["adr"])-74) + .30*(float(row["kast"])-72))
 
 
-def season_inputs(year, detailed_rosters=False, stage_exceptions=None, preserve_unknown=False):
+def season_inputs(year, detailed_rosters=False, stage_exceptions=None, preserve_unknown=False, partial_event_ratings=False):
     catalog = {e["event"]: e for e in load("data/reference/season_stage_catalog.json")[str(year)]}
     formats=load("data/reference/event_formats_4_3.json")[str(year)] if detailed_rosters else {}
     if year == 2025:
@@ -143,6 +149,14 @@ def season_inputs(year, detailed_rosters=False, stage_exceptions=None, preserve_
                     catalog[event].setdefault("event_ratings",{})[p["id"]]=e["rating"]
                     if len({r[1] for r in rows})==1:
                         stats[p["id"]][event]=[(*r[:7],e["rating"]) for r in rows]
+                elif (partial_event_ratings and rows and len(rows) < e["maps"]
+                      and e["rating"] is not None and catalog[event]["start"] is None
+                      and formats[event]["qualifying"] == "not_scored"):
+                    require(p["retrieved_on"] <= cap_date, "Late event rating")
+                    catalog[event].setdefault("partial_ratings", {})[p["id"]] = {
+                        "rating": e["rating"], "maps": e["maps"], "source": p["event_source"],
+                        "as_of": p["retrieved_on"], "archived_maps": len(rows),
+                    }
     standings=load("data/reference/vrs_top10_monthly.json")
     for event,teams in rosters.items():
         stamp=max(k for k in standings if k<starts[event])
@@ -350,6 +364,9 @@ def features(inputs, base, config, year, near=True, venue=True, tier_override=No
                                mvp=awards[event]["mvp"],mvp_gap=gap,proximity_basis=basis,peak_multiplier=multiplier,
                                peak_factor=peak_factor,event_rating=full_rating,peak_class=peak_class,peak_quality=peak_quality,
                                field_peak_threshold=threshold,source=awards[event]["source"]))
+            partial = catalog[event].get("partial_ratings", {}).get(pid)
+            if partial:
+                events[-1]["whole_event_observation"] = partial
         if not events:
             continue
         n=len(all_maps)
@@ -371,7 +388,7 @@ def features(inputs, base, config, year, near=True, venue=True, tier_override=No
                 ("playoff",tier_playoffs[tier]),
                 ("final",[r for r in rows if r[1]=="final"]),
                 ("placement",[r for r in rows if r[1]=="placement"]))}
-            if config.get("version") == "HTPM-4.4":
+            if config.get("version") in ("HTPM-4.4", "HTPM-4.4.1"):
                 matrix[tier]["quarterfinal_outside_filter"] = series_cell([r for r in rows if r[1]=="quarterfinal"], config)
             group = regularized(matrix[tier]["group"],50.,params["prior_maps"])
             playoff = regularized(matrix[tier]["playoff"],50.,params["prior_maps"])
@@ -419,7 +436,7 @@ def features(inputs, base, config, year, near=True, venue=True, tier_override=No
                             event_credit=event_credit,resume_points=resume_points,good_events=good,details={key:detail(rows) for key,rows in
                             zip(("main","elite","top10","top5","playoff","elite_playoff","arena","studio","final","pressure_top10","won","big_playoff"),
                                 (all_maps,elite,opponents,top5,late,elite_late,arena,studio,final,late_strong,winning_maps,big_late))}))
-        if config.get("version") == "HTPM-4.4":
+        if config.get("version") in ("HTPM-4.4", "HTPM-4.4.1"):
             # Keep observed coverage independent of the counterfactual used for scoring.
             results[-1]["vrs_coverage"] = {
                 "top5": len(top5), "six_to_ten": len(next_five),
