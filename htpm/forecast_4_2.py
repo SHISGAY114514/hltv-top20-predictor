@@ -82,19 +82,34 @@ def additions(inputs, folder, audit, spec, config):
     return old,published,{"H":h_note,"R":r_note}
 
 
-def calculate(folder=None, today=None, model="4.2"):
+def calculate(folder=None, today=None, model="4.2", *, scenario=None):
     spec, config, weights = settings()
-    detailed=model=="4.3"
+    revision = model == "4.4"
+    detailed = model in ("4.3", "4.4")
+    require(scenario is None or revision and scenario in {
+        "legacy_stage", "nested_opponents", "unknown_6_10", "no_vp", "equal_tiers"
+    }, "Unknown model scenario")
     if detailed:
         policy_config=load("config/season_4_3.json")
         config.update(policy_config)
         weights=[policy_config["weights"][k] for k in config["feature_order"]]
         spec={**spec,"version":policy_config["version"],"detailed_rosters":True}
+    exceptions = None
+    if revision:
+        from .frozen_4_4 import configure
+        exceptions = configure(config, load("config/season_4_4.json"), scenario)
+        spec["version"] = config["version"]
     folder = Path(folder) if folder is not None else ROOT/DEFAULT_INPUT
     today = today or date.today()
-    inputs = season_inputs(2026,detailed_rosters=True) if detailed else season_inputs(2026)
+    if revision:
+        today = date.fromisoformat(config["cutoff"])
+        require(folder == ROOT/DEFAULT_INPUT and not any((folder/name).exists() for name in ("results.zip","vps.json")),
+                "4.4 requires the frozen pre-Singapore input")
+    inputs = season_inputs(2026, detailed_rosters=detailed, stage_exceptions=exceptions, preserve_unknown=revision)
     base = load("config/model.json")
     meta = read_json(folder/"event.json")
+    if revision:
+        require(meta["as_of"] is None, "4.4 requires the frozen pre-Singapore input")
     if meta["as_of"] is None and (folder/"results.zip").is_file() and not meta["awards"].get("mvp"):
         meta["as_of"] = spec["end"]
     if meta["as_of"] is None:
@@ -117,7 +132,7 @@ def calculate(folder=None, today=None, model="4.2"):
         config["event_policies"]=event_policy(inputs,2026,config)
         apply_stage_context(inputs,config["event_policies"])
         audit["event_weights"]=config["event_policies"]
-        audit["confirmed_vps"]=attach_vps(inputs,records,audit["cutoff"])
+        audit["confirmed_vps"]=attach_vps(inputs, [] if scenario == "no_vp" else records, audit["cutoff"])
     rows = features(inputs,base,config,2026)
     # Even with a fresh partial aggregate, alignment needs a usable shared distribution.
     alignment = None
@@ -130,10 +145,18 @@ def calculate(folder=None, today=None, model="4.2"):
     if not old:
         alignment = (0.,0.,1.)
     people,_ = predict(rows,weights,config,old,published,alignment,legacy=bool(old),article=bool(published))
-    baseline = load("output/forecast_4_1_1/scores.json")
+    # Only the displayed comparison rank uses the archived release.
+    baseline = (load(f"output/forecast_4_3/snapshot/{config['base_snapshot']}/scores.json")
+                if revision else load("output/forecast_4_1_1/scores.json"))
     previous = {p["id"]:p["rank"] for p in baseline["players"]}
     for p in people:
         p["snapshot_rank"] = previous.get(p["id"])
+    if revision:
+        audit["stage_exceptions"] = exceptions or []
+        audit["opponent_source"] = "Pre-map monthly global VRS top ten, three-player overlap"
+        audit["scenario"] = scenario
+        audit["input_hash"] = config["input_hash"]
+        audit["baseline_snapshot"] = config["base_snapshot"]
     majors = [k for k,e in inputs[0].items() if e["tier"] == "Major"]
     return {"version":spec["version"],**audit,"adjustments":adjustments,"weights":dict(zip(config["feature_order"],weights)),
             "scope":list(inputs[0]),"majors":majors,"major_share":config["tier_shares"]["Major"],"players":people}
@@ -195,7 +218,8 @@ def render(result):
         if group:
             lines.append(f"- 第 {start}–{start+len(group)-1} 名：" + "、".join(p["name"] for p in group))
     if "confirmed_vps" in result:
-        lines += ["",f"逐站核实的官方 VP 共 {result['confirmed_vps']} 人次。未点名的表现保留数据估计。名次变化以 4.2 的 11 月 17 日快照为基准。"]
+        reference_version = "4.3" if result["version"] == "HTPM-4.4" else "4.2"
+        lines += ["",f"逐站核实的官方 VP 共 {result['confirmed_vps']} 人次。未点名的表现保留数据估计。名次变化以 {reference_version} 的 11 月 17 日快照为基准。"]
     if "maps" in result:
         lines += ["",f"新加坡实收 {result['series']} 场系列赛、{result['maps']} 张地图、{result['participants']} 名选手。"]
     lines += [
@@ -222,6 +246,8 @@ def render(result):
                 lines.append(f"- {name}：无主赛出场记录。")
         lines += ["- 高于下一位：" + compare(p,people[i+1] if i+1<len(people) else None,1),
                   "- 低于上一位：" + compare(p,people[i-1] if i else None,-1),""]
+    if result["version"] == "HTPM-4.4" and lines[-1] == "":
+        lines.pop()
     return "\n".join(lines)+"\n"
 
 
@@ -243,6 +269,8 @@ def atomic_text(path, content):
 
 def publish(result, verify=False, dest=None):
     # Reports are immutable by content. Switch the reader entry point only after both files exist.
+    if result["version"] == "HTPM-4.4" and dest is None:
+        dest = ROOT/"output/forecast_4_4"
     dest=dest or (ROOT/"output/forecast_4_3" if result["version"]=="HTPM-4.3" else DEST)
     report = render(result)
     artifacts=[result,report]

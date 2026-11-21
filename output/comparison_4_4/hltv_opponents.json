@@ -1,0 +1,1355 @@
+{
+  "zywoo": {
+    "5": {
+      "rating": 1.26,
+      "maps": 57
+    },
+    "10": {
+      "rating": 1.32,
+      "maps": 106
+    },
+    "20": {
+      "rating": 1.36,
+      "maps": 147
+    },
+    "30": {
+      "rating": 1.36,
+      "maps": 159
+    },
+    "50": {
+      "rating": 1.36,
+      "maps": 176
+    }
+  },
+  "donk": {
+    "5": {
+      "rating": 1.27,
+      "maps": 54
+    },
+    "10": {
+      "rating": 1.29,
+      "maps": 84
+    },
+    "20": {
+      "rating": 1.32,
+      "maps": 132
+    },
+    "30": {
+      "rating": 1.35,
+      "maps": 145
+    },
+    "50": {
+      "rating": 1.36,
+      "maps": 156
+    }
+  },
+  "m0nesy": {
+    "5": {
+      "rating": 1.24,
+      "maps": 48
+    },
+    "10": {
+      "rating": 1.25,
+      "maps": 85
+    },
+    "20": {
+      "rating": 1.25,
+      "maps": 137
+    },
+    "30": {
+      "rating": 1.27,
+      "maps": 151
+    },
+    "50": {
+      "rating": 1.28,
+      "maps": 167
+    }
+  },
+  "ropz": {
+    "5": {
+      "rating": 1.17,
+      "maps": 57
+    },
+    "10": {
+      "rating": 1.15,
+      "maps": 106
+    },
+    "20": {
+      "rating": 1.14,
+      "maps": 147
+    },
+    "30": {
+      "rating": 1.13,
+      "maps": 159
+    },
+    "50": {
+      "rating": 1.14,
+      "maps": 176
+    }
+  },
+  "flamez": {
+    "5": {
+      "rating": 1.15,
+      "maps": 57
+    },
+    "10": {
+      "rating": 1.14,
+      "maps": 106
+    },
+    "20": {
+      "rating": 1.15,
+      "maps": 147
+    },
+    "30": {
+      "rating": 1.15,
+      "maps": 159
+    },
+    "50": {
+      "rating": 1.16,
+      "maps": 176
+    }
+  },
+  "kscerato": {
+    "5": {
+      "rating": 1.13,
+      "maps": 51
+    },
+    "10": {
+      "rating": 1.17,
+      "maps": 109
+    },
+    "20": {
+      "rating": 1.19,
+      "maps": 188
+    },
+    "30": {
+      "rating": 1.18,
+      "maps": 211
+    },
+    "50": {
+      "rating": 1.19,
+      "maps": 226
+    }
+  },
+  "sh1ro": {
+    "5": {
+      "rating": 1.14,
+      "maps": 54
+    },
+    "10": {
+      "rating": 1.15,
+      "maps": 84
+    },
+    "20": {
+      "rating": 1.14,
+      "maps": 132
+    },
+    "30": {
+      "rating": 1.16,
+      "maps": 145
+    },
+    "50": {
+      "rating": 1.16,
+      "maps": 156
+    }
+  },
+  "molodoy": {
+    "5": {
+      "rating": 1.02,
+      "maps": 51
+    },
+    "10": {
+      "rating": 1.1,
+      "maps": 109
+    },
+    "20": {
+      "rating": 1.14,
+      "maps": 188
+    },
+    "30": {
+      "rating": 1.15,
+      "maps": 211
+    },
+    "50": {
+      "rating": 1.15,
+      "maps": 226
+    }
+  },
+  "kyousuke": {
+    "5": {
+      "rating": 1.11,
+      "maps": 45
+    },
+    "10": {
+      "rating": 1.11,
+      "maps": 82
+    },
+    "20": {
+      "rating": 1.13,
+      "maps": 129
+    },
+    "30": {
+      "rating": 1.13,
+      "maps": 141
+    },
+    "50": {
+      "rating": 1.14,
+      "maps": 157
+    }
+  },
+  "w0nderful": {
+    "5": {
+      "rating": 1.08,
+      "maps": 52
+    },
+    "10": {
+      "rating": 1.13,
+      "maps": 101
+    },
+    "20": {
+      "rating": 1.15,
+      "maps": 153
+    },
+    "30": {
+      "rating": 1.15,
+      "maps": 161
+    },
+    "50": {
+      "rating": 1.16,
+      "maps": 175
+    }
+  },
+  "wicadia": {
+    "5": {
+      "rating": 1.06,
+      "maps": 50
+    },
+    "10": {
+      "rating": 1.02,
+      "maps": 85
+    },
+    "20": {
+      "rating": 1.08,
+      "maps": 133
+    },
+    "30": {
+      "rating": 1.09,
+      "maps": 154
+    },
+    "50": {
+      "rating": 1.1,
+      "maps": 191
+    }
+  },
+  "niko": {
+    "5": {
+      "rating": 1.03,
+      "maps": 48
+    },
+    "10": {
+      "rating": 1.08,
+      "maps": 85
+    },
+    "20": {
+      "rating": 1.1,
+      "maps": 137
+    },
+    "30": {
+      "rating": 1.11,
+      "maps": 151
+    },
+    "50": {
+      "rating": 1.12,
+      "maps": 167
+    }
+  },
+  "spinx": {
+    "5": {
+      "rating": 1.01,
+      "maps": 61
+    },
+    "10": {
+      "rating": 1.07,
+      "maps": 103
+    },
+    "20": {
+      "rating": 1.1,
+      "maps": 156
+    },
+    "30": {
+      "rating": 1.11,
+      "maps": 177
+    },
+    "50": {
+      "rating": 1.12,
+      "maps": 196
+    }
+  },
+  "latto": {
+    "5": {
+      "rating": 1.15,
+      "maps": 36
+    },
+    "10": {
+      "rating": 1.15,
+      "maps": 69
+    },
+    "20": {
+      "rating": 1.13,
+      "maps": 104
+    },
+    "30": {
+      "rating": 1.15,
+      "maps": 141
+    },
+    "50": {
+      "rating": 1.14,
+      "maps": 162
+    }
+  },
+  "yekindar": {
+    "5": {
+      "rating": 0.95,
+      "maps": 51
+    },
+    "10": {
+      "rating": 1.02,
+      "maps": 109
+    },
+    "20": {
+      "rating": 1.06,
+      "maps": 188
+    },
+    "30": {
+      "rating": 1.08,
+      "maps": 211
+    },
+    "50": {
+      "rating": 1.09,
+      "maps": 226
+    }
+  },
+  "xertion": {
+    "5": {
+      "rating": 1,
+      "maps": 61
+    },
+    "10": {
+      "rating": 1.07,
+      "maps": 103
+    },
+    "20": {
+      "rating": 1.1,
+      "maps": 156
+    },
+    "30": {
+      "rating": 1.11,
+      "maps": 177
+    },
+    "50": {
+      "rating": 1.12,
+      "maps": 196
+    }
+  },
+  "b1t": {
+    "5": {
+      "rating": 1.07,
+      "maps": 52
+    },
+    "10": {
+      "rating": 1.13,
+      "maps": 101
+    },
+    "20": {
+      "rating": 1.14,
+      "maps": 153
+    },
+    "30": {
+      "rating": 1.14,
+      "maps": 161
+    },
+    "50": {
+      "rating": 1.14,
+      "maps": 175
+    }
+  },
+  "makazze": {
+    "5": {
+      "rating": 0.99,
+      "maps": 52
+    },
+    "10": {
+      "rating": 1.08,
+      "maps": 101
+    },
+    "20": {
+      "rating": 1.1,
+      "maps": 153
+    },
+    "30": {
+      "rating": 1.11,
+      "maps": 161
+    },
+    "50": {
+      "rating": 1.11,
+      "maps": 175
+    }
+  },
+  "torzsi": {
+    "5": {
+      "rating": 1,
+      "maps": 61
+    },
+    "10": {
+      "rating": 1.04,
+      "maps": 103
+    },
+    "20": {
+      "rating": 1.05,
+      "maps": 156
+    },
+    "30": {
+      "rating": 1.07,
+      "maps": 177
+    },
+    "50": {
+      "rating": 1.07,
+      "maps": 196
+    }
+  },
+  "heavygod": {
+    "5": {
+      "rating": 1.08,
+      "maps": 42
+    },
+    "10": {
+      "rating": 1.1,
+      "maps": 82
+    },
+    "20": {
+      "rating": 1.13,
+      "maps": 141
+    },
+    "30": {
+      "rating": 1.13,
+      "maps": 172
+    },
+    "50": {
+      "rating": 1.11,
+      "maps": 188
+    }
+  },
+  "try": {
+    "5": {
+      "rating": 1.1,
+      "maps": 24
+    },
+    "10": {
+      "rating": 1.1,
+      "maps": 35
+    },
+    "20": {
+      "rating": 1.06,
+      "maps": 63
+    },
+    "30": {
+      "rating": 1.05,
+      "maps": 86
+    },
+    "50": {
+      "rating": 1.07,
+      "maps": 110
+    }
+  },
+  "tn1r": {
+    "5": {
+      "rating": 1.02,
+      "maps": 54
+    },
+    "10": {
+      "rating": 1.01,
+      "maps": 84
+    },
+    "20": {
+      "rating": 1.03,
+      "maps": 132
+    },
+    "30": {
+      "rating": 1.02,
+      "maps": 145
+    },
+    "50": {
+      "rating": 1.02,
+      "maps": 156
+    }
+  },
+  "dem0n": {
+    "5": {
+      "rating": 1.05,
+      "maps": 44
+    },
+    "10": {
+      "rating": 1.02,
+      "maps": 69
+    },
+    "20": {
+      "rating": 1.04,
+      "maps": 117
+    },
+    "30": {
+      "rating": 1.07,
+      "maps": 135
+    },
+    "50": {
+      "rating": 1.09,
+      "maps": 154
+    }
+  },
+  "pr": {
+    "5": {
+      "rating": 1.07,
+      "maps": 57
+    },
+    "10": {
+      "rating": 1.1,
+      "maps": 74
+    },
+    "20": {
+      "rating": 1.06,
+      "maps": 116
+    },
+    "30": {
+      "rating": 1.06,
+      "maps": 142
+    },
+    "50": {
+      "rating": 1.07,
+      "maps": 172
+    }
+  },
+  "yuurih": {
+    "5": {
+      "rating": 0.95,
+      "maps": 51
+    },
+    "10": {
+      "rating": 0.97,
+      "maps": 109
+    },
+    "20": {
+      "rating": 0.99,
+      "maps": 188
+    },
+    "30": {
+      "rating": 0.98,
+      "maps": 211
+    },
+    "50": {
+      "rating": 0.99,
+      "maps": 226
+    }
+  },
+  "xelex": {
+    "5": {
+      "rating": 1.04,
+      "maps": 53
+    },
+    "10": {
+      "rating": 1.04,
+      "maps": 69
+    },
+    "20": {
+      "rating": 1.06,
+      "maps": 106
+    },
+    "30": {
+      "rating": 1.05,
+      "maps": 123
+    },
+    "50": {
+      "rating": 1.08,
+      "maps": 159
+    }
+  },
+  "910": {
+    "5": {
+      "rating": 1,
+      "maps": 43
+    },
+    "10": {
+      "rating": 1.02,
+      "maps": 74
+    },
+    "20": {
+      "rating": 1.1,
+      "maps": 112
+    },
+    "30": {
+      "rating": 1.12,
+      "maps": 135
+    },
+    "50": {
+      "rating": 1.14,
+      "maps": 147
+    }
+  },
+  "luchov": {
+    "5": {
+      "rating": 0.98,
+      "maps": 35
+    },
+    "10": {
+      "rating": 1.03,
+      "maps": 60
+    },
+    "20": {
+      "rating": 1.04,
+      "maps": 88
+    },
+    "30": {
+      "rating": 1.06,
+      "maps": 110
+    },
+    "50": {
+      "rating": 1.08,
+      "maps": 165
+    }
+  },
+  "xfl0ud": {
+    "5": {
+      "rating": 1.13,
+      "maps": 38
+    },
+    "10": {
+      "rating": 1.13,
+      "maps": 47
+    },
+    "20": {
+      "rating": 1.1,
+      "maps": 62
+    },
+    "30": {
+      "rating": 1.08,
+      "maps": 96
+    },
+    "50": {
+      "rating": 1.08,
+      "maps": 119
+    }
+  },
+  "dgt": {
+    "5": {
+      "rating": 0.99,
+      "maps": 35
+    },
+    "10": {
+      "rating": 1,
+      "maps": 60
+    },
+    "20": {
+      "rating": 1,
+      "maps": 88
+    },
+    "30": {
+      "rating": 1.01,
+      "maps": 110
+    },
+    "50": {
+      "rating": 1.06,
+      "maps": 165
+    }
+  },
+  "xantares": null,
+  "dziugss": {
+    "5": {
+      "rating": 1.04,
+      "maps": 44
+    },
+    "10": {
+      "rating": 1.04,
+      "maps": 69
+    },
+    "20": {
+      "rating": 1.06,
+      "maps": 117
+    },
+    "30": {
+      "rating": 1.08,
+      "maps": 135
+    },
+    "50": {
+      "rating": 1.1,
+      "maps": 154
+    }
+  },
+  "dumau": {
+    "5": {
+      "rating": 1.05,
+      "maps": 36
+    },
+    "10": {
+      "rating": 1.09,
+      "maps": 69
+    },
+    "20": {
+      "rating": 1.09,
+      "maps": 104
+    },
+    "30": {
+      "rating": 1.1,
+      "maps": 141
+    },
+    "50": {
+      "rating": 1.1,
+      "maps": 162
+    }
+  },
+  "phzy": {
+    "5": {
+      "rating": 0.87,
+      "maps": 11
+    },
+    "10": {
+      "rating": 1.03,
+      "maps": 39
+    },
+    "20": {
+      "rating": 1.06,
+      "maps": 95
+    },
+    "30": {
+      "rating": 1.07,
+      "maps": 127
+    },
+    "50": {
+      "rating": 1.07,
+      "maps": 171
+    }
+  },
+  "magnojez": {
+    "5": {
+      "rating": 1.1,
+      "maps": 38
+    },
+    "10": {
+      "rating": 1.1,
+      "maps": 58
+    },
+    "20": {
+      "rating": 1.13,
+      "maps": 99
+    },
+    "30": {
+      "rating": 1.17,
+      "maps": 127
+    },
+    "50": {
+      "rating": 1.16,
+      "maps": 166
+    }
+  },
+  "jimpphat": {
+    "5": {
+      "rating": 0.97,
+      "maps": 35
+    },
+    "10": {
+      "rating": 1.01,
+      "maps": 72
+    },
+    "20": {
+      "rating": 1.06,
+      "maps": 104
+    },
+    "30": {
+      "rating": 1.05,
+      "maps": 118
+    },
+    "50": {
+      "rating": 1.09,
+      "maps": 141
+    }
+  },
+  "woxic": null,
+  "insani": {
+    "5": {
+      "rating": 0.93,
+      "maps": 6
+    },
+    "10": {
+      "rating": 1.13,
+      "maps": 18
+    },
+    "20": {
+      "rating": 1.18,
+      "maps": 62
+    },
+    "30": {
+      "rating": 1.19,
+      "maps": 76
+    },
+    "50": {
+      "rating": 1.21,
+      "maps": 118
+    }
+  },
+  "rez": {
+    "5": {
+      "rating": 1.04,
+      "maps": 21
+    },
+    "10": {
+      "rating": 1.08,
+      "maps": 28
+    },
+    "20": {
+      "rating": 1.09,
+      "maps": 54
+    },
+    "30": {
+      "rating": 1.11,
+      "maps": 79
+    },
+    "50": {
+      "rating": 1.13,
+      "maps": 127
+    }
+  },
+  "huasopeek": {
+    "5": {
+      "rating": 0.95,
+      "maps": 35
+    },
+    "10": {
+      "rating": 1.02,
+      "maps": 60
+    },
+    "20": {
+      "rating": 1.07,
+      "maps": 88
+    },
+    "30": {
+      "rating": 1.09,
+      "maps": 110
+    },
+    "50": {
+      "rating": 1.1,
+      "maps": 165
+    }
+  },
+  "im": null,
+  "staehr": {
+    "5": {
+      "rating": 1.17,
+      "maps": 11
+    },
+    "10": {
+      "rating": 1.13,
+      "maps": 39
+    },
+    "20": {
+      "rating": 1.15,
+      "maps": 95
+    },
+    "30": {
+      "rating": 1.16,
+      "maps": 127
+    },
+    "50": {
+      "rating": 1.18,
+      "maps": 171
+    }
+  },
+  "tenzy": {
+    "5": {
+      "rating": 0.76,
+      "maps": 4
+    },
+    "10": {
+      "rating": 0.99,
+      "maps": 12
+    },
+    "20": {
+      "rating": 1,
+      "maps": 51
+    },
+    "30": {
+      "rating": 1.04,
+      "maps": 73
+    },
+    "50": {
+      "rating": 1.09,
+      "maps": 131
+    }
+  },
+  "jame": null,
+  "zweih": {
+    "5": {
+      "rating": 0.92,
+      "maps": 42
+    },
+    "10": {
+      "rating": 0.98,
+      "maps": 80
+    },
+    "20": {
+      "rating": 0.99,
+      "maps": 127
+    },
+    "30": {
+      "rating": 1.02,
+      "maps": 151
+    },
+    "50": {
+      "rating": 1.05,
+      "maps": 175
+    }
+  },
+  "nertz": {
+    "5": {
+      "rating": 0.94,
+      "maps": 39
+    },
+    "10": {
+      "rating": 0.96,
+      "maps": 65
+    },
+    "20": {
+      "rating": 1.03,
+      "maps": 113
+    },
+    "30": {
+      "rating": 1.07,
+      "maps": 147
+    },
+    "50": {
+      "rating": 1.06,
+      "maps": 161
+    }
+  },
+  "zorte": {
+    "5": {
+      "rating": 0.99,
+      "maps": 38
+    },
+    "10": {
+      "rating": 1,
+      "maps": 58
+    },
+    "20": {
+      "rating": 1,
+      "maps": 97
+    },
+    "30": {
+      "rating": 1.01,
+      "maps": 119
+    },
+    "50": {
+      "rating": 1.03,
+      "maps": 138
+    }
+  },
+  "xkacpersky": null,
+  "sunpayus": null,
+  "frozen": {
+    "5": {
+      "rating": 1.07,
+      "maps": 22
+    },
+    "10": {
+      "rating": 1.08,
+      "maps": 35
+    },
+    "20": {
+      "rating": 1.07,
+      "maps": 63
+    },
+    "30": {
+      "rating": 1.14,
+      "maps": 102
+    },
+    "50": {
+      "rating": 1.14,
+      "maps": 143
+    }
+  },
+  "jabbi": {
+    "5": {
+      "rating": 1.16,
+      "maps": 11
+    },
+    "10": {
+      "rating": 1.15,
+      "maps": 39
+    },
+    "20": {
+      "rating": 1.07,
+      "maps": 92
+    },
+    "30": {
+      "rating": 1.06,
+      "maps": 124
+    },
+    "50": {
+      "rating": 1.09,
+      "maps": 163
+    }
+  },
+  "blamef": null,
+  "krabeni": null,
+  "npl": null,
+  "mezii": null,
+  "launx": {
+    "5": {
+      "rating": 1.02,
+      "maps": 18
+    },
+    "10": {
+      "rating": 1.08,
+      "maps": 39
+    },
+    "20": {
+      "rating": 1.07,
+      "maps": 87
+    },
+    "30": {
+      "rating": 1.07,
+      "maps": 97
+    },
+    "50": {
+      "rating": 1.08,
+      "maps": 104
+    }
+  },
+  "nqz": {
+    "5": {
+      "rating": 0.97,
+      "maps": 9
+    },
+    "10": {
+      "rating": 1.05,
+      "maps": 25
+    },
+    "20": {
+      "rating": 1.09,
+      "maps": 62
+    },
+    "30": {
+      "rating": 1.07,
+      "maps": 84
+    },
+    "50": {
+      "rating": 1.1,
+      "maps": 100
+    }
+  },
+  "s1mple": null,
+  "zont1x": null,
+  "cmtry": {
+    "5": {
+      "rating": 0.94,
+      "maps": 35
+    },
+    "10": {
+      "rating": 0.98,
+      "maps": 60
+    },
+    "20": {
+      "rating": 0.98,
+      "maps": 111
+    },
+    "30": {
+      "rating": 0.99,
+      "maps": 125
+    },
+    "50": {
+      "rating": 0.98,
+      "maps": 147
+    }
+  },
+  "matys": null,
+  "afro": null,
+  "elige": null,
+  "kl1m": null,
+  "syph0": {
+    "5": {
+      "rating": 0.96,
+      "maps": 9
+    },
+    "10": {
+      "rating": 1,
+      "maps": 18
+    },
+    "20": {
+      "rating": 1.09,
+      "maps": 29
+    },
+    "30": {
+      "rating": 1.15,
+      "maps": 46
+    },
+    "50": {
+      "rating": 1.14,
+      "maps": 98
+    }
+  },
+  "twistzz": null,
+  "hypex": {
+    "5": {
+      "rating": 0.96,
+      "maps": 21
+    },
+    "10": {
+      "rating": 1,
+      "maps": 28
+    },
+    "20": {
+      "rating": 1.02,
+      "maps": 55
+    },
+    "30": {
+      "rating": 1.02,
+      "maps": 82
+    },
+    "50": {
+      "rating": 1.02,
+      "maps": 131
+    }
+  },
+  "tauson": {
+    "5": {
+      "rating": 0.94,
+      "maps": 21
+    },
+    "10": {
+      "rating": 0.96,
+      "maps": 28
+    },
+    "20": {
+      "rating": 0.99,
+      "maps": 55
+    },
+    "30": {
+      "rating": 1.03,
+      "maps": 82
+    },
+    "50": {
+      "rating": 1.04,
+      "maps": 128
+    }
+  },
+  "r1nkle": null,
+  "ryu": null,
+  "s1ren": null,
+  "jboen": null,
+  "fl4mus": null,
+  "mzinho": null,
+  "starry": null,
+  "s1zzi": null,
+  "apex": null,
+  "teses": null,
+  "techno": {
+    "5": {
+      "rating": 0.98,
+      "maps": 43
+    },
+    "10": {
+      "rating": 0.99,
+      "maps": 74
+    },
+    "20": {
+      "rating": 0.97,
+      "maps": 112
+    },
+    "30": {
+      "rating": 0.96,
+      "maps": 132
+    },
+    "50": {
+      "rating": 0.96,
+      "maps": 144
+    }
+  },
+  "xielo": null,
+  "jw": null,
+  "graviti": null,
+  "maxster": null,
+  "mo0n": null,
+  "nilo": null,
+  "d1ledez": null,
+  "belchonokk": null,
+  "c4llm3su3": null,
+  "br0": null,
+  "bobeksde": null,
+  "malbsmd": null,
+  "esenthial": {
+    "5": {
+      "rating": 0.9,
+      "maps": 17
+    },
+    "10": {
+      "rating": 0.93,
+      "maps": 47
+    },
+    "20": {
+      "rating": 0.97,
+      "maps": 80
+    },
+    "30": {
+      "rating": 0.97,
+      "maps": 116
+    },
+    "50": {
+      "rating": 1,
+      "maps": 154
+    }
+  },
+  "nota": {
+    "5": {
+      "rating": 0.95,
+      "maps": 28
+    },
+    "10": {
+      "rating": 0.93,
+      "maps": 49
+    },
+    "20": {
+      "rating": 0.95,
+      "maps": 79
+    },
+    "30": {
+      "rating": 0.94,
+      "maps": 94
+    },
+    "50": {
+      "rating": 0.97,
+      "maps": 119
+    }
+  },
+  "naf": null,
+  "fl1t": null,
+  "z4kr": null,
+  "martinezsa": null,
+  "ultimate": null,
+  "chr1zn": null,
+  "grim": null,
+  "lake": null,
+  "saffee": null,
+  "ro1f": null,
+  "magixx": null,
+  "lucky": null,
+  "brollan": null,
+  "sjuush": null,
+  "hunter-": null,
+  "n1ssim": {
+    "5": {
+      "rating": 0.89,
+      "maps": 34
+    },
+    "10": {
+      "rating": 0.95,
+      "maps": 65
+    },
+    "20": {
+      "rating": 0.96,
+      "maps": 97
+    },
+    "30": {
+      "rating": 0.99,
+      "maps": 131
+    },
+    "50": {
+      "rating": 0.99,
+      "maps": 152
+    }
+  },
+  "emiliaqaq": null,
+  "soulfly": null,
+  "swisher": null,
+  "masval": null,
+  "meyern": null,
+  "s1n": null,
+  "jamyoung": {
+    "5": {
+      "rating": 0.94,
+      "maps": 13
+    },
+    "10": {
+      "rating": 0.93,
+      "maps": 18
+    },
+    "20": {
+      "rating": 1.04,
+      "maps": 51
+    },
+    "30": {
+      "rating": 1.04,
+      "maps": 60
+    },
+    "50": {
+      "rating": 1.1,
+      "maps": 75
+    }
+  },
+  "piriaz1n": null,
+  "aw": null,
+  "cobrazera": null,
+  "jorko": null,
+  "tabsen": null,
+  "dex": null,
+  "gr1ks": null,
+  "osee": null,
+  "stavn": null,
+  "maka": null,
+  "misutaaa": null,
+  "blitz": null,
+  "slaxz-": null,
+  "biguzera": null,
+  "snowzin": null,
+  "sonic": null,
+  "kensizor": null,
+  "jl": null,
+  "brnz4n": null,
+  "zero": null,
+  "jdc": null,
+  "neityu": null,
+  "venomzera": null,
+  "susp": null,
+  "broky": null,
+  "jcobbb": null,
+  "slax": null,
+  "saadzin": null,
+  "faven": null,
+  "vsm": null,
+  "jba": null,
+  "electronic": null,
+  "nin9": null,
+  "rainwaker": null,
+  "krazy": null,
+  "sfade8": null,
+  "alex666": null,
+  "jee": null,
+  "lnz": null,
+  "azuwu": null,
+  "maj3r": null,
+  "boombl4": null,
+  "gizmy": null,
+  "jt": null,
+  "siuhy": null,
+  "bymas": null,
+  "hobbit": null,
+  "westmelon": null,
+  "moseyuh": null,
+  "snappi": null,
+  "ex3rcice": null,
+  "snax": null,
+  "mercury": null,
+  "kyxsan": null,
+  "fallen": null,
+  "nitr0": null,
+  "hooxi": null,
+  "art": null,
+  "aleksib": null,
+  "max": null,
+  "karrigan": null
+}

@@ -4,6 +4,7 @@ HTPM 用公开比赛统计估计 Counter-Strike 选手的年度排名。**当前
 
 | 版本 | 如何评分 | 参数与规则 | 预测结果 |
 |---|---|---|---|
+| **4.4（11 月 17 日固定快照）** | 三场比赛的季后赛口径与互斥 VRS 对手档 | [模型、证据与离线复算](docs/MODEL_4_4.md) | [全榜](output/forecast_4_4/latest.md) · [与 4.3 的分析](output/comparison_4_4/分析.md) · [177 人逐项对照](output/comparison_4_4/comparison.csv) |
 | **4.3** | 个人荣誉、逐站赛事权重、去除团队分的年度校正 | [参数](config/season_4_3.json) · [模型、证据与赛后操作](docs/MODEL_4_3.md) | [当前榜单与逐站赛事权重](output/forecast_4_3/latest.md) · [2025 回放](output/forecast_4_3/replay_2025.json) |
 | **4.2** | 两届 Major 共用年度分档份额，按实际出场、阶段表现和荣誉重算全榜 | [参数](config/season_4_2.json) · [赛后出榜与补录说明](docs/MODEL_4_2.md) | [当前榜单](output/forecast_4_2/latest.md) · [2025 双 Major 回放](output/forecast_4_2/replay_2025.json) |
 | **3.5** | 综合赛事荣誉、分档整站 Rating、对强队表现、团队成绩、稳定性和样本质量 | [参数](config/model.json) · [模型说明](docs/MODEL_AGGREGATE.md) · [高清图](output/model_cards/HTPM-3.5.png) | [逐人理由](output/current/evaluation.md) · [完整得分](output/current/scores.json) · [Major 条件情景](output/scenarios/major_projection.md) |

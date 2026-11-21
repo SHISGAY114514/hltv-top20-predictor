@@ -76,7 +76,7 @@ def index(row):
             + .55*(float(row["adr"])-74) + .30*(float(row["kast"])-72))
 
 
-def season_inputs(year, detailed_rosters=False):
+def season_inputs(year, detailed_rosters=False, stage_exceptions=None, preserve_unknown=False):
     catalog = {e["event"]: e for e in load("data/reference/season_stage_catalog.json")[str(year)]}
     formats=load("data/reference/event_formats_4_3.json")[str(year)] if detailed_rosters else {}
     if year == 2025:
@@ -101,6 +101,9 @@ def season_inputs(year, detailed_rosters=False):
     lineup_rows=defaultdict(list)
     series = {(r["event"],r["match"]):r for r in load(f"data/{year}/series_ratings.json")["series"]}
     cap_date = str(year)+"-12-31" if year == 2025 else load("config/season_model.json")["cutoff"]
+    exceptions = {(e["event"], e["match"]): e for e in stage_exceptions or ()}
+    require(len(exceptions) == len(stage_exceptions or ()), "Duplicate stage exception")
+    observed = defaultdict(set)
     with gzip.open(ROOT/"data"/str(year)/"stage_maps.csv.gz","rt",encoding="utf8") as stream:
         for r in csv.DictReader(stream):
             require(r["date"][:4] == str(year) and r["date"] <= cap_date and r["event"] in catalog,
@@ -117,8 +120,20 @@ def season_inputs(year, detailed_rosters=False):
             measured = series.get((r["event"],r["match"]))
             if measured:
                 require(measured["stage"] == r["stage"] and pid in measured["ratings"], "Series mismatch")
-            stats[pid][r["event"]].append((index(r), r["stage"], r["venue"], int(r["opponent_rank"] or 99), r["team"], int(r["win"]),
+            stage = r["stage"]
+            key = r["event"], r["match"]
+            if key in exceptions:
+                rule = exceptions[key]
+                require(stage == rule["raw_stage"] and r["map"] in rule["maps"]
+                        and rule["official_playoff"] is False
+                        and rule["phase"] in ("placement", "quarterfinal"), "Stage exception mismatch")
+                stage = rule["phase"]
+                observed[key].add(r["map"])
+            rank = int(r["opponent_rank"]) if r["opponent_rank"] else (None if preserve_unknown else 99)
+            stats[pid][r["event"]].append((index(r), stage, r["venue"], rank, r["team"], int(r["win"]),
                                           measured["ratings"][pid] if measured else None, None))
+    for key, rule in exceptions.items():
+        require(observed[key] == set(rule["maps"]), "Missing maps for stage exception " + str(key))
     if year == 2026:
         for p in load("data/2026/aggregate_snapshot.json")["players"]:
             for e in p["events"]:
@@ -221,6 +236,8 @@ def features(inputs, base, config, year, near=True, venue=True, tier_override=No
         awarded_events = {award["event"] for award in ledgers}
         tier_values=defaultdict(list)
         opponents,top5,elite,late,elite_late,arena,studio,final,all_maps=[],[],[],[],[],[],[],[],[]
+        next_five, unknown_ranks = [], []
+        known_outside = 0
         events=[]
         stage_values=defaultdict(list)
         tier_rows = defaultdict(list)
@@ -261,14 +278,25 @@ def features(inputs, base, config, year, near=True, venue=True, tier_override=No
             all_maps.extend(values)
             for value,stage,place,rank,team,won,_,_whole in rows:
                 if won: winning_maps.append(value)
-                if rank<=10: opponents.append(value)
-                if rank<=5: top5.append(value)
+                if rank is None:
+                    unknown_ranks.append(value)
+                    if config.get("assume_unknown_6_10"):
+                        opponents.append(value)
+                        rank = 10
+                elif rank <= 10:
+                    opponents.append(value)
+                    if rank <= 5:
+                        top5.append(value)
+                    else:
+                        next_five.append(value)
+                else:
+                    known_outside += 1
                 if tier in HIGH: elite.append(value)
                 if stage in ("playoff","final"):
                     late.append(value)
                     if tier in HIGH: elite_late.append(value)
                     if tier!="Medium": big_late.append(value)
-                    if rank<=10: late_strong.append(value)
+                    if rank is not None and rank<=10: late_strong.append(value)
                 if place=="arena": arena.append(value)
                 if place=="studio": studio.append(value)
                 if stage=="final": final.append(value)
@@ -343,6 +371,8 @@ def features(inputs, base, config, year, near=True, venue=True, tier_override=No
                 ("playoff",tier_playoffs[tier]),
                 ("final",[r for r in rows if r[1]=="final"]),
                 ("placement",[r for r in rows if r[1]=="placement"]))}
+            if config.get("version") == "HTPM-4.4":
+                matrix[tier]["quarterfinal_outside_filter"] = series_cell([r for r in rows if r[1]=="quarterfinal"], config)
             group = regularized(matrix[tier]["group"],50.,params["prior_maps"])
             playoff = regularized(matrix[tier]["playoff"],50.,params["prior_maps"])
             if policies:
@@ -351,7 +381,13 @@ def features(inputs, base, config, year, near=True, venue=True, tier_override=No
                     return 50+sum(n*delta for n,delta in cells)/(params["prior_maps"]+sum(n for n,_ in cells))
                 group,playoff=weighted_phase("group"),weighted_phase("playoff")
             stage_score += tier_share*(config["group_share"]*group+(1-config["group_share"])*playoff)
-        o_score=.55*shrunk(top5,50,30)+.45*shrunk(opponents,50,25)
+        bands = config.get("opponent_bands")
+        if bands:
+            six_to_ten = next_five + unknown_ranks if config.get("assume_unknown_6_10") else next_five
+            o_score = sum(bands[key]["share"] * shrunk(values, 50, bands[key]["prior_maps"])
+                          for key, values in (("1-5", top5), ("6-10", six_to_ten)))
+        else:
+            o_score=.55*shrunk(top5,50,30)+.45*shrunk(opponents,50,25)
         phase=.80*shrunk(big_late,shrunk(all_maps,50,45),18)+.20*shrunk(late,average,18)
         # Overlapping groups share a fixed budget. Missing slices contribute zero residual.
         pressure=phase+config["elite_playoff_residual"]*(shrunk(elite_late,phase,15)-phase)+.15*(shrunk(final,phase,12)-phase)
@@ -383,4 +419,13 @@ def features(inputs, base, config, year, near=True, venue=True, tier_override=No
                             event_credit=event_credit,resume_points=resume_points,good_events=good,details={key:detail(rows) for key,rows in
                             zip(("main","elite","top10","top5","playoff","elite_playoff","arena","studio","final","pressure_top10","won","big_playoff"),
                                 (all_maps,elite,opponents,top5,late,elite_late,arena,studio,final,late_strong,winning_maps,big_late))}))
+        if config.get("version") == "HTPM-4.4":
+            # Keep observed coverage independent of the counterfactual used for scoring.
+            results[-1]["vrs_coverage"] = {
+                "top5": len(top5), "six_to_ten": len(next_five),
+                "known_outside": known_outside, "unmatched": len(unknown_ranks), "total": n,
+                "resolved_fraction": (n-len(unknown_ranks))/n,
+            }
+            results[-1]["details"]["vrs_6_10"] = detail(next_five)
+            results[-1]["details"]["vrs_unmatched"] = detail(unknown_ranks)
     return results

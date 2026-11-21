@@ -1,0 +1,65 @@
+{
+  "version": "HTPM-4.4",
+  "cutoff": "2026-11-17",
+  "base_snapshot": "e06ce6dc913e2ffb",
+  "base_cohort_hash": "771cd866ff7766db5bab44b83dce7070ff2591fc6a102562865f8098fec800e4",
+  "input_hash": "cd462ffd7a5682fb7b99f0235a0ba4845e04772432c2146b5f8e021ee2c4b9d4",
+  "opponent_bands": {
+    "1-5": {
+      "share": 0.55,
+      "prior_maps": 30
+    },
+    "6-10": {
+      "share": 0.45,
+      "prior_maps": 25
+    }
+  },
+  "stage_exceptions": [
+    {
+      "event": "IEM Kraków 2026",
+      "match": "6258176",
+      "hltv_match": 2389665,
+      "maps": [
+        "125292",
+        "125294"
+      ],
+      "raw_stage": "playoff",
+      "phase": "placement",
+      "bracket_round": "third_place",
+      "scope": "HLTV excludes the third-place decider from playoff comparisons in its Krakow EVP article.",
+      "official_playoff": false,
+      "source": "https://www.hltv.org/news/43853/the-evps-and-all-stars-of-iem-krakow-2026"
+    },
+    {
+      "event": "BLAST Rivals 2026 Season 2",
+      "match": "7313139",
+      "hltv_match": 2400204,
+      "scope": "Hong Kong EVP article's playoff filter excludes quarter-finals at this eight-team event.",
+      "maps": [
+        "156054",
+        "156055"
+      ],
+      "raw_stage": "playoff",
+      "phase": "quarterfinal",
+      "bracket_round": "quarterfinal",
+      "official_playoff": false,
+      "source": "https://www.hltv.org/news/45998/the-evps-and-all-stars-of-blast-rivals-2026-season-2"
+    },
+    {
+      "event": "BLAST Rivals 2026 Season 2",
+      "match": "7313138",
+      "hltv_match": 2400205,
+      "scope": "Hong Kong EVP article's playoff filter excludes quarter-finals at this eight-team event.",
+      "maps": [
+        "156056",
+        "156057",
+        "156058"
+      ],
+      "raw_stage": "playoff",
+      "phase": "quarterfinal",
+      "bracket_round": "quarterfinal",
+      "official_playoff": false,
+      "source": "https://www.hltv.org/news/45998/the-evps-and-all-stars-of-blast-rivals-2026-season-2"
+    }
+  ]
+}
