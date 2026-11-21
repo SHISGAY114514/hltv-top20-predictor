@@ -7,6 +7,7 @@ from statistics import mean
 
 from .core import HIGH, require
 from .event_policy import quality_factor
+from .frozen_4_4 import BASELINE
 from .pipeline import ROOT, load
 
 
@@ -423,7 +424,7 @@ def features(inputs, base, config, year, near=True, venue=True, tier_override=No
                 ("playoff",tier_playoffs[tier]),
                 ("final",[r for r in rows if r[1]=="final"]),
                 ("placement",[r for r in rows if r[1]=="placement"]))}
-            if config.get("version") in ("HTPM-4.4", "HTPM-4.4.1", "HTPM-4.4.2"):
+            if config.get("version", "").removeprefix("HTPM-") in BASELINE:
                 matrix[tier]["quarterfinal_outside_filter"] = series_cell([r for r in rows if r[1]=="quarterfinal"], config)
             group = regularized(matrix[tier]["group"],50.,params["prior_maps"])
             playoff = regularized(matrix[tier]["playoff"],50.,params["prior_maps"])
@@ -466,7 +467,7 @@ def features(inputs, base, config, year, near=True, venue=True, tier_override=No
                             event_credit=event_credit,resume_points=resume_points,good_events=good,details={key:detail(rows) for key,rows in
                             zip(("main","elite","top10","top5","playoff","elite_playoff","arena","studio","final","pressure_top10","won","big_playoff"),
                                 (all_maps,elite,opponents,top5,late,elite_late,arena,studio,final,late_strong,winning_maps,big_late))}))
-        if config.get("version") in ("HTPM-4.4", "HTPM-4.4.1", "HTPM-4.4.2"):
+        if config.get("version", "").removeprefix("HTPM-") in BASELINE:
             # Keep observed coverage independent of the counterfactual used for scoring.
             results[-1]["vrs_coverage"] = {
                 "top5": len(top5), "six_to_ten": len(next_five),

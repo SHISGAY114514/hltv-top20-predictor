@@ -4,6 +4,8 @@ import hashlib
 from .core import fingerprint, require
 from .pipeline import ROOT
 
+BASELINE = {"4.4": "4.3", "4.4.1": "4.4", "4.4.2": "4.4.1", "4.4.3": "4.4.2"}
+
 INPUTS = (
     "config/model.json", "config/watchlist.json", "config/season_model.json",
     "config/season_4_2.json", "config/season_4_3.json", "data/2026/singapore/event.json",

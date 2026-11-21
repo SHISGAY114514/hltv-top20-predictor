@@ -1,4 +1,5 @@
-"""Render the verified 4.4.2 snapshot to a single Chinese ranking poster (Windows / Pillow)."""
+"""Render a verified 4.4 snapshot to a single Chinese ranking poster (Windows / Pillow)."""
+import argparse
 import json
 import os
 from functools import lru_cache
@@ -7,9 +8,8 @@ from pathlib import Path
 from PIL import Image, ImageDraw, ImageFont
 
 ROOT = Path(__file__).resolve().parents[1]
-SNAPSHOT = "463b1b66c3749110"
-SOURCE = ROOT / "output/forecast_4_4_2/snapshot" / SNAPSHOT / "scores.json"
-OUTPUT = ROOT / "output/model_cards/HTPM-4.4.2-ranking.png"
+SNAPSHOTS = {"4.4.2": "463b1b66c3749110", "4.4.3": "36985ce4e8239e62"}
+
 
 # These short captions describe the named player's results in this specific frozen snapshot.
 CAPTIONS = {
@@ -57,10 +57,13 @@ def font(face, size):
     return ImageFont.truetype(str(Path(os.environ["WINDIR"]) / "Fonts" / face), size)
 
 
-def render():
-    data = json.loads(SOURCE.read_text(encoding="utf-8"))
+def render(version="4.4.2"):
+    folder = ROOT / "output" / ("forecast_" + version.replace(".", "_"))
+    source = folder / "snapshot" / SNAPSHOTS[version] / "scores.json"
+    output = ROOT / "output/model_cards" / f"HTPM-{version}-ranking.png"
+    data = json.loads(source.read_text(encoding="utf-8"))
     players = [p for p in data["players"] if p["eligible"]]
-    assert data["version"] == "HTPM-4.4.2" and data["cutoff"] == "2026-11-17"
+    assert data["version"] == f"HTPM-{version}" and data["cutoff"] == "2026-11-17"
     assert len(data["scope"]) == 23 and [p["rank"] for p in players] == list(range(1, 178))
     assert set(CAPTIONS) == {p["name"] for p in players[:30]}
     row_height, short_height, header_height, band_height, footer = 129, 52, 270, 68, 67
@@ -87,7 +90,7 @@ def render():
 
     draw.rectangle((0, 0, WIDTH-1, header_height-1), fill="#e7eee7")
     draw.rectangle((38, 37, 46, 63), fill=TEAL)
-    label(62, 38, "HTPM   /   4.4.2", latin, 30, TEAL)
+    label(62, 38, f"HTPM   /   {version}", latin, 30, TEAL)
     label(1042, 41, "截至 2026.11.17", bold, 24, INK, right=True)
     label(34, 89, "2026 年度选手预测榜", bold, 65, NAVY)
     label(39, 188, "Counter-Strike 2", latin, 26, INK)
@@ -134,11 +137,13 @@ def render():
     draw.line((540, start, 540, y-1), fill="#cedad3", width=2)
     assert drawn == list(range(1, 178)) and y + footer == height
     draw.rectangle((0, y, WIDTH-1, height-1), fill=NAVY)
-    label(37, y+21, "HTPM 4.4.2   /   独立模型预测", cn, 22, "#f8f7ee")
+    label(37, y+21, f"HTPM {version}   /   独立模型预测", cn, 22, "#f8f7ee")
     label(1042, y+23, "总分保留三位小数，排序使用完整精度", cn, 20, "#d1dfdd", right=True)
-    image.save(OUTPUT, optimize=True)
-    print(OUTPUT, image.size)
+    image.save(output, optimize=True)
+    print(output, image.size)
 
 
 if __name__ == "__main__":
-    render()
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--model", choices=SNAPSHOTS, default="4.4.2")
+    render(parser.parse_args().model)

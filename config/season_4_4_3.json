@@ -1,0 +1,22 @@
+{
+  "version": "HTPM-4.4.3",
+  "base_snapshot": "463b1b66c3749110",
+  "additional_stage_exceptions": [
+    {
+      "event": "BLAST Rivals 2026 Season 1",
+      "match": "7300742",
+      "hltv_match": 2393347,
+      "maps": [
+        "153567",
+        "153575"
+      ],
+      "raw_stage": "playoff",
+      "phase": "quarterfinal",
+      "bracket_round": "quarterfinal",
+      "official_playoff": false,
+      "scope": "Six-to-four quarter-final at an eight-team event; 5th-6th are outside the top half.",
+      "match_source": "https://www.hltv.org/matches/2393347/gamerlegion-vs-astralis-blast-rivals-2026-season-1",
+      "source": "https://www.hltv.org/news/43219/the-evps-and-all-stars-of-blast-rivals-2025-s2"
+    }
+  ]
+}

@@ -7,6 +7,7 @@ from pathlib import Path
 from tempfile import NamedTemporaryFile, TemporaryDirectory
 
 from .aggregate import score
+from .frozen_4_4 import BASELINE
 from .core import fingerprint, number, require
 from .major_import import DEFAULT_INPUT, import_event, link, read_json
 from .pipeline import ROOT, load, prepare
@@ -84,8 +85,8 @@ def additions(inputs, folder, audit, spec, config):
 
 def calculate(folder=None, today=None, model="4.2", *, scenario=None):
     spec, config, weights = settings()
-    update = model in ("4.4.1", "4.4.2")
-    revision = update or model == "4.4"
+    revision = model in BASELINE
+    update = revision and model != "4.4"
     detailed = revision or model == "4.3"
     require(scenario is None or model == "4.4" and scenario in {
         "legacy_stage", "nested_opponents", "unknown_6_10", "no_vp", "equal_tiers"
@@ -110,8 +111,11 @@ def calculate(folder=None, today=None, model="4.2", *, scenario=None):
                 config["partial_event_ratings"] = False
             if scenario == "restore_R":
                 config["community_stage_scoring"] = True
-        if model == "4.4.2":
+        if model in ("4.4.2", "4.4.3"):
             config.update(load("config/season_4_4_2.json"))
+        if model == "4.4.3":
+            config.update(load("config/season_4_4_3.json"))
+            exceptions = exceptions + config["additional_stage_exceptions"]
         spec["version"] = config["version"]
     folder = Path(folder) if folder is not None else ROOT/DEFAULT_INPUT
     today = today or date.today()
@@ -157,7 +161,7 @@ def calculate(folder=None, today=None, model="4.2", *, scenario=None):
         audit["event_weights"]=config["event_policies"]
         audit["confirmed_vps"]=attach_vps(inputs, [] if scenario == "no_vp" else records, audit["cutoff"])
     rows = features(inputs,base,config,2026)
-    if model == "4.4.2":
+    if config.get("year_end_peak_context"):
         apply_year_end_peak_context(rows, inputs, config)
         audit["year_end_peak_context"] = config["year_end_peak_context"]
     # Even with a fresh partial aggregate, alignment needs a usable shared distribution.
@@ -175,9 +179,7 @@ def calculate(folder=None, today=None, model="4.2", *, scenario=None):
         adjustments["R"] = "仅作敏感性对照，社区表缺少逐图清单及独立增益验证"
     people,_ = predict(rows,weights,config,old,published,alignment,legacy=bool(old),article=score_r)
     # Only the displayed comparison rank uses the archived release.
-    reference_dir = "forecast_4_4" if update else "forecast_4_3"
-    if model == "4.4.2":
-        reference_dir = "forecast_4_4_1"
+    reference_dir = "forecast_" + BASELINE[model].replace(".", "_") if revision else None
     baseline = (load(f"output/{reference_dir}/snapshot/{config['base_snapshot']}/scores.json")
                 if revision else load("output/forecast_4_1_1/scores.json"))
     previous = {p["id"]:p["rank"] for p in baseline["players"]}
@@ -250,7 +252,7 @@ def render(result):
         if group:
             lines.append(f"- 第 {start}–{start+len(group)-1} 名：" + "、".join(p["name"] for p in group))
     if "confirmed_vps" in result:
-        reference_version = {"HTPM-4.4.2": "4.4.1", "HTPM-4.4.1": "4.4", "HTPM-4.4": "4.3"}.get(result["version"], "4.2")
+        reference_version = BASELINE.get(result["version"].removeprefix("HTPM-"), "4.2")
         lines += ["",f"逐站核实的官方 VP 共 {result['confirmed_vps']} 人次。未点名的表现保留数据估计。名次变化以 {reference_version} 的 11 月 17 日快照为基准。"]
     if "maps" in result:
         lines += ["",f"新加坡实收 {result['series']} 场系列赛、{result['maps']} 张地图、{result['participants']} 名选手。"]
@@ -278,7 +280,7 @@ def render(result):
                 lines.append(f"- {name}：无主赛出场记录。")
         lines += ["- 高于下一位：" + compare(p,people[i+1] if i+1<len(people) else None,1),
                   "- 低于上一位：" + compare(p,people[i-1] if i else None,-1),""]
-    if result["version"] in ("HTPM-4.4", "HTPM-4.4.1", "HTPM-4.4.2") and lines[-1] == "":
+    if result["version"].removeprefix("HTPM-") in BASELINE and lines[-1] == "":
         lines.pop()
     return "\n".join(lines)+"\n"
 
@@ -301,7 +303,7 @@ def atomic_text(path, content):
 
 def publish(result, verify=False, dest=None):
     # Reports are immutable by content. Switch the reader entry point only after both files exist.
-    if result["version"] in ("HTPM-4.4", "HTPM-4.4.1", "HTPM-4.4.2") and dest is None:
+    if result["version"].removeprefix("HTPM-") in BASELINE and dest is None:
         dest = ROOT/"output"/("forecast_" + result["version"][5:].replace(".", "_"))
     dest=dest or (ROOT/"output/forecast_4_3" if result["version"]=="HTPM-4.3" else DEST)
     report = render(result)

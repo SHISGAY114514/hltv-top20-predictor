@@ -3,14 +3,15 @@ import argparse
 import sys
 from .pipeline import build, load, prepare
 from .aggregate import score, validate
+from .frozen_4_4 import BASELINE
 
 def main(argv=None):
     parser = argparse.ArgumentParser(description="HTPM 4.3 · 双 Major 年度预测")
     parser.add_argument("command", choices=("build", "validate", "refresh", "replay"))
-    parser.add_argument("--model", choices=("4.4.2","4.4.1","4.4","4.3","4.2","4.1.1"), default="4.3")
+    parser.add_argument("--model", choices=(*BASELINE, "4.3", "4.2", "4.1.1"), default="4.3")
     parser.add_argument("--input", help="双 Major 赛后数据包目录")
     args = parser.parse_args(argv)
-    if args.model in ("4.4", "4.4.1", "4.4.2") and (args.input or args.command not in ("build", "validate")):
+    if args.model in BASELINE and (args.input or args.command not in ("build", "validate")):
         parser.error(f"{args.model} uses the frozen 2026-11-17 snapshot for build and validate")
     try:
         if args.command == "replay":
@@ -21,7 +22,7 @@ def main(argv=None):
             else:
                 from .forecast_4_2 import replay
             print(replay())
-        elif args.command in ("build","validate","refresh") and args.model in ("4.2","4.3","4.4","4.4.1","4.4.2"):
+        elif args.command in ("build","validate","refresh") and args.model in ("4.2", "4.3", *BASELINE):
             from .forecast_4_2 import calculate, publish, refresh, STATES
             result = refresh(args.input,model=args.model) if args.command=="refresh" else calculate(args.input,model=args.model)
             print(STATES[result["state"]], result["cutoff"], publish(result, verify=args.command=="validate"))
