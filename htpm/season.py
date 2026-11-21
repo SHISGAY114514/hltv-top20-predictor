@@ -174,6 +174,41 @@ def season_inputs(year, detailed_rosters=False, stage_exceptions=None, preserve_
     return catalog,awards,stats,names,finals
 
 
+def annual_peak(events, config):
+    best=sorted(events,key=lambda e:-e["peak"])
+    peak=.55*best[0]["peak"]+.30*(best[1]["peak"] if len(best)>1 else 50)
+    # Every event can supply a peak, including performances that earned no award.
+    peak+=.15*(best[2]["peak"] if len(best)>2 else 50)
+    high_peak = next((e["peak"] for e in best if e["tier"] in HIGH),50.)
+    peak += config["top_tier_peak_share"]*(high_peak-peak)
+    return peak
+
+
+def apply_year_end_peak_context(rows, inputs, config):
+    """Limit the credited peak for challengers explicitly compared to the MVP at year end."""
+    catalog, awards = inputs[:2]
+    players = {row["id"]: row for row in rows}
+    for event, record in config["year_end_peak_context"].items():
+        award = awards[event]
+        winner = record["mvp"]
+        peers = record["evps"]
+        ordered_peers = [pid for pid in award["evps"] if pid in peers]
+        require(winner == award["mvp"] and peers and peers == ordered_peers
+                and record["source"] == award["source"]
+                and catalog[event]["last_played"] <= record["published_on"] <= config["cutoff"],
+                "Invalid year-end peak comparison for " + event)
+        observations = {}
+        for pid in [winner, *peers]:
+            matches = [e for e in players.get(pid, {}).get("events", []) if e["event"] == event]
+            require(len(matches) == 1, "Missing event peak for " + pid)
+            observations[pid] = matches[0]
+        ceiling = observations[winner]["peak"]
+        for pid, observation in observations.items():
+            observation["raw_peak"] = observation["peak"]
+            observation["peak"] = min(observation["raw_peak"], ceiling)
+            players[pid]["features"]["P"] = clip(annual_peak(players[pid]["events"], config))
+
+
 def features(inputs, base, config, year, near=True, venue=True, tier_override=None, within_tier=True, peak_proximity=True):
     catalog,awards,stats,names,finalists = inputs
     tiers = {event:e["tier"] for event,e in catalog.items()}
@@ -388,7 +423,7 @@ def features(inputs, base, config, year, near=True, venue=True, tier_override=No
                 ("playoff",tier_playoffs[tier]),
                 ("final",[r for r in rows if r[1]=="final"]),
                 ("placement",[r for r in rows if r[1]=="placement"]))}
-            if config.get("version") in ("HTPM-4.4", "HTPM-4.4.1"):
+            if config.get("version") in ("HTPM-4.4", "HTPM-4.4.1", "HTPM-4.4.2"):
                 matrix[tier]["quarterfinal_outside_filter"] = series_cell([r for r in rows if r[1]=="quarterfinal"], config)
             group = regularized(matrix[tier]["group"],50.,params["prior_maps"])
             playoff = regularized(matrix[tier]["playoff"],50.,params["prior_maps"])
@@ -414,12 +449,7 @@ def features(inputs, base, config, year, near=True, venue=True, tier_override=No
             joint=min(len(arena),len(studio))
             pressure+=.20*(shrunk(arena,phase,18)-phase)+.05*joint/(joint+18)*contrast
         pressure += config["tier_stage_share_of_K"]*(stage_score-pressure)
-        best=sorted(events,key=lambda e:-e["peak"])
-        peak=.55*best[0]["peak"]+.30*(best[1]["peak"] if len(best)>1 else 50)
-        # Every event can supply a peak, including performances that earned no award.
-        peak+=.15*(best[2]["peak"] if len(best)>2 else 50)
-        high_peak = next((e["peak"] for e in best if e["tier"] in HIGH),50.)
-        peak += config["top_tier_peak_share"]*(high_peak-peak)
+        peak=annual_peak(events,config)
         good=sum(e["index"]>=50 for e in events)
         floor=(sum(v>=35 for v in all_maps)+12*.75)/(n+12)
         resilience=.75*(good+2.6)/(len(events)+4)+.25*floor
@@ -436,7 +466,7 @@ def features(inputs, base, config, year, near=True, venue=True, tier_override=No
                             event_credit=event_credit,resume_points=resume_points,good_events=good,details={key:detail(rows) for key,rows in
                             zip(("main","elite","top10","top5","playoff","elite_playoff","arena","studio","final","pressure_top10","won","big_playoff"),
                                 (all_maps,elite,opponents,top5,late,elite_late,arena,studio,final,late_strong,winning_maps,big_late))}))
-        if config.get("version") in ("HTPM-4.4", "HTPM-4.4.1"):
+        if config.get("version") in ("HTPM-4.4", "HTPM-4.4.1", "HTPM-4.4.2"):
             # Keep observed coverage independent of the counterfactual used for scoring.
             results[-1]["vrs_coverage"] = {
                 "top5": len(top5), "six_to_ten": len(next_five),

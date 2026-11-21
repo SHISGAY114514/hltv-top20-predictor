@@ -10,7 +10,7 @@ from .aggregate import score
 from .core import fingerprint, number, require
 from .major_import import DEFAULT_INPUT, import_event, link, read_json
 from .pipeline import ROOT, load, prepare
-from .season import features, season_inputs
+from .season import apply_year_end_peak_context, features, season_inputs
 from .season_forecast import metrics, predict, ranked
 
 DEST = ROOT/"output/forecast_4_2"
@@ -84,12 +84,12 @@ def additions(inputs, folder, audit, spec, config):
 
 def calculate(folder=None, today=None, model="4.2", *, scenario=None):
     spec, config, weights = settings()
-    update = model == "4.4.1"
-    revision = model in ("4.4", "4.4.1")
+    update = model in ("4.4.1", "4.4.2")
+    revision = update or model == "4.4"
     detailed = revision or model == "4.3"
     require(scenario is None or model == "4.4" and scenario in {
         "legacy_stage", "nested_opponents", "unknown_6_10", "no_vp", "equal_tiers"
-    } or update and scenario in {
+    } or model == "4.4.1" and scenario in {
         "restore_R", "restore_event_multipliers", "matched_only", "previous_award_context"
     }, "Unknown model scenario")
     if detailed:
@@ -110,6 +110,8 @@ def calculate(folder=None, today=None, model="4.2", *, scenario=None):
                 config["partial_event_ratings"] = False
             if scenario == "restore_R":
                 config["community_stage_scoring"] = True
+        if model == "4.4.2":
+            config.update(load("config/season_4_4_2.json"))
         spec["version"] = config["version"]
     folder = Path(folder) if folder is not None else ROOT/DEFAULT_INPUT
     today = today or date.today()
@@ -155,6 +157,9 @@ def calculate(folder=None, today=None, model="4.2", *, scenario=None):
         audit["event_weights"]=config["event_policies"]
         audit["confirmed_vps"]=attach_vps(inputs, [] if scenario == "no_vp" else records, audit["cutoff"])
     rows = features(inputs,base,config,2026)
+    if model == "4.4.2":
+        apply_year_end_peak_context(rows, inputs, config)
+        audit["year_end_peak_context"] = config["year_end_peak_context"]
     # Even with a fresh partial aggregate, alignment needs a usable shared distribution.
     alignment = None
     if old:
@@ -171,6 +176,8 @@ def calculate(folder=None, today=None, model="4.2", *, scenario=None):
     people,_ = predict(rows,weights,config,old,published,alignment,legacy=bool(old),article=score_r)
     # Only the displayed comparison rank uses the archived release.
     reference_dir = "forecast_4_4" if update else "forecast_4_3"
+    if model == "4.4.2":
+        reference_dir = "forecast_4_4_1"
     baseline = (load(f"output/{reference_dir}/snapshot/{config['base_snapshot']}/scores.json")
                 if revision else load("output/forecast_4_1_1/scores.json"))
     previous = {p["id"]:p["rank"] for p in baseline["players"]}
@@ -243,7 +250,7 @@ def render(result):
         if group:
             lines.append(f"- 第 {start}–{start+len(group)-1} 名：" + "、".join(p["name"] for p in group))
     if "confirmed_vps" in result:
-        reference_version = {"HTPM-4.4.1": "4.4", "HTPM-4.4": "4.3"}.get(result["version"], "4.2")
+        reference_version = {"HTPM-4.4.2": "4.4.1", "HTPM-4.4.1": "4.4", "HTPM-4.4": "4.3"}.get(result["version"], "4.2")
         lines += ["",f"逐站核实的官方 VP 共 {result['confirmed_vps']} 人次。未点名的表现保留数据估计。名次变化以 {reference_version} 的 11 月 17 日快照为基准。"]
     if "maps" in result:
         lines += ["",f"新加坡实收 {result['series']} 场系列赛、{result['maps']} 张地图、{result['participants']} 名选手。"]
@@ -271,7 +278,7 @@ def render(result):
                 lines.append(f"- {name}：无主赛出场记录。")
         lines += ["- 高于下一位：" + compare(p,people[i+1] if i+1<len(people) else None,1),
                   "- 低于上一位：" + compare(p,people[i-1] if i else None,-1),""]
-    if result["version"] in ("HTPM-4.4", "HTPM-4.4.1") and lines[-1] == "":
+    if result["version"] in ("HTPM-4.4", "HTPM-4.4.1", "HTPM-4.4.2") and lines[-1] == "":
         lines.pop()
     return "\n".join(lines)+"\n"
 
@@ -294,7 +301,7 @@ def atomic_text(path, content):
 
 def publish(result, verify=False, dest=None):
     # Reports are immutable by content. Switch the reader entry point only after both files exist.
-    if result["version"] in ("HTPM-4.4", "HTPM-4.4.1") and dest is None:
+    if result["version"] in ("HTPM-4.4", "HTPM-4.4.1", "HTPM-4.4.2") and dest is None:
         dest = ROOT/"output"/("forecast_" + result["version"][5:].replace(".", "_"))
     dest=dest or (ROOT/"output/forecast_4_3" if result["version"]=="HTPM-4.3" else DEST)
     report = render(result)

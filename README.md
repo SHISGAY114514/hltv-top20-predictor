@@ -4,6 +4,7 @@ HTPM 用公开比赛统计估计 Counter-Strike 选手的年度排名。**当前
 
 | 版本 | 如何评分 | 参数与规则 | 预测结果 |
 |---|---|---|---|
+| **4.4.2（11 月 17 日修订）** | 按鹿特丹年终评语限制本站计入 P 的峰值 | [规则与验证](docs/MODEL_4_4_2.md) | [全榜](output/forecast_4_4_2/latest.md) · [与 4.4.1 的 177 人对照](output/comparison_4_4_2/comparison.csv) |
 | **4.4.1（11 月 17 日修订）** | 统一赛事履历倍率、补用整站观测及官方争奖评语，社区阶段表作敏感性对照 | [模型、原文与逐图核验](docs/MODEL_4_4_1.md) | [全榜](output/forecast_4_4_1/latest.md) · [与 4.4 的 177 人逐项对照](output/comparison_4_4_1/comparison.csv) |
 | **4.4（11 月 17 日固定快照）** | 三场比赛的季后赛口径与互斥 VRS 对手档 | [模型、证据与离线复算](docs/MODEL_4_4.md) | [全榜](output/forecast_4_4/latest.md) · [与 4.3 的分析](output/comparison_4_4/分析.md) · [177 人逐项对照](output/comparison_4_4/comparison.csv) |
 | **4.3** | 个人荣誉、逐站赛事权重、去除团队分的年度校正 | [参数](config/season_4_3.json) · [模型、证据与赛后操作](docs/MODEL_4_3.md) | [当前榜单与逐站赛事权重](output/forecast_4_3/latest.md) · [2025 回放](output/forecast_4_3/replay_2025.json) |
