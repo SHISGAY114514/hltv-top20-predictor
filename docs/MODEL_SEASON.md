@@ -1,5 +1,7 @@
 # 逐图来源与候选范围
 
+本文记录逐图档案的基础收录规则。4.4.3 的阶段例外、整站补充和 VRS 分组见[版本对照](COMPARE_3_5_4_4_3.md)。
+
 
 两季使用同一种逐图数据。按赛事名称和正赛起点筛选 2025 年的 24 项赛事、2026 年的 23 项赛事。2025 年分档取 HLTV 年终标准，2026 年遵守工作区固定分档。每行记录选手、对手、地图、回合数、击杀、死亡、ADR、KAST、输赢、阶段和场地。只使用记分完整且两队各有五人的地图。香港决赛在数据集截止日之后，另外从 HLTV 全图记分板补录三张地图。选手在赛前最近一次 Valve 月度全球榜上以至少三名相同队员匹配对手阵容。此处 VRS Top 10 与 3.5 的 HLTV 累计 Top 10 分开显示。[逐图来源](https://www.kaggle.com/datasets/ektarr/counter-strike-pro-matches) · [香港决赛](https://www.hltv.org/matches/2400208/spirit-vs-furia-blast-rivals-2026-season-2) · [VRS 快照](../data/reference/vrs_top10_monthly.json)
 

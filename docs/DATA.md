@@ -1,5 +1,11 @@
 # 数据维护与候选池
 
+## 4.4.3 冻结数据
+
+截至 2026-11-17，23 项主赛事的逐图档案覆盖 301 名选手，其中 177 人取得排名资格。正式 MVP/EVP 或至少两站合计 20 图可入榜。逐图记录决定阶段、场馆和对手样本数。对只有部分地图且收录范围相符的站次，模型可补用整站 Rating 评价整站表现。只有来源明确的 VP 进入履历，社区阶段表用于敏感性检查。快照 `36985ce4e8239e62` 保存本站权重、逐人分项及来源。[逐人数据](https://github.com/SHISGAY114514/hltv-top20-predictor/blob/32eca4c96118324034ab15f5cb85377b6dc0cb55/output/forecast_4_4_3/snapshot/36985ce4e8239e62/scores.json) · [逐站系数](https://github.com/SHISGAY114514/hltv-top20-predictor/blob/32eca4c96118324034ab15f5cb85377b6dc0cb55/output/forecast_4_4_3/snapshot/36985ce4e8239e62/events.md) · [3.5 与 4.4.3 对照](COMPARE_3_5_4_4_3.md)
+
+## 3.5 汇总输入
+
 人工维护事实位于data/2026，证据位于data/reference；参数位于config。output/current全部可由构建重建，不手工修改。
 
 ## 新候选人
@@ -16,4 +22,4 @@ MVP/EVP档案中的每个player_id自动成为正式候选人，名单不依赖�
 
 ## 输出
 
-candidates.json是全体候选与观察人员；input.json仅含可评分者；scores.json包含已评估人员及资格判断，当前已覆盖全部58人；未达门槛者无名次。evaluation.json/html/md提供逐人理由与相邻名次贡献差。config.json是解析分级和顺位后的配置，源参数为config/model.json。manifest.json记录来源哈希与人数。candidates.html展示全池，report.html明确显示待补人数，bounty.html对照四种荣誉系数。
+candidates.json是全体候选与观察人员；input.json仅含可评分者；scores.json包含已评估人员及资格判断，3.5 快照已覆盖全部58人；未达门槛者无名次。evaluation.json/html/md提供逐人理由与相邻名次贡献差。config.json是解析分级和顺位后的配置，源参数为config/model.json。manifest.json记录来源哈希与人数。candidates.html展示全池，report.html明确显示待补人数，bounty.html对照四种荣誉系数。

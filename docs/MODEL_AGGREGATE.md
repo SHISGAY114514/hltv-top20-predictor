@@ -153,9 +153,11 @@ C的赛事Rating≥1.00比例占70%，≥.90占30%，分别以4项赛事、.65/.
 
 ## 复算
 
+3.5 作为 4.1.1 的年度汇总基线随该入口一起重建。其 2026 分数写入 `output/current/scores.json`。资格、模块和同日排名变化见[3.5 与 4.4.3 详细对照](COMPARE_3_5_4_4_3.md)。
+
 ```powershell
 $env:PYTHONUTF8='1'
-python -m htpm build
-python -m htpm validate
+python -B -m htpm build --model 4.1.1
+python -B -m htpm validate --model 4.1.1
 python -m unittest discover -s tests -v
 ```

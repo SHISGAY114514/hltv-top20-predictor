@@ -1,18 +1,18 @@
 # HTPM 4.2 · 新加坡 Major 赛后出榜
 
-4.2 默认预测 2026 年 HLTV 年度排名。赛前使用截至 11 月 17 日的 23 站真实数据。赛后把新加坡作为第 24 站并入，重算全体选手。报告包含全榜、Top 20 与 Top 30 入围线、Top 50/60/70 档位、Top 30 的相邻名次解释、两届 Major 逐站履历及相对赛前的升降。完整 JSON 保存每人逐模块贡献、分档分阶段样本、峰值和奖项证据。[最新榜单入口](../output/forecast_4_2/latest.md)
+4.2 默认预测 2026 年 HLTV 年度排名。赛前使用截至 11 月 17 日的 23 站真实数据。赛后把新加坡作为第 24 站并入，重算全体选手。报告包含全榜、Top 20 与 Top 30 入围线、Top 50/60/70 档位、Top 30 的相邻名次解释、两届 Major 逐站履历及相对赛前的升降。完整 JSON 保存每人逐模块贡献、分档分阶段样本、峰值和奖项证据。[4.2 榜单入口](../output/forecast_4_2/latest.md)
 
 ## 决赛后怎样用
 
 在工作区根目录执行。只需 Python 3.9 或以上，在线取数另需 requests。默认数据包为 `data/2026/singapore/`，也可向命令传 `--input "数据包目录"`。
 
-1. **决赛打完**，执行 `python -B -m htpm refresh`。程序下载公开逐图 ZIP，自动选取主赛日期内的系列赛，识别四分之一决赛、半决赛、季军赛和总决赛。逐场总比分、实收图数和十人技术统计对齐后，生成双 Major 暂行榜。模板未填任何荣誉时，截止日自动取决赛日。上游尚未更新完整时，补齐或更新数据后重复运行即可。[公开数据源](https://www.kaggle.com/datasets/ektarr/counter-strike-pro-matches)
+1. **决赛打完**，执行 `python -B -m htpm refresh --model 4.2`。程序下载公开逐图 ZIP，自动选取主赛日期内的系列赛，识别四分之一决赛、半决赛、季军赛和总决赛。逐场总比分、实收图数和十人技术统计对齐后，生成双 Major 暂行榜。模板未填任何荣誉时，截止日自动取决赛日。上游尚未更新完整时，补齐或更新数据后重复运行即可。[公开数据源](https://www.kaggle.com/datasets/ektarr/counter-strike-pro-matches)
 2. **HLTV 公布奖项**，打开 [event.json](../data/2026/singapore/event.json)。把 `as_of` 设为本次真实统计截止日，`awards.mvp` 填 MVP 小写 ID，`awards.evps` 按官方顺序填小写 ID，将只有身份、没有顺位依据的 EVP 放在 `unranked_evps`。填上 `awards.source` 的 HLTV 链接和 `awards.published_on` 的发布日期。只有 MVP 已官宣时可先保存并保留 `pending`。完整名单核实后，把 `awards_status` 设成 `complete`。
 3. **生成正式榜**，执行以下命令。已下载的 ZIP 会被复用。每次生成的正式、暂行或赛前报告各存一份，最新入口随成功的构建更新。
 
 ```powershell
-python -B -m htpm build
-python -B -m htpm validate
+python -B -m htpm build --model 4.2
+python -B -m htpm validate --model 4.2
 ```
 
 有官方明确争奖评语时，可在 `awards.peak_context` 中按 EVP 的 ID 填入含 `signal`、`note`、`source` 的对象。官方明确评价接近 MVP 时用 `close`，明确有差距时用 `clear`。该入口也支持第二及以后顺位的 EVP。留空时按 4.1.1 的顺位和实测表现规则计算。
@@ -46,7 +46,7 @@ H 是 3.5 年度汇总的有上限校正。正式赛季对照的 Major 覆盖目
 
 ## 2025 年回放
 
-运行 `python -B -m htpm replay` 可复算奥斯汀与布达佩斯两届 Major 所在的整个年度。Top 20 平均名次误差按实际入选的 20 人计算，Top 30 两两顺序共 435 对。
+运行 `python -B -m htpm replay --model 4.2` 可复算奥斯汀与布达佩斯两届 Major 所在的整个年度。Top 20 平均名次误差按实际入选的 20 人计算，Top 30 两两顺序共 435 对。
 
 |可用证据|Top 20 命中|Top 10 命中|Top 20 平均误差|排对的 Top 30 顺序|
 |---|---:|---:|---:|---:|

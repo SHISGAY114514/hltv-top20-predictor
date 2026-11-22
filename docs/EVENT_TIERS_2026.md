@@ -34,8 +34,12 @@
 
 Bounty S1为银色、大型；Bounty S2为铜色、中型。PGL Bucharest为铜色、中型；PGL Masters Bucharest为银色、大型。Thunderpick 2026为银色、大型，不能沿用2025年的铜色分类。
 
-## 当前应用
+## 两版怎样使用这 23 站
+
+4.4.3 在固定档位内按参赛阵容、规模及场地逐站计算系数。E 与 K 分档部分按 Major、超级精英、精英、大型、中型分配 30%、27%、23%、16%、4%。赛事强度以收录赛段开赛前最近一期归档 VRS 匹配各队首张实收地图的阵容；对手强度另按每张图赛前的快照匹配。[23 站实际系数](https://github.com/SHISGAY114514/hltv-top20-predictor/blob/32eca4c96118324034ab15f5cb85377b6dc0cb55/output/forecast_4_4_3/snapshot/36985ce4e8239e62/events.md) · [版本对照](COMPARE_3_5_4_4_3.md)
+
+### 3.5 的用法
 
 分级用于A荣誉、E分档表现、T团队奖励及N覆盖。Major/Super-elite/Elite各层覆盖目标为1/1/4项。30种参数情景均不改动用户固定等级。Bounty S1仍属Big，仅A/T荣誉乘0.60。
 
-未举行的新加坡Major不列入已赛清单；预选、Major早期阶段及Bounty线上阶段不另算独立MVP赛事。当前报告统一在output/current。
+未举行的新加坡Major不列入已赛清单；预选、Major早期阶段及Bounty线上阶段不另算独立MVP赛事。3.5 的报告保存在 `output/current`。
